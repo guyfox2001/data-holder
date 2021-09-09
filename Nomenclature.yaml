@@ -12,7 +12,6 @@ type: object
 allOf:
   - $ref: "Aggregate.yaml"
   - $ref: "#props"
-
 $defs:
   props:
     $anchor: "props"
