@@ -7,7 +7,7 @@ info:
     name: Vladimir Ovchinnikov
     email: vladimir.v.ovchinnikov@gmail.com
 allOf:
-  - $ref: "Aggregate.yaml"
+  - $ref: "https://github.com/guyfox2001/dataHolder.git::main::Aggregate.yaml"
   - type: Object
     properties:
         name:

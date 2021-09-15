@@ -10,7 +10,7 @@ info:
 type: object
 iuType: aggregate
 allOf:
-  - $ref: "Aggregate.yaml"
+  - $ref: "https://github.com/guyfox2001/dataHolder.git::main::Aggregate.yaml"
   - $ref: "#props"
 $defs:
   props:
@@ -29,7 +29,7 @@ $defs:
       baseUOM:
         title: Базовая единица измерения
         description: Единица измерения в которой ведётся учёт товара
-        $ref: "UnitOfMeasure.yaml"
+        $ref: "https://github.com/guyfox2001/dataHolder.git::main::UnitOfMeasure.yaml"
       taxGroup:
         title: Группа налогообложения
-        $ref: "taxGroups.yaml"
+        $ref: "https://github.com/guyfox2001/dataHolder.git::main::taxGroups.yaml"

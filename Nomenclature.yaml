@@ -10,7 +10,7 @@ info:
   summary: Попытка переосмысления задачи управления номенклатурой через использование ISD
 type: object
 allOf:
-  - $ref: "Aggregate.yaml"
+  - $ref: "https://github.com/guyfox2001/dataHolder.git::main::Aggregate.yaml"
   - $ref: "#props"
 $defs:
   props:
@@ -25,11 +25,11 @@ $defs:
           - INACTIVE
       brand:
         title: Торговая марка производителя
-        $ref: "Brand.yaml"
+        $ref: "https://github.com/guyfox2001/dataHolder.git::main::Brand.yaml"
       baseUOM:
         title: Базовая единица измерения
         description: Единица измерения в которой ведётся учёт товара
-        $ref: "UnitOfMeasure.yaml"
+        $ref: "https://github.com/guyfox2001/dataHolder.git::main::UnitOfMeasure.yaml"
       categoryList:     # Это описание Map [category-id] -> {listPosition,listRole,listName,...}
         $anchor: categoryList
         title: Набор товарных групп
@@ -37,7 +37,7 @@ $defs:
         iuType: referenceMap
         iuRefObject:
           iuName: categoryRef
-          $ref: "Category.yaml"
+          $ref: "https://github.com/guyfox2001/dataHolder.git::main::Category.yaml"
         iuMapValues:
           type: object
           properties:
@@ -46,13 +46,13 @@ $defs:
               type: number
             listRole:
               title: Роль товара в данной группе
-              $ref: "groupRoles.yaml"
+              $ref: "https://github.com/guyfox2001/dataHolder.git::main::groupRoles.yaml"
             listName:
               title: Наименование товара в данной группе
               type: string
             listChars:
               title: Характеристики товара в данной категории
-              $ref: "goodsChars.yaml"   # Тут можно указывать любые характеристики, которые будут
+              $ref: "https://github.com/guyfox2001/dataHolder.git::main::goodsChars.yaml"   # Тут можно указывать любые характеристики, которые будут
                                     # добавлять и/или перекрывать значения характеристик товара для
                                     # для данной категории
             iuIncludeRest: listChars
@@ -83,11 +83,11 @@ $defs:
                 - LEFT
                 - RIGHT
             props:
-              $ref: "goodsChars.yaml"
+              $ref: "https://github.com/guyfox2001/dataHolder.git::main::goodsChars.yaml"
             iuIncludeRest: props
       chars:
         title: Характеристики товара
-        $ref: "goodsChars.yaml"
+        $ref: "https://github.com/guyfox2001/dataHolder.git::main::goodsChars.yaml"
   variant:
     $anchor: "Variant"
     type: object
@@ -109,13 +109,13 @@ $defs:
         title: Значения ключевых характеристик
         description: "Комбинация значений, однозначно идентифицирующих разновидность товара для покупателя: размер, цвет и т.п."
         type: object
-        $ref: "goodsChars.yaml"
+        $ref: "https://github.com/guyfox2001/dataHolder.git::main::goodsChars.yaml"
       partNo:
         title: Код товара от производителя
         type: string
       supplier:
         title: Поставщик товара
-        $ref: "Supplier.yaml"
+        $ref: "https://github.com/guyfox2001/dataHolder.git::main::Supplier.yaml"
       articleNo:
         title: Артикул поставщика
         type: string
@@ -127,7 +127,7 @@ $defs:
           iuRefElement: "#priceGroup" # ссылка на описание Map-а внутри агрегата
       taxGroup:
         title: Группа налогообложения
-        $ref: "taxGroups.yaml"
+        $ref: "https://github.com/guyfox2001/dataHolder.git::main::taxGroups.yaml"
       components:
         $anchor: components
         title: Карта компонентов
@@ -155,7 +155,7 @@ $defs:
         iuType: referenceMap
         iuRefObject:
           iuName: SKUItem
-          $ref: "SKUItem.yaml"
+          $ref: "https://github.com/guyfox2001/dataHolder.git::main::SKUItem.yaml"
         iuMapValues:
           iuName: quantity
           type: number      # Количество SKU

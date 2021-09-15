@@ -9,7 +9,7 @@ info:
 type: object
 iuType: aggregate
 allOf:
-  - $ref: "Aggregate.yaml"
+  - $ref: "https://github.com/guyfox2001/dataHolder.git::main::Aggregate.yaml"
   - $ref: "#props"
 $defs:
   props:
