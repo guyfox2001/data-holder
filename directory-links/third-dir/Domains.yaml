@@ -7,7 +7,7 @@ info:
     name: Vladimir Ovchinnikov
     email: vladimir.v.ovchinnikov@gmail.com
 allOf:
-  - $ref: "Aggregate.yaml"
+  - $ref: "../first-dir/Aggregate.yaml"
   - type: Object
     properties:
         name:

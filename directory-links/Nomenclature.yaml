@@ -10,7 +10,7 @@ info:
   summary: Попытка переосмысления задачи управления номенклатурой через использование ISD
 type: object
 allOf:
-  - $ref: "Aggregate.yaml"
+  - $ref: "first-dir/Aggregate.yaml"
   - $ref: "#props"
 $defs:
   props:
@@ -29,7 +29,7 @@ $defs:
       baseUOM:
         title: Базовая единица измерения
         description: Единица измерения в которой ведётся учёт товара
-        $ref: "UnitOfMeasure.yaml"
+        $ref: "second-dir/UnitOfMeasure.yaml"
       categoryList:     # Это описание Map [category-id] -> {listPosition,listRole,listName,...}
         $anchor: categoryList
         title: Набор товарных групп
@@ -46,13 +46,13 @@ $defs:
               type: number
             listRole:
               title: Роль товара в данной группе
-              $ref: "groupRoles.yaml"
+              $ref: "third-dir/groupRoles.yaml"
             listName:
               title: Наименование товара в данной группе
               type: string
             listChars:
               title: Характеристики товара в данной категории
-              $ref: "goodsChars.yaml"   # Тут можно указывать любые характеристики, которые будут
+              $ref: "third-dir/goodsChars.yaml"   # Тут можно указывать любые характеристики, которые будут
                                     # добавлять и/или перекрывать значения характеристик товара для
                                     # для данной категории
             iuIncludeRest: listChars
@@ -83,11 +83,11 @@ $defs:
                 - LEFT
                 - RIGHT
             props:
-              $ref: "goodsChars.yaml"
+              $ref: "third-dir/goodsChars.yaml"
             iuIncludeRest: props
       chars:
         title: Характеристики товара
-        $ref: "goodsChars.yaml"
+        $ref: "third-dir/goodsChars.yaml"
   variant:
     $anchor: "Variant"
     type: object
@@ -109,13 +109,13 @@ $defs:
         title: Значения ключевых характеристик
         description: "Комбинация значений, однозначно идентифицирующих разновидность товара для покупателя: размер, цвет и т.п."
         type: object
-        $ref: "goodsChars.yaml"
+        $ref: "third-dir/goodsChars.yaml"
       partNo:
         title: Код товара от производителя
         type: string
       supplier:
         title: Поставщик товара
-        $ref: "Supplier.yaml"
+        $ref: "second-dir/Supplier.yaml"
       articleNo:
         title: Артикул поставщика
         type: string
@@ -127,7 +127,7 @@ $defs:
           iuRefElement: "#priceGroup" # ссылка на описание Map-а внутри агрегата
       taxGroup:
         title: Группа налогообложения
-        $ref: "taxGroups.yaml"
+        $ref: "second-dir/taxGroups.yaml"
       components:
         $anchor: components
         title: Карта компонентов

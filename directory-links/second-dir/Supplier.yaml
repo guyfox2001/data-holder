@@ -9,7 +9,7 @@ info:
 type: object
 iuType: aggregate
 allOf:
-  - $ref: "Aggregate.yaml"
+  - $ref: "../first-dir/Aggregate.yaml"
   - $ref: "#props"
 $defs:
   props:
