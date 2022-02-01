@@ -1,0 +1,35 @@
+infoSchema: 0.1   # Признак того, что это ISD-файл
+info:
+  title: Складская позиция
+  description: Логистическая единица товара на складе (коробка, пакет, комплект и т.п.)
+  version: 0.1
+  contact:
+    name: Alexander Ostankov
+    email: aor.48ru@gmail.com
+  summary: Попытка переосмысления задачи управления номенклатурой через использование ISD
+type: object
+iuType: aggregate
+allOf:
+  - $ref: "Aggregate.yaml"
+  - $ref: "#props"
+$defs:
+  props:
+    $anchor: "props"
+    type: object
+    properties:
+      nomenclatureType:
+        title: Вид номенклатуры
+        type: string
+        enum:
+          - Тип1
+          - Тип2
+      articleNo:
+        title: Артикул поставщика
+        type: string
+      baseUOM:
+        title: Базовая единица измерения
+        description: Единица измерения в которой ведётся учёт товара
+        $ref: "UnitOfMeasure.yaml"
+      taxGroup:
+        title: Группа налогообложения
+        $ref: "taxGroups.yaml"

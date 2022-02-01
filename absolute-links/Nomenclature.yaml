@@ -1,0 +1,161 @@
+
+infoSchema: 0.1   # Признак того, что это ISD-файл
+info:
+  title: Номенклатурная позиция
+  description: Комплексный агрегат данных по номенклатурной позиции
+  version: 0.1
+  contact:
+    name: Alexander Ostankov
+    email: aor.48ru@gmail.com
+  summary: Попытка переосмысления задачи управления номенклатурой через использование ISD
+type: object
+allOf:
+  - $ref: "https://gitlab.ru/api/v4/projects/27/repository/files/iuData%2FSample-univ%2FAggregate.yaml/raw?ref=master"
+  - $ref: "#props"
+$defs:
+  props:
+    $anchor: "props"
+    type: object
+    properties:
+      merchStatus:
+        title: Статус номенклатурной позиции
+        type: string
+        enum:
+          - ACTIVE
+          - INACTIVE
+      brand:
+        title: Торговая марка производителя
+        $ref: "https://gitlab.ru/api/v4/projects/27/repository/files/iuData%2FSample-univ%2FBrand.yaml/raw?ref=master"
+      baseUOM:
+        title: Базовая единица измерения
+        description: Единица измерения в которой ведётся учёт товара
+        $ref: "UnitOfMeasure.yaml"
+      categoryList:     # Это описание Map [category-id] -> {listPosition,listRole,listName,...}
+        $anchor: categoryList
+        title: Набор товарных групп
+        type: object
+        iuType: referenceMap
+        iuRefObject:
+          iuName: categoryRef
+          $ref: "Category.yaml"
+        iuMapValues:
+          type: object
+          properties:
+            listPosition:
+              title: Относительная позиция в списке данной категории
+              type: number
+            listRole:
+              title: Роль товара в данной группе
+              $ref: "groupRoles.yaml"
+            listName:
+              title: Наименование товара в данной группе
+              type: string
+            listChars:
+              title: Характеристики товара в данной категории
+              $ref: "goodsChars.yaml"   # Тут можно указывать любые характеристики, которые будут
+                                    # добавлять и/или перекрывать значения характеристик товара для
+                                    # для данной категории
+            iuIncludeRest: listChars
+      variants:
+        $anchor: "Variants"
+        title: Варианты товарной позиции
+        type: array
+        items:
+          $ref: "#Variant"
+          iuItemName: varPos
+      pictureMap:
+        $anchor: pictureMap
+        title: Карта изображений
+        type: object
+        iuType: valueMap
+        iuMapKey:
+          iuName: pictureURL
+          title: URL-фрагмент файла с изображением
+          type: string
+        iuMapValues:
+          type: object
+          properties:
+            viewType:
+              title: Вид изображения
+              type: string
+              enum:
+                - MAIN
+                - LEFT
+                - RIGHT
+            props:
+              $ref: "goodsChars.yaml"
+            iuIncludeRest: props
+      chars:
+        title: Характеристики товара
+        $ref: "goodsChars.yaml"
+  variant:
+    $anchor: "Variant"
+    type: object
+    properties:
+      offerType:
+        title: Вид предложения
+        type: string
+        enum:
+          - ORDINARY
+          - ACTION
+          - CUTPRICE
+      variantStatus:
+        title: Статус варианта ТП
+        type: string
+        enum:
+          - ONSALE
+          - OFFSALE
+      keyChars:
+        title: Значения ключевых характеристик
+        description: "Комбинация значений, однозначно идентифицирующих разновидность товара для покупателя: размер, цвет и т.п."
+        type: object
+        $ref: "goodsChars.yaml"
+      partNo:
+        title: Код товара от производителя
+        type: string
+      supplier:
+        title: Поставщик товара
+        $ref: "Supplier.yaml"
+      articleNo:
+        title: Артикул поставщика
+        type: string
+      supplPriceGroup:
+        title: Ценовая группа поставщика
+        iuReference:
+          iuRefType: "mapEntry"       # Это ссылка на Entry во вложенном Map-е
+          iuRefAggrLink: "supplier"   # ссылка на свойство текущей схемы, агрегат которого содержит искомый Map
+          iuRefElement: "#priceGroup" # ссылка на описание Map-а внутри агрегата
+      taxGroup:
+        title: Группа налогообложения
+        $ref: "taxGroups.yaml"
+      components:
+        $anchor: components
+        title: Карта компонентов
+        type: array
+        items:
+          type: object
+          iuItemName: componentPos
+          properties:
+            component:
+              title: "Компонент, входящий в состав варианта"
+              iuReference: self
+            variant:
+              title: Используемый вариант компонента
+              iuReference:
+                iuRefType: "arrayEntry"     # Это ссылка на Entry во вложенном Array
+                iuRefAggrLink: "component"  # ссылка на свойство текущей схемы, агрегат которого содержащит искомый Array
+                iuRefElement: "#Variant"    # ссылка на описание Array Item
+            quantity:
+              title: Количество на комплект
+              type: number
+      skuMap:
+        $anchor: skuMap
+        title: Карта комплектации
+        type: object
+        iuType: referenceMap
+        iuRefObject:
+          iuName: SKUItem
+          $ref: "SKUItem.yaml"
+        iuMapValues:
+          iuName: quantity
+          type: number      # Количество SKU

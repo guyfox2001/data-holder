@@ -1,0 +1,28 @@
+infoSchema: 0.1   # Признак того, что это ISD-файл
+info:
+  title: Справочник единиц измерения
+  description: Комплексный агрегат данных по единицам измерения
+  version: 0.1
+  contact:
+    name: Alexander Ostankov
+    email: aor.48ru@gmail.com
+type: object
+iuType: aggregate
+allOf:
+  - $ref: "Aggregate.yaml"
+  - $ref: "#props"
+$defs:
+  props:
+    $anchor: "props"
+    properties:
+      baseUOM:
+        title: Базовая единица измерения
+        type: integer
+        description: "Пересчёт: Одна текущаяЕМ = (Num/Denom) базовыхЕМ"
+        iuReference: self
+      baseNum:
+        title: Числитель пересчёта
+        type: number
+      baseDenom:
+        title: Знаменатель пересчёта
+        type: number
