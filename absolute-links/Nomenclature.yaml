@@ -10,7 +10,7 @@ info:
   summary: Попытка переосмысления задачи управления номенклатурой через использование ISD
 type: object
 allOf:
-  - $ref: "https://gitlab.ru/api/v4/projects/27/repository/files/iuData%2FSample-univ%2FAggregate%2eyaml/raw?ref=master"
+  - $ref: "https://gitlab.fusionsoft.ru/api/v4/projects/27/repository/files/iuData%2FSample-univ%2FAggregate%2eyaml/raw?ref=master"
   - $ref: "#props"
 $defs:
   props:
@@ -25,7 +25,7 @@ $defs:
           - INACTIVE
       brand:
         title: Торговая марка производителя
-        $ref: "https://gitlab.ru/api/v4/projects/27/repository/files/iuData%2FSample-univ%2FBrand%2eyaml/raw?ref=master"
+        $ref: "https://gitlab.fusionsoft.ru/api/v4/projects/27/repository/files/iuData%2FSample-univ%2FBrand%2eyaml/raw?ref=master"
       baseUOM:
         title: Базовая единица измерения
         description: Единица измерения в которой ведётся учёт товара
