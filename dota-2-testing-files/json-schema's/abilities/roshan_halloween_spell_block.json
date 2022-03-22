@@ -1,0 +1,21 @@
+{
+  "type" : "object",
+  "required" : [ ],
+  "properties" : {
+    "behavior" : {
+      "type" : "string"
+    },
+    "attrib" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "cd" : {
+      "type" : "string"
+    },
+    "img" : {
+      "type" : "string"
+    }
+  }
+}

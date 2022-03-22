@@ -1,0 +1,42 @@
+{
+  "type" : "object",
+  "required" : [ ],
+  "properties" : {
+    "behavior" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "bkbpierce" : {
+      "type" : "string"
+    },
+    "attrib" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "required" : [ ],
+        "properties" : {
+          "key" : {
+            "type" : "string"
+          },
+          "header" : {
+            "type" : "string"
+          },
+          "value" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "generated" : {
+            "type" : "boolean"
+          }
+        }
+      }
+    },
+    "img" : {
+      "type" : "string"
+    }
+  }
+}

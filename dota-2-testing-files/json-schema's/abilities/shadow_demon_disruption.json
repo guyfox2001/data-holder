@@ -1,0 +1,54 @@
+{
+  "type" : "object",
+  "required" : [ ],
+  "properties" : {
+    "dname" : {
+      "type" : "string"
+    },
+    "behavior" : {
+      "type" : "string"
+    },
+    "bkbpierce" : {
+      "type" : "string"
+    },
+    "target_type" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "desc" : {
+      "type" : "string"
+    },
+    "attrib" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "required" : [ ],
+        "properties" : {
+          "key" : {
+            "type" : "string"
+          },
+          "header" : {
+            "type" : "string"
+          },
+          "value" : {
+            "type" : "string"
+          }
+        }
+      }
+    },
+    "mc" : {
+      "type" : "string"
+    },
+    "cd" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "img" : {
+      "type" : "string"
+    }
+  }
+}

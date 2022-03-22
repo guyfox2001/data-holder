@@ -1,0 +1,33 @@
+{
+  "type" : "object",
+  "required" : [ ],
+  "properties" : {
+    "dname" : {
+      "type" : "string"
+    },
+    "behavior" : {
+      "type" : "string"
+    },
+    "dmg_type" : {
+      "type" : "string"
+    },
+    "desc" : {
+      "type" : "string"
+    },
+    "attrib" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "mc" : {
+      "type" : "string"
+    },
+    "cd" : {
+      "type" : "string"
+    },
+    "img" : {
+      "type" : "string"
+    }
+  }
+}

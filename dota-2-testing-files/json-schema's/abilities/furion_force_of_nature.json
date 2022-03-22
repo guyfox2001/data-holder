@@ -1,0 +1,54 @@
+{
+  "type" : "object",
+  "required" : [ ],
+  "properties" : {
+    "dname" : {
+      "type" : "string"
+    },
+    "behavior" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "desc" : {
+      "type" : "string"
+    },
+    "attrib" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "required" : [ ],
+        "properties" : {
+          "key" : {
+            "type" : "string"
+          },
+          "header" : {
+            "type" : "string"
+          },
+          "value" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "generated" : {
+            "type" : "boolean"
+          }
+        }
+      }
+    },
+    "mc" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "cd" : {
+      "type" : "string"
+    },
+    "img" : {
+      "type" : "string"
+    }
+  }
+}

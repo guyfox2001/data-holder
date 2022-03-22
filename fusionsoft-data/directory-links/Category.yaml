@@ -1,0 +1,37 @@
+infoSchema: 0.1   # Признак того, что это ISD-файл
+info:
+  title: Товарная категория
+  description: Папка товарного каталога
+  version: 0.1
+  contact:
+    name: Alexander Ostankov
+    email: aor.48ru@gmail.com
+  summary: Попытка переосмысления задачи управления номенклатурой через использование ISD
+type: object
+allOf:
+  - $ref: "first-dir/Aggregate.yaml"
+  - $ref: "#props"
+$defs:
+  props:
+    $anchor: "props"
+    properties:
+      categoryStatus:
+        title: Статус категории
+        type: string
+        enum:
+          - SHOW
+          - HIDE
+      categoryRole:
+        title: Роль категории в каталоге
+        type: string
+      parentCategory:
+        title: Родительская категория
+        iuReference: self
+      listPosition:
+        title: Относительная позиция в папке родительской категории
+        type: number
+      keyProps:
+        $ref: "third-dir/goodsChars.yaml" # На уровне категории могут указываться любые характеристики
+                                # товаров. Они становятся обязательными для заполнения на уровне товара,
+                                # при попытке включения в данную категорию
+      iuIncludeRest: keyProps

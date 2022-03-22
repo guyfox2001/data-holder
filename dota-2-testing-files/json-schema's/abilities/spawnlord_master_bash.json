@@ -1,0 +1,33 @@
+{
+  "type" : "object",
+  "required" : [ ],
+  "properties" : {
+    "behavior" : {
+      "type" : "string"
+    },
+    "attrib" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "required" : [ ],
+        "properties" : {
+          "key" : {
+            "type" : "string"
+          },
+          "header" : {
+            "type" : "string"
+          },
+          "value" : {
+            "type" : "string"
+          },
+          "generated" : {
+            "type" : "boolean"
+          }
+        }
+      }
+    },
+    "img" : {
+      "type" : "string"
+    }
+  }
+}

@@ -1,0 +1,1331 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome1",
+  "definitions": {
+    "Welcome1": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "blink": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "blades_of_attack": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "broadsword": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "chainmail": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "claymore": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "helm_of_iron_will": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "javelin": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "mithril_hammer": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "platemail": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "quarterstaff": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "quelling_blade": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "faerie_fire": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "infused_raindrop": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "wind_lace": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "ring_of_protection": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "stout_shield": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "moon_shard": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "gauntlets": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "slippers": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "mantle": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "branches": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "belt_of_strength": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "boots_of_elves": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "robe": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "circlet": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "ogre_axe": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "blade_of_alacrity": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "staff_of_wizardry": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "ultimate_orb": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "gloves": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "lifesteal": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "ring_of_regen": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "sobi_mask": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "boots": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "gem": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "cloak": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "talisman_of_evasion": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "cheese": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "magic_stick": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "magic_wand": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "ghost": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "clarity": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "enchanted_mango": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "flask": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "dust": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "bottle": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "ward_observer": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "ward_sentry": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "ward_dispenser": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "tango": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "tango_single": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "courier": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "tpscroll": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "recipe_travel_boots": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "travel_boots": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "travel_boots_2": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "phase_boots": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "demon_edge": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "eagle": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "reaver": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "relic": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "hyperstone": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "ring_of_health": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "void_stone": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "mystic_staff": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "energy_booster": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "point_booster": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "vitality_booster": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "power_treads": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "recipe_hand_of_midas": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "hand_of_midas": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "oblivion_staff": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "pers": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "poor_mans_shield": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "recipe_bracer": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "bracer": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "recipe_wraith_band": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "wraith_band": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "recipe_null_talisman": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "null_talisman": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "recipe_mekansm": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "mekansm": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "vladmir": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "recipe_buckler": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "buckler": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "ring_of_basilius": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "recipe_pipe": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "pipe": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "recipe_urn_of_shadows": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "urn_of_shadows": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "recipe_headdress": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "headdress": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "sheepstick": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "recipe_orchid": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "orchid": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "recipe_bloodthorn": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "bloodthorn": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "echo_sabre": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "recipe_cyclone": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "cyclone": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "recipe_aether_lens": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "aether_lens": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "recipe_force_staff": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "force_staff": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "hurricane_pike": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "recipe_dagon": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "dagon": {
+          "$ref": "#/definitions/Dagon"
+        },
+        "dagon_2": {
+          "$ref": "#/definitions/Dagon"
+        },
+        "dagon_3": {
+          "$ref": "#/definitions/Dagon"
+        },
+        "dagon_4": {
+          "$ref": "#/definitions/Dagon"
+        },
+        "dagon_5": {
+          "$ref": "#/definitions/Dagon"
+        },
+        "recipe_necronomicon": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "necronomicon": {
+          "$ref": "#/definitions/BlackKingBar"
+        },
+        "necronomicon_2": {
+          "$ref": "#/definitions/Dagon"
+        },
+        "necronomicon_3": {
+          "$ref": "#/definitions/Dagon"
+        },
+        "ultimate_scepter": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "recipe_refresher": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "refresher": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "recipe_assault": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "assault": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "heart": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "recipe_black_king_bar": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "black_king_bar": {
+          "$ref": "#/definitions/BlackKingBar"
+        },
+        "aegis": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "recipe_shivas_guard": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "shivas_guard": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "bloodstone": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "recipe_sphere": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "sphere": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "lotus_orb": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "meteor_hammer": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "nullifier": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "recipe_combo_breaker": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "combo_breaker": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "recipe_trident": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "trident": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "refresher_shard": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "recipe_spirit_vessel": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "spirit_vessel": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "vanguard": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "recipe_crimson_guard": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "crimson_guard": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "blade_mail": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "soul_booster": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "hood_of_defiance": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "rapier": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "monkey_king_bar": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "recipe_radiance": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "radiance": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "butterfly": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "recipe_greater_crit": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "greater_crit": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "recipe_basher": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "basher": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "bfury": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "recipe_manta": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "manta": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "recipe_lesser_crit": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "lesser_crit": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "dragon_lance": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "recipe_armlet": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "armlet": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "invis_sword": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "recipe_silver_edge": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "silver_edge": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "sange_and_yasha": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "satanic": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "recipe_mjollnir": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "mjollnir": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "skadi": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "recipe_sange": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "sange": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "helm_of_the_dominator": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "recipe_maelstrom": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "maelstrom": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "desolator": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "recipe_yasha": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "yasha": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "mask_of_madness": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "recipe_diffusal_blade": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "diffusal_blade": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "ethereal_blade": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "recipe_soul_ring": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "soul_ring": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "arcane_boots": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "octarine_core": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "orb_of_venom": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "blight_stone": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "recipe_ancient_janggo": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "ancient_janggo": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "medallion_of_courage": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "solar_crest": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "smoke_of_deceit": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "tome_of_knowledge": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "recipe_veil_of_discord": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "veil_of_discord": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "recipe_guardian_greaves": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "guardian_greaves": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "recipe_rod_of_atos": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "rod_of_atos": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "iron_talon": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "recipe_abyssal_blade": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "abyssal_blade": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "heavens_halberd": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "ring_of_aquila": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "tranquil_boots": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "shadow_amulet": {
+          "$ref": "#/definitions/AncientJanggo"
+        },
+        "glimmer_cape": {
+          "$ref": "#/definitions/AbyssalBlade"
+        },
+        "river_painter": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "river_painter2": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "river_painter3": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "river_painter4": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "river_painter5": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "river_painter6": {
+          "$ref": "#/definitions/Aegis"
+        },
+        "river_painter7": {
+          "$ref": "#/definitions/Aegis"
+        }
+      },
+      "required": [
+        "abyssal_blade",
+        "aegis",
+        "aether_lens",
+        "ancient_janggo",
+        "arcane_boots",
+        "armlet",
+        "assault",
+        "basher",
+        "belt_of_strength",
+        "bfury",
+        "black_king_bar",
+        "blade_mail",
+        "blade_of_alacrity",
+        "blades_of_attack",
+        "blight_stone",
+        "blink",
+        "bloodstone",
+        "bloodthorn",
+        "boots",
+        "boots_of_elves",
+        "bottle",
+        "bracer",
+        "branches",
+        "broadsword",
+        "buckler",
+        "butterfly",
+        "chainmail",
+        "cheese",
+        "circlet",
+        "clarity",
+        "claymore",
+        "cloak",
+        "combo_breaker",
+        "courier",
+        "crimson_guard",
+        "cyclone",
+        "dagon",
+        "dagon_2",
+        "dagon_3",
+        "dagon_4",
+        "dagon_5",
+        "demon_edge",
+        "desolator",
+        "diffusal_blade",
+        "dragon_lance",
+        "dust",
+        "eagle",
+        "echo_sabre",
+        "enchanted_mango",
+        "energy_booster",
+        "ethereal_blade",
+        "faerie_fire",
+        "flask",
+        "force_staff",
+        "gauntlets",
+        "gem",
+        "ghost",
+        "glimmer_cape",
+        "gloves",
+        "greater_crit",
+        "guardian_greaves",
+        "hand_of_midas",
+        "headdress",
+        "heart",
+        "heavens_halberd",
+        "helm_of_iron_will",
+        "helm_of_the_dominator",
+        "hood_of_defiance",
+        "hurricane_pike",
+        "hyperstone",
+        "infused_raindrop",
+        "invis_sword",
+        "iron_talon",
+        "javelin",
+        "lesser_crit",
+        "lifesteal",
+        "lotus_orb",
+        "maelstrom",
+        "magic_stick",
+        "magic_wand",
+        "manta",
+        "mantle",
+        "mask_of_madness",
+        "medallion_of_courage",
+        "mekansm",
+        "meteor_hammer",
+        "mithril_hammer",
+        "mjollnir",
+        "monkey_king_bar",
+        "moon_shard",
+        "mystic_staff",
+        "necronomicon",
+        "necronomicon_2",
+        "necronomicon_3",
+        "null_talisman",
+        "nullifier",
+        "oblivion_staff",
+        "octarine_core",
+        "ogre_axe",
+        "orb_of_venom",
+        "orchid",
+        "pers",
+        "phase_boots",
+        "pipe",
+        "platemail",
+        "point_booster",
+        "poor_mans_shield",
+        "power_treads",
+        "quarterstaff",
+        "quelling_blade",
+        "radiance",
+        "rapier",
+        "reaver",
+        "recipe_abyssal_blade",
+        "recipe_aether_lens",
+        "recipe_ancient_janggo",
+        "recipe_armlet",
+        "recipe_assault",
+        "recipe_basher",
+        "recipe_black_king_bar",
+        "recipe_bloodthorn",
+        "recipe_bracer",
+        "recipe_buckler",
+        "recipe_combo_breaker",
+        "recipe_crimson_guard",
+        "recipe_cyclone",
+        "recipe_dagon",
+        "recipe_diffusal_blade",
+        "recipe_force_staff",
+        "recipe_greater_crit",
+        "recipe_guardian_greaves",
+        "recipe_hand_of_midas",
+        "recipe_headdress",
+        "recipe_lesser_crit",
+        "recipe_maelstrom",
+        "recipe_manta",
+        "recipe_mekansm",
+        "recipe_mjollnir",
+        "recipe_necronomicon",
+        "recipe_null_talisman",
+        "recipe_orchid",
+        "recipe_pipe",
+        "recipe_radiance",
+        "recipe_refresher",
+        "recipe_rod_of_atos",
+        "recipe_sange",
+        "recipe_shivas_guard",
+        "recipe_silver_edge",
+        "recipe_soul_ring",
+        "recipe_sphere",
+        "recipe_spirit_vessel",
+        "recipe_travel_boots",
+        "recipe_trident",
+        "recipe_urn_of_shadows",
+        "recipe_veil_of_discord",
+        "recipe_wraith_band",
+        "recipe_yasha",
+        "refresher",
+        "refresher_shard",
+        "relic",
+        "ring_of_aquila",
+        "ring_of_basilius",
+        "ring_of_health",
+        "ring_of_protection",
+        "ring_of_regen",
+        "river_painter",
+        "river_painter2",
+        "river_painter3",
+        "river_painter4",
+        "river_painter5",
+        "river_painter6",
+        "river_painter7",
+        "robe",
+        "rod_of_atos",
+        "sange",
+        "sange_and_yasha",
+        "satanic",
+        "shadow_amulet",
+        "sheepstick",
+        "shivas_guard",
+        "silver_edge",
+        "skadi",
+        "slippers",
+        "smoke_of_deceit",
+        "sobi_mask",
+        "solar_crest",
+        "soul_booster",
+        "soul_ring",
+        "sphere",
+        "spirit_vessel",
+        "staff_of_wizardry",
+        "stout_shield",
+        "talisman_of_evasion",
+        "tango",
+        "tango_single",
+        "tome_of_knowledge",
+        "tpscroll",
+        "tranquil_boots",
+        "travel_boots",
+        "travel_boots_2",
+        "trident",
+        "ultimate_orb",
+        "ultimate_scepter",
+        "urn_of_shadows",
+        "vanguard",
+        "veil_of_discord",
+        "vitality_booster",
+        "vladmir",
+        "void_stone",
+        "ward_dispenser",
+        "ward_observer",
+        "ward_sentry",
+        "wind_lace",
+        "wraith_band",
+        "yasha"
+      ],
+      "title": "Welcome1"
+    },
+    "AbyssalBlade": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "img": {
+          "type": "string"
+        },
+        "dname": {
+          "type": "string"
+        },
+        "qual": {
+          "$ref": "#/definitions/Qual"
+        },
+        "cost": {
+          "type": "integer"
+        },
+        "desc": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "attrib": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/AbyssalBladeAttrib"
+          }
+        },
+        "mc": {
+          "type": "integer"
+        },
+        "cd": {
+          "type": "integer"
+        },
+        "lore": {
+          "type": "string"
+        },
+        "components": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "created": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "attrib",
+        "cd",
+        "components",
+        "cost",
+        "created",
+        "desc",
+        "dname",
+        "id",
+        "img",
+        "lore",
+        "mc",
+        "notes",
+        "qual"
+      ],
+      "title": "AbyssalBlade"
+    },
+    "AbyssalBladeAttrib": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "key": {
+          "type": "string"
+        },
+        "header": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        },
+        "footer": {
+          "$ref": "#/definitions/Footer"
+        },
+        "generated": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "header",
+        "key",
+        "value"
+      ],
+      "title": "AbyssalBladeAttrib"
+    },
+    "Aegis": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "img": {
+          "type": "string"
+        },
+        "dname": {
+          "type": "string"
+        },
+        "qual": {
+          "$ref": "#/definitions/Qual"
+        },
+        "cost": {
+          "type": "integer"
+        },
+        "desc": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "attrib": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/AbyssalBladeAttrib"
+          }
+        },
+        "mc": {
+          "type": "boolean"
+        },
+        "cd": {
+          "type": "boolean"
+        },
+        "lore": {
+          "type": "string"
+        },
+        "components": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "created": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "attrib",
+        "cd",
+        "components",
+        "cost",
+        "created",
+        "desc",
+        "id",
+        "img",
+        "lore",
+        "mc",
+        "notes"
+      ],
+      "title": "Aegis"
+    },
+    "AncientJanggo": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "img": {
+          "type": "string"
+        },
+        "dname": {
+          "type": "string"
+        },
+        "qual": {
+          "$ref": "#/definitions/Qual"
+        },
+        "cost": {
+          "type": "integer"
+        },
+        "desc": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "attrib": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/AbyssalBladeAttrib"
+          }
+        },
+        "mc": {
+          "type": "boolean"
+        },
+        "cd": {
+          "type": "integer"
+        },
+        "lore": {
+          "type": "string"
+        },
+        "components": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "created": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "attrib",
+        "cd",
+        "components",
+        "cost",
+        "created",
+        "desc",
+        "dname",
+        "id",
+        "img",
+        "lore",
+        "mc",
+        "notes"
+      ],
+      "title": "AncientJanggo"
+    },
+    "BlackKingBar": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "img": {
+          "type": "string"
+        },
+        "dname": {
+          "type": "string"
+        },
+        "qual": {
+          "$ref": "#/definitions/Qual"
+        },
+        "cost": {
+          "type": "integer"
+        },
+        "desc": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "attrib": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/BlackKingBarAttrib"
+          }
+        },
+        "mc": {
+          "type": "boolean"
+        },
+        "cd": {
+          "type": "integer"
+        },
+        "lore": {
+          "type": "string"
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "created": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "attrib",
+        "cd",
+        "components",
+        "cost",
+        "created",
+        "desc",
+        "dname",
+        "id",
+        "img",
+        "lore",
+        "mc",
+        "notes",
+        "qual"
+      ],
+      "title": "BlackKingBar"
+    },
+    "BlackKingBarAttrib": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "key": {
+          "type": "string"
+        },
+        "header": {
+          "type": "string"
+        },
+        "value": {
+          "$ref": "#/definitions/Value"
+        },
+        "footer": {
+          "$ref": "#/definitions/Footer"
+        },
+        "generated": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "header",
+        "key",
+        "value"
+      ],
+      "title": "BlackKingBarAttrib"
+    },
+    "Dagon": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "img": {
+          "type": "string"
+        },
+        "dname": {
+          "type": "string"
+        },
+        "qual": {
+          "$ref": "#/definitions/Qual"
+        },
+        "cost": {
+          "type": "integer"
+        },
+        "desc": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "attrib": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/BlackKingBarAttrib"
+          }
+        },
+        "mc": {
+          "type": "integer"
+        },
+        "cd": {
+          "type": "integer"
+        },
+        "lore": {
+          "type": "string"
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "created": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "attrib",
+        "cd",
+        "components",
+        "cost",
+        "created",
+        "desc",
+        "dname",
+        "id",
+        "img",
+        "lore",
+        "mc",
+        "notes",
+        "qual"
+      ],
+      "title": "Dagon"
+    },
+    "Value": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "string",
+          "format": "integer"
+        }
+      ],
+      "title": "Value"
+    },
+    "Footer": {
+      "type": "string",
+      "enum": [
+        "Health",
+        "HP Regeneration",
+        "Strength",
+        "Mana",
+        "Mana Regeneration",
+        "Intelligence",
+        "Agility",
+        "Movement Speed",
+        "Damage",
+        "Attack Speed",
+        "Armor",
+        "All Attributes",
+        "Evasion",
+        "Magic Resistance",
+        "Selected Attribute"
+      ],
+      "title": "Footer"
+    },
+    "Qual": {
+      "type": "string",
+      "enum": [
+        "epic",
+        "rare",
+        "artifact",
+        "common",
+        "consumable",
+        "component",
+        "secret_shop"
+      ],
+      "title": "Qual"
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "additionalProperties": {
+    "$ref": "#/definitions/Welcome7Value"
+  },
+  "definitions": {
+    "Welcome7Value": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "localized_name": {
+          "type": "string"
+        },
+        "primary_attr": {
+          "$ref": "#/definitions/PrimaryAttr"
+        },
+        "attack_type": {
+          "$ref": "#/definitions/AttackType"
+        },
+        "roles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Role"
+          }
+        },
+        "img": {
+          "type": "string"
+        },
+        "icon": {
+          "type": "string"
+        },
+        "base_health": {
+          "type": "integer"
+        },
+        "base_health_regen": {
+          "type": "number"
+        },
+        "base_mana": {
+          "type": "integer"
+        },
+        "base_mana_regen": {
+          "type": "number"
+        },
+        "base_armor": {
+          "type": "number"
+        },
+        "base_mr": {
+          "type": "integer"
+        },
+        "base_attack_min": {
+          "type": "integer"
+        },
+        "base_attack_max": {
+          "type": "integer"
+        },
+        "base_str": {
+          "type": "integer"
+        },
+        "base_agi": {
+          "type": "integer"
+        },
+        "base_int": {
+          "type": "integer"
+        },
+        "str_gain": {
+          "type": "number"
+        },
+        "agi_gain": {
+          "type": "number"
+        },
+        "int_gain": {
+          "type": "number"
+        },
+        "attack_range": {
+          "type": "integer"
+        },
+        "projectile_speed": {
+          "type": "integer"
+        },
+        "attack_rate": {
+          "type": "number"
+        },
+        "move_speed": {
+          "type": "integer"
+        },
+        "turn_rate": {
+          "type": "number"
+        },
+        "cm_enabled": {
+          "type": "boolean"
+        },
+        "legs": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "agi_gain",
+        "attack_range",
+        "attack_rate",
+        "attack_type",
+        "base_agi",
+        "base_armor",
+        "base_attack_max",
+        "base_attack_min",
+        "base_health",
+        "base_health_regen",
+        "base_int",
+        "base_mana",
+        "base_mana_regen",
+        "base_mr",
+        "base_str",
+        "cm_enabled",
+        "icon",
+        "id",
+        "img",
+        "int_gain",
+        "legs",
+        "localized_name",
+        "move_speed",
+        "name",
+        "primary_attr",
+        "projectile_speed",
+        "roles",
+        "str_gain",
+        "turn_rate"
+      ],
+      "title": "Welcome7Value"
+    },
+    "AttackType": {
+      "type": "string",
+      "enum": [
+        "Melee",
+        "Ranged"
+      ],
+      "title": "AttackType"
+    },
+    "PrimaryAttr": {
+      "type": "string",
+      "enum": [
+        "agi",
+        "str",
+        "int"
+      ],
+      "title": "PrimaryAttr"
+    },
+    "Role": {
+      "type": "string",
+      "enum": [
+        "Carry",
+        "Escape",
+        "Nuker",
+        "Durable",
+        "Disabler",
+        "Initiator",
+        "Support",
+        "Pusher",
+        "Jungler"
+      ],
+      "title": "Role"
+    }
+  }
+}

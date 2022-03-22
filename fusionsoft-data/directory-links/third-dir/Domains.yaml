@@ -1,0 +1,51 @@
+infoSchema: "0.1"   # Признак того, что это ISD-файл
+info:
+  title: Домены / справочники НСИ
+  description: Агрегат по доменам / справочникам НСИ
+  version: 0.1
+  contact:
+    name: Vladimir Ovchinnikov
+    email: vladimir.v.ovchinnikov@gmail.com
+allOf:
+  - $ref: "../first-dir/Aggregate.yaml"
+  - type: Object
+    properties:
+        name:
+            title: Наименование домена / справочника
+            type: String
+            nullable: false
+        code:
+            tile: Код домена / справочника
+            type: String
+            nullable: false
+        descr:
+            title: Описание домена / справочника
+            type: String
+        domain_values:
+            title: Значения домена / справочника
+            type: Object
+            iuType: ValueMap
+            iuMapKey:
+                type: Number
+                title: Код значения домена / справочника
+                iuName: "Val-Id" # пока не вижу применения этому полю, обошелся без него
+            iuMapValues:
+                $anchor: DomainValues
+                type: Object
+                properties:
+                    name:
+                        title: Значение домена / справочника
+                        type: String
+                        nullable: false
+                    code:
+                        title: Код значения домена / справочника
+                        type: String
+                        nullable: false
+                    descr:
+                        title: Описание значения домена / справочника
+                        type: String
+                    parent_id:
+                        title: Вышестоящее значение для иерархического справочника
+                        type: Number
+    iuPriKey:
+        - domain_id

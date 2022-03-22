@@ -1,0 +1,3594 @@
+{
+  "type" : "object",
+  "required" : [ ],
+  "properties" : {
+    "antimage_mana_break" : {
+      "$ref:" : "abilities/antimage_mana_break.json"
+    },
+    "antimage_blink" : {
+      "$ref:" : "abilities/antimage_blink.json"
+    },
+    "antimage_spell_shield" : {
+      "$ref:" : "abilities/antimage_spell_shield.json"
+    },
+    "antimage_mana_void" : {
+      "$ref:" : "abilities/antimage_mana_void.json"
+    },
+    "axe_berserkers_call" : {
+      "$ref:" : "abilities/axe_berserkers_call.json"
+    },
+    "axe_battle_hunger" : {
+      "$ref:" : "abilities/axe_battle_hunger.json"
+    },
+    "axe_counter_helix" : {
+      "$ref:" : "abilities/axe_counter_helix.json"
+    },
+    "axe_culling_blade" : {
+      "$ref:" : "abilities/axe_culling_blade.json"
+    },
+    "bane_enfeeble" : {
+      "$ref:" : "abilities/bane_enfeeble.json"
+    },
+    "bane_brain_sap" : {
+      "$ref:" : "abilities/bane_brain_sap.json"
+    },
+    "bane_fiends_grip" : {
+      "$ref:" : "abilities/bane_fiends_grip.json"
+    },
+    "bane_nightmare" : {
+      "$ref:" : "abilities/bane_nightmare.json"
+    },
+    "bane_nightmare_end" : {
+      "$ref:" : "abilities/bane_nightmare_end.json"
+    },
+    "bloodseeker_bloodrage" : {
+      "$ref:" : "abilities/bloodseeker_bloodrage.json"
+    },
+    "bloodseeker_blood_bath" : {
+      "$ref:" : "abilities/bloodseeker_blood_bath.json"
+    },
+    "bloodseeker_thirst" : {
+      "$ref:" : "abilities/bloodseeker_thirst.json"
+    },
+    "bloodseeker_rupture" : {
+      "$ref:" : "abilities/bloodseeker_rupture.json"
+    },
+    "drow_ranger_frost_arrows" : {
+      "$ref:" : "abilities/drow_ranger_frost_arrows.json"
+    },
+    "drow_ranger_silence" : {
+      "$ref:" : "abilities/drow_ranger_silence.json"
+    },
+    "drow_ranger_wave_of_silence" : {
+      "$ref:" : "abilities/drow_ranger_wave_of_silence.json"
+    },
+    "drow_ranger_trueshot" : {
+      "$ref:" : "abilities/drow_ranger_trueshot.json"
+    },
+    "drow_ranger_marksmanship" : {
+      "$ref:" : "abilities/drow_ranger_marksmanship.json"
+    },
+    "earthshaker_fissure" : {
+      "$ref:" : "abilities/earthshaker_fissure.json"
+    },
+    "earthshaker_enchant_totem" : {
+      "$ref:" : "abilities/earthshaker_enchant_totem.json"
+    },
+    "earthshaker_aftershock" : {
+      "$ref:" : "abilities/earthshaker_aftershock.json"
+    },
+    "earthshaker_echo_slam" : {
+      "$ref:" : "abilities/earthshaker_echo_slam.json"
+    },
+    "juggernaut_blade_dance" : {
+      "$ref:" : "abilities/juggernaut_blade_dance.json"
+    },
+    "juggernaut_blade_fury" : {
+      "$ref:" : "abilities/juggernaut_blade_fury.json"
+    },
+    "juggernaut_healing_ward" : {
+      "$ref:" : "abilities/juggernaut_healing_ward.json"
+    },
+    "juggernaut_omni_slash" : {
+      "$ref:" : "abilities/juggernaut_omni_slash.json"
+    },
+    "kunkka_torrent" : {
+      "$ref:" : "abilities/kunkka_torrent.json"
+    },
+    "kunkka_tidebringer" : {
+      "$ref:" : "abilities/kunkka_tidebringer.json"
+    },
+    "kunkka_x_marks_the_spot" : {
+      "$ref:" : "abilities/kunkka_x_marks_the_spot.json"
+    },
+    "kunkka_return" : {
+      "$ref:" : "abilities/kunkka_return.json"
+    },
+    "kunkka_ghostship" : {
+      "$ref:" : "abilities/kunkka_ghostship.json"
+    },
+    "lina_dragon_slave" : {
+      "$ref:" : "abilities/lina_dragon_slave.json"
+    },
+    "lina_light_strike_array" : {
+      "$ref:" : "abilities/lina_light_strike_array.json"
+    },
+    "lina_fiery_soul" : {
+      "$ref:" : "abilities/lina_fiery_soul.json"
+    },
+    "lina_laguna_blade" : {
+      "$ref:" : "abilities/lina_laguna_blade.json"
+    },
+    "lion_impale" : {
+      "$ref:" : "abilities/lion_impale.json"
+    },
+    "lion_voodoo" : {
+      "$ref:" : "abilities/lion_voodoo.json"
+    },
+    "lion_mana_drain" : {
+      "$ref:" : "abilities/lion_mana_drain.json"
+    },
+    "lion_finger_of_death" : {
+      "$ref:" : "abilities/lion_finger_of_death.json"
+    },
+    "mirana_arrow" : {
+      "$ref:" : "abilities/mirana_arrow.json"
+    },
+    "mirana_invis" : {
+      "$ref:" : "abilities/mirana_invis.json"
+    },
+    "mirana_leap" : {
+      "$ref:" : "abilities/mirana_leap.json"
+    },
+    "mirana_starfall" : {
+      "$ref:" : "abilities/mirana_starfall.json"
+    },
+    "morphling_waveform" : {
+      "$ref:" : "abilities/morphling_waveform.json"
+    },
+    "morphling_adaptive_strike" : {
+      "$ref:" : "abilities/morphling_adaptive_strike.json"
+    },
+    "morphling_morph" : {
+      "$ref:" : "abilities/morphling_morph.json"
+    },
+    "morphling_morph_agi" : {
+      "$ref:" : "abilities/morphling_morph_agi.json"
+    },
+    "morphling_morph_str" : {
+      "$ref:" : "abilities/morphling_morph_str.json"
+    },
+    "morphling_replicate" : {
+      "$ref:" : "abilities/morphling_replicate.json"
+    },
+    "morphling_morph_replicate" : {
+      "$ref:" : "abilities/morphling_morph_replicate.json"
+    },
+    "morphling_hybrid" : {
+      "$ref:" : "abilities/morphling_hybrid.json"
+    },
+    "nevermore_shadowraze1" : {
+      "$ref:" : "abilities/nevermore_shadowraze1.json"
+    },
+    "nevermore_shadowraze2" : {
+      "$ref:" : "abilities/nevermore_shadowraze2.json"
+    },
+    "nevermore_shadowraze3" : {
+      "$ref:" : "abilities/nevermore_shadowraze3.json"
+    },
+    "nevermore_necromastery" : {
+      "$ref:" : "abilities/nevermore_necromastery.json"
+    },
+    "nevermore_dark_lord" : {
+      "$ref:" : "abilities/nevermore_dark_lord.json"
+    },
+    "nevermore_requiem" : {
+      "$ref:" : "abilities/nevermore_requiem.json"
+    },
+    "phantom_lancer_spirit_lance" : {
+      "$ref:" : "abilities/phantom_lancer_spirit_lance.json"
+    },
+    "phantom_lancer_doppelwalk" : {
+      "$ref:" : "abilities/phantom_lancer_doppelwalk.json"
+    },
+    "phantom_lancer_juxtapose" : {
+      "$ref:" : "abilities/phantom_lancer_juxtapose.json"
+    },
+    "phantom_lancer_phantom_edge" : {
+      "$ref:" : "abilities/phantom_lancer_phantom_edge.json"
+    },
+    "puck_illusory_orb" : {
+      "$ref:" : "abilities/puck_illusory_orb.json"
+    },
+    "puck_ethereal_jaunt" : {
+      "$ref:" : "abilities/puck_ethereal_jaunt.json"
+    },
+    "puck_waning_rift" : {
+      "$ref:" : "abilities/puck_waning_rift.json"
+    },
+    "puck_phase_shift" : {
+      "$ref:" : "abilities/puck_phase_shift.json"
+    },
+    "puck_dream_coil" : {
+      "$ref:" : "abilities/puck_dream_coil.json"
+    },
+    "pudge_flesh_heap" : {
+      "$ref:" : "abilities/pudge_flesh_heap.json"
+    },
+    "pudge_meat_hook" : {
+      "$ref:" : "abilities/pudge_meat_hook.json"
+    },
+    "pudge_rot" : {
+      "$ref:" : "abilities/pudge_rot.json"
+    },
+    "pudge_dismember" : {
+      "$ref:" : "abilities/pudge_dismember.json"
+    },
+    "shadow_shaman_ether_shock" : {
+      "$ref:" : "abilities/shadow_shaman_ether_shock.json"
+    },
+    "shadow_shaman_voodoo" : {
+      "$ref:" : "abilities/shadow_shaman_voodoo.json"
+    },
+    "shadow_shaman_shackles" : {
+      "$ref:" : "abilities/shadow_shaman_shackles.json"
+    },
+    "shadow_shaman_mass_serpent_ward" : {
+      "$ref:" : "abilities/shadow_shaman_mass_serpent_ward.json"
+    },
+    "razor_plasma_field" : {
+      "$ref:" : "abilities/razor_plasma_field.json"
+    },
+    "razor_static_link" : {
+      "$ref:" : "abilities/razor_static_link.json"
+    },
+    "razor_unstable_current" : {
+      "$ref:" : "abilities/razor_unstable_current.json"
+    },
+    "razor_eye_of_the_storm" : {
+      "$ref:" : "abilities/razor_eye_of_the_storm.json"
+    },
+    "skeleton_king_hellfire_blast" : {
+      "$ref:" : "abilities/skeleton_king_hellfire_blast.json"
+    },
+    "skeleton_king_vampiric_aura" : {
+      "$ref:" : "abilities/skeleton_king_vampiric_aura.json"
+    },
+    "skeleton_king_mortal_strike" : {
+      "$ref:" : "abilities/skeleton_king_mortal_strike.json"
+    },
+    "skeleton_king_reincarnation" : {
+      "$ref:" : "abilities/skeleton_king_reincarnation.json"
+    },
+    "death_prophet_carrion_swarm" : {
+      "$ref:" : "abilities/death_prophet_carrion_swarm.json"
+    },
+    "death_prophet_silence" : {
+      "$ref:" : "abilities/death_prophet_silence.json"
+    },
+    "death_prophet_witchcraft" : {
+      "$ref:" : "abilities/death_prophet_witchcraft.json"
+    },
+    "death_prophet_spirit_siphon" : {
+      "$ref:" : "abilities/death_prophet_spirit_siphon.json"
+    },
+    "death_prophet_exorcism" : {
+      "$ref:" : "abilities/death_prophet_exorcism.json"
+    },
+    "sven_storm_bolt" : {
+      "$ref:" : "abilities/sven_storm_bolt.json"
+    },
+    "sven_great_cleave" : {
+      "$ref:" : "abilities/sven_great_cleave.json"
+    },
+    "sven_warcry" : {
+      "$ref:" : "abilities/sven_warcry.json"
+    },
+    "sven_gods_strength" : {
+      "$ref:" : "abilities/sven_gods_strength.json"
+    },
+    "storm_spirit_static_remnant" : {
+      "$ref:" : "abilities/storm_spirit_static_remnant.json"
+    },
+    "storm_spirit_electric_vortex" : {
+      "$ref:" : "abilities/storm_spirit_electric_vortex.json"
+    },
+    "storm_spirit_overload" : {
+      "$ref:" : "abilities/storm_spirit_overload.json"
+    },
+    "storm_spirit_ball_lightning" : {
+      "$ref:" : "abilities/storm_spirit_ball_lightning.json"
+    },
+    "sandking_burrowstrike" : {
+      "$ref:" : "abilities/sandking_burrowstrike.json"
+    },
+    "sandking_sand_storm" : {
+      "$ref:" : "abilities/sandking_sand_storm.json"
+    },
+    "sandking_caustic_finale" : {
+      "$ref:" : "abilities/sandking_caustic_finale.json"
+    },
+    "sandking_epicenter" : {
+      "$ref:" : "abilities/sandking_epicenter.json"
+    },
+    "tiny_avalanche" : {
+      "$ref:" : "abilities/tiny_avalanche.json"
+    },
+    "tiny_toss" : {
+      "$ref:" : "abilities/tiny_toss.json"
+    },
+    "tiny_craggy_exterior" : {
+      "$ref:" : "abilities/tiny_craggy_exterior.json"
+    },
+    "tiny_grow" : {
+      "$ref:" : "abilities/tiny_grow.json"
+    },
+    "zuus_arc_lightning" : {
+      "$ref:" : "abilities/zuus_arc_lightning.json"
+    },
+    "zuus_lightning_bolt" : {
+      "$ref:" : "abilities/zuus_lightning_bolt.json"
+    },
+    "zuus_cloud" : {
+      "$ref:" : "abilities/zuus_cloud.json"
+    },
+    "zuus_static_field" : {
+      "$ref:" : "abilities/zuus_static_field.json"
+    },
+    "zuus_thundergods_wrath" : {
+      "$ref:" : "abilities/zuus_thundergods_wrath.json"
+    },
+    "slardar_sprint" : {
+      "$ref:" : "abilities/slardar_sprint.json"
+    },
+    "slardar_slithereen_crush" : {
+      "$ref:" : "abilities/slardar_slithereen_crush.json"
+    },
+    "slardar_bash" : {
+      "$ref:" : "abilities/slardar_bash.json"
+    },
+    "slardar_amplify_damage" : {
+      "$ref:" : "abilities/slardar_amplify_damage.json"
+    },
+    "tidehunter_gush" : {
+      "$ref:" : "abilities/tidehunter_gush.json"
+    },
+    "tidehunter_kraken_shell" : {
+      "$ref:" : "abilities/tidehunter_kraken_shell.json"
+    },
+    "tidehunter_anchor_smash" : {
+      "$ref:" : "abilities/tidehunter_anchor_smash.json"
+    },
+    "tidehunter_ravage" : {
+      "$ref:" : "abilities/tidehunter_ravage.json"
+    },
+    "vengefulspirit_magic_missile" : {
+      "$ref:" : "abilities/vengefulspirit_magic_missile.json"
+    },
+    "vengefulspirit_command_aura" : {
+      "$ref:" : "abilities/vengefulspirit_command_aura.json"
+    },
+    "vengefulspirit_wave_of_terror" : {
+      "$ref:" : "abilities/vengefulspirit_wave_of_terror.json"
+    },
+    "vengefulspirit_nether_swap" : {
+      "$ref:" : "abilities/vengefulspirit_nether_swap.json"
+    },
+    "crystal_maiden_crystal_nova" : {
+      "$ref:" : "abilities/crystal_maiden_crystal_nova.json"
+    },
+    "crystal_maiden_frostbite" : {
+      "$ref:" : "abilities/crystal_maiden_frostbite.json"
+    },
+    "crystal_maiden_brilliance_aura" : {
+      "$ref:" : "abilities/crystal_maiden_brilliance_aura.json"
+    },
+    "crystal_maiden_freezing_field" : {
+      "$ref:" : "abilities/crystal_maiden_freezing_field.json"
+    },
+    "windrunner_shackleshot" : {
+      "$ref:" : "abilities/windrunner_shackleshot.json"
+    },
+    "windrunner_powershot" : {
+      "$ref:" : "abilities/windrunner_powershot.json"
+    },
+    "windrunner_windrun" : {
+      "$ref:" : "abilities/windrunner_windrun.json"
+    },
+    "windrunner_focusfire" : {
+      "$ref:" : "abilities/windrunner_focusfire.json"
+    },
+    "lich_frost_nova" : {
+      "$ref:" : "abilities/lich_frost_nova.json"
+    },
+    "lich_frost_armor" : {
+      "$ref:" : "abilities/lich_frost_armor.json"
+    },
+    "lich_dark_ritual" : {
+      "$ref:" : "abilities/lich_dark_ritual.json"
+    },
+    "lich_chain_frost" : {
+      "$ref:" : "abilities/lich_chain_frost.json"
+    },
+    "witch_doctor_paralyzing_cask" : {
+      "$ref:" : "abilities/witch_doctor_paralyzing_cask.json"
+    },
+    "witch_doctor_voodoo_restoration" : {
+      "$ref:" : "abilities/witch_doctor_voodoo_restoration.json"
+    },
+    "witch_doctor_maledict" : {
+      "$ref:" : "abilities/witch_doctor_maledict.json"
+    },
+    "witch_doctor_death_ward" : {
+      "$ref:" : "abilities/witch_doctor_death_ward.json"
+    },
+    "riki_smoke_screen" : {
+      "$ref:" : "abilities/riki_smoke_screen.json"
+    },
+    "riki_blink_strike" : {
+      "$ref:" : "abilities/riki_blink_strike.json"
+    },
+    "riki_permanent_invisibility" : {
+      "$ref:" : "abilities/riki_permanent_invisibility.json"
+    },
+    "riki_tricks_of_the_trade" : {
+      "$ref:" : "abilities/riki_tricks_of_the_trade.json"
+    },
+    "enigma_malefice" : {
+      "$ref:" : "abilities/enigma_malefice.json"
+    },
+    "enigma_demonic_conversion" : {
+      "$ref:" : "abilities/enigma_demonic_conversion.json"
+    },
+    "enigma_midnight_pulse" : {
+      "$ref:" : "abilities/enigma_midnight_pulse.json"
+    },
+    "enigma_black_hole" : {
+      "$ref:" : "abilities/enigma_black_hole.json"
+    },
+    "tinker_laser" : {
+      "$ref:" : "abilities/tinker_laser.json"
+    },
+    "tinker_heat_seeking_missile" : {
+      "$ref:" : "abilities/tinker_heat_seeking_missile.json"
+    },
+    "tinker_march_of_the_machines" : {
+      "$ref:" : "abilities/tinker_march_of_the_machines.json"
+    },
+    "tinker_rearm" : {
+      "$ref:" : "abilities/tinker_rearm.json"
+    },
+    "sniper_shrapnel" : {
+      "$ref:" : "abilities/sniper_shrapnel.json"
+    },
+    "sniper_headshot" : {
+      "$ref:" : "abilities/sniper_headshot.json"
+    },
+    "sniper_take_aim" : {
+      "$ref:" : "abilities/sniper_take_aim.json"
+    },
+    "sniper_assassinate" : {
+      "$ref:" : "abilities/sniper_assassinate.json"
+    },
+    "necrolyte_death_pulse" : {
+      "$ref:" : "abilities/necrolyte_death_pulse.json"
+    },
+    "necrolyte_heartstopper_aura" : {
+      "$ref:" : "abilities/necrolyte_heartstopper_aura.json"
+    },
+    "necrolyte_sadist" : {
+      "$ref:" : "abilities/necrolyte_sadist.json"
+    },
+    "necrolyte_sadist_stop" : {
+      "$ref:" : "abilities/necrolyte_sadist_stop.json"
+    },
+    "necrolyte_reapers_scythe" : {
+      "$ref:" : "abilities/necrolyte_reapers_scythe.json"
+    },
+    "warlock_fatal_bonds" : {
+      "$ref:" : "abilities/warlock_fatal_bonds.json"
+    },
+    "warlock_shadow_word" : {
+      "$ref:" : "abilities/warlock_shadow_word.json"
+    },
+    "warlock_upheaval" : {
+      "$ref:" : "abilities/warlock_upheaval.json"
+    },
+    "warlock_rain_of_chaos" : {
+      "$ref:" : "abilities/warlock_rain_of_chaos.json"
+    },
+    "warlock_golem_flaming_fists" : {
+      "$ref:" : "abilities/warlock_golem_flaming_fists.json"
+    },
+    "warlock_golem_permanent_immolation" : {
+      "$ref:" : "abilities/warlock_golem_permanent_immolation.json"
+    },
+    "beastmaster_wild_axes" : {
+      "$ref:" : "abilities/beastmaster_wild_axes.json"
+    },
+    "beastmaster_call_of_the_wild" : {
+      "$ref:" : "abilities/beastmaster_call_of_the_wild.json"
+    },
+    "beastmaster_call_of_the_wild_boar" : {
+      "$ref:" : "abilities/beastmaster_call_of_the_wild_boar.json"
+    },
+    "beastmaster_hawk_invisibility" : {
+      "$ref:" : "abilities/beastmaster_hawk_invisibility.json"
+    },
+    "beastmaster_boar_poison" : {
+      "$ref:" : "abilities/beastmaster_boar_poison.json"
+    },
+    "beastmaster_greater_boar_poison" : {
+      "$ref:" : "abilities/beastmaster_greater_boar_poison.json"
+    },
+    "beastmaster_inner_beast" : {
+      "$ref:" : "abilities/beastmaster_inner_beast.json"
+    },
+    "beastmaster_primal_roar" : {
+      "$ref:" : "abilities/beastmaster_primal_roar.json"
+    },
+    "queenofpain_shadow_strike" : {
+      "$ref:" : "abilities/queenofpain_shadow_strike.json"
+    },
+    "queenofpain_blink" : {
+      "$ref:" : "abilities/queenofpain_blink.json"
+    },
+    "queenofpain_scream_of_pain" : {
+      "$ref:" : "abilities/queenofpain_scream_of_pain.json"
+    },
+    "queenofpain_sonic_wave" : {
+      "$ref:" : "abilities/queenofpain_sonic_wave.json"
+    },
+    "venomancer_venomous_gale" : {
+      "$ref:" : "abilities/venomancer_venomous_gale.json"
+    },
+    "venomancer_poison_sting" : {
+      "$ref:" : "abilities/venomancer_poison_sting.json"
+    },
+    "venomancer_plague_ward" : {
+      "$ref:" : "abilities/venomancer_plague_ward.json"
+    },
+    "venomancer_poison_nova" : {
+      "$ref:" : "abilities/venomancer_poison_nova.json"
+    },
+    "faceless_void_time_walk" : {
+      "$ref:" : "abilities/faceless_void_time_walk.json"
+    },
+    "faceless_void_backtrack" : {
+      "$ref:" : "abilities/faceless_void_backtrack.json"
+    },
+    "faceless_void_time_lock" : {
+      "$ref:" : "abilities/faceless_void_time_lock.json"
+    },
+    "faceless_void_time_dilation" : {
+      "$ref:" : "abilities/faceless_void_time_dilation.json"
+    },
+    "faceless_void_chronosphere" : {
+      "$ref:" : "abilities/faceless_void_chronosphere.json"
+    },
+    "pugna_nether_blast" : {
+      "$ref:" : "abilities/pugna_nether_blast.json"
+    },
+    "pugna_decrepify" : {
+      "$ref:" : "abilities/pugna_decrepify.json"
+    },
+    "pugna_nether_ward" : {
+      "$ref:" : "abilities/pugna_nether_ward.json"
+    },
+    "pugna_life_drain" : {
+      "$ref:" : "abilities/pugna_life_drain.json"
+    },
+    "phantom_assassin_stifling_dagger" : {
+      "$ref:" : "abilities/phantom_assassin_stifling_dagger.json"
+    },
+    "phantom_assassin_phantom_strike" : {
+      "$ref:" : "abilities/phantom_assassin_phantom_strike.json"
+    },
+    "phantom_assassin_blur" : {
+      "$ref:" : "abilities/phantom_assassin_blur.json"
+    },
+    "phantom_assassin_coup_de_grace" : {
+      "$ref:" : "abilities/phantom_assassin_coup_de_grace.json"
+    },
+    "templar_assassin_refraction" : {
+      "$ref:" : "abilities/templar_assassin_refraction.json"
+    },
+    "templar_assassin_meld" : {
+      "$ref:" : "abilities/templar_assassin_meld.json"
+    },
+    "templar_assassin_psi_blades" : {
+      "$ref:" : "abilities/templar_assassin_psi_blades.json"
+    },
+    "templar_assassin_psionic_trap" : {
+      "$ref:" : "abilities/templar_assassin_psionic_trap.json"
+    },
+    "templar_assassin_trap" : {
+      "$ref:" : "abilities/templar_assassin_trap.json"
+    },
+    "templar_assassin_self_trap" : {
+      "$ref:" : "abilities/templar_assassin_self_trap.json"
+    },
+    "viper_poison_attack" : {
+      "$ref:" : "abilities/viper_poison_attack.json"
+    },
+    "viper_nethertoxin" : {
+      "$ref:" : "abilities/viper_nethertoxin.json"
+    },
+    "viper_corrosive_skin" : {
+      "$ref:" : "abilities/viper_corrosive_skin.json"
+    },
+    "viper_viper_strike" : {
+      "$ref:" : "abilities/viper_viper_strike.json"
+    },
+    "luna_lucent_beam" : {
+      "$ref:" : "abilities/luna_lucent_beam.json"
+    },
+    "luna_moon_glaive" : {
+      "$ref:" : "abilities/luna_moon_glaive.json"
+    },
+    "luna_lunar_blessing" : {
+      "$ref:" : "abilities/luna_lunar_blessing.json"
+    },
+    "luna_eclipse" : {
+      "$ref:" : "abilities/luna_eclipse.json"
+    },
+    "dragon_knight_breathe_fire" : {
+      "$ref:" : "abilities/dragon_knight_breathe_fire.json"
+    },
+    "dragon_knight_dragon_tail" : {
+      "$ref:" : "abilities/dragon_knight_dragon_tail.json"
+    },
+    "dragon_knight_dragon_blood" : {
+      "$ref:" : "abilities/dragon_knight_dragon_blood.json"
+    },
+    "dragon_knight_elder_dragon_form" : {
+      "$ref:" : "abilities/dragon_knight_elder_dragon_form.json"
+    },
+    "dragon_knight_frost_breath" : {
+      "$ref:" : "abilities/dragon_knight_frost_breath.json"
+    },
+    "dazzle_poison_touch" : {
+      "$ref:" : "abilities/dazzle_poison_touch.json"
+    },
+    "dazzle_shallow_grave" : {
+      "$ref:" : "abilities/dazzle_shallow_grave.json"
+    },
+    "dazzle_shadow_wave" : {
+      "$ref:" : "abilities/dazzle_shadow_wave.json"
+    },
+    "dazzle_weave" : {
+      "$ref:" : "abilities/dazzle_weave.json"
+    },
+    "rattletrap_battery_assault" : {
+      "$ref:" : "abilities/rattletrap_battery_assault.json"
+    },
+    "rattletrap_power_cogs" : {
+      "$ref:" : "abilities/rattletrap_power_cogs.json"
+    },
+    "rattletrap_rocket_flare" : {
+      "$ref:" : "abilities/rattletrap_rocket_flare.json"
+    },
+    "rattletrap_hookshot" : {
+      "$ref:" : "abilities/rattletrap_hookshot.json"
+    },
+    "leshrac_split_earth" : {
+      "$ref:" : "abilities/leshrac_split_earth.json"
+    },
+    "leshrac_diabolic_edict" : {
+      "$ref:" : "abilities/leshrac_diabolic_edict.json"
+    },
+    "leshrac_lightning_storm" : {
+      "$ref:" : "abilities/leshrac_lightning_storm.json"
+    },
+    "leshrac_pulse_nova" : {
+      "$ref:" : "abilities/leshrac_pulse_nova.json"
+    },
+    "furion_sprout" : {
+      "$ref:" : "abilities/furion_sprout.json"
+    },
+    "furion_teleportation" : {
+      "$ref:" : "abilities/furion_teleportation.json"
+    },
+    "furion_force_of_nature" : {
+      "$ref:" : "abilities/furion_force_of_nature.json"
+    },
+    "furion_wrath_of_nature" : {
+      "$ref:" : "abilities/furion_wrath_of_nature.json"
+    },
+    "life_stealer_rage" : {
+      "$ref:" : "abilities/life_stealer_rage.json"
+    },
+    "life_stealer_feast" : {
+      "$ref:" : "abilities/life_stealer_feast.json"
+    },
+    "life_stealer_open_wounds" : {
+      "$ref:" : "abilities/life_stealer_open_wounds.json"
+    },
+    "life_stealer_infest" : {
+      "$ref:" : "abilities/life_stealer_infest.json"
+    },
+    "life_stealer_assimilate" : {
+      "$ref:" : "abilities/life_stealer_assimilate.json"
+    },
+    "life_stealer_assimilate_eject" : {
+      "$ref:" : "abilities/life_stealer_assimilate_eject.json"
+    },
+    "life_stealer_consume" : {
+      "$ref:" : "abilities/life_stealer_consume.json"
+    },
+    "life_stealer_control" : {
+      "$ref:" : "abilities/life_stealer_control.json"
+    },
+    "life_stealer_empty_1" : {
+      "$ref:" : "abilities/life_stealer_empty_1.json"
+    },
+    "life_stealer_empty_2" : {
+      "$ref:" : "abilities/life_stealer_empty_2.json"
+    },
+    "life_stealer_empty_3" : {
+      "$ref:" : "abilities/life_stealer_empty_3.json"
+    },
+    "life_stealer_empty_4" : {
+      "$ref:" : "abilities/life_stealer_empty_4.json"
+    },
+    "dark_seer_vacuum" : {
+      "$ref:" : "abilities/dark_seer_vacuum.json"
+    },
+    "dark_seer_ion_shell" : {
+      "$ref:" : "abilities/dark_seer_ion_shell.json"
+    },
+    "dark_seer_surge" : {
+      "$ref:" : "abilities/dark_seer_surge.json"
+    },
+    "dark_seer_wall_of_replica" : {
+      "$ref:" : "abilities/dark_seer_wall_of_replica.json"
+    },
+    "clinkz_strafe" : {
+      "$ref:" : "abilities/clinkz_strafe.json"
+    },
+    "clinkz_searing_arrows" : {
+      "$ref:" : "abilities/clinkz_searing_arrows.json"
+    },
+    "clinkz_wind_walk" : {
+      "$ref:" : "abilities/clinkz_wind_walk.json"
+    },
+    "clinkz_death_pact" : {
+      "$ref:" : "abilities/clinkz_death_pact.json"
+    },
+    "omniknight_purification" : {
+      "$ref:" : "abilities/omniknight_purification.json"
+    },
+    "omniknight_repel" : {
+      "$ref:" : "abilities/omniknight_repel.json"
+    },
+    "omniknight_degen_aura" : {
+      "$ref:" : "abilities/omniknight_degen_aura.json"
+    },
+    "omniknight_guardian_angel" : {
+      "$ref:" : "abilities/omniknight_guardian_angel.json"
+    },
+    "enchantress_untouchable" : {
+      "$ref:" : "abilities/enchantress_untouchable.json"
+    },
+    "enchantress_enchant" : {
+      "$ref:" : "abilities/enchantress_enchant.json"
+    },
+    "enchantress_natures_attendants" : {
+      "$ref:" : "abilities/enchantress_natures_attendants.json"
+    },
+    "enchantress_impetus" : {
+      "$ref:" : "abilities/enchantress_impetus.json"
+    },
+    "huskar_inner_vitality" : {
+      "$ref:" : "abilities/huskar_inner_vitality.json"
+    },
+    "huskar_burning_spear" : {
+      "$ref:" : "abilities/huskar_burning_spear.json"
+    },
+    "huskar_berserkers_blood" : {
+      "$ref:" : "abilities/huskar_berserkers_blood.json"
+    },
+    "huskar_life_break" : {
+      "$ref:" : "abilities/huskar_life_break.json"
+    },
+    "night_stalker_void" : {
+      "$ref:" : "abilities/night_stalker_void.json"
+    },
+    "night_stalker_crippling_fear" : {
+      "$ref:" : "abilities/night_stalker_crippling_fear.json"
+    },
+    "night_stalker_hunter_in_the_night" : {
+      "$ref:" : "abilities/night_stalker_hunter_in_the_night.json"
+    },
+    "night_stalker_darkness" : {
+      "$ref:" : "abilities/night_stalker_darkness.json"
+    },
+    "broodmother_spawn_spiderlings" : {
+      "$ref:" : "abilities/broodmother_spawn_spiderlings.json"
+    },
+    "broodmother_poison_sting" : {
+      "$ref:" : "abilities/broodmother_poison_sting.json"
+    },
+    "broodmother_spawn_spiderite" : {
+      "$ref:" : "abilities/broodmother_spawn_spiderite.json"
+    },
+    "broodmother_spin_web" : {
+      "$ref:" : "abilities/broodmother_spin_web.json"
+    },
+    "broodmother_incapacitating_bite" : {
+      "$ref:" : "abilities/broodmother_incapacitating_bite.json"
+    },
+    "broodmother_insatiable_hunger" : {
+      "$ref:" : "abilities/broodmother_insatiable_hunger.json"
+    },
+    "bounty_hunter_shuriken_toss" : {
+      "$ref:" : "abilities/bounty_hunter_shuriken_toss.json"
+    },
+    "bounty_hunter_jinada" : {
+      "$ref:" : "abilities/bounty_hunter_jinada.json"
+    },
+    "bounty_hunter_wind_walk" : {
+      "$ref:" : "abilities/bounty_hunter_wind_walk.json"
+    },
+    "bounty_hunter_track" : {
+      "$ref:" : "abilities/bounty_hunter_track.json"
+    },
+    "weaver_the_swarm" : {
+      "$ref:" : "abilities/weaver_the_swarm.json"
+    },
+    "weaver_shukuchi" : {
+      "$ref:" : "abilities/weaver_shukuchi.json"
+    },
+    "weaver_geminate_attack" : {
+      "$ref:" : "abilities/weaver_geminate_attack.json"
+    },
+    "weaver_time_lapse" : {
+      "$ref:" : "abilities/weaver_time_lapse.json"
+    },
+    "jakiro_dual_breath" : {
+      "$ref:" : "abilities/jakiro_dual_breath.json"
+    },
+    "jakiro_ice_path" : {
+      "$ref:" : "abilities/jakiro_ice_path.json"
+    },
+    "jakiro_liquid_fire" : {
+      "$ref:" : "abilities/jakiro_liquid_fire.json"
+    },
+    "jakiro_macropyre" : {
+      "$ref:" : "abilities/jakiro_macropyre.json"
+    },
+    "batrider_sticky_napalm" : {
+      "$ref:" : "abilities/batrider_sticky_napalm.json"
+    },
+    "batrider_flamebreak" : {
+      "$ref:" : "abilities/batrider_flamebreak.json"
+    },
+    "batrider_firefly" : {
+      "$ref:" : "abilities/batrider_firefly.json"
+    },
+    "batrider_flaming_lasso" : {
+      "$ref:" : "abilities/batrider_flaming_lasso.json"
+    },
+    "chen_penitence" : {
+      "$ref:" : "abilities/chen_penitence.json"
+    },
+    "chen_test_of_faith" : {
+      "$ref:" : "abilities/chen_test_of_faith.json"
+    },
+    "chen_test_of_faith_teleport" : {
+      "$ref:" : "abilities/chen_test_of_faith_teleport.json"
+    },
+    "chen_holy_persuasion" : {
+      "$ref:" : "abilities/chen_holy_persuasion.json"
+    },
+    "chen_hand_of_god" : {
+      "$ref:" : "abilities/chen_hand_of_god.json"
+    },
+    "spectre_spectral_dagger" : {
+      "$ref:" : "abilities/spectre_spectral_dagger.json"
+    },
+    "spectre_desolate" : {
+      "$ref:" : "abilities/spectre_desolate.json"
+    },
+    "spectre_dispersion" : {
+      "$ref:" : "abilities/spectre_dispersion.json"
+    },
+    "spectre_haunt" : {
+      "$ref:" : "abilities/spectre_haunt.json"
+    },
+    "spectre_reality" : {
+      "$ref:" : "abilities/spectre_reality.json"
+    },
+    "doom_bringer_devour" : {
+      "$ref:" : "abilities/doom_bringer_devour.json"
+    },
+    "doom_bringer_scorched_earth" : {
+      "$ref:" : "abilities/doom_bringer_scorched_earth.json"
+    },
+    "doom_bringer_infernal_blade" : {
+      "$ref:" : "abilities/doom_bringer_infernal_blade.json"
+    },
+    "doom_bringer_doom" : {
+      "$ref:" : "abilities/doom_bringer_doom.json"
+    },
+    "doom_bringer_empty1" : {
+      "$ref:" : "abilities/doom_bringer_empty1.json"
+    },
+    "doom_bringer_empty2" : {
+      "$ref:" : "abilities/doom_bringer_empty2.json"
+    },
+    "ancient_apparition_cold_feet" : {
+      "$ref:" : "abilities/ancient_apparition_cold_feet.json"
+    },
+    "ancient_apparition_ice_vortex" : {
+      "$ref:" : "abilities/ancient_apparition_ice_vortex.json"
+    },
+    "ancient_apparition_chilling_touch" : {
+      "$ref:" : "abilities/ancient_apparition_chilling_touch.json"
+    },
+    "ancient_apparition_ice_blast" : {
+      "$ref:" : "abilities/ancient_apparition_ice_blast.json"
+    },
+    "ancient_apparition_ice_blast_release" : {
+      "$ref:" : "abilities/ancient_apparition_ice_blast_release.json"
+    },
+    "spirit_breaker_charge_of_darkness" : {
+      "$ref:" : "abilities/spirit_breaker_charge_of_darkness.json"
+    },
+    "spirit_breaker_empowering_haste" : {
+      "$ref:" : "abilities/spirit_breaker_empowering_haste.json"
+    },
+    "spirit_breaker_greater_bash" : {
+      "$ref:" : "abilities/spirit_breaker_greater_bash.json"
+    },
+    "spirit_breaker_nether_strike" : {
+      "$ref:" : "abilities/spirit_breaker_nether_strike.json"
+    },
+    "ursa_earthshock" : {
+      "$ref:" : "abilities/ursa_earthshock.json"
+    },
+    "ursa_overpower" : {
+      "$ref:" : "abilities/ursa_overpower.json"
+    },
+    "ursa_fury_swipes" : {
+      "$ref:" : "abilities/ursa_fury_swipes.json"
+    },
+    "ursa_enrage" : {
+      "$ref:" : "abilities/ursa_enrage.json"
+    },
+    "gyrocopter_rocket_barrage" : {
+      "$ref:" : "abilities/gyrocopter_rocket_barrage.json"
+    },
+    "gyrocopter_homing_missile" : {
+      "$ref:" : "abilities/gyrocopter_homing_missile.json"
+    },
+    "gyrocopter_flak_cannon" : {
+      "$ref:" : "abilities/gyrocopter_flak_cannon.json"
+    },
+    "gyrocopter_call_down" : {
+      "$ref:" : "abilities/gyrocopter_call_down.json"
+    },
+    "alchemist_acid_spray" : {
+      "$ref:" : "abilities/alchemist_acid_spray.json"
+    },
+    "alchemist_unstable_concoction" : {
+      "$ref:" : "abilities/alchemist_unstable_concoction.json"
+    },
+    "alchemist_unstable_concoction_throw" : {
+      "$ref:" : "abilities/alchemist_unstable_concoction_throw.json"
+    },
+    "alchemist_goblins_greed" : {
+      "$ref:" : "abilities/alchemist_goblins_greed.json"
+    },
+    "alchemist_chemical_rage" : {
+      "$ref:" : "abilities/alchemist_chemical_rage.json"
+    },
+    "invoker_quas" : {
+      "$ref:" : "abilities/invoker_quas.json"
+    },
+    "invoker_wex" : {
+      "$ref:" : "abilities/invoker_wex.json"
+    },
+    "invoker_exort" : {
+      "$ref:" : "abilities/invoker_exort.json"
+    },
+    "invoker_empty1" : {
+      "$ref:" : "abilities/invoker_empty1.json"
+    },
+    "invoker_empty2" : {
+      "$ref:" : "abilities/invoker_empty2.json"
+    },
+    "invoker_invoke" : {
+      "$ref:" : "abilities/invoker_invoke.json"
+    },
+    "invoker_attribute_bonus" : {
+      "$ref:" : "abilities/invoker_attribute_bonus.json"
+    },
+    "invoker_cold_snap" : {
+      "$ref:" : "abilities/invoker_cold_snap.json"
+    },
+    "invoker_ghost_walk" : {
+      "$ref:" : "abilities/invoker_ghost_walk.json"
+    },
+    "invoker_tornado" : {
+      "$ref:" : "abilities/invoker_tornado.json"
+    },
+    "invoker_emp" : {
+      "$ref:" : "abilities/invoker_emp.json"
+    },
+    "invoker_alacrity" : {
+      "$ref:" : "abilities/invoker_alacrity.json"
+    },
+    "invoker_chaos_meteor" : {
+      "$ref:" : "abilities/invoker_chaos_meteor.json"
+    },
+    "invoker_sun_strike" : {
+      "$ref:" : "abilities/invoker_sun_strike.json"
+    },
+    "invoker_forge_spirit" : {
+      "$ref:" : "abilities/invoker_forge_spirit.json"
+    },
+    "forged_spirit_melting_strike" : {
+      "$ref:" : "abilities/forged_spirit_melting_strike.json"
+    },
+    "invoker_ice_wall" : {
+      "$ref:" : "abilities/invoker_ice_wall.json"
+    },
+    "invoker_deafening_blast" : {
+      "$ref:" : "abilities/invoker_deafening_blast.json"
+    },
+    "silencer_curse_of_the_silent" : {
+      "$ref:" : "abilities/silencer_curse_of_the_silent.json"
+    },
+    "silencer_glaives_of_wisdom" : {
+      "$ref:" : "abilities/silencer_glaives_of_wisdom.json"
+    },
+    "silencer_last_word" : {
+      "$ref:" : "abilities/silencer_last_word.json"
+    },
+    "silencer_global_silence" : {
+      "$ref:" : "abilities/silencer_global_silence.json"
+    },
+    "obsidian_destroyer_arcane_orb" : {
+      "$ref:" : "abilities/obsidian_destroyer_arcane_orb.json"
+    },
+    "obsidian_destroyer_astral_imprisonment" : {
+      "$ref:" : "abilities/obsidian_destroyer_astral_imprisonment.json"
+    },
+    "obsidian_destroyer_essence_aura" : {
+      "$ref:" : "abilities/obsidian_destroyer_essence_aura.json"
+    },
+    "obsidian_destroyer_mind_over_matter" : {
+      "$ref:" : "abilities/obsidian_destroyer_mind_over_matter.json"
+    },
+    "obsidian_destroyer_sanity_eclipse" : {
+      "$ref:" : "abilities/obsidian_destroyer_sanity_eclipse.json"
+    },
+    "lycan_summon_wolves" : {
+      "$ref:" : "abilities/lycan_summon_wolves.json"
+    },
+    "lycan_howl" : {
+      "$ref:" : "abilities/lycan_howl.json"
+    },
+    "lycan_feral_impulse" : {
+      "$ref:" : "abilities/lycan_feral_impulse.json"
+    },
+    "lycan_shapeshift" : {
+      "$ref:" : "abilities/lycan_shapeshift.json"
+    },
+    "lycan_summon_wolves_critical_strike" : {
+      "$ref:" : "abilities/lycan_summon_wolves_critical_strike.json"
+    },
+    "lycan_summon_wolves_invisibility" : {
+      "$ref:" : "abilities/lycan_summon_wolves_invisibility.json"
+    },
+    "lone_druid_spirit_bear" : {
+      "$ref:" : "abilities/lone_druid_spirit_bear.json"
+    },
+    "lone_druid_rabid" : {
+      "$ref:" : "abilities/lone_druid_rabid.json"
+    },
+    "lone_druid_savage_roar" : {
+      "$ref:" : "abilities/lone_druid_savage_roar.json"
+    },
+    "lone_druid_savage_roar_bear" : {
+      "$ref:" : "abilities/lone_druid_savage_roar_bear.json"
+    },
+    "lone_druid_true_form" : {
+      "$ref:" : "abilities/lone_druid_true_form.json"
+    },
+    "lone_druid_true_form_druid" : {
+      "$ref:" : "abilities/lone_druid_true_form_druid.json"
+    },
+    "lone_druid_true_form_battle_cry" : {
+      "$ref:" : "abilities/lone_druid_true_form_battle_cry.json"
+    },
+    "lone_druid_spirit_bear_return" : {
+      "$ref:" : "abilities/lone_druid_spirit_bear_return.json"
+    },
+    "lone_druid_spirit_bear_entangle" : {
+      "$ref:" : "abilities/lone_druid_spirit_bear_entangle.json"
+    },
+    "lone_druid_spirit_bear_demolish" : {
+      "$ref:" : "abilities/lone_druid_spirit_bear_demolish.json"
+    },
+    "brewmaster_thunder_clap" : {
+      "$ref:" : "abilities/brewmaster_thunder_clap.json"
+    },
+    "brewmaster_drunken_haze" : {
+      "$ref:" : "abilities/brewmaster_drunken_haze.json"
+    },
+    "brewmaster_drunken_brawler" : {
+      "$ref:" : "abilities/brewmaster_drunken_brawler.json"
+    },
+    "brewmaster_primal_split" : {
+      "$ref:" : "abilities/brewmaster_primal_split.json"
+    },
+    "brewmaster_earth_hurl_boulder" : {
+      "$ref:" : "abilities/brewmaster_earth_hurl_boulder.json"
+    },
+    "brewmaster_earth_spell_immunity" : {
+      "$ref:" : "abilities/brewmaster_earth_spell_immunity.json"
+    },
+    "brewmaster_earth_pulverize" : {
+      "$ref:" : "abilities/brewmaster_earth_pulverize.json"
+    },
+    "brewmaster_storm_dispel_magic" : {
+      "$ref:" : "abilities/brewmaster_storm_dispel_magic.json"
+    },
+    "brewmaster_storm_cyclone" : {
+      "$ref:" : "abilities/brewmaster_storm_cyclone.json"
+    },
+    "brewmaster_storm_wind_walk" : {
+      "$ref:" : "abilities/brewmaster_storm_wind_walk.json"
+    },
+    "brewmaster_fire_permanent_immolation" : {
+      "$ref:" : "abilities/brewmaster_fire_permanent_immolation.json"
+    },
+    "shadow_demon_disruption" : {
+      "$ref:" : "abilities/shadow_demon_disruption.json"
+    },
+    "shadow_demon_soul_catcher" : {
+      "$ref:" : "abilities/shadow_demon_soul_catcher.json"
+    },
+    "shadow_demon_shadow_poison" : {
+      "$ref:" : "abilities/shadow_demon_shadow_poison.json"
+    },
+    "shadow_demon_shadow_poison_release" : {
+      "$ref:" : "abilities/shadow_demon_shadow_poison_release.json"
+    },
+    "shadow_demon_demonic_purge" : {
+      "$ref:" : "abilities/shadow_demon_demonic_purge.json"
+    },
+    "chaos_knight_chaos_bolt" : {
+      "$ref:" : "abilities/chaos_knight_chaos_bolt.json"
+    },
+    "chaos_knight_reality_rift" : {
+      "$ref:" : "abilities/chaos_knight_reality_rift.json"
+    },
+    "chaos_knight_chaos_strike" : {
+      "$ref:" : "abilities/chaos_knight_chaos_strike.json"
+    },
+    "chaos_knight_phantasm" : {
+      "$ref:" : "abilities/chaos_knight_phantasm.json"
+    },
+    "meepo_earthbind" : {
+      "$ref:" : "abilities/meepo_earthbind.json"
+    },
+    "meepo_poof" : {
+      "$ref:" : "abilities/meepo_poof.json"
+    },
+    "meepo_geostrike" : {
+      "$ref:" : "abilities/meepo_geostrike.json"
+    },
+    "meepo_divided_we_stand" : {
+      "$ref:" : "abilities/meepo_divided_we_stand.json"
+    },
+    "treant_natures_guise" : {
+      "$ref:" : "abilities/treant_natures_guise.json"
+    },
+    "treant_leech_seed" : {
+      "$ref:" : "abilities/treant_leech_seed.json"
+    },
+    "treant_living_armor" : {
+      "$ref:" : "abilities/treant_living_armor.json"
+    },
+    "treant_overgrowth" : {
+      "$ref:" : "abilities/treant_overgrowth.json"
+    },
+    "treant_eyes_in_the_forest" : {
+      "$ref:" : "abilities/treant_eyes_in_the_forest.json"
+    },
+    "ogre_magi_fireblast" : {
+      "$ref:" : "abilities/ogre_magi_fireblast.json"
+    },
+    "ogre_magi_unrefined_fireblast" : {
+      "$ref:" : "abilities/ogre_magi_unrefined_fireblast.json"
+    },
+    "ogre_magi_ignite" : {
+      "$ref:" : "abilities/ogre_magi_ignite.json"
+    },
+    "ogre_magi_bloodlust" : {
+      "$ref:" : "abilities/ogre_magi_bloodlust.json"
+    },
+    "ogre_magi_multicast" : {
+      "$ref:" : "abilities/ogre_magi_multicast.json"
+    },
+    "undying_decay" : {
+      "$ref:" : "abilities/undying_decay.json"
+    },
+    "undying_soul_rip" : {
+      "$ref:" : "abilities/undying_soul_rip.json"
+    },
+    "undying_tombstone" : {
+      "$ref:" : "abilities/undying_tombstone.json"
+    },
+    "undying_tombstone_zombie_aura" : {
+      "$ref:" : "abilities/undying_tombstone_zombie_aura.json"
+    },
+    "undying_tombstone_zombie_deathstrike" : {
+      "$ref:" : "abilities/undying_tombstone_zombie_deathstrike.json"
+    },
+    "undying_flesh_golem" : {
+      "$ref:" : "abilities/undying_flesh_golem.json"
+    },
+    "rubick_telekinesis" : {
+      "$ref:" : "abilities/rubick_telekinesis.json"
+    },
+    "rubick_telekinesis_land" : {
+      "$ref:" : "abilities/rubick_telekinesis_land.json"
+    },
+    "rubick_fade_bolt" : {
+      "$ref:" : "abilities/rubick_fade_bolt.json"
+    },
+    "rubick_null_field" : {
+      "$ref:" : "abilities/rubick_null_field.json"
+    },
+    "rubick_spell_steal" : {
+      "$ref:" : "abilities/rubick_spell_steal.json"
+    },
+    "rubick_empty1" : {
+      "$ref:" : "abilities/rubick_empty1.json"
+    },
+    "rubick_empty2" : {
+      "$ref:" : "abilities/rubick_empty2.json"
+    },
+    "rubick_hidden1" : {
+      "$ref:" : "abilities/rubick_hidden1.json"
+    },
+    "rubick_hidden2" : {
+      "$ref:" : "abilities/rubick_hidden2.json"
+    },
+    "rubick_hidden3" : {
+      "$ref:" : "abilities/rubick_hidden3.json"
+    },
+    "disruptor_thunder_strike" : {
+      "$ref:" : "abilities/disruptor_thunder_strike.json"
+    },
+    "disruptor_glimpse" : {
+      "$ref:" : "abilities/disruptor_glimpse.json"
+    },
+    "disruptor_kinetic_field" : {
+      "$ref:" : "abilities/disruptor_kinetic_field.json"
+    },
+    "disruptor_static_storm" : {
+      "$ref:" : "abilities/disruptor_static_storm.json"
+    },
+    "nyx_assassin_impale" : {
+      "$ref:" : "abilities/nyx_assassin_impale.json"
+    },
+    "nyx_assassin_mana_burn" : {
+      "$ref:" : "abilities/nyx_assassin_mana_burn.json"
+    },
+    "nyx_assassin_spiked_carapace" : {
+      "$ref:" : "abilities/nyx_assassin_spiked_carapace.json"
+    },
+    "nyx_assassin_vendetta" : {
+      "$ref:" : "abilities/nyx_assassin_vendetta.json"
+    },
+    "nyx_assassin_burrow" : {
+      "$ref:" : "abilities/nyx_assassin_burrow.json"
+    },
+    "nyx_assassin_unburrow" : {
+      "$ref:" : "abilities/nyx_assassin_unburrow.json"
+    },
+    "naga_siren_mirror_image" : {
+      "$ref:" : "abilities/naga_siren_mirror_image.json"
+    },
+    "naga_siren_ensnare" : {
+      "$ref:" : "abilities/naga_siren_ensnare.json"
+    },
+    "naga_siren_rip_tide" : {
+      "$ref:" : "abilities/naga_siren_rip_tide.json"
+    },
+    "naga_siren_song_of_the_siren" : {
+      "$ref:" : "abilities/naga_siren_song_of_the_siren.json"
+    },
+    "naga_siren_song_of_the_siren_cancel" : {
+      "$ref:" : "abilities/naga_siren_song_of_the_siren_cancel.json"
+    },
+    "keeper_of_the_light_illuminate" : {
+      "$ref:" : "abilities/keeper_of_the_light_illuminate.json"
+    },
+    "keeper_of_the_light_mana_leak" : {
+      "$ref:" : "abilities/keeper_of_the_light_mana_leak.json"
+    },
+    "keeper_of_the_light_chakra_magic" : {
+      "$ref:" : "abilities/keeper_of_the_light_chakra_magic.json"
+    },
+    "keeper_of_the_light_empty1" : {
+      "$ref:" : "abilities/keeper_of_the_light_empty1.json"
+    },
+    "keeper_of_the_light_empty2" : {
+      "$ref:" : "abilities/keeper_of_the_light_empty2.json"
+    },
+    "keeper_of_the_light_spirit_form" : {
+      "$ref:" : "abilities/keeper_of_the_light_spirit_form.json"
+    },
+    "keeper_of_the_light_recall" : {
+      "$ref:" : "abilities/keeper_of_the_light_recall.json"
+    },
+    "keeper_of_the_light_blinding_light" : {
+      "$ref:" : "abilities/keeper_of_the_light_blinding_light.json"
+    },
+    "keeper_of_the_light_illuminate_end" : {
+      "$ref:" : "abilities/keeper_of_the_light_illuminate_end.json"
+    },
+    "keeper_of_the_light_spirit_form_illuminate" : {
+      "$ref:" : "abilities/keeper_of_the_light_spirit_form_illuminate.json"
+    },
+    "keeper_of_the_light_spirit_form_illuminate_end" : {
+      "$ref:" : "abilities/keeper_of_the_light_spirit_form_illuminate_end.json"
+    },
+    "visage_grave_chill" : {
+      "$ref:" : "abilities/visage_grave_chill.json"
+    },
+    "visage_soul_assumption" : {
+      "$ref:" : "abilities/visage_soul_assumption.json"
+    },
+    "visage_gravekeepers_cloak" : {
+      "$ref:" : "abilities/visage_gravekeepers_cloak.json"
+    },
+    "visage_summon_familiars" : {
+      "$ref:" : "abilities/visage_summon_familiars.json"
+    },
+    "visage_summon_familiars_stone_form" : {
+      "$ref:" : "abilities/visage_summon_familiars_stone_form.json"
+    },
+    "wisp_tether" : {
+      "$ref:" : "abilities/wisp_tether.json"
+    },
+    "wisp_spirits" : {
+      "$ref:" : "abilities/wisp_spirits.json"
+    },
+    "wisp_overcharge" : {
+      "$ref:" : "abilities/wisp_overcharge.json"
+    },
+    "wisp_relocate" : {
+      "$ref:" : "abilities/wisp_relocate.json"
+    },
+    "wisp_tether_break" : {
+      "$ref:" : "abilities/wisp_tether_break.json"
+    },
+    "wisp_spirits_in" : {
+      "$ref:" : "abilities/wisp_spirits_in.json"
+    },
+    "wisp_spirits_out" : {
+      "$ref:" : "abilities/wisp_spirits_out.json"
+    },
+    "slark_dark_pact" : {
+      "$ref:" : "abilities/slark_dark_pact.json"
+    },
+    "slark_pounce" : {
+      "$ref:" : "abilities/slark_pounce.json"
+    },
+    "slark_essence_shift" : {
+      "$ref:" : "abilities/slark_essence_shift.json"
+    },
+    "slark_shadow_dance" : {
+      "$ref:" : "abilities/slark_shadow_dance.json"
+    },
+    "medusa_split_shot" : {
+      "$ref:" : "abilities/medusa_split_shot.json"
+    },
+    "medusa_mystic_snake" : {
+      "$ref:" : "abilities/medusa_mystic_snake.json"
+    },
+    "medusa_mana_shield" : {
+      "$ref:" : "abilities/medusa_mana_shield.json"
+    },
+    "medusa_stone_gaze" : {
+      "$ref:" : "abilities/medusa_stone_gaze.json"
+    },
+    "troll_warlord_berserkers_rage" : {
+      "$ref:" : "abilities/troll_warlord_berserkers_rage.json"
+    },
+    "troll_warlord_whirling_axes_ranged" : {
+      "$ref:" : "abilities/troll_warlord_whirling_axes_ranged.json"
+    },
+    "troll_warlord_whirling_axes_melee" : {
+      "$ref:" : "abilities/troll_warlord_whirling_axes_melee.json"
+    },
+    "troll_warlord_fervor" : {
+      "$ref:" : "abilities/troll_warlord_fervor.json"
+    },
+    "troll_warlord_battle_trance" : {
+      "$ref:" : "abilities/troll_warlord_battle_trance.json"
+    },
+    "centaur_hoof_stomp" : {
+      "$ref:" : "abilities/centaur_hoof_stomp.json"
+    },
+    "centaur_double_edge" : {
+      "$ref:" : "abilities/centaur_double_edge.json"
+    },
+    "centaur_return" : {
+      "$ref:" : "abilities/centaur_return.json"
+    },
+    "centaur_stampede" : {
+      "$ref:" : "abilities/centaur_stampede.json"
+    },
+    "magnataur_shockwave" : {
+      "$ref:" : "abilities/magnataur_shockwave.json"
+    },
+    "magnataur_empower" : {
+      "$ref:" : "abilities/magnataur_empower.json"
+    },
+    "magnataur_skewer" : {
+      "$ref:" : "abilities/magnataur_skewer.json"
+    },
+    "magnataur_reverse_polarity" : {
+      "$ref:" : "abilities/magnataur_reverse_polarity.json"
+    },
+    "shredder_whirling_death" : {
+      "$ref:" : "abilities/shredder_whirling_death.json"
+    },
+    "shredder_timber_chain" : {
+      "$ref:" : "abilities/shredder_timber_chain.json"
+    },
+    "shredder_reactive_armor" : {
+      "$ref:" : "abilities/shredder_reactive_armor.json"
+    },
+    "shredder_chakram" : {
+      "$ref:" : "abilities/shredder_chakram.json"
+    },
+    "shredder_chakram_2" : {
+      "$ref:" : "abilities/shredder_chakram_2.json"
+    },
+    "shredder_return_chakram" : {
+      "$ref:" : "abilities/shredder_return_chakram.json"
+    },
+    "shredder_return_chakram_2" : {
+      "$ref:" : "abilities/shredder_return_chakram_2.json"
+    },
+    "bristleback_viscous_nasal_goo" : {
+      "$ref:" : "abilities/bristleback_viscous_nasal_goo.json"
+    },
+    "bristleback_quill_spray" : {
+      "$ref:" : "abilities/bristleback_quill_spray.json"
+    },
+    "bristleback_bristleback" : {
+      "$ref:" : "abilities/bristleback_bristleback.json"
+    },
+    "bristleback_warpath" : {
+      "$ref:" : "abilities/bristleback_warpath.json"
+    },
+    "tusk_ice_shards" : {
+      "$ref:" : "abilities/tusk_ice_shards.json"
+    },
+    "tusk_ice_shards_stop" : {
+      "$ref:" : "abilities/tusk_ice_shards_stop.json"
+    },
+    "tusk_snowball" : {
+      "$ref:" : "abilities/tusk_snowball.json"
+    },
+    "tusk_launch_snowball" : {
+      "$ref:" : "abilities/tusk_launch_snowball.json"
+    },
+    "tusk_frozen_sigil" : {
+      "$ref:" : "abilities/tusk_frozen_sigil.json"
+    },
+    "tusk_walrus_punch" : {
+      "$ref:" : "abilities/tusk_walrus_punch.json"
+    },
+    "tusk_walrus_kick" : {
+      "$ref:" : "abilities/tusk_walrus_kick.json"
+    },
+    "skywrath_mage_arcane_bolt" : {
+      "$ref:" : "abilities/skywrath_mage_arcane_bolt.json"
+    },
+    "skywrath_mage_concussive_shot" : {
+      "$ref:" : "abilities/skywrath_mage_concussive_shot.json"
+    },
+    "skywrath_mage_ancient_seal" : {
+      "$ref:" : "abilities/skywrath_mage_ancient_seal.json"
+    },
+    "skywrath_mage_mystic_flare" : {
+      "$ref:" : "abilities/skywrath_mage_mystic_flare.json"
+    },
+    "abaddon_death_coil" : {
+      "$ref:" : "abilities/abaddon_death_coil.json"
+    },
+    "abaddon_aphotic_shield" : {
+      "$ref:" : "abilities/abaddon_aphotic_shield.json"
+    },
+    "abaddon_frostmourne" : {
+      "$ref:" : "abilities/abaddon_frostmourne.json"
+    },
+    "abaddon_borrowed_time" : {
+      "$ref:" : "abilities/abaddon_borrowed_time.json"
+    },
+    "elder_titan_echo_stomp" : {
+      "$ref:" : "abilities/elder_titan_echo_stomp.json"
+    },
+    "elder_titan_echo_stomp_spirit" : {
+      "$ref:" : "abilities/elder_titan_echo_stomp_spirit.json"
+    },
+    "elder_titan_ancestral_spirit" : {
+      "$ref:" : "abilities/elder_titan_ancestral_spirit.json"
+    },
+    "elder_titan_return_spirit" : {
+      "$ref:" : "abilities/elder_titan_return_spirit.json"
+    },
+    "elder_titan_natural_order" : {
+      "$ref:" : "abilities/elder_titan_natural_order.json"
+    },
+    "elder_titan_natural_order_spirit" : {
+      "$ref:" : "abilities/elder_titan_natural_order_spirit.json"
+    },
+    "elder_titan_earth_splitter" : {
+      "$ref:" : "abilities/elder_titan_earth_splitter.json"
+    },
+    "legion_commander_overwhelming_odds" : {
+      "$ref:" : "abilities/legion_commander_overwhelming_odds.json"
+    },
+    "legion_commander_press_the_attack" : {
+      "$ref:" : "abilities/legion_commander_press_the_attack.json"
+    },
+    "legion_commander_moment_of_courage" : {
+      "$ref:" : "abilities/legion_commander_moment_of_courage.json"
+    },
+    "legion_commander_duel" : {
+      "$ref:" : "abilities/legion_commander_duel.json"
+    },
+    "ember_spirit_searing_chains" : {
+      "$ref:" : "abilities/ember_spirit_searing_chains.json"
+    },
+    "ember_spirit_sleight_of_fist" : {
+      "$ref:" : "abilities/ember_spirit_sleight_of_fist.json"
+    },
+    "ember_spirit_flame_guard" : {
+      "$ref:" : "abilities/ember_spirit_flame_guard.json"
+    },
+    "ember_spirit_fire_remnant" : {
+      "$ref:" : "abilities/ember_spirit_fire_remnant.json"
+    },
+    "ember_spirit_activate_fire_remnant" : {
+      "$ref:" : "abilities/ember_spirit_activate_fire_remnant.json"
+    },
+    "earth_spirit_boulder_smash" : {
+      "$ref:" : "abilities/earth_spirit_boulder_smash.json"
+    },
+    "earth_spirit_rolling_boulder" : {
+      "$ref:" : "abilities/earth_spirit_rolling_boulder.json"
+    },
+    "earth_spirit_geomagnetic_grip" : {
+      "$ref:" : "abilities/earth_spirit_geomagnetic_grip.json"
+    },
+    "earth_spirit_stone_caller" : {
+      "$ref:" : "abilities/earth_spirit_stone_caller.json"
+    },
+    "earth_spirit_petrify" : {
+      "$ref:" : "abilities/earth_spirit_petrify.json"
+    },
+    "earth_spirit_magnetize" : {
+      "$ref:" : "abilities/earth_spirit_magnetize.json"
+    },
+    "abyssal_underlord_firestorm" : {
+      "$ref:" : "abilities/abyssal_underlord_firestorm.json"
+    },
+    "abyssal_underlord_pit_of_malice" : {
+      "$ref:" : "abilities/abyssal_underlord_pit_of_malice.json"
+    },
+    "abyssal_underlord_atrophy_aura" : {
+      "$ref:" : "abilities/abyssal_underlord_atrophy_aura.json"
+    },
+    "abyssal_underlord_dark_rift" : {
+      "$ref:" : "abilities/abyssal_underlord_dark_rift.json"
+    },
+    "abyssal_underlord_cancel_dark_rift" : {
+      "$ref:" : "abilities/abyssal_underlord_cancel_dark_rift.json"
+    },
+    "terrorblade_reflection" : {
+      "$ref:" : "abilities/terrorblade_reflection.json"
+    },
+    "terrorblade_conjure_image" : {
+      "$ref:" : "abilities/terrorblade_conjure_image.json"
+    },
+    "terrorblade_metamorphosis" : {
+      "$ref:" : "abilities/terrorblade_metamorphosis.json"
+    },
+    "terrorblade_sunder" : {
+      "$ref:" : "abilities/terrorblade_sunder.json"
+    },
+    "phoenix_icarus_dive" : {
+      "$ref:" : "abilities/phoenix_icarus_dive.json"
+    },
+    "phoenix_icarus_dive_stop" : {
+      "$ref:" : "abilities/phoenix_icarus_dive_stop.json"
+    },
+    "phoenix_fire_spirits" : {
+      "$ref:" : "abilities/phoenix_fire_spirits.json"
+    },
+    "phoenix_sun_ray" : {
+      "$ref:" : "abilities/phoenix_sun_ray.json"
+    },
+    "phoenix_sun_ray_stop" : {
+      "$ref:" : "abilities/phoenix_sun_ray_stop.json"
+    },
+    "phoenix_sun_ray_toggle_move" : {
+      "$ref:" : "abilities/phoenix_sun_ray_toggle_move.json"
+    },
+    "phoenix_supernova" : {
+      "$ref:" : "abilities/phoenix_supernova.json"
+    },
+    "phoenix_launch_fire_spirit" : {
+      "$ref:" : "abilities/phoenix_launch_fire_spirit.json"
+    },
+    "oracle_fortunes_end" : {
+      "$ref:" : "abilities/oracle_fortunes_end.json"
+    },
+    "oracle_fates_edict" : {
+      "$ref:" : "abilities/oracle_fates_edict.json"
+    },
+    "oracle_purifying_flames" : {
+      "$ref:" : "abilities/oracle_purifying_flames.json"
+    },
+    "oracle_false_promise" : {
+      "$ref:" : "abilities/oracle_false_promise.json"
+    },
+    "broodmother_spin_web_destroy" : {
+      "$ref:" : "abilities/broodmother_spin_web_destroy.json"
+    },
+    "monkey_king_boundless_strike" : {
+      "$ref:" : "abilities/monkey_king_boundless_strike.json"
+    },
+    "monkey_king_mischief" : {
+      "$ref:" : "abilities/monkey_king_mischief.json"
+    },
+    "monkey_king_untransform" : {
+      "$ref:" : "abilities/monkey_king_untransform.json"
+    },
+    "monkey_king_tree_dance" : {
+      "$ref:" : "abilities/monkey_king_tree_dance.json"
+    },
+    "monkey_king_primal_spring" : {
+      "$ref:" : "abilities/monkey_king_primal_spring.json"
+    },
+    "monkey_king_primal_spring_early" : {
+      "$ref:" : "abilities/monkey_king_primal_spring_early.json"
+    },
+    "monkey_king_wukongs_command" : {
+      "$ref:" : "abilities/monkey_king_wukongs_command.json"
+    },
+    "monkey_king_jingu_mastery" : {
+      "$ref:" : "abilities/monkey_king_jingu_mastery.json"
+    },
+    "backdoor_protection" : {
+      "$ref:" : "abilities/backdoor_protection.json"
+    },
+    "backdoor_protection_in_base" : {
+      "$ref:" : "abilities/backdoor_protection_in_base.json"
+    },
+    "filler_ability" : {
+      "$ref:" : "abilities/filler_ability.json"
+    },
+    "necronomicon_warrior_last_will" : {
+      "$ref:" : "abilities/necronomicon_warrior_last_will.json"
+    },
+    "necronomicon_warrior_sight" : {
+      "$ref:" : "abilities/necronomicon_warrior_sight.json"
+    },
+    "necronomicon_warrior_mana_burn" : {
+      "$ref:" : "abilities/necronomicon_warrior_mana_burn.json"
+    },
+    "necronomicon_archer_mana_burn" : {
+      "$ref:" : "abilities/necronomicon_archer_mana_burn.json"
+    },
+    "necronomicon_archer_aoe" : {
+      "$ref:" : "abilities/necronomicon_archer_aoe.json"
+    },
+    "courier_return_to_base" : {
+      "$ref:" : "abilities/courier_return_to_base.json"
+    },
+    "courier_go_to_secretshop" : {
+      "$ref:" : "abilities/courier_go_to_secretshop.json"
+    },
+    "courier_transfer_items" : {
+      "$ref:" : "abilities/courier_transfer_items.json"
+    },
+    "courier_transfer_items_to_other_player" : {
+      "$ref:" : "abilities/courier_transfer_items_to_other_player.json"
+    },
+    "courier_return_stash_items" : {
+      "$ref:" : "abilities/courier_return_stash_items.json"
+    },
+    "courier_take_stash_items" : {
+      "$ref:" : "abilities/courier_take_stash_items.json"
+    },
+    "courier_take_stash_and_transfer_items" : {
+      "$ref:" : "abilities/courier_take_stash_and_transfer_items.json"
+    },
+    "courier_shield" : {
+      "$ref:" : "abilities/courier_shield.json"
+    },
+    "courier_burst" : {
+      "$ref:" : "abilities/courier_burst.json"
+    },
+    "courier_morph" : {
+      "$ref:" : "abilities/courier_morph.json"
+    },
+    "courier_go_to_enemy_secretshop" : {
+      "$ref:" : "abilities/courier_go_to_enemy_secretshop.json"
+    },
+    "courier_go_to_sideshop" : {
+      "$ref:" : "abilities/courier_go_to_sideshop.json"
+    },
+    "courier_go_to_sideshop2" : {
+      "$ref:" : "abilities/courier_go_to_sideshop2.json"
+    },
+    "roshan_spell_block" : {
+      "$ref:" : "abilities/roshan_spell_block.json"
+    },
+    "roshan_halloween_spell_block" : {
+      "$ref:" : "abilities/roshan_halloween_spell_block.json"
+    },
+    "roshan_bash" : {
+      "$ref:" : "abilities/roshan_bash.json"
+    },
+    "roshan_slam" : {
+      "$ref:" : "abilities/roshan_slam.json"
+    },
+    "roshan_inherent_buffs" : {
+      "$ref:" : "abilities/roshan_inherent_buffs.json"
+    },
+    "roshan_devotion" : {
+      "$ref:" : "abilities/roshan_devotion.json"
+    },
+    "kobold_taskmaster_speed_aura" : {
+      "$ref:" : "abilities/kobold_taskmaster_speed_aura.json"
+    },
+    "centaur_khan_endurance_aura" : {
+      "$ref:" : "abilities/centaur_khan_endurance_aura.json"
+    },
+    "centaur_khan_war_stomp" : {
+      "$ref:" : "abilities/centaur_khan_war_stomp.json"
+    },
+    "spawnlord_master_stomp" : {
+      "$ref:" : "abilities/spawnlord_master_stomp.json"
+    },
+    "spawnlord_master_freeze" : {
+      "$ref:" : "abilities/spawnlord_master_freeze.json"
+    },
+    "gnoll_assassin_envenomed_weapon" : {
+      "$ref:" : "abilities/gnoll_assassin_envenomed_weapon.json"
+    },
+    "ghost_frost_attack" : {
+      "$ref:" : "abilities/ghost_frost_attack.json"
+    },
+    "polar_furbolg_ursa_warrior_thunder_clap" : {
+      "$ref:" : "abilities/polar_furbolg_ursa_warrior_thunder_clap.json"
+    },
+    "neutral_spell_immunity" : {
+      "$ref:" : "abilities/neutral_spell_immunity.json"
+    },
+    "ogre_magi_frost_armor" : {
+      "$ref:" : "abilities/ogre_magi_frost_armor.json"
+    },
+    "dark_troll_warlord_ensnare" : {
+      "$ref:" : "abilities/dark_troll_warlord_ensnare.json"
+    },
+    "dark_troll_warlord_raise_dead" : {
+      "$ref:" : "abilities/dark_troll_warlord_raise_dead.json"
+    },
+    "mud_golem_rock_destroy" : {
+      "$ref:" : "abilities/mud_golem_rock_destroy.json"
+    },
+    "mud_golem_hurl_boulder" : {
+      "$ref:" : "abilities/mud_golem_hurl_boulder.json"
+    },
+    "giant_wolf_critical_strike" : {
+      "$ref:" : "abilities/giant_wolf_critical_strike.json"
+    },
+    "alpha_wolf_critical_strike" : {
+      "$ref:" : "abilities/alpha_wolf_critical_strike.json"
+    },
+    "alpha_wolf_command_aura" : {
+      "$ref:" : "abilities/alpha_wolf_command_aura.json"
+    },
+    "tornado_tempest" : {
+      "$ref:" : "abilities/tornado_tempest.json"
+    },
+    "enraged_wildkin_tornado" : {
+      "$ref:" : "abilities/enraged_wildkin_tornado.json"
+    },
+    "enraged_wildkin_toughness_aura" : {
+      "$ref:" : "abilities/enraged_wildkin_toughness_aura.json"
+    },
+    "granite_golem_hp_aura" : {
+      "$ref:" : "abilities/granite_golem_hp_aura.json"
+    },
+    "granite_golem_bash" : {
+      "$ref:" : "abilities/granite_golem_bash.json"
+    },
+    "satyr_trickster_purge" : {
+      "$ref:" : "abilities/satyr_trickster_purge.json"
+    },
+    "satyr_soulstealer_mana_burn" : {
+      "$ref:" : "abilities/satyr_soulstealer_mana_burn.json"
+    },
+    "satyr_hellcaller_shockwave" : {
+      "$ref:" : "abilities/satyr_hellcaller_shockwave.json"
+    },
+    "ancient_golem_rockslide" : {
+      "$ref:" : "abilities/ancient_golem_rockslide.json"
+    },
+    "satyr_hellcaller_unholy_aura" : {
+      "$ref:" : "abilities/satyr_hellcaller_unholy_aura.json"
+    },
+    "forest_troll_high_priest_heal" : {
+      "$ref:" : "abilities/forest_troll_high_priest_heal.json"
+    },
+    "harpy_storm_chain_lightning" : {
+      "$ref:" : "abilities/harpy_storm_chain_lightning.json"
+    },
+    "big_thunder_lizard_wardrums_aura" : {
+      "$ref:" : "abilities/big_thunder_lizard_wardrums_aura.json"
+    },
+    "black_dragon_dragonhide_aura" : {
+      "$ref:" : "abilities/black_dragon_dragonhide_aura.json"
+    },
+    "black_dragon_fireball" : {
+      "$ref:" : "abilities/black_dragon_fireball.json"
+    },
+    "mudgolem_cloak_aura" : {
+      "$ref:" : "abilities/mudgolem_cloak_aura.json"
+    },
+    "black_dragon_splash_attack" : {
+      "$ref:" : "abilities/black_dragon_splash_attack.json"
+    },
+    "blue_dragonspawn_sorcerer_evasion" : {
+      "$ref:" : "abilities/blue_dragonspawn_sorcerer_evasion.json"
+    },
+    "blue_dragonspawn_overseer_evasion" : {
+      "$ref:" : "abilities/blue_dragonspawn_overseer_evasion.json"
+    },
+    "spawnlord_aura" : {
+      "$ref:" : "abilities/spawnlord_aura.json"
+    },
+    "spawnlord_master_bash" : {
+      "$ref:" : "abilities/spawnlord_master_bash.json"
+    },
+    "blue_dragonspawn_overseer_devotion_aura" : {
+      "$ref:" : "abilities/blue_dragonspawn_overseer_devotion_aura.json"
+    },
+    "big_thunder_lizard_slam" : {
+      "$ref:" : "abilities/big_thunder_lizard_slam.json"
+    },
+    "big_thunder_lizard_frenzy" : {
+      "$ref:" : "abilities/big_thunder_lizard_frenzy.json"
+    },
+    "forest_troll_high_priest_mana_aura" : {
+      "$ref:" : "abilities/forest_troll_high_priest_mana_aura.json"
+    },
+    "roshan_halloween_candy" : {
+      "$ref:" : "abilities/roshan_halloween_candy.json"
+    },
+    "roshan_halloween_angry" : {
+      "$ref:" : "abilities/roshan_halloween_angry.json"
+    },
+    "roshan_halloween_wave_of_force" : {
+      "$ref:" : "abilities/roshan_halloween_wave_of_force.json"
+    },
+    "roshan_halloween_greater_bash" : {
+      "$ref:" : "abilities/roshan_halloween_greater_bash.json"
+    },
+    "roshan_halloween_toss" : {
+      "$ref:" : "abilities/roshan_halloween_toss.json"
+    },
+    "roshan_halloween_shell" : {
+      "$ref:" : "abilities/roshan_halloween_shell.json"
+    },
+    "roshan_halloween_apocalypse" : {
+      "$ref:" : "abilities/roshan_halloween_apocalypse.json"
+    },
+    "roshan_halloween_burn" : {
+      "$ref:" : "abilities/roshan_halloween_burn.json"
+    },
+    "roshan_halloween_levels" : {
+      "$ref:" : "abilities/roshan_halloween_levels.json"
+    },
+    "roshan_halloween_summon" : {
+      "$ref:" : "abilities/roshan_halloween_summon.json"
+    },
+    "roshan_halloween_fireball" : {
+      "$ref:" : "abilities/roshan_halloween_fireball.json"
+    },
+    "greevil_magic_missile" : {
+      "$ref:" : "abilities/greevil_magic_missile.json"
+    },
+    "greevil_cold_snap" : {
+      "$ref:" : "abilities/greevil_cold_snap.json"
+    },
+    "greevil_decrepify" : {
+      "$ref:" : "abilities/greevil_decrepify.json"
+    },
+    "greevil_diabolic_edict" : {
+      "$ref:" : "abilities/greevil_diabolic_edict.json"
+    },
+    "greevil_maledict" : {
+      "$ref:" : "abilities/greevil_maledict.json"
+    },
+    "greevil_shadow_strike" : {
+      "$ref:" : "abilities/greevil_shadow_strike.json"
+    },
+    "greevil_laguna_blade" : {
+      "$ref:" : "abilities/greevil_laguna_blade.json"
+    },
+    "greevil_poison_nova" : {
+      "$ref:" : "abilities/greevil_poison_nova.json"
+    },
+    "greevil_ice_wall" : {
+      "$ref:" : "abilities/greevil_ice_wall.json"
+    },
+    "greevil_fatal_bonds" : {
+      "$ref:" : "abilities/greevil_fatal_bonds.json"
+    },
+    "greevil_blade_fury" : {
+      "$ref:" : "abilities/greevil_blade_fury.json"
+    },
+    "greevil_phantom_strike" : {
+      "$ref:" : "abilities/greevil_phantom_strike.json"
+    },
+    "greevil_time_lock" : {
+      "$ref:" : "abilities/greevil_time_lock.json"
+    },
+    "greevil_shadow_wave" : {
+      "$ref:" : "abilities/greevil_shadow_wave.json"
+    },
+    "greevil_leech_seed" : {
+      "$ref:" : "abilities/greevil_leech_seed.json"
+    },
+    "greevil_echo_slam" : {
+      "$ref:" : "abilities/greevil_echo_slam.json"
+    },
+    "greevil_natures_attendants" : {
+      "$ref:" : "abilities/greevil_natures_attendants.json"
+    },
+    "greevil_bloodlust" : {
+      "$ref:" : "abilities/greevil_bloodlust.json"
+    },
+    "greevil_purification" : {
+      "$ref:" : "abilities/greevil_purification.json"
+    },
+    "greevil_flesh_golem" : {
+      "$ref:" : "abilities/greevil_flesh_golem.json"
+    },
+    "greevil_hook" : {
+      "$ref:" : "abilities/greevil_hook.json"
+    },
+    "greevil_rot" : {
+      "$ref:" : "abilities/greevil_rot.json"
+    },
+    "greevil_black_hole" : {
+      "$ref:" : "abilities/greevil_black_hole.json"
+    },
+    "greevil_miniboss_black_nightmare" : {
+      "$ref:" : "abilities/greevil_miniboss_black_nightmare.json"
+    },
+    "greevil_miniboss_black_brain_sap" : {
+      "$ref:" : "abilities/greevil_miniboss_black_brain_sap.json"
+    },
+    "greevil_miniboss_blue_cold_feet" : {
+      "$ref:" : "abilities/greevil_miniboss_blue_cold_feet.json"
+    },
+    "greevil_miniboss_blue_ice_vortex" : {
+      "$ref:" : "abilities/greevil_miniboss_blue_ice_vortex.json"
+    },
+    "greevil_miniboss_red_earthshock" : {
+      "$ref:" : "abilities/greevil_miniboss_red_earthshock.json"
+    },
+    "greevil_miniboss_red_overpower" : {
+      "$ref:" : "abilities/greevil_miniboss_red_overpower.json"
+    },
+    "greevil_miniboss_yellow_ion_shell" : {
+      "$ref:" : "abilities/greevil_miniboss_yellow_ion_shell.json"
+    },
+    "greevil_miniboss_yellow_surge" : {
+      "$ref:" : "abilities/greevil_miniboss_yellow_surge.json"
+    },
+    "greevil_miniboss_white_purification" : {
+      "$ref:" : "abilities/greevil_miniboss_white_purification.json"
+    },
+    "greevil_miniboss_white_degen_aura" : {
+      "$ref:" : "abilities/greevil_miniboss_white_degen_aura.json"
+    },
+    "greevil_miniboss_green_living_armor" : {
+      "$ref:" : "abilities/greevil_miniboss_green_living_armor.json"
+    },
+    "greevil_miniboss_green_overgrowth" : {
+      "$ref:" : "abilities/greevil_miniboss_green_overgrowth.json"
+    },
+    "greevil_miniboss_orange_dragon_slave" : {
+      "$ref:" : "abilities/greevil_miniboss_orange_dragon_slave.json"
+    },
+    "greevil_miniboss_orange_light_strike_array" : {
+      "$ref:" : "abilities/greevil_miniboss_orange_light_strike_array.json"
+    },
+    "greevil_miniboss_purple_venomous_gale" : {
+      "$ref:" : "abilities/greevil_miniboss_purple_venomous_gale.json"
+    },
+    "greevil_miniboss_purple_plague_ward" : {
+      "$ref:" : "abilities/greevil_miniboss_purple_plague_ward.json"
+    },
+    "greevil_miniboss_sight" : {
+      "$ref:" : "abilities/greevil_miniboss_sight.json"
+    },
+    "throw_snowball" : {
+      "$ref:" : "abilities/throw_snowball.json"
+    },
+    "throw_coal" : {
+      "$ref:" : "abilities/throw_coal.json"
+    },
+    "healing_campfire" : {
+      "$ref:" : "abilities/healing_campfire.json"
+    },
+    "shoot_firework" : {
+      "$ref:" : "abilities/shoot_firework.json"
+    },
+    "techies_land_mines" : {
+      "$ref:" : "abilities/techies_land_mines.json"
+    },
+    "techies_stasis_trap" : {
+      "$ref:" : "abilities/techies_stasis_trap.json"
+    },
+    "techies_suicide" : {
+      "$ref:" : "abilities/techies_suicide.json"
+    },
+    "techies_remote_mines" : {
+      "$ref:" : "abilities/techies_remote_mines.json"
+    },
+    "techies_focused_detonate" : {
+      "$ref:" : "abilities/techies_focused_detonate.json"
+    },
+    "techies_remote_mines_self_detonate" : {
+      "$ref:" : "abilities/techies_remote_mines_self_detonate.json"
+    },
+    "techies_minefield_sign" : {
+      "$ref:" : "abilities/techies_minefield_sign.json"
+    },
+    "cny_beast_force_attack" : {
+      "$ref:" : "abilities/cny_beast_force_attack.json"
+    },
+    "cny2015_sonic_wave" : {
+      "$ref:" : "abilities/cny2015_sonic_wave.json"
+    },
+    "cny2015_black_hole" : {
+      "$ref:" : "abilities/cny2015_black_hole.json"
+    },
+    "cny2015_chronosphere" : {
+      "$ref:" : "abilities/cny2015_chronosphere.json"
+    },
+    "winter_wyvern_arctic_burn" : {
+      "$ref:" : "abilities/winter_wyvern_arctic_burn.json"
+    },
+    "winter_wyvern_splinter_blast" : {
+      "$ref:" : "abilities/winter_wyvern_splinter_blast.json"
+    },
+    "winter_wyvern_cold_embrace" : {
+      "$ref:" : "abilities/winter_wyvern_cold_embrace.json"
+    },
+    "winter_wyvern_winters_curse" : {
+      "$ref:" : "abilities/winter_wyvern_winters_curse.json"
+    },
+    "cny_beast_teleport" : {
+      "$ref:" : "abilities/cny_beast_teleport.json"
+    },
+    "arc_warden_flux" : {
+      "$ref:" : "abilities/arc_warden_flux.json"
+    },
+    "arc_warden_magnetic_field" : {
+      "$ref:" : "abilities/arc_warden_magnetic_field.json"
+    },
+    "arc_warden_spark_wraith" : {
+      "$ref:" : "abilities/arc_warden_spark_wraith.json"
+    },
+    "arc_warden_tempest_double" : {
+      "$ref:" : "abilities/arc_warden_tempest_double.json"
+    },
+    "special_bonus_undefined" : {
+      "$ref:" : "abilities/special_bonus_undefined.json"
+    },
+    "special_bonus_hp_100" : {
+      "$ref:" : "abilities/special_bonus_hp_100.json"
+    },
+    "special_bonus_hp_125" : {
+      "$ref:" : "abilities/special_bonus_hp_125.json"
+    },
+    "special_bonus_hp_150" : {
+      "$ref:" : "abilities/special_bonus_hp_150.json"
+    },
+    "special_bonus_hp_175" : {
+      "$ref:" : "abilities/special_bonus_hp_175.json"
+    },
+    "special_bonus_hp_200" : {
+      "$ref:" : "abilities/special_bonus_hp_200.json"
+    },
+    "special_bonus_hp_225" : {
+      "$ref:" : "abilities/special_bonus_hp_225.json"
+    },
+    "special_bonus_hp_250" : {
+      "$ref:" : "abilities/special_bonus_hp_250.json"
+    },
+    "special_bonus_hp_275" : {
+      "$ref:" : "abilities/special_bonus_hp_275.json"
+    },
+    "special_bonus_hp_300" : {
+      "$ref:" : "abilities/special_bonus_hp_300.json"
+    },
+    "special_bonus_hp_325" : {
+      "$ref:" : "abilities/special_bonus_hp_325.json"
+    },
+    "special_bonus_hp_350" : {
+      "$ref:" : "abilities/special_bonus_hp_350.json"
+    },
+    "special_bonus_hp_400" : {
+      "$ref:" : "abilities/special_bonus_hp_400.json"
+    },
+    "special_bonus_hp_500" : {
+      "$ref:" : "abilities/special_bonus_hp_500.json"
+    },
+    "special_bonus_hp_600" : {
+      "$ref:" : "abilities/special_bonus_hp_600.json"
+    },
+    "special_bonus_hp_700" : {
+      "$ref:" : "abilities/special_bonus_hp_700.json"
+    },
+    "special_bonus_mp_100" : {
+      "$ref:" : "abilities/special_bonus_mp_100.json"
+    },
+    "special_bonus_mp_125" : {
+      "$ref:" : "abilities/special_bonus_mp_125.json"
+    },
+    "special_bonus_mp_150" : {
+      "$ref:" : "abilities/special_bonus_mp_150.json"
+    },
+    "special_bonus_mp_175" : {
+      "$ref:" : "abilities/special_bonus_mp_175.json"
+    },
+    "special_bonus_mp_200" : {
+      "$ref:" : "abilities/special_bonus_mp_200.json"
+    },
+    "special_bonus_mp_225" : {
+      "$ref:" : "abilities/special_bonus_mp_225.json"
+    },
+    "special_bonus_mp_250" : {
+      "$ref:" : "abilities/special_bonus_mp_250.json"
+    },
+    "special_bonus_mp_300" : {
+      "$ref:" : "abilities/special_bonus_mp_300.json"
+    },
+    "special_bonus_mp_350" : {
+      "$ref:" : "abilities/special_bonus_mp_350.json"
+    },
+    "special_bonus_mp_400" : {
+      "$ref:" : "abilities/special_bonus_mp_400.json"
+    },
+    "special_bonus_mp_500" : {
+      "$ref:" : "abilities/special_bonus_mp_500.json"
+    },
+    "special_bonus_mp_600" : {
+      "$ref:" : "abilities/special_bonus_mp_600.json"
+    },
+    "special_bonus_attack_speed_10" : {
+      "$ref:" : "abilities/special_bonus_attack_speed_10.json"
+    },
+    "special_bonus_attack_speed_15" : {
+      "$ref:" : "abilities/special_bonus_attack_speed_15.json"
+    },
+    "special_bonus_attack_speed_20" : {
+      "$ref:" : "abilities/special_bonus_attack_speed_20.json"
+    },
+    "special_bonus_attack_speed_25" : {
+      "$ref:" : "abilities/special_bonus_attack_speed_25.json"
+    },
+    "special_bonus_attack_speed_30" : {
+      "$ref:" : "abilities/special_bonus_attack_speed_30.json"
+    },
+    "special_bonus_attack_speed_35" : {
+      "$ref:" : "abilities/special_bonus_attack_speed_35.json"
+    },
+    "special_bonus_attack_speed_40" : {
+      "$ref:" : "abilities/special_bonus_attack_speed_40.json"
+    },
+    "special_bonus_attack_speed_45" : {
+      "$ref:" : "abilities/special_bonus_attack_speed_45.json"
+    },
+    "special_bonus_attack_speed_50" : {
+      "$ref:" : "abilities/special_bonus_attack_speed_50.json"
+    },
+    "special_bonus_attack_speed_60" : {
+      "$ref:" : "abilities/special_bonus_attack_speed_60.json"
+    },
+    "special_bonus_attack_speed_70" : {
+      "$ref:" : "abilities/special_bonus_attack_speed_70.json"
+    },
+    "special_bonus_attack_speed_80" : {
+      "$ref:" : "abilities/special_bonus_attack_speed_80.json"
+    },
+    "special_bonus_attack_speed_100" : {
+      "$ref:" : "abilities/special_bonus_attack_speed_100.json"
+    },
+    "special_bonus_hp_regen_4" : {
+      "$ref:" : "abilities/special_bonus_hp_regen_4.json"
+    },
+    "special_bonus_hp_regen_5" : {
+      "$ref:" : "abilities/special_bonus_hp_regen_5.json"
+    },
+    "special_bonus_hp_regen_6" : {
+      "$ref:" : "abilities/special_bonus_hp_regen_6.json"
+    },
+    "special_bonus_hp_regen_7" : {
+      "$ref:" : "abilities/special_bonus_hp_regen_7.json"
+    },
+    "special_bonus_hp_regen_8" : {
+      "$ref:" : "abilities/special_bonus_hp_regen_8.json"
+    },
+    "special_bonus_hp_regen_10" : {
+      "$ref:" : "abilities/special_bonus_hp_regen_10.json"
+    },
+    "special_bonus_hp_regen_14" : {
+      "$ref:" : "abilities/special_bonus_hp_regen_14.json"
+    },
+    "special_bonus_hp_regen_15" : {
+      "$ref:" : "abilities/special_bonus_hp_regen_15.json"
+    },
+    "special_bonus_hp_regen_20" : {
+      "$ref:" : "abilities/special_bonus_hp_regen_20.json"
+    },
+    "special_bonus_hp_regen_25" : {
+      "$ref:" : "abilities/special_bonus_hp_regen_25.json"
+    },
+    "special_bonus_hp_regen_30" : {
+      "$ref:" : "abilities/special_bonus_hp_regen_30.json"
+    },
+    "special_bonus_hp_regen_40" : {
+      "$ref:" : "abilities/special_bonus_hp_regen_40.json"
+    },
+    "special_bonus_hp_regen_50" : {
+      "$ref:" : "abilities/special_bonus_hp_regen_50.json"
+    },
+    "special_bonus_mp_regen_1" : {
+      "$ref:" : "abilities/special_bonus_mp_regen_1.json"
+    },
+    "special_bonus_mp_regen_2" : {
+      "$ref:" : "abilities/special_bonus_mp_regen_2.json"
+    },
+    "special_bonus_mp_regen_4" : {
+      "$ref:" : "abilities/special_bonus_mp_regen_4.json"
+    },
+    "special_bonus_mp_regen_5" : {
+      "$ref:" : "abilities/special_bonus_mp_regen_5.json"
+    },
+    "special_bonus_mp_regen_3" : {
+      "$ref:" : "abilities/special_bonus_mp_regen_3.json"
+    },
+    "special_bonus_mp_regen_6" : {
+      "$ref:" : "abilities/special_bonus_mp_regen_6.json"
+    },
+    "special_bonus_mp_regen_8" : {
+      "$ref:" : "abilities/special_bonus_mp_regen_8.json"
+    },
+    "special_bonus_mp_regen_10" : {
+      "$ref:" : "abilities/special_bonus_mp_regen_10.json"
+    },
+    "special_bonus_mp_regen_14" : {
+      "$ref:" : "abilities/special_bonus_mp_regen_14.json"
+    },
+    "special_bonus_movement_speed_10" : {
+      "$ref:" : "abilities/special_bonus_movement_speed_10.json"
+    },
+    "special_bonus_movement_speed_15" : {
+      "$ref:" : "abilities/special_bonus_movement_speed_15.json"
+    },
+    "special_bonus_movement_speed_20" : {
+      "$ref:" : "abilities/special_bonus_movement_speed_20.json"
+    },
+    "special_bonus_movement_speed_25" : {
+      "$ref:" : "abilities/special_bonus_movement_speed_25.json"
+    },
+    "special_bonus_movement_speed_30" : {
+      "$ref:" : "abilities/special_bonus_movement_speed_30.json"
+    },
+    "special_bonus_movement_speed_35" : {
+      "$ref:" : "abilities/special_bonus_movement_speed_35.json"
+    },
+    "special_bonus_movement_speed_40" : {
+      "$ref:" : "abilities/special_bonus_movement_speed_40.json"
+    },
+    "special_bonus_movement_speed_45" : {
+      "$ref:" : "abilities/special_bonus_movement_speed_45.json"
+    },
+    "special_bonus_movement_speed_50" : {
+      "$ref:" : "abilities/special_bonus_movement_speed_50.json"
+    },
+    "special_bonus_movement_speed_60" : {
+      "$ref:" : "abilities/special_bonus_movement_speed_60.json"
+    },
+    "special_bonus_movement_speed_75" : {
+      "$ref:" : "abilities/special_bonus_movement_speed_75.json"
+    },
+    "special_bonus_movement_speed_100" : {
+      "$ref:" : "abilities/special_bonus_movement_speed_100.json"
+    },
+    "special_bonus_lifesteal_10" : {
+      "$ref:" : "abilities/special_bonus_lifesteal_10.json"
+    },
+    "special_bonus_lifesteal_15" : {
+      "$ref:" : "abilities/special_bonus_lifesteal_15.json"
+    },
+    "special_bonus_lifesteal_20" : {
+      "$ref:" : "abilities/special_bonus_lifesteal_20.json"
+    },
+    "special_bonus_lifesteal_25" : {
+      "$ref:" : "abilities/special_bonus_lifesteal_25.json"
+    },
+    "special_bonus_lifesteal_30" : {
+      "$ref:" : "abilities/special_bonus_lifesteal_30.json"
+    },
+    "special_bonus_all_stats_4" : {
+      "$ref:" : "abilities/special_bonus_all_stats_4.json"
+    },
+    "special_bonus_all_stats_5" : {
+      "$ref:" : "abilities/special_bonus_all_stats_5.json"
+    },
+    "special_bonus_all_stats_6" : {
+      "$ref:" : "abilities/special_bonus_all_stats_6.json"
+    },
+    "special_bonus_all_stats_7" : {
+      "$ref:" : "abilities/special_bonus_all_stats_7.json"
+    },
+    "special_bonus_all_stats_8" : {
+      "$ref:" : "abilities/special_bonus_all_stats_8.json"
+    },
+    "special_bonus_all_stats_10" : {
+      "$ref:" : "abilities/special_bonus_all_stats_10.json"
+    },
+    "special_bonus_all_stats_12" : {
+      "$ref:" : "abilities/special_bonus_all_stats_12.json"
+    },
+    "special_bonus_all_stats_14" : {
+      "$ref:" : "abilities/special_bonus_all_stats_14.json"
+    },
+    "special_bonus_all_stats_15" : {
+      "$ref:" : "abilities/special_bonus_all_stats_15.json"
+    },
+    "special_bonus_all_stats_20" : {
+      "$ref:" : "abilities/special_bonus_all_stats_20.json"
+    },
+    "special_bonus_intelligence_6" : {
+      "$ref:" : "abilities/special_bonus_intelligence_6.json"
+    },
+    "special_bonus_intelligence_7" : {
+      "$ref:" : "abilities/special_bonus_intelligence_7.json"
+    },
+    "special_bonus_intelligence_8" : {
+      "$ref:" : "abilities/special_bonus_intelligence_8.json"
+    },
+    "special_bonus_intelligence_10" : {
+      "$ref:" : "abilities/special_bonus_intelligence_10.json"
+    },
+    "special_bonus_intelligence_12" : {
+      "$ref:" : "abilities/special_bonus_intelligence_12.json"
+    },
+    "special_bonus_intelligence_13" : {
+      "$ref:" : "abilities/special_bonus_intelligence_13.json"
+    },
+    "special_bonus_intelligence_15" : {
+      "$ref:" : "abilities/special_bonus_intelligence_15.json"
+    },
+    "special_bonus_intelligence_16" : {
+      "$ref:" : "abilities/special_bonus_intelligence_16.json"
+    },
+    "special_bonus_intelligence_20" : {
+      "$ref:" : "abilities/special_bonus_intelligence_20.json"
+    },
+    "special_bonus_intelligence_25" : {
+      "$ref:" : "abilities/special_bonus_intelligence_25.json"
+    },
+    "special_bonus_intelligence_30" : {
+      "$ref:" : "abilities/special_bonus_intelligence_30.json"
+    },
+    "special_bonus_intelligence_35" : {
+      "$ref:" : "abilities/special_bonus_intelligence_35.json"
+    },
+    "special_bonus_spell_lifesteal_10" : {
+      "$ref:" : "abilities/special_bonus_spell_lifesteal_10.json"
+    },
+    "special_bonus_spell_lifesteal_13" : {
+      "$ref:" : "abilities/special_bonus_spell_lifesteal_13.json"
+    },
+    "special_bonus_spell_lifesteal_15" : {
+      "$ref:" : "abilities/special_bonus_spell_lifesteal_15.json"
+    },
+    "special_bonus_spell_lifesteal_20" : {
+      "$ref:" : "abilities/special_bonus_spell_lifesteal_20.json"
+    },
+    "special_bonus_spell_lifesteal_30" : {
+      "$ref:" : "abilities/special_bonus_spell_lifesteal_30.json"
+    },
+    "special_bonus_spell_lifesteal_70" : {
+      "$ref:" : "abilities/special_bonus_spell_lifesteal_70.json"
+    },
+    "special_bonus_strength_3" : {
+      "$ref:" : "abilities/special_bonus_strength_3.json"
+    },
+    "special_bonus_strength_4" : {
+      "$ref:" : "abilities/special_bonus_strength_4.json"
+    },
+    "special_bonus_strength_5" : {
+      "$ref:" : "abilities/special_bonus_strength_5.json"
+    },
+    "special_bonus_strength_6" : {
+      "$ref:" : "abilities/special_bonus_strength_6.json"
+    },
+    "special_bonus_strength_7" : {
+      "$ref:" : "abilities/special_bonus_strength_7.json"
+    },
+    "special_bonus_strength_8" : {
+      "$ref:" : "abilities/special_bonus_strength_8.json"
+    },
+    "special_bonus_strength_9" : {
+      "$ref:" : "abilities/special_bonus_strength_9.json"
+    },
+    "special_bonus_strength_10" : {
+      "$ref:" : "abilities/special_bonus_strength_10.json"
+    },
+    "special_bonus_strength_12" : {
+      "$ref:" : "abilities/special_bonus_strength_12.json"
+    },
+    "special_bonus_strength_14" : {
+      "$ref:" : "abilities/special_bonus_strength_14.json"
+    },
+    "special_bonus_strength_15" : {
+      "$ref:" : "abilities/special_bonus_strength_15.json"
+    },
+    "special_bonus_strength_20" : {
+      "$ref:" : "abilities/special_bonus_strength_20.json"
+    },
+    "special_bonus_strength_25" : {
+      "$ref:" : "abilities/special_bonus_strength_25.json"
+    },
+    "special_bonus_agility_8" : {
+      "$ref:" : "abilities/special_bonus_agility_8.json"
+    },
+    "special_bonus_agility_10" : {
+      "$ref:" : "abilities/special_bonus_agility_10.json"
+    },
+    "special_bonus_agility_13" : {
+      "$ref:" : "abilities/special_bonus_agility_13.json"
+    },
+    "special_bonus_agility_14" : {
+      "$ref:" : "abilities/special_bonus_agility_14.json"
+    },
+    "special_bonus_agility_15" : {
+      "$ref:" : "abilities/special_bonus_agility_15.json"
+    },
+    "special_bonus_agility_16" : {
+      "$ref:" : "abilities/special_bonus_agility_16.json"
+    },
+    "special_bonus_agility_20" : {
+      "$ref:" : "abilities/special_bonus_agility_20.json"
+    },
+    "special_bonus_agility_25" : {
+      "$ref:" : "abilities/special_bonus_agility_25.json"
+    },
+    "special_bonus_agility_30" : {
+      "$ref:" : "abilities/special_bonus_agility_30.json"
+    },
+    "special_bonus_agility_40" : {
+      "$ref:" : "abilities/special_bonus_agility_40.json"
+    },
+    "special_bonus_armor_2" : {
+      "$ref:" : "abilities/special_bonus_armor_2.json"
+    },
+    "special_bonus_armor_3" : {
+      "$ref:" : "abilities/special_bonus_armor_3.json"
+    },
+    "special_bonus_armor_4" : {
+      "$ref:" : "abilities/special_bonus_armor_4.json"
+    },
+    "special_bonus_armor_5" : {
+      "$ref:" : "abilities/special_bonus_armor_5.json"
+    },
+    "special_bonus_armor_6" : {
+      "$ref:" : "abilities/special_bonus_armor_6.json"
+    },
+    "special_bonus_armor_7" : {
+      "$ref:" : "abilities/special_bonus_armor_7.json"
+    },
+    "special_bonus_armor_8" : {
+      "$ref:" : "abilities/special_bonus_armor_8.json"
+    },
+    "special_bonus_armor_9" : {
+      "$ref:" : "abilities/special_bonus_armor_9.json"
+    },
+    "special_bonus_armor_10" : {
+      "$ref:" : "abilities/special_bonus_armor_10.json"
+    },
+    "special_bonus_armor_12" : {
+      "$ref:" : "abilities/special_bonus_armor_12.json"
+    },
+    "special_bonus_armor_15" : {
+      "$ref:" : "abilities/special_bonus_armor_15.json"
+    },
+    "special_bonus_armor_20" : {
+      "$ref:" : "abilities/special_bonus_armor_20.json"
+    },
+    "special_bonus_magic_resistance_5" : {
+      "$ref:" : "abilities/special_bonus_magic_resistance_5.json"
+    },
+    "special_bonus_magic_resistance_6" : {
+      "$ref:" : "abilities/special_bonus_magic_resistance_6.json"
+    },
+    "special_bonus_magic_resistance_8" : {
+      "$ref:" : "abilities/special_bonus_magic_resistance_8.json"
+    },
+    "special_bonus_magic_resistance_10" : {
+      "$ref:" : "abilities/special_bonus_magic_resistance_10.json"
+    },
+    "special_bonus_magic_resistance_12" : {
+      "$ref:" : "abilities/special_bonus_magic_resistance_12.json"
+    },
+    "special_bonus_magic_resistance_15" : {
+      "$ref:" : "abilities/special_bonus_magic_resistance_15.json"
+    },
+    "special_bonus_magic_resistance_20" : {
+      "$ref:" : "abilities/special_bonus_magic_resistance_20.json"
+    },
+    "special_bonus_magic_resistance_25" : {
+      "$ref:" : "abilities/special_bonus_magic_resistance_25.json"
+    },
+    "special_bonus_magic_resistance_30" : {
+      "$ref:" : "abilities/special_bonus_magic_resistance_30.json"
+    },
+    "special_bonus_magic_resistance_35" : {
+      "$ref:" : "abilities/special_bonus_magic_resistance_35.json"
+    },
+    "special_bonus_day_vision_400" : {
+      "$ref:" : "abilities/special_bonus_day_vision_400.json"
+    },
+    "special_bonus_vision_200" : {
+      "$ref:" : "abilities/special_bonus_vision_200.json"
+    },
+    "special_bonus_attack_damage_10" : {
+      "$ref:" : "abilities/special_bonus_attack_damage_10.json"
+    },
+    "special_bonus_attack_damage_12" : {
+      "$ref:" : "abilities/special_bonus_attack_damage_12.json"
+    },
+    "special_bonus_attack_damage_15" : {
+      "$ref:" : "abilities/special_bonus_attack_damage_15.json"
+    },
+    "special_bonus_attack_damage_20" : {
+      "$ref:" : "abilities/special_bonus_attack_damage_20.json"
+    },
+    "special_bonus_attack_damage_25" : {
+      "$ref:" : "abilities/special_bonus_attack_damage_25.json"
+    },
+    "special_bonus_attack_damage_30" : {
+      "$ref:" : "abilities/special_bonus_attack_damage_30.json"
+    },
+    "special_bonus_attack_damage_35" : {
+      "$ref:" : "abilities/special_bonus_attack_damage_35.json"
+    },
+    "special_bonus_attack_damage_40" : {
+      "$ref:" : "abilities/special_bonus_attack_damage_40.json"
+    },
+    "special_bonus_attack_damage_45" : {
+      "$ref:" : "abilities/special_bonus_attack_damage_45.json"
+    },
+    "special_bonus_attack_damage_50" : {
+      "$ref:" : "abilities/special_bonus_attack_damage_50.json"
+    },
+    "special_bonus_attack_damage_55" : {
+      "$ref:" : "abilities/special_bonus_attack_damage_55.json"
+    },
+    "special_bonus_attack_damage_60" : {
+      "$ref:" : "abilities/special_bonus_attack_damage_60.json"
+    },
+    "special_bonus_attack_damage_65" : {
+      "$ref:" : "abilities/special_bonus_attack_damage_65.json"
+    },
+    "special_bonus_attack_damage_75" : {
+      "$ref:" : "abilities/special_bonus_attack_damage_75.json"
+    },
+    "special_bonus_attack_damage_90" : {
+      "$ref:" : "abilities/special_bonus_attack_damage_90.json"
+    },
+    "special_bonus_attack_damage_100" : {
+      "$ref:" : "abilities/special_bonus_attack_damage_100.json"
+    },
+    "special_bonus_attack_damage_120" : {
+      "$ref:" : "abilities/special_bonus_attack_damage_120.json"
+    },
+    "special_bonus_attack_damage_150" : {
+      "$ref:" : "abilities/special_bonus_attack_damage_150.json"
+    },
+    "special_bonus_attack_damage_250" : {
+      "$ref:" : "abilities/special_bonus_attack_damage_250.json"
+    },
+    "special_bonus_attack_damage_400" : {
+      "$ref:" : "abilities/special_bonus_attack_damage_400.json"
+    },
+    "special_bonus_attack_range_50" : {
+      "$ref:" : "abilities/special_bonus_attack_range_50.json"
+    },
+    "special_bonus_attack_range_75" : {
+      "$ref:" : "abilities/special_bonus_attack_range_75.json"
+    },
+    "special_bonus_attack_range_100" : {
+      "$ref:" : "abilities/special_bonus_attack_range_100.json"
+    },
+    "special_bonus_attack_range_125" : {
+      "$ref:" : "abilities/special_bonus_attack_range_125.json"
+    },
+    "special_bonus_attack_range_150" : {
+      "$ref:" : "abilities/special_bonus_attack_range_150.json"
+    },
+    "special_bonus_attack_range_175" : {
+      "$ref:" : "abilities/special_bonus_attack_range_175.json"
+    },
+    "special_bonus_attack_range_200" : {
+      "$ref:" : "abilities/special_bonus_attack_range_200.json"
+    },
+    "special_bonus_attack_range_250" : {
+      "$ref:" : "abilities/special_bonus_attack_range_250.json"
+    },
+    "special_bonus_attack_range_300" : {
+      "$ref:" : "abilities/special_bonus_attack_range_300.json"
+    },
+    "special_bonus_attack_range_400" : {
+      "$ref:" : "abilities/special_bonus_attack_range_400.json"
+    },
+    "special_bonus_cast_range_50" : {
+      "$ref:" : "abilities/special_bonus_cast_range_50.json"
+    },
+    "special_bonus_cast_range_60" : {
+      "$ref:" : "abilities/special_bonus_cast_range_60.json"
+    },
+    "special_bonus_cast_range_75" : {
+      "$ref:" : "abilities/special_bonus_cast_range_75.json"
+    },
+    "special_bonus_cast_range_100" : {
+      "$ref:" : "abilities/special_bonus_cast_range_100.json"
+    },
+    "special_bonus_cast_range_125" : {
+      "$ref:" : "abilities/special_bonus_cast_range_125.json"
+    },
+    "special_bonus_cast_range_150" : {
+      "$ref:" : "abilities/special_bonus_cast_range_150.json"
+    },
+    "special_bonus_cast_range_175" : {
+      "$ref:" : "abilities/special_bonus_cast_range_175.json"
+    },
+    "special_bonus_cast_range_200" : {
+      "$ref:" : "abilities/special_bonus_cast_range_200.json"
+    },
+    "special_bonus_cast_range_250" : {
+      "$ref:" : "abilities/special_bonus_cast_range_250.json"
+    },
+    "special_bonus_cast_range_300" : {
+      "$ref:" : "abilities/special_bonus_cast_range_300.json"
+    },
+    "special_bonus_cast_range_400" : {
+      "$ref:" : "abilities/special_bonus_cast_range_400.json"
+    },
+    "special_bonus_spell_amplify_3" : {
+      "$ref:" : "abilities/special_bonus_spell_amplify_3.json"
+    },
+    "special_bonus_spell_amplify_4" : {
+      "$ref:" : "abilities/special_bonus_spell_amplify_4.json"
+    },
+    "special_bonus_spell_amplify_5" : {
+      "$ref:" : "abilities/special_bonus_spell_amplify_5.json"
+    },
+    "special_bonus_spell_amplify_6" : {
+      "$ref:" : "abilities/special_bonus_spell_amplify_6.json"
+    },
+    "special_bonus_spell_amplify_8" : {
+      "$ref:" : "abilities/special_bonus_spell_amplify_8.json"
+    },
+    "special_bonus_spell_amplify_10" : {
+      "$ref:" : "abilities/special_bonus_spell_amplify_10.json"
+    },
+    "special_bonus_spell_amplify_12" : {
+      "$ref:" : "abilities/special_bonus_spell_amplify_12.json"
+    },
+    "special_bonus_spell_amplify_15" : {
+      "$ref:" : "abilities/special_bonus_spell_amplify_15.json"
+    },
+    "special_bonus_spell_amplify_20" : {
+      "$ref:" : "abilities/special_bonus_spell_amplify_20.json"
+    },
+    "special_bonus_spell_amplify_25" : {
+      "$ref:" : "abilities/special_bonus_spell_amplify_25.json"
+    },
+    "special_bonus_cooldown_reduction_8" : {
+      "$ref:" : "abilities/special_bonus_cooldown_reduction_8.json"
+    },
+    "special_bonus_cooldown_reduction_10" : {
+      "$ref:" : "abilities/special_bonus_cooldown_reduction_10.json"
+    },
+    "special_bonus_cooldown_reduction_12" : {
+      "$ref:" : "abilities/special_bonus_cooldown_reduction_12.json"
+    },
+    "special_bonus_cooldown_reduction_15" : {
+      "$ref:" : "abilities/special_bonus_cooldown_reduction_15.json"
+    },
+    "special_bonus_cooldown_reduction_20" : {
+      "$ref:" : "abilities/special_bonus_cooldown_reduction_20.json"
+    },
+    "special_bonus_cooldown_reduction_25" : {
+      "$ref:" : "abilities/special_bonus_cooldown_reduction_25.json"
+    },
+    "special_bonus_cooldown_reduction_30" : {
+      "$ref:" : "abilities/special_bonus_cooldown_reduction_30.json"
+    },
+    "special_bonus_cooldown_reduction_40" : {
+      "$ref:" : "abilities/special_bonus_cooldown_reduction_40.json"
+    },
+    "special_bonus_respawn_reduction_15" : {
+      "$ref:" : "abilities/special_bonus_respawn_reduction_15.json"
+    },
+    "special_bonus_respawn_reduction_20" : {
+      "$ref:" : "abilities/special_bonus_respawn_reduction_20.json"
+    },
+    "special_bonus_respawn_reduction_25" : {
+      "$ref:" : "abilities/special_bonus_respawn_reduction_25.json"
+    },
+    "special_bonus_respawn_reduction_30" : {
+      "$ref:" : "abilities/special_bonus_respawn_reduction_30.json"
+    },
+    "special_bonus_respawn_reduction_35" : {
+      "$ref:" : "abilities/special_bonus_respawn_reduction_35.json"
+    },
+    "special_bonus_respawn_reduction_40" : {
+      "$ref:" : "abilities/special_bonus_respawn_reduction_40.json"
+    },
+    "special_bonus_respawn_reduction_45" : {
+      "$ref:" : "abilities/special_bonus_respawn_reduction_45.json"
+    },
+    "special_bonus_respawn_reduction_50" : {
+      "$ref:" : "abilities/special_bonus_respawn_reduction_50.json"
+    },
+    "special_bonus_respawn_reduction_60" : {
+      "$ref:" : "abilities/special_bonus_respawn_reduction_60.json"
+    },
+    "special_bonus_gold_income_5" : {
+      "$ref:" : "abilities/special_bonus_gold_income_5.json"
+    },
+    "special_bonus_gold_income_10" : {
+      "$ref:" : "abilities/special_bonus_gold_income_10.json"
+    },
+    "special_bonus_gold_income_15" : {
+      "$ref:" : "abilities/special_bonus_gold_income_15.json"
+    },
+    "special_bonus_gold_income_20" : {
+      "$ref:" : "abilities/special_bonus_gold_income_20.json"
+    },
+    "special_bonus_gold_income_25" : {
+      "$ref:" : "abilities/special_bonus_gold_income_25.json"
+    },
+    "special_bonus_gold_income_30" : {
+      "$ref:" : "abilities/special_bonus_gold_income_30.json"
+    },
+    "special_bonus_gold_income_40" : {
+      "$ref:" : "abilities/special_bonus_gold_income_40.json"
+    },
+    "special_bonus_gold_income_50" : {
+      "$ref:" : "abilities/special_bonus_gold_income_50.json"
+    },
+    "special_bonus_gold_income_70" : {
+      "$ref:" : "abilities/special_bonus_gold_income_70.json"
+    },
+    "special_bonus_evasion_10" : {
+      "$ref:" : "abilities/special_bonus_evasion_10.json"
+    },
+    "special_bonus_evasion_12" : {
+      "$ref:" : "abilities/special_bonus_evasion_12.json"
+    },
+    "special_bonus_evasion_15" : {
+      "$ref:" : "abilities/special_bonus_evasion_15.json"
+    },
+    "special_bonus_evasion_20" : {
+      "$ref:" : "abilities/special_bonus_evasion_20.json"
+    },
+    "special_bonus_evasion_25" : {
+      "$ref:" : "abilities/special_bonus_evasion_25.json"
+    },
+    "special_bonus_20_bash_2" : {
+      "$ref:" : "abilities/special_bonus_20_bash_2.json"
+    },
+    "special_bonus_exp_boost_5" : {
+      "$ref:" : "abilities/special_bonus_exp_boost_5.json"
+    },
+    "special_bonus_exp_boost_10" : {
+      "$ref:" : "abilities/special_bonus_exp_boost_10.json"
+    },
+    "special_bonus_exp_boost_15" : {
+      "$ref:" : "abilities/special_bonus_exp_boost_15.json"
+    },
+    "special_bonus_exp_boost_20" : {
+      "$ref:" : "abilities/special_bonus_exp_boost_20.json"
+    },
+    "special_bonus_exp_boost_25" : {
+      "$ref:" : "abilities/special_bonus_exp_boost_25.json"
+    },
+    "special_bonus_exp_boost_30" : {
+      "$ref:" : "abilities/special_bonus_exp_boost_30.json"
+    },
+    "special_bonus_exp_boost_35" : {
+      "$ref:" : "abilities/special_bonus_exp_boost_35.json"
+    },
+    "special_bonus_exp_boost_40" : {
+      "$ref:" : "abilities/special_bonus_exp_boost_40.json"
+    },
+    "special_bonus_unique_clockwerk" : {
+      "$ref:" : "abilities/special_bonus_unique_clockwerk.json"
+    },
+    "special_bonus_unique_clockwerk_2" : {
+      "$ref:" : "abilities/special_bonus_unique_clockwerk_2.json"
+    },
+    "special_bonus_unique_clockwerk_3" : {
+      "$ref:" : "abilities/special_bonus_unique_clockwerk_3.json"
+    },
+    "special_bonus_unique_omniknight_1" : {
+      "$ref:" : "abilities/special_bonus_unique_omniknight_1.json"
+    },
+    "special_bonus_unique_omniknight_2" : {
+      "$ref:" : "abilities/special_bonus_unique_omniknight_2.json"
+    },
+    "special_bonus_unique_centaur_1" : {
+      "$ref:" : "abilities/special_bonus_unique_centaur_1.json"
+    },
+    "special_bonus_unique_centaur_2" : {
+      "$ref:" : "abilities/special_bonus_unique_centaur_2.json"
+    },
+    "special_bonus_unique_witch_doctor_1" : {
+      "$ref:" : "abilities/special_bonus_unique_witch_doctor_1.json"
+    },
+    "special_bonus_unique_witch_doctor_2" : {
+      "$ref:" : "abilities/special_bonus_unique_witch_doctor_2.json"
+    },
+    "special_bonus_unique_witch_doctor_3" : {
+      "$ref:" : "abilities/special_bonus_unique_witch_doctor_3.json"
+    },
+    "special_bonus_unique_necrophos" : {
+      "$ref:" : "abilities/special_bonus_unique_necrophos.json"
+    },
+    "special_bonus_unique_antimage" : {
+      "$ref:" : "abilities/special_bonus_unique_antimage.json"
+    },
+    "special_bonus_unique_antimage_2" : {
+      "$ref:" : "abilities/special_bonus_unique_antimage_2.json"
+    },
+    "special_bonus_unique_mirana_1" : {
+      "$ref:" : "abilities/special_bonus_unique_mirana_1.json"
+    },
+    "special_bonus_unique_mirana_2" : {
+      "$ref:" : "abilities/special_bonus_unique_mirana_2.json"
+    },
+    "special_bonus_unique_mirana_3" : {
+      "$ref:" : "abilities/special_bonus_unique_mirana_3.json"
+    },
+    "special_bonus_unique_bounty_hunter" : {
+      "$ref:" : "abilities/special_bonus_unique_bounty_hunter.json"
+    },
+    "special_bonus_unique_queen_of_pain" : {
+      "$ref:" : "abilities/special_bonus_unique_queen_of_pain.json"
+    },
+    "special_bonus_unique_bounty_hunter_2" : {
+      "$ref:" : "abilities/special_bonus_unique_bounty_hunter_2.json"
+    },
+    "special_bonus_unique_underlord" : {
+      "$ref:" : "abilities/special_bonus_unique_underlord.json"
+    },
+    "special_bonus_unique_pudge_1" : {
+      "$ref:" : "abilities/special_bonus_unique_pudge_1.json"
+    },
+    "special_bonus_unique_pudge_2" : {
+      "$ref:" : "abilities/special_bonus_unique_pudge_2.json"
+    },
+    "special_bonus_unique_pudge_3" : {
+      "$ref:" : "abilities/special_bonus_unique_pudge_3.json"
+    },
+    "special_bonus_unique_treant" : {
+      "$ref:" : "abilities/special_bonus_unique_treant.json"
+    },
+    "special_bonus_unique_treant_2" : {
+      "$ref:" : "abilities/special_bonus_unique_treant_2.json"
+    },
+    "special_bonus_unique_razor" : {
+      "$ref:" : "abilities/special_bonus_unique_razor.json"
+    },
+    "special_bonus_unique_razor_2" : {
+      "$ref:" : "abilities/special_bonus_unique_razor_2.json"
+    },
+    "special_bonus_unique_visage_1" : {
+      "$ref:" : "abilities/special_bonus_unique_visage_1.json"
+    },
+    "special_bonus_unique_visage_2" : {
+      "$ref:" : "abilities/special_bonus_unique_visage_2.json"
+    },
+    "special_bonus_unique_visage_3" : {
+      "$ref:" : "abilities/special_bonus_unique_visage_3.json"
+    },
+    "special_bonus_unique_earthshaker" : {
+      "$ref:" : "abilities/special_bonus_unique_earthshaker.json"
+    },
+    "special_bonus_unique_earthshaker_2" : {
+      "$ref:" : "abilities/special_bonus_unique_earthshaker_2.json"
+    },
+    "special_bonus_unique_earthshaker_3" : {
+      "$ref:" : "abilities/special_bonus_unique_earthshaker_3.json"
+    },
+    "special_bonus_unique_lich_1" : {
+      "$ref:" : "abilities/special_bonus_unique_lich_1.json"
+    },
+    "special_bonus_unique_lich_2" : {
+      "$ref:" : "abilities/special_bonus_unique_lich_2.json"
+    },
+    "special_bonus_unique_lich_3" : {
+      "$ref:" : "abilities/special_bonus_unique_lich_3.json"
+    },
+    "special_bonus_unique_rubick" : {
+      "$ref:" : "abilities/special_bonus_unique_rubick.json"
+    },
+    "special_bonus_unique_sven" : {
+      "$ref:" : "abilities/special_bonus_unique_sven.json"
+    },
+    "special_bonus_unique_dark_seer" : {
+      "$ref:" : "abilities/special_bonus_unique_dark_seer.json"
+    },
+    "special_bonus_unique_dark_seer_2" : {
+      "$ref:" : "abilities/special_bonus_unique_dark_seer_2.json"
+    },
+    "special_bonus_unique_dazzle_1" : {
+      "$ref:" : "abilities/special_bonus_unique_dazzle_1.json"
+    },
+    "special_bonus_unique_dazzle_2" : {
+      "$ref:" : "abilities/special_bonus_unique_dazzle_2.json"
+    },
+    "special_bonus_unique_dazzle_3" : {
+      "$ref:" : "abilities/special_bonus_unique_dazzle_3.json"
+    },
+    "special_bonus_unique_shadow_shaman_1" : {
+      "$ref:" : "abilities/special_bonus_unique_shadow_shaman_1.json"
+    },
+    "special_bonus_unique_shadow_shaman_2" : {
+      "$ref:" : "abilities/special_bonus_unique_shadow_shaman_2.json"
+    },
+    "special_bonus_unique_shadow_shaman_3" : {
+      "$ref:" : "abilities/special_bonus_unique_shadow_shaman_3.json"
+    },
+    "special_bonus_unique_shadow_shaman_4" : {
+      "$ref:" : "abilities/special_bonus_unique_shadow_shaman_4.json"
+    },
+    "special_bonus_unique_warlock_1" : {
+      "$ref:" : "abilities/special_bonus_unique_warlock_1.json"
+    },
+    "special_bonus_unique_warlock_2" : {
+      "$ref:" : "abilities/special_bonus_unique_warlock_2.json"
+    },
+    "special_bonus_unique_warlock_3" : {
+      "$ref:" : "abilities/special_bonus_unique_warlock_3.json"
+    },
+    "special_bonus_unique_warlock_4" : {
+      "$ref:" : "abilities/special_bonus_unique_warlock_4.json"
+    },
+    "special_bonus_unique_vengeful_spirit_1" : {
+      "$ref:" : "abilities/special_bonus_unique_vengeful_spirit_1.json"
+    },
+    "special_bonus_unique_vengeful_spirit_2" : {
+      "$ref:" : "abilities/special_bonus_unique_vengeful_spirit_2.json"
+    },
+    "special_bonus_unique_vengeful_spirit_3" : {
+      "$ref:" : "abilities/special_bonus_unique_vengeful_spirit_3.json"
+    },
+    "special_bonus_unique_venomancer" : {
+      "$ref:" : "abilities/special_bonus_unique_venomancer.json"
+    },
+    "special_bonus_unique_venomancer_2" : {
+      "$ref:" : "abilities/special_bonus_unique_venomancer_2.json"
+    },
+    "special_bonus_unique_morphling_1" : {
+      "$ref:" : "abilities/special_bonus_unique_morphling_1.json"
+    },
+    "special_bonus_unique_morphling_2" : {
+      "$ref:" : "abilities/special_bonus_unique_morphling_2.json"
+    },
+    "special_bonus_unique_leshrac_1" : {
+      "$ref:" : "abilities/special_bonus_unique_leshrac_1.json"
+    },
+    "special_bonus_unique_leshrac_2" : {
+      "$ref:" : "abilities/special_bonus_unique_leshrac_2.json"
+    },
+    "special_bonus_unique_jakiro" : {
+      "$ref:" : "abilities/special_bonus_unique_jakiro.json"
+    },
+    "special_bonus_unique_jakiro_2" : {
+      "$ref:" : "abilities/special_bonus_unique_jakiro_2.json"
+    },
+    "special_bonus_unique_jakiro_3" : {
+      "$ref:" : "abilities/special_bonus_unique_jakiro_3.json"
+    },
+    "special_bonus_unique_enigma" : {
+      "$ref:" : "abilities/special_bonus_unique_enigma.json"
+    },
+    "special_bonus_unique_enigma_2" : {
+      "$ref:" : "abilities/special_bonus_unique_enigma_2.json"
+    },
+    "special_bonus_unique_bane_1" : {
+      "$ref:" : "abilities/special_bonus_unique_bane_1.json"
+    },
+    "special_bonus_unique_bane_2" : {
+      "$ref:" : "abilities/special_bonus_unique_bane_2.json"
+    },
+    "special_bonus_unique_nevermore_1" : {
+      "$ref:" : "abilities/special_bonus_unique_nevermore_1.json"
+    },
+    "special_bonus_unique_nevermore_2" : {
+      "$ref:" : "abilities/special_bonus_unique_nevermore_2.json"
+    },
+    "special_bonus_unique_templar_assassin" : {
+      "$ref:" : "abilities/special_bonus_unique_templar_assassin.json"
+    },
+    "special_bonus_unique_templar_assassin_2" : {
+      "$ref:" : "abilities/special_bonus_unique_templar_assassin_2.json"
+    },
+    "special_bonus_unique_crystal_maiden_1" : {
+      "$ref:" : "abilities/special_bonus_unique_crystal_maiden_1.json"
+    },
+    "special_bonus_unique_crystal_maiden_2" : {
+      "$ref:" : "abilities/special_bonus_unique_crystal_maiden_2.json"
+    },
+    "special_bonus_unique_crystal_maiden_3" : {
+      "$ref:" : "abilities/special_bonus_unique_crystal_maiden_3.json"
+    },
+    "special_bonus_unique_doom_1" : {
+      "$ref:" : "abilities/special_bonus_unique_doom_1.json"
+    },
+    "special_bonus_unique_doom_2" : {
+      "$ref:" : "abilities/special_bonus_unique_doom_2.json"
+    },
+    "special_bonus_unique_doom_3" : {
+      "$ref:" : "abilities/special_bonus_unique_doom_3.json"
+    },
+    "special_bonus_unique_doom_4" : {
+      "$ref:" : "abilities/special_bonus_unique_doom_4.json"
+    },
+    "special_bonus_unique_doom_5" : {
+      "$ref:" : "abilities/special_bonus_unique_doom_5.json"
+    },
+    "special_bonus_unique_brewmaster" : {
+      "$ref:" : "abilities/special_bonus_unique_brewmaster.json"
+    },
+    "special_bonus_unique_brewmaster_2" : {
+      "$ref:" : "abilities/special_bonus_unique_brewmaster_2.json"
+    },
+    "special_bonus_unique_brewmaster_3" : {
+      "$ref:" : "abilities/special_bonus_unique_brewmaster_3.json"
+    },
+    "special_bonus_unique_bristleback" : {
+      "$ref:" : "abilities/special_bonus_unique_bristleback.json"
+    },
+    "special_bonus_unique_bristleback_2" : {
+      "$ref:" : "abilities/special_bonus_unique_bristleback_2.json"
+    },
+    "special_bonus_unique_furion" : {
+      "$ref:" : "abilities/special_bonus_unique_furion.json"
+    },
+    "special_bonus_unique_furion_2" : {
+      "$ref:" : "abilities/special_bonus_unique_furion_2.json"
+    },
+    "special_bonus_unique_furion_3" : {
+      "$ref:" : "abilities/special_bonus_unique_furion_3.json"
+    },
+    "special_bonus_unique_phoenix_1" : {
+      "$ref:" : "abilities/special_bonus_unique_phoenix_1.json"
+    },
+    "special_bonus_unique_phoenix_2" : {
+      "$ref:" : "abilities/special_bonus_unique_phoenix_2.json"
+    },
+    "special_bonus_unique_phoenix_3" : {
+      "$ref:" : "abilities/special_bonus_unique_phoenix_3.json"
+    },
+    "special_bonus_unique_enchantress_1" : {
+      "$ref:" : "abilities/special_bonus_unique_enchantress_1.json"
+    },
+    "special_bonus_unique_enchantress_2" : {
+      "$ref:" : "abilities/special_bonus_unique_enchantress_2.json"
+    },
+    "special_bonus_unique_enchantress_3" : {
+      "$ref:" : "abilities/special_bonus_unique_enchantress_3.json"
+    },
+    "special_bonus_unique_enchantress_4" : {
+      "$ref:" : "abilities/special_bonus_unique_enchantress_4.json"
+    },
+    "special_bonus_unique_batrider_1" : {
+      "$ref:" : "abilities/special_bonus_unique_batrider_1.json"
+    },
+    "special_bonus_unique_batrider_2" : {
+      "$ref:" : "abilities/special_bonus_unique_batrider_2.json"
+    },
+    "special_bonus_unique_wraith_king_1" : {
+      "$ref:" : "abilities/special_bonus_unique_wraith_king_1.json"
+    },
+    "special_bonus_unique_wraith_king_2" : {
+      "$ref:" : "abilities/special_bonus_unique_wraith_king_2.json"
+    },
+    "special_bonus_unique_wraith_king_3" : {
+      "$ref:" : "abilities/special_bonus_unique_wraith_king_3.json"
+    },
+    "special_bonus_unique_wraith_king_4" : {
+      "$ref:" : "abilities/special_bonus_unique_wraith_king_4.json"
+    },
+    "special_bonus_unique_kunkka" : {
+      "$ref:" : "abilities/special_bonus_unique_kunkka.json"
+    },
+    "special_bonus_unique_kunkka_2" : {
+      "$ref:" : "abilities/special_bonus_unique_kunkka_2.json"
+    },
+    "special_bonus_unique_dragon_knight" : {
+      "$ref:" : "abilities/special_bonus_unique_dragon_knight.json"
+    },
+    "special_bonus_unique_invoker_1" : {
+      "$ref:" : "abilities/special_bonus_unique_invoker_1.json"
+    },
+    "special_bonus_unique_invoker_2" : {
+      "$ref:" : "abilities/special_bonus_unique_invoker_2.json"
+    },
+    "special_bonus_unique_invoker_3" : {
+      "$ref:" : "abilities/special_bonus_unique_invoker_3.json"
+    },
+    "special_bonus_unique_abaddon" : {
+      "$ref:" : "abilities/special_bonus_unique_abaddon.json"
+    },
+    "special_bonus_unique_alchemist" : {
+      "$ref:" : "abilities/special_bonus_unique_alchemist.json"
+    },
+    "special_bonus_unique_alchemist_2" : {
+      "$ref:" : "abilities/special_bonus_unique_alchemist_2.json"
+    },
+    "special_bonus_unique_axe" : {
+      "$ref:" : "abilities/special_bonus_unique_axe.json"
+    },
+    "special_bonus_unique_beastmaster" : {
+      "$ref:" : "abilities/special_bonus_unique_beastmaster.json"
+    },
+    "special_bonus_unique_beastmaster_2" : {
+      "$ref:" : "abilities/special_bonus_unique_beastmaster_2.json"
+    },
+    "special_bonus_unique_clinkz_1" : {
+      "$ref:" : "abilities/special_bonus_unique_clinkz_1.json"
+    },
+    "special_bonus_unique_clinkz_2" : {
+      "$ref:" : "abilities/special_bonus_unique_clinkz_2.json"
+    },
+    "special_bonus_unique_juggernaut" : {
+      "$ref:" : "abilities/special_bonus_unique_juggernaut.json"
+    },
+    "special_bonus_unique_winter_wyvern_1" : {
+      "$ref:" : "abilities/special_bonus_unique_winter_wyvern_1.json"
+    },
+    "special_bonus_unique_winter_wyvern_2" : {
+      "$ref:" : "abilities/special_bonus_unique_winter_wyvern_2.json"
+    },
+    "special_bonus_unique_winter_wyvern_3" : {
+      "$ref:" : "abilities/special_bonus_unique_winter_wyvern_3.json"
+    },
+    "special_bonus_unique_terrorblade" : {
+      "$ref:" : "abilities/special_bonus_unique_terrorblade.json"
+    },
+    "special_bonus_unique_luna_1" : {
+      "$ref:" : "abilities/special_bonus_unique_luna_1.json"
+    },
+    "special_bonus_unique_luna_2" : {
+      "$ref:" : "abilities/special_bonus_unique_luna_2.json"
+    },
+    "special_bonus_unique_faceless_void" : {
+      "$ref:" : "abilities/special_bonus_unique_faceless_void.json"
+    },
+    "special_bonus_unique_night_stalker" : {
+      "$ref:" : "abilities/special_bonus_unique_night_stalker.json"
+    },
+    "special_bonus_unique_nyx" : {
+      "$ref:" : "abilities/special_bonus_unique_nyx.json"
+    },
+    "special_bonus_unique_nyx_2" : {
+      "$ref:" : "abilities/special_bonus_unique_nyx_2.json"
+    },
+    "special_bonus_unique_weaver_1" : {
+      "$ref:" : "abilities/special_bonus_unique_weaver_1.json"
+    },
+    "special_bonus_unique_weaver_2" : {
+      "$ref:" : "abilities/special_bonus_unique_weaver_2.json"
+    },
+    "special_bonus_unique_ursa" : {
+      "$ref:" : "abilities/special_bonus_unique_ursa.json"
+    },
+    "special_bonus_unique_chaos_knight" : {
+      "$ref:" : "abilities/special_bonus_unique_chaos_knight.json"
+    },
+    "special_bonus_unique_lycan_1" : {
+      "$ref:" : "abilities/special_bonus_unique_lycan_1.json"
+    },
+    "special_bonus_unique_lycan_2" : {
+      "$ref:" : "abilities/special_bonus_unique_lycan_2.json"
+    },
+    "special_bonus_unique_lycan_3" : {
+      "$ref:" : "abilities/special_bonus_unique_lycan_3.json"
+    },
+    "special_bonus_unique_windranger" : {
+      "$ref:" : "abilities/special_bonus_unique_windranger.json"
+    },
+    "special_bonus_unique_windranger_2" : {
+      "$ref:" : "abilities/special_bonus_unique_windranger_2.json"
+    },
+    "special_bonus_unique_windranger_3" : {
+      "$ref:" : "abilities/special_bonus_unique_windranger_3.json"
+    },
+    "special_bonus_unique_phantom_lancer" : {
+      "$ref:" : "abilities/special_bonus_unique_phantom_lancer.json"
+    },
+    "special_bonus_unique_phantom_lancer_2" : {
+      "$ref:" : "abilities/special_bonus_unique_phantom_lancer_2.json"
+    },
+    "special_bonus_unique_slark" : {
+      "$ref:" : "abilities/special_bonus_unique_slark.json"
+    },
+    "special_bonus_unique_spectre" : {
+      "$ref:" : "abilities/special_bonus_unique_spectre.json"
+    },
+    "special_bonus_unique_spirit_breaker_1" : {
+      "$ref:" : "abilities/special_bonus_unique_spirit_breaker_1.json"
+    },
+    "special_bonus_unique_spirit_breaker_2" : {
+      "$ref:" : "abilities/special_bonus_unique_spirit_breaker_2.json"
+    },
+    "special_bonus_unique_spirit_breaker_3" : {
+      "$ref:" : "abilities/special_bonus_unique_spirit_breaker_3.json"
+    },
+    "special_bonus_unique_storm_spirit" : {
+      "$ref:" : "abilities/special_bonus_unique_storm_spirit.json"
+    },
+    "special_bonus_unique_tidehunter" : {
+      "$ref:" : "abilities/special_bonus_unique_tidehunter.json"
+    },
+    "special_bonus_unique_tinker" : {
+      "$ref:" : "abilities/special_bonus_unique_tinker.json"
+    },
+    "special_bonus_unique_tiny" : {
+      "$ref:" : "abilities/special_bonus_unique_tiny.json"
+    },
+    "special_bonus_unique_troll_warlord" : {
+      "$ref:" : "abilities/special_bonus_unique_troll_warlord.json"
+    },
+    "special_bonus_unique_undying" : {
+      "$ref:" : "abilities/special_bonus_unique_undying.json"
+    },
+    "special_bonus_unique_undying_2" : {
+      "$ref:" : "abilities/special_bonus_unique_undying_2.json"
+    },
+    "special_bonus_unique_undying_3" : {
+      "$ref:" : "abilities/special_bonus_unique_undying_3.json"
+    },
+    "special_bonus_unique_viper_1" : {
+      "$ref:" : "abilities/special_bonus_unique_viper_1.json"
+    },
+    "special_bonus_unique_viper_2" : {
+      "$ref:" : "abilities/special_bonus_unique_viper_2.json"
+    },
+    "special_bonus_unique_zeus" : {
+      "$ref:" : "abilities/special_bonus_unique_zeus.json"
+    },
+    "special_bonus_unique_zeus_2" : {
+      "$ref:" : "abilities/special_bonus_unique_zeus_2.json"
+    },
+    "special_bonus_unique_zeus_3" : {
+      "$ref:" : "abilities/special_bonus_unique_zeus_3.json"
+    },
+    "special_bonus_unique_elder_titan" : {
+      "$ref:" : "abilities/special_bonus_unique_elder_titan.json"
+    },
+    "special_bonus_unique_elder_titan_2" : {
+      "$ref:" : "abilities/special_bonus_unique_elder_titan_2.json"
+    },
+    "special_bonus_unique_ember_spirit_1" : {
+      "$ref:" : "abilities/special_bonus_unique_ember_spirit_1.json"
+    },
+    "special_bonus_unique_ember_spirit_2" : {
+      "$ref:" : "abilities/special_bonus_unique_ember_spirit_2.json"
+    },
+    "special_bonus_unique_lifestealer" : {
+      "$ref:" : "abilities/special_bonus_unique_lifestealer.json"
+    },
+    "special_bonus_unique_lion" : {
+      "$ref:" : "abilities/special_bonus_unique_lion.json"
+    },
+    "special_bonus_unique_lion_2" : {
+      "$ref:" : "abilities/special_bonus_unique_lion_2.json"
+    },
+    "special_bonus_unique_skywrath" : {
+      "$ref:" : "abilities/special_bonus_unique_skywrath.json"
+    },
+    "special_bonus_unique_medusa" : {
+      "$ref:" : "abilities/special_bonus_unique_medusa.json"
+    },
+    "special_bonus_unique_medusa_2" : {
+      "$ref:" : "abilities/special_bonus_unique_medusa_2.json"
+    },
+    "special_bonus_unique_ogre_magi" : {
+      "$ref:" : "abilities/special_bonus_unique_ogre_magi.json"
+    },
+    "special_bonus_unique_silencer" : {
+      "$ref:" : "abilities/special_bonus_unique_silencer.json"
+    },
+    "special_bonus_unique_death_prophet" : {
+      "$ref:" : "abilities/special_bonus_unique_death_prophet.json"
+    },
+    "special_bonus_unique_death_prophet_2" : {
+      "$ref:" : "abilities/special_bonus_unique_death_prophet_2.json"
+    },
+    "special_bonus_unique_phantom_assassin" : {
+      "$ref:" : "abilities/special_bonus_unique_phantom_assassin.json"
+    },
+    "special_bonus_unique_riki_1" : {
+      "$ref:" : "abilities/special_bonus_unique_riki_1.json"
+    },
+    "special_bonus_unique_riki_2" : {
+      "$ref:" : "abilities/special_bonus_unique_riki_2.json"
+    },
+    "special_bonus_unique_tusk" : {
+      "$ref:" : "abilities/special_bonus_unique_tusk.json"
+    },
+    "special_bonus_unique_tusk_2" : {
+      "$ref:" : "abilities/special_bonus_unique_tusk_2.json"
+    },
+    "special_bonus_unique_sniper_1" : {
+      "$ref:" : "abilities/special_bonus_unique_sniper_1.json"
+    },
+    "special_bonus_unique_sniper_2" : {
+      "$ref:" : "abilities/special_bonus_unique_sniper_2.json"
+    },
+    "special_bonus_unique_magnus" : {
+      "$ref:" : "abilities/special_bonus_unique_magnus.json"
+    },
+    "special_bonus_unique_magnus_2" : {
+      "$ref:" : "abilities/special_bonus_unique_magnus_2.json"
+    },
+    "special_bonus_unique_magnus_3" : {
+      "$ref:" : "abilities/special_bonus_unique_magnus_3.json"
+    },
+    "special_bonus_unique_drow_ranger_1" : {
+      "$ref:" : "abilities/special_bonus_unique_drow_ranger_1.json"
+    },
+    "special_bonus_unique_drow_ranger_2" : {
+      "$ref:" : "abilities/special_bonus_unique_drow_ranger_2.json"
+    },
+    "special_bonus_unique_drow_ranger_3" : {
+      "$ref:" : "abilities/special_bonus_unique_drow_ranger_3.json"
+    },
+    "special_bonus_unique_earth_spirit" : {
+      "$ref:" : "abilities/special_bonus_unique_earth_spirit.json"
+    },
+    "special_bonus_unique_earth_spirit_2" : {
+      "$ref:" : "abilities/special_bonus_unique_earth_spirit_2.json"
+    },
+    "special_bonus_unique_huskar" : {
+      "$ref:" : "abilities/special_bonus_unique_huskar.json"
+    },
+    "special_bonus_unique_huskar_2" : {
+      "$ref:" : "abilities/special_bonus_unique_huskar_2.json"
+    },
+    "special_bonus_unique_naga_siren" : {
+      "$ref:" : "abilities/special_bonus_unique_naga_siren.json"
+    },
+    "special_bonus_unique_naga_siren_2" : {
+      "$ref:" : "abilities/special_bonus_unique_naga_siren_2.json"
+    },
+    "special_bonus_unique_oracle" : {
+      "$ref:" : "abilities/special_bonus_unique_oracle.json"
+    },
+    "special_bonus_unique_oracle_2" : {
+      "$ref:" : "abilities/special_bonus_unique_oracle_2.json"
+    },
+    "special_bonus_unique_sand_king" : {
+      "$ref:" : "abilities/special_bonus_unique_sand_king.json"
+    },
+    "special_bonus_unique_sand_king_2" : {
+      "$ref:" : "abilities/special_bonus_unique_sand_king_2.json"
+    },
+    "special_bonus_unique_sand_king_3" : {
+      "$ref:" : "abilities/special_bonus_unique_sand_king_3.json"
+    },
+    "special_bonus_unique_shadow_demon_1" : {
+      "$ref:" : "abilities/special_bonus_unique_shadow_demon_1.json"
+    },
+    "special_bonus_unique_shadow_demon_2" : {
+      "$ref:" : "abilities/special_bonus_unique_shadow_demon_2.json"
+    },
+    "special_bonus_unique_shadow_demon_3" : {
+      "$ref:" : "abilities/special_bonus_unique_shadow_demon_3.json"
+    },
+    "special_bonus_unique_slardar" : {
+      "$ref:" : "abilities/special_bonus_unique_slardar.json"
+    },
+    "special_bonus_unique_lina_1" : {
+      "$ref:" : "abilities/special_bonus_unique_lina_1.json"
+    },
+    "special_bonus_unique_lina_2" : {
+      "$ref:" : "abilities/special_bonus_unique_lina_2.json"
+    },
+    "special_bonus_unique_lina_3" : {
+      "$ref:" : "abilities/special_bonus_unique_lina_3.json"
+    },
+    "special_bonus_unique_lina_4" : {
+      "$ref:" : "abilities/special_bonus_unique_lina_4.json"
+    },
+    "special_bonus_unique_ancient_apparition_1" : {
+      "$ref:" : "abilities/special_bonus_unique_ancient_apparition_1.json"
+    },
+    "special_bonus_unique_ancient_apparition_2" : {
+      "$ref:" : "abilities/special_bonus_unique_ancient_apparition_2.json"
+    },
+    "special_bonus_unique_ancient_apparition_3" : {
+      "$ref:" : "abilities/special_bonus_unique_ancient_apparition_3.json"
+    },
+    "special_bonus_unique_ancient_apparition_4" : {
+      "$ref:" : "abilities/special_bonus_unique_ancient_apparition_4.json"
+    },
+    "special_bonus_unique_disruptor" : {
+      "$ref:" : "abilities/special_bonus_unique_disruptor.json"
+    },
+    "special_bonus_unique_disruptor_2" : {
+      "$ref:" : "abilities/special_bonus_unique_disruptor_2.json"
+    },
+    "special_bonus_unique_disruptor_3" : {
+      "$ref:" : "abilities/special_bonus_unique_disruptor_3.json"
+    },
+    "special_bonus_unique_gyrocopter_1" : {
+      "$ref:" : "abilities/special_bonus_unique_gyrocopter_1.json"
+    },
+    "special_bonus_unique_gyrocopter_2" : {
+      "$ref:" : "abilities/special_bonus_unique_gyrocopter_2.json"
+    },
+    "special_bonus_unique_outworld_devourer" : {
+      "$ref:" : "abilities/special_bonus_unique_outworld_devourer.json"
+    },
+    "special_bonus_unique_keeper_of_the_light" : {
+      "$ref:" : "abilities/special_bonus_unique_keeper_of_the_light.json"
+    },
+    "special_bonus_unique_keeper_of_the_light_2" : {
+      "$ref:" : "abilities/special_bonus_unique_keeper_of_the_light_2.json"
+    },
+    "special_bonus_unique_legion_commander" : {
+      "$ref:" : "abilities/special_bonus_unique_legion_commander.json"
+    },
+    "special_bonus_unique_legion_commander_2" : {
+      "$ref:" : "abilities/special_bonus_unique_legion_commander_2.json"
+    },
+    "special_bonus_unique_legion_commander_3" : {
+      "$ref:" : "abilities/special_bonus_unique_legion_commander_3.json"
+    },
+    "special_bonus_unique_puck" : {
+      "$ref:" : "abilities/special_bonus_unique_puck.json"
+    },
+    "special_bonus_unique_puck_2" : {
+      "$ref:" : "abilities/special_bonus_unique_puck_2.json"
+    },
+    "special_bonus_unique_pugna_1" : {
+      "$ref:" : "abilities/special_bonus_unique_pugna_1.json"
+    },
+    "special_bonus_unique_pugna_2" : {
+      "$ref:" : "abilities/special_bonus_unique_pugna_2.json"
+    },
+    "special_bonus_unique_pugna_3" : {
+      "$ref:" : "abilities/special_bonus_unique_pugna_3.json"
+    },
+    "special_bonus_unique_pugna_4" : {
+      "$ref:" : "abilities/special_bonus_unique_pugna_4.json"
+    },
+    "special_bonus_unique_pugna_5" : {
+      "$ref:" : "abilities/special_bonus_unique_pugna_5.json"
+    },
+    "special_bonus_unique_timbersaw" : {
+      "$ref:" : "abilities/special_bonus_unique_timbersaw.json"
+    },
+    "special_bonus_unique_bloodseeker" : {
+      "$ref:" : "abilities/special_bonus_unique_bloodseeker.json"
+    },
+    "special_bonus_unique_bloodseeker_2" : {
+      "$ref:" : "abilities/special_bonus_unique_bloodseeker_2.json"
+    },
+    "special_bonus_unique_bloodseeker_3" : {
+      "$ref:" : "abilities/special_bonus_unique_bloodseeker_3.json"
+    },
+    "special_bonus_unique_broodmother_1" : {
+      "$ref:" : "abilities/special_bonus_unique_broodmother_1.json"
+    },
+    "special_bonus_unique_broodmother_2" : {
+      "$ref:" : "abilities/special_bonus_unique_broodmother_2.json"
+    },
+    "special_bonus_unique_broodmother_3" : {
+      "$ref:" : "abilities/special_bonus_unique_broodmother_3.json"
+    },
+    "special_bonus_unique_broodmother_4" : {
+      "$ref:" : "abilities/special_bonus_unique_broodmother_4.json"
+    },
+    "special_bonus_unique_chen_1" : {
+      "$ref:" : "abilities/special_bonus_unique_chen_1.json"
+    },
+    "special_bonus_unique_chen_2" : {
+      "$ref:" : "abilities/special_bonus_unique_chen_2.json"
+    },
+    "special_bonus_unique_chen_3" : {
+      "$ref:" : "abilities/special_bonus_unique_chen_3.json"
+    },
+    "special_bonus_unique_chen_4" : {
+      "$ref:" : "abilities/special_bonus_unique_chen_4.json"
+    },
+    "special_bonus_unique_lone_druid_1" : {
+      "$ref:" : "abilities/special_bonus_unique_lone_druid_1.json"
+    },
+    "special_bonus_unique_lone_druid_2" : {
+      "$ref:" : "abilities/special_bonus_unique_lone_druid_2.json"
+    },
+    "special_bonus_unique_lone_druid_3" : {
+      "$ref:" : "abilities/special_bonus_unique_lone_druid_3.json"
+    },
+    "special_bonus_unique_lone_druid_4" : {
+      "$ref:" : "abilities/special_bonus_unique_lone_druid_4.json"
+    },
+    "special_bonus_unique_lone_druid_5" : {
+      "$ref:" : "abilities/special_bonus_unique_lone_druid_5.json"
+    },
+    "special_bonus_unique_wisp" : {
+      "$ref:" : "abilities/special_bonus_unique_wisp.json"
+    },
+    "special_bonus_unique_wisp_2" : {
+      "$ref:" : "abilities/special_bonus_unique_wisp_2.json"
+    },
+    "special_bonus_unique_techies" : {
+      "$ref:" : "abilities/special_bonus_unique_techies.json"
+    },
+    "special_bonus_unique_techies_2" : {
+      "$ref:" : "abilities/special_bonus_unique_techies_2.json"
+    },
+    "special_bonus_unique_arc_warden" : {
+      "$ref:" : "abilities/special_bonus_unique_arc_warden.json"
+    },
+    "special_bonus_unique_arc_warden_2" : {
+      "$ref:" : "abilities/special_bonus_unique_arc_warden_2.json"
+    },
+    "special_bonus_unique_meepo" : {
+      "$ref:" : "abilities/special_bonus_unique_meepo.json"
+    },
+    "special_bonus_unique_monkey_king" : {
+      "$ref:" : "abilities/special_bonus_unique_monkey_king.json"
+    },
+    "special_bonus_unique_monkey_king_2" : {
+      "$ref:" : "abilities/special_bonus_unique_monkey_king_2.json"
+    }
+  }
+}

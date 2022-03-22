@@ -1,0 +1,18 @@
+infoSchema: 0.1   # Признак того, что это ISD-файл
+info:
+  title: Характеристики товарной позиции
+  description: Перечень атрибутов, использующихся в качестве харктеристик ТП
+  version: 0.1
+  contact:
+    name: Alexander Ostankov
+    email: aor.48ru@gmail.com
+  summary: Попытка переосмысления задачи управления номенклатурой через использование ISD
+type: object
+properties:
+# Здесь перечисляются все виды характеристик, используемых при описании товаров
+  chColor:
+    title: Цвет
+    type: string
+  chSize:
+    title: Размер
+    type: string

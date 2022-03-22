@@ -1,0 +1,44 @@
+infoSchema: 0.1   # Признак того, что это ISD-файл
+info:
+  title: Заголовок агрегата
+  description: Общий набор фиксированных свойств для агрегатов
+  version: 0.1
+  contact:
+    name: Alexander Ostankov
+    email: aor.48ru@gmail.com
+  summary: Попытка переосмысления задачи управления номенклатурой через использование ISD
+type: object
+iuType: aggregate
+properties:
+  uid:
+    title: Глобальный идентификатор объекта агрегата
+    type: string
+    format: uuid
+  name:
+    title: Наименование объекта агрегата (краткое)
+    type: string
+  code:
+    title: Код объекта агрегата
+    type: string
+  descr:
+    title: Наименование объекта агрегата (полное)
+    type: string
+  comm:
+    title: Пояснение к объекту
+    type: string
+  instanceStatus:
+    title: Статус экземпляра объекта
+    type: string
+    enum:
+      - "DUMMY"
+      - "EFFECTIVE"
+      - "REMOVED"
+  lastChange:
+    title: Момент последнего изменения объекта
+    type: string
+    format: timestamp
+  changeSource:
+    title: Источник последнего изменения объекта
+    type: string
+iuPriKey:
+  - uid

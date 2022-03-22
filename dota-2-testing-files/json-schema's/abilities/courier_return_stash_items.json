@@ -1,0 +1,24 @@
+{
+  "type" : "object",
+  "required" : [ ],
+  "properties" : {
+    "dname" : {
+      "type" : "string"
+    },
+    "behavior" : {
+      "type" : "string"
+    },
+    "desc" : {
+      "type" : "string"
+    },
+    "attrib" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "img" : {
+      "type" : "string"
+    }
+  }
+}

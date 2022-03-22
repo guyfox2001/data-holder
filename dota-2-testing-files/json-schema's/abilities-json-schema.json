@@ -1,0 +1,160 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "title": "abilities",
+  "properties": {
+    "dname": {
+      "type": "string"
+    },
+    "behavior": {
+      "$ref": "#/definitions/BehaviorUnion"
+    },
+    "dmg_type": {
+      "$ref": "#/definitions/DmgType"
+    },
+    "bkbpierce": {
+      "$ref": "#/definitions/Bkbpierce"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "attrib": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Attrib"
+      }
+    },
+    "img": {
+      "type": "string"
+    },
+    "mc": {
+      "$ref": "#/definitions/Dmg"
+    },
+    "cd": {
+      "$ref": "#/definitions/CD"
+    },
+    "dmg": {
+      "$ref": "#/definitions/Dmg"
+    },
+    "target_type": {
+      "type": "array",
+      "items": {
+        "type": "null"
+      }
+    }
+  },
+  "$defs": {
+
+    "Attrib": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "key": {
+          "type": "string"
+        },
+        "header": {
+          "type": "string"
+        },
+        "value": {
+          "$ref": "#/definitions/CD"
+        },
+        "generated": {
+          "type": "boolean"
+        },
+        "footer": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "header",
+        "key",
+        "value"
+      ],
+      "title": "Attrib"
+    },
+    "CD": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "string"
+        }
+      ],
+      "title": "CD"
+    },
+    "BehaviorUnion": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/BehaviorEnum"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        {
+          "$ref": "#/definitions/BehaviorEnum"
+        }
+      ],
+      "title": "BehaviorUnion"
+    },
+    "Dmg": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "integer"
+          }
+        },
+        {
+          "type": "string",
+          "format": "integer"
+        }
+      ],
+      "title": "Dmg"
+    },
+    "BehaviorEnum": {
+      "type": "string",
+      "enum": [
+        "Unit Target",
+        "AOE",
+        "Channeled",
+        "Hidden",
+        "No Target",
+        "Point Target",
+        "Autocast",
+        "Attack Modifier",
+        "Instant Cast",
+        "Passive"
+      ],
+      "title": "BehaviorEnum"
+    },
+    "Bkbpierce": {
+      "type": "string",
+      "enum": [
+        "No",
+        "Yes"
+      ],
+      "title": "Bkbpierce"
+    },
+    "DmgType": {
+      "type": "string",
+      "enum": [
+        "Physical",
+        "Magical",
+        "Pure"
+      ],
+      "title": "DmgType"
+    }
+  }
+}
