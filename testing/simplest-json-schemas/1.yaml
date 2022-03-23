@@ -1,0 +1,32 @@
+$schema: "https://json-schema.org/draft/2020-12/json-schema-core.html"
+title: "First simplest testing file. Root Level Depth"
+description: "The files in this directory are simple entity schemas without the use of more, shall we say, complex keywords"
+type: object
+properites:
+  property-1-1:
+    type: number
+  property-1-2:
+    type: array
+    items:
+      enum:
+        - state-1-1
+        - state-1-2
+  property-1-3:
+    title: "1 level depth"
+    type: object
+    property-1-3-1:
+      title: "2 level depth"
+      type: object
+      properties:
+        property-1-3-1-1:
+          type: string
+          enum:
+            -state-1-3-1-1
+            -state-1-3-1-2
+            -state-1-3-1-3
+            -state-1-3-1-4
+            -state-1-3-1-5
+
+$defs:
+
+required:

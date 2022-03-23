@@ -1,0 +1,91 @@
+$schema: "https://json-schema.org/draft/2020-12/json-schema-core.html"
+title: "List of regular expressions"
+description: "Some most useful regular expressions represented as Json Schema objects"
+properties:
+  uri:
+    $id: "#/properties/uri"
+    $anchor: "uri-anchor"
+    title: "uri-regex"
+    type: string
+    format: uri
+    pattern: "https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)"
+  phone:
+    $id: "#/properties/phone"
+    $anchor: "phone-anchor"
+    title: "phone-regex"
+    type: string
+    pattern: "^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$"
+  password:
+    $id: "#/properties/password"
+    $anchor: "password-anchor"
+    title: "password-regex"
+    type: string
+    pattern: "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$"
+  username:
+    $id: "#/properties/username"
+    $anchor: "username-anchor"
+    title: "username-regex"
+    type: string
+    pattern: "^[a-z0-9_-]{3,15}$"
+  e-mail:
+    $id: "#/properties/e-mail"
+    $anchor: "e-mail-anchor"
+    title: "email-regex"
+    type: string
+    pattern: "[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"
+  ipv4:
+    $id: "#/properties/ipv4"
+    $anchor: "ipv4-anchor"
+    title: "ipv4 regex"
+    type: string
+    pattern: "(\b25[0-5]|\b2[0-4][0-9]|\b[01]?[0-9][0-9]?)(\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}"
+  ipv6:
+    $id: "#/properties/ipv6"
+    $anchor: "ipv6-anchor"
+    title: "ipv6 regex"
+    type: string
+    pattern: "(([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:)
+    {1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(
+    :[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}
+    (:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:
+    )|fe80:(:[0-9a-fA-F]{0,4}){0,4}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}((25[0-5]|(2[0-4]|1{0
+    ,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])|([0-9a-fA-F]{1,4}:){1,4}:((2
+    5[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9]))"
+  port-number:
+    $id: "#/properties/port-number"
+    $anchor: "port-number-anchor"
+    title: "Port number regex"
+    type: string
+    pattern: "^((6553[0-5])|(655[0-2][0-9])|(65[0-4][0-9]{2})|(6[0-4][0-9]{3})|([1-5][0-9]{4})|([0-5]{0,5})|([0-9]{1,4}))$"
+  mac-address:
+    $id: "#/properties/mac-address"
+    $anchor: "address-anchor"
+    title: "mac-address regex"
+    type: string
+    pattern: "^[a-fA-F0-9]{2}(:[a-fA-F0-9]{2}){5}$"
+  credit-card-numder:
+    $id: "#/properties/credit-card-number"
+    $anchor: "credit-card-number-anchor"
+    title: "Credit card number regex"
+    type: string
+    pattern: "(^4[0-9]{12}(?:[0-9]{3})?$)|(^(?:5[1-5][0-9]{2}|222[1-9]|22[3-9][0-9]|2[3-6][0-9]{2}|27[0
+    1][0-9]|2720)[0-9]{12}$)|(3[47][0-9]{13})|(^3(?:0[0-5]|[68][0-9])[0-9]{11}$)|(^6(?:011|5[0-9]{2})
+    [0-9]{12}$)|(^(?:2131|1800|35\d{3})\d{11}$)"
+  russian-zip-code:
+    $id: "#/properties/russian-zip-code"
+    $anchor: "russian-zip-code-anchor"
+    title: "Russian zip code regex"
+    type: string
+    pattern: "/^\d{6}$/"
+  usa-zip-code:
+    $id: "#/properties/usa-zip-code"
+    $anchor: "usa-zip-code-anchor"
+    title: "usa zip code regex"
+    type: string
+    pattern: "/^\d{6}$/"
+  emoji:
+    $id: "#/properties/emoji"
+    $anchor: "emoji-anchor"
+    title: "emoji regex"
+    type: string
+    pattern: "/^\d{6}$/"
