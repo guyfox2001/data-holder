@@ -1,0 +1,620 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "array",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": [],
+  "examples": [
+    [
+      "public",
+      417265063
+    ]
+  ],
+  "additionalItems": true,
+  "items": {
+    "$id": "#/items",
+    "anyOf": [
+      {
+        "$id": "#/items/anyOf/0",
+        "type": "string",
+        "title": "The first anyOf schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "public",
+          "jungle"
+        ]
+      },
+      {
+        "$id": "#/items/anyOf/1",
+        "type": "integer",
+        "title": "The second anyOf schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": 0,
+        "examples": [
+          417265063,
+          -114400562
+        ]
+      },
+      {
+        "$id": "#/items/anyOf/2",
+        "type": "number",
+        "title": "The third anyOf schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": 0.0,
+        "examples": [
+          1980556701.2821765,
+          -1162512478.8127637
+        ]
+      },
+      {
+        "$id": "#/items/anyOf/3",
+        "type": "array",
+        "title": "The fourth anyOf schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": [],
+        "examples": [
+          [
+            true,
+            "paper"
+          ]
+        ],
+        "additionalItems": true,
+        "items": {
+          "$id": "#/items/anyOf/3/items",
+          "anyOf": [
+            {
+              "$id": "#/items/anyOf/3/items/anyOf/0",
+              "type": "boolean",
+              "title": "The first anyOf schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": false,
+              "examples": [
+                true,
+                false
+              ]
+            },
+            {
+              "$id": "#/items/anyOf/3/items/anyOf/1",
+              "type": "string",
+              "title": "The second anyOf schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "paper",
+                "dropped"
+              ]
+            },
+            {
+              "$id": "#/items/anyOf/3/items/anyOf/2",
+              "type": "number",
+              "title": "The third anyOf schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0.0,
+              "examples": [
+                -2122209334.0162182,
+                265017893.58008862
+              ]
+            },
+            {
+              "$id": "#/items/anyOf/3/items/anyOf/3",
+              "type": "array",
+              "title": "The fourth anyOf schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": [],
+              "examples": [
+                [
+                  145183633,
+                  {
+                    "putting": -419540604,
+                    "hunter": false,
+                    "organization": false,
+                    "growth": 706033569,
+                    "including": false,
+                    "ought": -697514612,
+                    "hill": {
+                      "unknown": "test",
+                      "hunter": false,
+                      "forth": "dull",
+                      "left": 1637854716.5887485,
+                      "school": "grown",
+                      "teach": "sugar",
+                      "border": false,
+                      "salmon": false,
+                      "nearby": -1876541565.7534556,
+                      "ear": "instrument",
+                      "element": false,
+                      "receive": false,
+                      "different": 1066264452,
+                      "post": 1803854779.1150875,
+                      "introduced": -528483115
+                    },
+                    "begun": "steam",
+                    "mood": false,
+                    "library": true,
+                    "nearby": -1269083359,
+                    "largest": "mountain",
+                    "slight": true,
+                    "equipment": 313490441.80937004,
+                    "east": -417249142
+                  }
+                ]
+              ],
+              "additionalItems": true,
+              "items": {
+                "$id": "#/items/anyOf/3/items/anyOf/3/items",
+                "anyOf": [
+                  {
+                    "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/0",
+                    "type": "integer",
+                    "title": "The first anyOf schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [
+                      145183633,
+                      1203924241
+                    ]
+                  },
+                  {
+                    "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1",
+                    "type": "object",
+                    "title": "The second anyOf schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": {},
+                    "examples": [
+                      {
+                        "putting": -419540604,
+                        "hunter": false,
+                        "organization": false,
+                        "growth": 706033569,
+                        "including": false,
+                        "ought": -697514612,
+                        "hill": {
+                          "unknown": "test",
+                          "hunter": false,
+                          "forth": "dull",
+                          "left": 1637854716.5887485,
+                          "school": "grown",
+                          "teach": "sugar",
+                          "border": false,
+                          "salmon": false,
+                          "nearby": -1876541565.7534556,
+                          "ear": "instrument",
+                          "element": false,
+                          "receive": false,
+                          "different": 1066264452,
+                          "post": 1803854779.1150875,
+                          "introduced": -528483115
+                        },
+                        "begun": "steam",
+                        "mood": false,
+                        "library": true,
+                        "nearby": -1269083359,
+                        "largest": "mountain",
+                        "slight": true,
+                        "equipment": 313490441.80937004,
+                        "east": -417249142
+                      }
+                    ],
+                    "required": [
+                      "putting",
+                      "hunter",
+                      "organization",
+                      "growth",
+                      "including",
+                      "ought",
+                      "hill",
+                      "begun",
+                      "mood",
+                      "library",
+                      "nearby",
+                      "largest",
+                      "slight",
+                      "equipment",
+                      "east"
+                    ],
+                    "properties": {
+                      "putting": {
+                        "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/putting",
+                        "type": "integer",
+                        "title": "The putting schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": 0,
+                        "examples": [
+                          -419540604
+                        ]
+                      },
+                      "hunter": {
+                        "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/hunter",
+                        "type": "boolean",
+                        "title": "The hunter schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": false,
+                        "examples": [
+                          false
+                        ]
+                      },
+                      "organization": {
+                        "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/organization",
+                        "type": "boolean",
+                        "title": "The organization schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": false,
+                        "examples": [
+                          false
+                        ]
+                      },
+                      "growth": {
+                        "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/growth",
+                        "type": "integer",
+                        "title": "The growth schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": 0,
+                        "examples": [
+                          706033569
+                        ]
+                      },
+                      "including": {
+                        "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/including",
+                        "type": "boolean",
+                        "title": "The including schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": false,
+                        "examples": [
+                          false
+                        ]
+                      },
+                      "ought": {
+                        "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/ought",
+                        "type": "integer",
+                        "title": "The ought schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": 0,
+                        "examples": [
+                          -697514612
+                        ]
+                      },
+                      "hill": {
+                        "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/hill",
+                        "type": "object",
+                        "title": "The hill schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": {},
+                        "examples": [
+                          {
+                            "unknown": "test",
+                            "hunter": false,
+                            "forth": "dull",
+                            "left": 1637854716.5887485,
+                            "school": "grown",
+                            "teach": "sugar",
+                            "border": false,
+                            "salmon": false,
+                            "nearby": -1876541565.7534556,
+                            "ear": "instrument",
+                            "element": false,
+                            "receive": false,
+                            "different": 1066264452,
+                            "post": 1803854779.1150875,
+                            "introduced": -528483115
+                          }
+                        ],
+                        "required": [
+                          "unknown",
+                          "hunter",
+                          "forth",
+                          "left",
+                          "school",
+                          "teach",
+                          "border",
+                          "salmon",
+                          "nearby",
+                          "ear",
+                          "element",
+                          "receive",
+                          "different",
+                          "post",
+                          "introduced"
+                        ],
+                        "properties": {
+                          "unknown": {
+                            "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/hill/properties/unknown",
+                            "type": "string",
+                            "title": "The unknown schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                              "test"
+                            ]
+                          },
+                          "hunter": {
+                            "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/hill/properties/hunter",
+                            "type": "boolean",
+                            "title": "The hunter schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": false,
+                            "examples": [
+                              false
+                            ]
+                          },
+                          "forth": {
+                            "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/hill/properties/forth",
+                            "type": "string",
+                            "title": "The forth schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                              "dull"
+                            ]
+                          },
+                          "left": {
+                            "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/hill/properties/left",
+                            "type": "number",
+                            "title": "The left schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": 0.0,
+                            "examples": [
+                              1637854716.5887485
+                            ]
+                          },
+                          "school": {
+                            "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/hill/properties/school",
+                            "type": "string",
+                            "title": "The school schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                              "grown"
+                            ]
+                          },
+                          "teach": {
+                            "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/hill/properties/teach",
+                            "type": "string",
+                            "title": "The teach schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                              "sugar"
+                            ]
+                          },
+                          "border": {
+                            "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/hill/properties/border",
+                            "type": "boolean",
+                            "title": "The border schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": false,
+                            "examples": [
+                              false
+                            ]
+                          },
+                          "salmon": {
+                            "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/hill/properties/salmon",
+                            "type": "boolean",
+                            "title": "The salmon schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": false,
+                            "examples": [
+                              false
+                            ]
+                          },
+                          "nearby": {
+                            "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/hill/properties/nearby",
+                            "type": "number",
+                            "title": "The nearby schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": 0.0,
+                            "examples": [
+                              -1876541565.7534556
+                            ]
+                          },
+                          "ear": {
+                            "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/hill/properties/ear",
+                            "type": "string",
+                            "title": "The ear schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                              "instrument"
+                            ]
+                          },
+                          "element": {
+                            "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/hill/properties/element",
+                            "type": "boolean",
+                            "title": "The element schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": false,
+                            "examples": [
+                              false
+                            ]
+                          },
+                          "receive": {
+                            "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/hill/properties/receive",
+                            "type": "boolean",
+                            "title": "The receive schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": false,
+                            "examples": [
+                              false
+                            ]
+                          },
+                          "different": {
+                            "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/hill/properties/different",
+                            "type": "integer",
+                            "title": "The different schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": 0,
+                            "examples": [
+                              1066264452
+                            ]
+                          },
+                          "post": {
+                            "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/hill/properties/post",
+                            "type": "number",
+                            "title": "The post schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": 0.0,
+                            "examples": [
+                              1803854779.1150875
+                            ]
+                          },
+                          "introduced": {
+                            "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/hill/properties/introduced",
+                            "type": "integer",
+                            "title": "The introduced schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": 0,
+                            "examples": [
+                              -528483115
+                            ]
+                          }
+                        },
+                        "additionalProperties": true
+                      },
+                      "begun": {
+                        "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/begun",
+                        "type": "string",
+                        "title": "The begun schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                          "steam"
+                        ]
+                      },
+                      "mood": {
+                        "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/mood",
+                        "type": "boolean",
+                        "title": "The mood schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": false,
+                        "examples": [
+                          false
+                        ]
+                      },
+                      "library": {
+                        "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/library",
+                        "type": "boolean",
+                        "title": "The library schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": false,
+                        "examples": [
+                          true
+                        ]
+                      },
+                      "nearby": {
+                        "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/nearby",
+                        "type": "integer",
+                        "title": "The nearby schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": 0,
+                        "examples": [
+                          -1269083359
+                        ]
+                      },
+                      "largest": {
+                        "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/largest",
+                        "type": "string",
+                        "title": "The largest schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                          "mountain"
+                        ]
+                      },
+                      "slight": {
+                        "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/slight",
+                        "type": "boolean",
+                        "title": "The slight schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": false,
+                        "examples": [
+                          true
+                        ]
+                      },
+                      "equipment": {
+                        "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/equipment",
+                        "type": "number",
+                        "title": "The equipment schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": 0.0,
+                        "examples": [
+                          313490441.80937004
+                        ]
+                      },
+                      "east": {
+                        "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/1/properties/east",
+                        "type": "integer",
+                        "title": "The east schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": 0,
+                        "examples": [
+                          -417249142
+                        ]
+                      }
+                    },
+                    "additionalProperties": true
+                  },
+                  {
+                    "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/2",
+                    "type": "number",
+                    "title": "The third anyOf schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0.0,
+                    "examples": [
+                      -1260758612.354207,
+                      -127513078.78722334
+                    ]
+                  },
+                  {
+                    "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/3",
+                    "type": "boolean",
+                    "title": "The fourth anyOf schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": false,
+                    "examples": [
+                      true,
+                      false
+                    ]
+                  },
+                  {
+                    "$id": "#/items/anyOf/3/items/anyOf/3/items/anyOf/4",
+                    "type": "string",
+                    "title": "The fifth anyOf schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "handsome",
+                      "joined"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "$id": "#/items/anyOf/3/items/anyOf/4",
+              "type": "integer",
+              "title": "The fifth anyOf schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0,
+              "examples": [
+                546053250,
+                1537801058
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "$id": "#/items/anyOf/4",
+        "type": "boolean",
+        "title": "The fifth anyOf schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": false,
+        "examples": [
+          true,
+          false
+        ]
+      }
+    ]
+  }
+}

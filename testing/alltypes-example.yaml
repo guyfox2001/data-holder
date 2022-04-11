@@ -1,0 +1,98 @@
+---
+$schema: "https://json-schema.org/draft/2020-12/json-schema-core.html"
+properties:
+  string:
+    type: string
+    title: "String example"
+    minLength: 0
+    maxLength: 99
+    format: some-format
+    pattern: some-pattern-regex
+  array:
+    type: array
+    title: "Array Example"
+    maxContains: 7
+    minContains: 3
+    uniqueItems: false
+    prefixItems:
+      - type: string
+        title: "String example"
+        minLength: 0
+        maxLength: 99
+      - type: integer
+        title: "Integer example"
+        minimum: -999 #exclusiveMinimum > -999 | minimum >= -999
+        maximum: 999 #exclusiveMaximum < 999 | maximum <= 999
+        multipleOf: 2 #Кратно этому числу
+      - type: object
+        title: "Object example"
+        maxProperties: 5
+        minProperties: 1
+        properties:
+          string-1:
+            type: string
+          string-2:
+            type: string
+          integer:
+            type: integer
+    additionalProperties: true
+
+  integer:
+    type: integer
+    title: "Integer example"
+    minimum: -999 #exclusiveMinimum > -999 | minimum >= -999
+    maximum: 999 #exclusiveMaximum < 999 | maximum <= 999
+    multipleOf: 2 #Кратно этому числу
+  number:
+    type: number
+    title: "number example"
+    minimum: -999 #exclusiveMinimum > -999 | minimum >= -999
+    maximum: 999 #exclusiveMaximum < 999 | maximum <= 999
+    multipleOf: 2 #Кратно этому числу
+    exclusiveMaximum: true
+  object:
+    type: object
+    title: "Object example"
+    maxProperties: 5
+    minProperties: 1
+    properties:
+      string-1:
+        type: string
+        title: "String example"
+        minLength: 0
+        maxLength: 99
+        format: some-format
+        pattern: some-pattern-regex
+      integer-1:
+        type: integer
+        title: "Integer example"
+        minimum: -999 #exclusiveMinimum > -999 | minimum >= -999
+        maximum: 999 #exclusiveMaximum < 999 | maximum <= 999
+        multipleOf: 2 #Кратно этому числу
+      number-2:
+        type: number
+        title: "number example"
+        minimum: -999 #exclusiveMinimum > -999 | minimum >= -999
+        maximum: 999 #exclusiveMaximum < 999 | maximum <= 999
+        multipleOf: 2 #Кратно этому числу
+        exclusiveMaximum: true
+      object-1:
+        type: object
+        title: "Object example"
+        properties:
+          1:
+            type: string
+          2:
+            type: number
+      additionalProperties:
+        - string-1:
+            type: string
+            title: "String example"
+            minLength: 0
+            maxLength: 99
+        - integer-1:
+            type: integer
+            title: "Integer example"
+  null:
+    type: boolean
+  boolean:

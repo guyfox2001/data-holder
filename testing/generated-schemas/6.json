@@ -1,0 +1,459 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "array",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": [],
+  "additionalItems": false,
+  "items": [
+    {
+      "$id": "#/items/0",
+      "type": "array",
+      "title": "The first items schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "additionalItems": false,
+      "items": [
+        {
+          "$id": "#/items/0/items/0",
+          "type": "string",
+          "title": "The first items schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": ""
+        },
+        {
+          "$id": "#/items/0/items/1",
+          "type": "object",
+          "title": "The second items schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": {},
+          "required": [
+            "asleep",
+            "die",
+            "orbit",
+            "smoke",
+            "minute",
+            "pie",
+            "wealth",
+            "certain",
+            "distant",
+            "arrangement",
+            "vegetable",
+            "coming",
+            "bush",
+            "passage",
+            "command",
+            "piano",
+            "ability",
+            "street",
+            "wear",
+            "least"
+          ],
+          "properties": {
+            "asleep": {
+              "$id": "#/items/0/items/1/properties/asleep",
+              "type": "boolean",
+              "title": "The asleep schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": false
+            },
+            "die": {
+              "$id": "#/items/0/items/1/properties/die",
+              "type": "string",
+              "title": "The die schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": ""
+            },
+            "orbit": {
+              "$id": "#/items/0/items/1/properties/orbit",
+              "type": "integer",
+              "title": "The orbit schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0
+            },
+            "smoke": {
+              "$id": "#/items/0/items/1/properties/smoke",
+              "type": "string",
+              "title": "The smoke schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": ""
+            },
+            "minute": {
+              "$id": "#/items/0/items/1/properties/minute",
+              "type": "boolean",
+              "title": "The minute schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": false
+            },
+            "pie": {
+              "$id": "#/items/0/items/1/properties/pie",
+              "type": "integer",
+              "title": "The pie schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0
+            },
+            "wealth": {
+              "$id": "#/items/0/items/1/properties/wealth",
+              "type": "number",
+              "title": "The wealth schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0.0
+            },
+            "certain": {
+              "$id": "#/items/0/items/1/properties/certain",
+              "type": "boolean",
+              "title": "The certain schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": false
+            },
+            "distant": {
+              "$id": "#/items/0/items/1/properties/distant",
+              "type": "boolean",
+              "title": "The distant schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": false
+            },
+            "arrangement": {
+              "$id": "#/items/0/items/1/properties/arrangement",
+              "type": "integer",
+              "title": "The arrangement schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0
+            },
+            "vegetable": {
+              "$id": "#/items/0/items/1/properties/vegetable",
+              "type": "number",
+              "title": "The vegetable schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0.0
+            },
+            "coming": {
+              "$id": "#/items/0/items/1/properties/coming",
+              "type": "number",
+              "title": "The coming schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0.0
+            },
+            "bush": {
+              "$id": "#/items/0/items/1/properties/bush",
+              "type": "integer",
+              "title": "The bush schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0
+            },
+            "passage": {
+              "$id": "#/items/0/items/1/properties/passage",
+              "type": "string",
+              "title": "The passage schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": ""
+            },
+            "command": {
+              "$id": "#/items/0/items/1/properties/command",
+              "type": "integer",
+              "title": "The command schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0
+            },
+            "piano": {
+              "$id": "#/items/0/items/1/properties/piano",
+              "type": "string",
+              "title": "The piano schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": ""
+            },
+            "ability": {
+              "$id": "#/items/0/items/1/properties/ability",
+              "type": "string",
+              "title": "The ability schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": ""
+            },
+            "street": {
+              "$id": "#/items/0/items/1/properties/street",
+              "type": "boolean",
+              "title": "The street schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": false
+            },
+            "wear": {
+              "$id": "#/items/0/items/1/properties/wear",
+              "type": "string",
+              "title": "The wear schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": ""
+            },
+            "least": {
+              "$id": "#/items/0/items/1/properties/least",
+              "type": "boolean",
+              "title": "The least schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": false
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "$id": "#/items/0/items/2",
+          "type": "boolean",
+          "title": "The third items schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": false
+        },
+        {
+          "$id": "#/items/0/items/3",
+          "type": "number",
+          "title": "The fourth items schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0.0
+        },
+        {
+          "$id": "#/items/0/items/4",
+          "type": "string",
+          "title": "The fifth items schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": ""
+        },
+        {
+          "$id": "#/items/0/items/5",
+          "type": "boolean",
+          "title": "The sixth items schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": false
+        },
+        {
+          "$id": "#/items/0/items/6",
+          "type": "string",
+          "title": "The seventh items schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": ""
+        },
+        {
+          "$id": "#/items/0/items/7",
+          "type": "string",
+          "title": "The eighth items schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": ""
+        },
+        {
+          "$id": "#/items/0/items/8",
+          "type": "string",
+          "title": "The ninth items schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": ""
+        },
+        {
+          "$id": "#/items/0/items/9",
+          "type": "number",
+          "title": "The tenth items schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0.0
+        },
+        {
+          "$id": "#/items/0/items/10",
+          "type": "boolean",
+          "title": "The eleventh items schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": false
+        },
+        {
+          "$id": "#/items/0/items/11",
+          "type": "boolean",
+          "title": "The twelfth items schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": false
+        },
+        {
+          "$id": "#/items/0/items/12",
+          "type": "integer",
+          "title": "The thirteenth items schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0
+        },
+        {
+          "$id": "#/items/0/items/13",
+          "type": "boolean",
+          "title": "The fourteenth items schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": false
+        },
+        {
+          "$id": "#/items/0/items/14",
+          "type": "integer",
+          "title": "The fifteenth items schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0
+        },
+        {
+          "$id": "#/items/0/items/15",
+          "type": "number",
+          "title": "The sixteenth items schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0.0
+        },
+        {
+          "$id": "#/items/0/items/16",
+          "type": "boolean",
+          "title": "The seventeenth items schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": false
+        },
+        {
+          "$id": "#/items/0/items/17",
+          "type": "number",
+          "title": "The eighteenth items schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0.0
+        },
+        {
+          "$id": "#/items/0/items/18",
+          "type": "number",
+          "title": "The nineteenth items schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0.0
+        },
+        {
+          "$id": "#/items/0/items/19",
+          "type": "number",
+          "title": "The twentieth items schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0.0
+        }
+      ]
+    },
+    {
+      "$id": "#/items/1",
+      "type": "string",
+      "title": "The second items schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    {
+      "$id": "#/items/2",
+      "type": "string",
+      "title": "The third items schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    {
+      "$id": "#/items/3",
+      "type": "integer",
+      "title": "The fourth items schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    },
+    {
+      "$id": "#/items/4",
+      "type": "string",
+      "title": "The fifth items schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    {
+      "$id": "#/items/5",
+      "type": "boolean",
+      "title": "The sixth items schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": false
+    },
+    {
+      "$id": "#/items/6",
+      "type": "string",
+      "title": "The seventh items schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    {
+      "$id": "#/items/7",
+      "type": "boolean",
+      "title": "The eighth items schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": false
+    },
+    {
+      "$id": "#/items/8",
+      "type": "integer",
+      "title": "The ninth items schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    },
+    {
+      "$id": "#/items/9",
+      "type": "string",
+      "title": "The tenth items schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    {
+      "$id": "#/items/10",
+      "type": "string",
+      "title": "The eleventh items schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    {
+      "$id": "#/items/11",
+      "type": "number",
+      "title": "The twelfth items schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0.0
+    },
+    {
+      "$id": "#/items/12",
+      "type": "integer",
+      "title": "The thirteenth items schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    },
+    {
+      "$id": "#/items/13",
+      "type": "string",
+      "title": "The fourteenth items schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    {
+      "$id": "#/items/14",
+      "type": "string",
+      "title": "The fifteenth items schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    {
+      "$id": "#/items/15",
+      "type": "boolean",
+      "title": "The sixteenth items schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": false
+    },
+    {
+      "$id": "#/items/16",
+      "type": "integer",
+      "title": "The seventeenth items schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    },
+    {
+      "$id": "#/items/17",
+      "type": "integer",
+      "title": "The eighteenth items schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    },
+    {
+      "$id": "#/items/18",
+      "type": "integer",
+      "title": "The nineteenth items schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    },
+    {
+      "$id": "#/items/19",
+      "type": "boolean",
+      "title": "The twentieth items schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": false
+    }
+  ]
+}

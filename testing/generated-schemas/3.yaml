@@ -1,0 +1,192 @@
+---
+$schema: "http://json-schema.org/draft-07/schema#"
+title: "Generated schema for Root"
+type: "object"
+properties:
+  queen:
+    type: "boolean"
+  independent:
+    type: "number"
+  fine:
+    type: "string"
+  strange:
+    type: "boolean"
+  locate:
+    type: "boolean"
+  zero:
+    type: "boolean"
+  opinion:
+    type: "boolean"
+  week:
+    type: "object"
+    properties:
+      stop:
+        type: "number"
+      beneath:
+        type: "object"
+        properties:
+          soft:
+            type: "boolean"
+          loud:
+            type: "string"
+          arrive:
+            type: "boolean"
+          pan:
+            type: "string"
+          blue:
+            type: "boolean"
+          colony:
+            type: "object"
+            properties:
+              lion:
+                type: "boolean"
+              below:
+                type: "string"
+              upward:
+                type: "boolean"
+              lungs:
+                type: "number"
+              independent:
+                type: "number"
+              design:
+                type: "number"
+              golden:
+                type: "number"
+              mainly:
+                type: "number"
+              completely:
+                type: "number"
+              mean:
+                type: "boolean"
+              foreign:
+                type: "number"
+              substance:
+                type: "string"
+              earn:
+                type: "boolean"
+              grow:
+                type: "boolean"
+              differ:
+                type: "boolean"
+            required:
+            - "lion"
+            - "below"
+            - "upward"
+            - "lungs"
+            - "independent"
+            - "design"
+            - "golden"
+            - "mainly"
+            - "completely"
+            - "mean"
+            - "foreign"
+            - "substance"
+            - "earn"
+            - "grow"
+            - "differ"
+          end:
+            type: "boolean"
+          close:
+            type: "string"
+          safe:
+            type: "number"
+          death:
+            type: "string"
+          sold:
+            type: "number"
+          example:
+            type: "number"
+          condition:
+            type: "boolean"
+          lose:
+            type: "number"
+          should:
+            type: "string"
+        required:
+        - "soft"
+        - "loud"
+        - "arrive"
+        - "pan"
+        - "blue"
+        - "colony"
+        - "end"
+        - "close"
+        - "safe"
+        - "death"
+        - "sold"
+        - "example"
+        - "condition"
+        - "lose"
+        - "should"
+      fell:
+        type: "number"
+      spring:
+        type: "number"
+      organization:
+        type: "boolean"
+      signal:
+        type: "number"
+      adventure:
+        type: "number"
+      picture:
+        type: "boolean"
+      repeat:
+        type: "string"
+      magnet:
+        type: "number"
+      simple:
+        type: "boolean"
+      neighbor:
+        type: "number"
+      tax:
+        type: "string"
+      steam:
+        type: "number"
+      cry:
+        type: "number"
+    required:
+    - "stop"
+    - "beneath"
+    - "fell"
+    - "spring"
+    - "organization"
+    - "signal"
+    - "adventure"
+    - "picture"
+    - "repeat"
+    - "magnet"
+    - "simple"
+    - "neighbor"
+    - "tax"
+    - "steam"
+    - "cry"
+  twenty:
+    type: "number"
+  desk:
+    type: "number"
+  additional:
+    type: "boolean"
+  seed:
+    type: "boolean"
+  airplane:
+    type: "string"
+  those:
+    type: "string"
+  we:
+    type: "number"
+required:
+- "queen"
+- "independent"
+- "fine"
+- "strange"
+- "locate"
+- "zero"
+- "opinion"
+- "week"
+- "twenty"
+- "desk"
+- "additional"
+- "seed"
+- "airplane"
+- "those"
+- "we"

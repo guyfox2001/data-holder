@@ -1,0 +1,78 @@
+$schema: "https://json-schema.org/draft/2020-12/json-schema-core.html"
+title: "Second simplest testing file. Root Level Depth"
+description: "The files in this directory are simple entity schemas without the use\
+  \ of more, shall we say, complex keywords"
+type: object
+additionalProperties: false
+properties:
+  property-4-1:
+    type: object
+    properties:
+      property-4-1-1:
+        type: object
+        properties:
+          property-4-1-1-1:
+          property-4-1-1-2:
+      property-4-1-2:
+      property-4-1-3:
+        type: object
+          properties:
+            property-4-1-3-1:
+            property-4-1-3-2:
+      property-4-1-4:
+      property-4-1-5:
+        type: object
+          properties:
+            property-4-1-5-1:
+            property-4-1-5-2:
+  property-4-2:
+    type: string
+    title : "Founders Kentucky Breakfast"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    Amet dictum sit amet justo donec enim diam vulputate. Enim sed faucibus turpis in eu mi. Nibh cras pulvinar mattis nunc sed blandit
+     libero. Cras tincidunt lobortis feugiat vivamus at augue eget arcu."
+    format: some-format
+    maxLength: 100
+  property-4-3:
+    type: array
+    uniqueItems: true
+    maxItems: 7
+    prefixItems:
+      - type: number
+        title: "New Duncanbury"
+      - type: object
+        title: "Two Hearted Ale"
+        properties:
+          property-4-3-ai-1:
+            type: string
+          property-4-3-ai-2:
+        minProperties: 1
+        addtitionalProperties: true
+      - type: object
+        title: "Feel the force!"
+      - type: boolean
+        title: "elk"
+    items:
+      - type: object
+        properties:
+          war:
+            type: "integer"
+            title: "The war schema"
+            description: "An explanation about the purpose of this instance."
+            default: 0
+          driver:
+            type: "string"
+            title: "The driver schema"
+            description: "An explanation about the purpose of this instance."
+            default: ""
+          process:
+            type: "boolean"
+            title: "The process schema"
+            description: "An explanation about the purpose of this instance."
+            default: false
+          measure:
+            type: "string"
+            title: "The measure schema"
+            description: "An explanation about the purpose of this instance."
+            default: ""
+      - type: string

@@ -1,0 +1,257 @@
+{
+  "$schema" : "http://json-schema.org/draft-07/schema#",
+  "title" : "Generated schema for Root",
+  "type" : "object",
+  "properties" : {
+    "queen" : {
+      "type" : "boolean",
+      "$id" : "#/properties/queen"
+    },
+    "independent" : {
+      "type" : "number",
+      "$id" : "#/properties/independent"
+    },
+    "fine" : {
+      "type" : "string",
+      "$id" : "#/properties/fine"
+    },
+    "strange" : {
+      "type" : "boolean",
+      "$id" : "#/properties/strange"
+    },
+    "locate" : {
+      "type" : "boolean",
+      "$id" : "#/properties/locate"
+    },
+    "zero" : {
+      "type" : "boolean",
+      "$id" : "#/properties/zero"
+    },
+    "opinion" : {
+      "type" : "boolean",
+      "$id" : "#/properties/opinion"
+    },
+    "week" : {
+      "type" : "object",
+      "properties" : {
+        "stop" : {
+          "type" : "number",
+          "$id" : "#/properties/week/properties/stop"
+        },
+        "beneath" : {
+          "type" : "object",
+          "properties" : {
+            "soft" : {
+              "type" : "boolean",
+              "$id" : "#/properties/week/properties/beneath/properties/soft"
+            },
+            "loud" : {
+              "type" : "string",
+              "$id" : "#/properties/week/properties/beneath/properties/loud"
+            },
+            "arrive" : {
+              "type" : "boolean",
+              "$id" : "#/properties/week/properties/beneath/properties/arrive"
+            },
+            "pan" : {
+              "type" : "string",
+              "$id" : "#/properties/week/properties/beneath/properties/pan"
+            },
+            "blue" : {
+              "type" : "boolean",
+              "$id" : "#/properties/week/properties/beneath/properties/blue"
+            },
+            "colony" : {
+              "type" : "object",
+              "properties" : {
+                "lion" : {
+                  "type" : "boolean",
+                  "$id" : "#/properties/week/properties/beneath/properties/colony/properties/lion"
+                },
+                "below" : {
+                  "type" : "string",
+                  "$id" : "#/properties/week/properties/beneath/properties/colony/properties/below"
+                },
+                "upward" : {
+                  "type" : "boolean",
+                  "$id" : "#/properties/week/properties/beneath/properties/colony/properties/upward"
+                },
+                "lungs" : {
+                  "type" : "number",
+                  "$id" : "#/properties/week/properties/beneath/properties/colony/properties/lungs"
+                },
+                "independent" : {
+                  "type" : "number",
+                  "$id" : "#/properties/week/properties/beneath/properties/colony/properties/independent"
+                },
+                "design" : {
+                  "type" : "number",
+                  "$id" : "#/properties/week/properties/beneath/properties/colony/properties/design"
+                },
+                "golden" : {
+                  "type" : "number",
+                  "$id" : "#/properties/week/properties/beneath/properties/colony/properties/golden"
+                },
+                "mainly" : {
+                  "type" : "number",
+                  "$id" : "#/properties/week/properties/beneath/properties/colony/properties/mainly"
+                },
+                "completely" : {
+                  "type" : "number",
+                  "$id" : "#/properties/week/properties/beneath/properties/colony/properties/completely"
+                },
+                "mean" : {
+                  "type" : "boolean",
+                  "$id" : "#/properties/week/properties/beneath/properties/colony/properties/mean"
+                },
+                "foreign" : {
+                  "type" : "number",
+                  "$id" : "#/properties/week/properties/beneath/properties/colony/properties/foreign"
+                },
+                "substance" : {
+                  "type" : "string",
+                  "$id" : "#/properties/week/properties/beneath/properties/colony/properties/substance"
+                },
+                "earn" : {
+                  "type" : "boolean",
+                  "$id" : "#/properties/week/properties/beneath/properties/colony/properties/earn"
+                },
+                "grow" : {
+                  "type" : "boolean",
+                  "$id" : "#/properties/week/properties/beneath/properties/colony/properties/grow"
+                },
+                "differ" : {
+                  "type" : "boolean",
+                  "$id" : "#/properties/week/properties/beneath/properties/colony/properties/differ"
+                }
+              },
+              "required" : [ "lion", "below", "upward", "lungs", "independent", "design", "golden", "mainly", "completely", "mean", "foreign", "substance", "earn", "grow", "differ" ],
+              "$id" : "#/properties/week/properties/beneath/properties/colony"
+            },
+            "end" : {
+              "type" : "boolean",
+              "$id" : "#/properties/week/properties/beneath/properties/end"
+            },
+            "close" : {
+              "type" : "string",
+              "$id" : "#/properties/week/properties/beneath/properties/close"
+            },
+            "safe" : {
+              "type" : "number",
+              "$id" : "#/properties/week/properties/beneath/properties/safe"
+            },
+            "death" : {
+              "type" : "string",
+              "$id" : "#/properties/week/properties/beneath/properties/death"
+            },
+            "sold" : {
+              "type" : "number",
+              "$id" : "#/properties/week/properties/beneath/properties/sold"
+            },
+            "example" : {
+              "type" : "number",
+              "$id" : "#/properties/week/properties/beneath/properties/example"
+            },
+            "condition" : {
+              "type" : "boolean",
+              "$id" : "#/properties/week/properties/beneath/properties/condition"
+            },
+            "lose" : {
+              "type" : "number",
+              "$id" : "#/properties/week/properties/beneath/properties/lose"
+            },
+            "should" : {
+              "type" : "string",
+              "$id" : "#/properties/week/properties/beneath/properties/should"
+            }
+          },
+          "required" : [ "soft", "loud", "arrive", "pan", "blue", "colony", "end", "close", "safe", "death", "sold", "example", "condition", "lose", "should" ],
+          "$id" : "#/properties/week/properties/beneath"
+        },
+        "fell" : {
+          "type" : "number",
+          "$id" : "#/properties/week/properties/fell"
+        },
+        "spring" : {
+          "type" : "number",
+          "$id" : "#/properties/week/properties/spring"
+        },
+        "organization" : {
+          "type" : "boolean",
+          "$id" : "#/properties/week/properties/organization"
+        },
+        "signal" : {
+          "type" : "number",
+          "$id" : "#/properties/week/properties/signal"
+        },
+        "adventure" : {
+          "type" : "number",
+          "$id" : "#/properties/week/properties/adventure"
+        },
+        "picture" : {
+          "type" : "boolean",
+          "$id" : "#/properties/week/properties/picture"
+        },
+        "repeat" : {
+          "type" : "string",
+          "$id" : "#/properties/week/properties/repeat"
+        },
+        "magnet" : {
+          "type" : "number",
+          "$id" : "#/properties/week/properties/magnet"
+        },
+        "simple" : {
+          "type" : "boolean",
+          "$id" : "#/properties/week/properties/simple"
+        },
+        "neighbor" : {
+          "type" : "number",
+          "$id" : "#/properties/week/properties/neighbor"
+        },
+        "tax" : {
+          "type" : "string",
+          "$id" : "#/properties/week/properties/tax"
+        },
+        "steam" : {
+          "type" : "number",
+          "$id" : "#/properties/week/properties/steam"
+        },
+        "cry" : {
+          "type" : "number",
+          "$id" : "#/properties/week/properties/cry"
+        }
+      },
+      "required" : [ "stop", "beneath", "fell", "spring", "organization", "signal", "adventure", "picture", "repeat", "magnet", "simple", "neighbor", "tax", "steam", "cry" ],
+      "$id" : "#/properties/week"
+    },
+    "twenty" : {
+      "type" : "number",
+      "$id" : "#/properties/twenty"
+    },
+    "desk" : {
+      "type" : "number",
+      "$id" : "#/properties/desk"
+    },
+    "additional" : {
+      "type" : "boolean",
+      "$id" : "#/properties/additional"
+    },
+    "seed" : {
+      "type" : "boolean",
+      "$id" : "#/properties/seed"
+    },
+    "airplane" : {
+      "type" : "string",
+      "$id" : "#/properties/airplane"
+    },
+    "those" : {
+      "type" : "string",
+      "$id" : "#/properties/those"
+    },
+    "we" : {
+      "type" : "number",
+      "$id" : "#/properties/we"
+    }
+  },
+  "required" : [ "queen", "independent", "fine", "strange", "locate", "zero", "opinion", "week", "twenty", "desk", "additional", "seed", "airplane", "those", "we" ]
+}

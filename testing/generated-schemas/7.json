@@ -1,0 +1,173 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "required": [
+    "asleep",
+    "die",
+    "orbit",
+    "smoke",
+    "minute",
+    "pie",
+    "wealth",
+    "certain",
+    "distant",
+    "arrangement",
+    "vegetable",
+    "coming",
+    "bush",
+    "passage",
+    "command",
+    "piano",
+    "ability",
+    "street",
+    "wear",
+    "least"
+  ],
+  "properties": {
+    "asleep": {
+      "$id": "#/properties/asleep",
+      "type": "boolean",
+      "title": "The asleep schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": false
+    },
+    "die": {
+      "$id": "#/properties/die",
+      "type": "string",
+      "title": "The die schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    "orbit": {
+      "$id": "#/properties/orbit",
+      "type": "integer",
+      "title": "The orbit schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    },
+    "smoke": {
+      "$id": "#/properties/smoke",
+      "type": "string",
+      "title": "The smoke schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    "minute": {
+      "$id": "#/properties/minute",
+      "type": "boolean",
+      "title": "The minute schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": false
+    },
+    "pie": {
+      "$id": "#/properties/pie",
+      "type": "integer",
+      "title": "The pie schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    },
+    "wealth": {
+      "$id": "#/properties/wealth",
+      "type": "number",
+      "title": "The wealth schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0.0
+    },
+    "certain": {
+      "$id": "#/properties/certain",
+      "type": "boolean",
+      "title": "The certain schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": false
+    },
+    "distant": {
+      "$id": "#/properties/distant",
+      "type": "boolean",
+      "title": "The distant schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": false
+    },
+    "arrangement": {
+      "$id": "#/properties/arrangement",
+      "type": "integer",
+      "title": "The arrangement schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    },
+    "vegetable": {
+      "$id": "#/properties/vegetable",
+      "type": "number",
+      "title": "The vegetable schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0.0
+    },
+    "coming": {
+      "$id": "#/properties/coming",
+      "type": "number",
+      "title": "The coming schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0.0
+    },
+    "bush": {
+      "$id": "#/properties/bush",
+      "type": "integer",
+      "title": "The bush schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    },
+    "passage": {
+      "$id": "#/properties/passage",
+      "type": "string",
+      "title": "The passage schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    "command": {
+      "$id": "#/properties/command",
+      "type": "integer",
+      "title": "The command schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    },
+    "piano": {
+      "$id": "#/properties/piano",
+      "type": "string",
+      "title": "The piano schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    "ability": {
+      "$id": "#/properties/ability",
+      "type": "string",
+      "title": "The ability schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    "street": {
+      "$id": "#/properties/street",
+      "type": "boolean",
+      "title": "The street schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": false
+    },
+    "wear": {
+      "$id": "#/properties/wear",
+      "type": "string",
+      "title": "The wear schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    "least": {
+      "$id": "#/properties/least",
+      "type": "boolean",
+      "title": "The least schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": false
+    }
+  },
+  "additionalProperties": false
+}
