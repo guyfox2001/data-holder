@@ -9,22 +9,84 @@ properties:
     type: object
     properties:
       property-4-1-1:
-        type: object
-        properties:
-          property-4-1-1-1:
-          property-4-1-1-2:
+        type: array
+        title: "Already know you that which you need."
+        prefixItems:
+          - title: "Mudhole? Slimy? My home this is!"
+            description: "2 level depth"
+            type: string
+          - title: "Do not assume anything Obi-Wan. Clear your mind must be if you are to discover the real villains behind this plot."
+            description: "2 level depth"
+            type: number
+            minimum: -999 #exclusiveMinimum > -999 | minimum >= -999
+            maximum: 999 #exclusiveMaximum < 999 | maximum <= 999
+            multipleOf: 2 #Кратно этому числу
+            exclusiveMaximum: true
+      property-4-1-1-2:
+        type: string
+        enum:
+          - state-4-1-1-2-1
+          - state-4-1-1-2-2
+          - state-4-1-1-2-3
+          - state-4-1-1-2-4
       property-4-1-2:
+        type: object
+        titile: "Founders Breakfast Stout"
+        properties:
+          property-4-1-2-1:
+            type: string
+            title: "Not if anything to say about it I have"
+        maxProperies: 4
       property-4-1-3:
         type: object
-          properties:
-            property-4-1-3-1:
-            property-4-1-3-2:
+        properties:
+          property-4-1-3-1:
+            type: boolean
+          property-4-1-3-2:
+            title: "Primitive property"
+            description: " Density is the only volume, the only guarantee of attitude.Cantare satis ducunt ad festus detrius.Classis accelerares, tanquam alter
+               hilotae.Why does the skull hobble?"
+            type: string
+            format: "uuid"
       property-4-1-4:
+        type: number
+        title: "panda"
+        maximum: 93545
+        minimum: -1
+        exclusiveMaximum: true
+        exclusiveMinimum: true
       property-4-1-5:
         type: object
-          properties:
-            property-4-1-5-1:
-            property-4-1-5-2:
+        properties:
+          property-4-1-5-1:
+            type: string
+            title: "Officia sed aut."
+            format: some-format
+          property-4-1-5-2:
+              type: object
+              title: "Around the survivors a perimeter create."
+              properties:
+                property-4-1-5-2-1:
+                  type: array
+                  title: "fox"
+                  prefixItems:
+                    - type: string
+                      title: "Qui id facilis voluptas illum facilis fugit atque."
+                      maxLength: 100
+                  items:
+                    - type: number
+                      title: "Eum quasi totam nulla itaque recusandae dolores."
+                  minItems: 2
+                  maxItems: 10
+                property-4-1-5-2-2:
+                  type: string
+                  title: "tortoise"
+                property-4-1-5-2-3:
+                  type: string
+                  title: "Romanberg"
+                property-4-1-5-2-4:
+                  type: boolean
+                  title: "Gabon"
   property-4-2:
     type: string
     title : "Founders Kentucky Breakfast"
@@ -43,9 +105,12 @@ properties:
       - type: object
         title: "Two Hearted Ale"
         properties:
-          property-4-3-ai-1:
+          property-4-3-ai-1-1:
             type: string
-          property-4-3-ai-2:
+          property-4-3-ai-1-2:
+            type: number
+            maximum: 12300435
+            exclusiveMaximum: true
         minProperties: 1
         addtitionalProperties: true
       - type: object

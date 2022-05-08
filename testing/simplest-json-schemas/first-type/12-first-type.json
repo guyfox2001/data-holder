@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "title": "Root Schema",
+  "description": "The root schema is the schema that comprises the entire JSON document.",
+  "type": "object",
+  "properties": {
+    "picture": {
+      "title": "The picture Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "string"
+    },
+    "arrange": {
+      "title": "The arrange Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "string"
+    },
+    "was": {
+      "title": "The was Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "integer"
+    },
+    "face": {
+      "title": "The face Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "object",
+      "properties": {
+        "street": {
+          "title": "The street Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "object",
+          "properties": {
+            "seen": {
+              "title": "The seen Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "string"
+            },
+            "gave": {
+              "title": "The gave Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "string"
+            },
+            "possible": {
+              "title": "The possible Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "number"
+            },
+            "musical": {
+              "title": "The musical Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "integer"
+            },
+            "island": {
+              "title": "The island Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "string"
+            }
+          }
+        },
+        "happened": {
+          "title": "The happened Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "array",
+          "items": [{
+            "title": "A Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "type": "number"
+          },
+            {
+              "title": "A Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "number"
+            },
+            {
+              "title": "A Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "integer"
+            },
+            {
+              "title": "A Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "string"
+            },
+            {
+              "title": "A Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "string"
+            }]
+        },
+        "improve": {
+          "title": "The improve Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "number"
+        },
+        "past": {
+          "title": "The past Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "integer"
+        },
+        "brown": {
+          "title": "The brown Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "number"
+        }
+      }
+    },
+    "note": {
+      "title": "The note Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "string"
+    }
+  }
+}

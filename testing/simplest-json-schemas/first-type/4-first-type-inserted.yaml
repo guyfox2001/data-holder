@@ -1,0 +1,200 @@
+---
+$schema: "https://json-schema.org/draft/2020-12/json-schema-core.html"
+title: "Second simplest testing file. Root Level Depth"
+description: "The files in this directory are simple entity schemas without the use\
+  \ of more, shall we say, complex keywords"
+type: "object"
+additionalProperties: false
+properties:
+  property-4-1:
+    type: "object"
+    properties:
+      property-4-1-1:
+        type: "array"
+        title: "Already know you that which you need."
+        prefixItems:
+        - title: "Mudhole? Slimy? My home this is!"
+          description: "2 level depth"
+          type: "string"
+          $id: "#/properties/property-4-1/properties/property-4-1-1/0"
+        - title: "Do not assume anything Obi-Wan. Clear your mind must be if you are\
+            \ to discover the real villains behind this plot."
+          description: "2 level depth"
+          type: "number"
+          minimum: -999
+          maximum: 999
+          multipleOf: 2
+          exclusiveMaximum: true
+          $id: "#/properties/property-4-1/properties/property-4-1-1/1"
+        $id: "#/properties/property-4-1/properties/property-4-1-1"
+        $anchor: "property-4-1-1-anchor"
+      property-4-1-1-2:
+        type: "string"
+        enum:
+        - "state-4-1-1-2-1"
+        - "state-4-1-1-2-2"
+        - "state-4-1-1-2-3"
+        - "state-4-1-1-2-4"
+        $id: "#/properties/property-4-1/properties/property-4-1-1-2"
+        $anchor: "property-4-1-1-2-anchor"
+      property-4-1-2:
+        type: "object"
+        titile: "Founders Breakfast Stout"
+        properties:
+          property-4-1-2-1:
+            type: "string"
+            title: "Not if anything to say about it I have"
+            $id: "#/properties/property-4-1/properties/property-4-1-2/properties/property-4-1-2-1"
+            $anchor: "property-4-1-2-1-anchor"
+        maxProperies: 4
+        $id: "#/properties/property-4-1/properties/property-4-1-2"
+        $anchor: "property-4-1-2-anchor"
+      property-4-1-3:
+        type: "object"
+        properties:
+          property-4-1-3-1:
+            type: "boolean"
+            $id: "#/properties/property-4-1/properties/property-4-1-3/properties/property-4-1-3-1"
+            $anchor: "property-4-1-3-1-anchor"
+          property-4-1-3-2:
+            title: "Primitive property"
+            description: " Density is the only volume, the only guarantee of attitude.Cantare\
+              \ satis ducunt ad festus detrius.Classis accelerares, tanquam alter\
+              \ hilotae.Why does the skull hobble?"
+            type: "string"
+            format: "uuid"
+            $id: "#/properties/property-4-1/properties/property-4-1-3/properties/property-4-1-3-2"
+            $anchor: "property-4-1-3-2-anchor"
+        $id: "#/properties/property-4-1/properties/property-4-1-3"
+        $anchor: "property-4-1-3-anchor"
+      property-4-1-4:
+        type: "number"
+        title: "panda"
+        maximum: 93545
+        minimum: -1
+        exclusiveMaximum: true
+        exclusiveMinimum: true
+        $id: "#/properties/property-4-1/properties/property-4-1-4"
+        $anchor: "property-4-1-4-anchor"
+      property-4-1-5:
+        type: "object"
+        properties:
+          property-4-1-5-1:
+            type: "string"
+            title: "Officia sed aut."
+            format: "some-format"
+            $id: "#/properties/property-4-1/properties/property-4-1-5/properties/property-4-1-5-1"
+            $anchor: "property-4-1-5-1-anchor"
+          property-4-1-5-2:
+            type: "object"
+            title: "Around the survivors a perimeter create."
+            properties:
+              property-4-1-5-2-1:
+                type: "array"
+                title: "fox"
+                prefixItems:
+                - type: "string"
+                  title: "Qui id facilis voluptas illum facilis fugit atque."
+                  maxLength: 100
+                  $id: "#/properties/property-4-1/properties/property-4-1-5/properties/property-4-1-5-2/properties/property-4-1-5-2-1/0"
+                items:
+                - type: "number"
+                  title: "Eum quasi totam nulla itaque recusandae dolores."
+                  $id: "#/properties/property-4-1/properties/property-4-1-5/properties/property-4-1-5-2/properties/property-4-1-5-2-1/0"
+                minItems: 2
+                maxItems: 10
+                $id: "#/properties/property-4-1/properties/property-4-1-5/properties/property-4-1-5-2/properties/property-4-1-5-2-1"
+                $anchor: "property-4-1-5-2-1-anchor"
+              property-4-1-5-2-2:
+                type: "string"
+                title: "tortoise"
+                $id: "#/properties/property-4-1/properties/property-4-1-5/properties/property-4-1-5-2/properties/property-4-1-5-2-2"
+                $anchor: "property-4-1-5-2-2-anchor"
+              property-4-1-5-2-3:
+                type: "string"
+                title: "Romanberg"
+                $id: "#/properties/property-4-1/properties/property-4-1-5/properties/property-4-1-5-2/properties/property-4-1-5-2-3"
+                $anchor: "property-4-1-5-2-3-anchor"
+              property-4-1-5-2-4:
+                type: "boolean"
+                title: "Gabon"
+                $id: "#/properties/property-4-1/properties/property-4-1-5/properties/property-4-1-5-2/properties/property-4-1-5-2-4"
+                $anchor: "property-4-1-5-2-4-anchor"
+            $id: "#/properties/property-4-1/properties/property-4-1-5/properties/property-4-1-5-2"
+            $anchor: "property-4-1-5-2-anchor"
+        $id: "#/properties/property-4-1/properties/property-4-1-5"
+        $anchor: "property-4-1-5-anchor"
+    $id: "#/properties/property-4-1"
+    $anchor: "property-4-1-anchor"
+  property-4-2:
+    type: "string"
+    title: "Founders Kentucky Breakfast"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\
+      \ eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet dictum sit\
+      \ amet justo donec enim diam vulputate. Enim sed faucibus turpis in eu mi. Nibh\
+      \ cras pulvinar mattis nunc sed blandit libero. Cras tincidunt lobortis feugiat\
+      \ vivamus at augue eget arcu."
+    format: "some-format"
+    maxLength: 100
+    $id: "#/properties/property-4-2"
+    $anchor: "property-4-2-anchor"
+  property-4-3:
+    type: "array"
+    uniqueItems: true
+    maxItems: 7
+    prefixItems:
+    - type: "number"
+      title: "New Duncanbury"
+      $id: "#/properties/property-4-3/0"
+    - type: "object"
+      title: "Two Hearted Ale"
+      properties:
+        property-4-3-ai-1-1:
+          type: "string"
+          $id: "#/properties/property-4-3/1/properties/property-4-3-ai-1-1"
+        property-4-3-ai-1-2:
+          type: "number"
+          maximum: 12300435
+          exclusiveMaximum: true
+          $id: "#/properties/property-4-3/1/properties/property-4-3-ai-1-2"
+      minProperties: 1
+      addtitionalProperties: true
+      $id: "#/properties/property-4-3/1"
+    - type: "object"
+      title: "Feel the force!"
+      $id: "#/properties/property-4-3/2"
+    - type: "boolean"
+      title: "elk"
+      $id: "#/properties/property-4-3/3"
+    items:
+    - type: "object"
+      properties:
+        war:
+          type: "integer"
+          title: "The war schema"
+          description: "An explanation about the purpose of this instance."
+          default: 0
+          $id: "#/properties/property-4-3/0/properties/war"
+        driver:
+          type: "string"
+          title: "The driver schema"
+          description: "An explanation about the purpose of this instance."
+          default: ""
+          $id: "#/properties/property-4-3/0/properties/driver"
+        process:
+          type: "boolean"
+          title: "The process schema"
+          description: "An explanation about the purpose of this instance."
+          default: false
+          $id: "#/properties/property-4-3/0/properties/process"
+        measure:
+          type: "string"
+          title: "The measure schema"
+          description: "An explanation about the purpose of this instance."
+          default: ""
+          $id: "#/properties/property-4-3/0/properties/measure"
+      $id: "#/properties/property-4-3/0"
+    - type: "string"
+      $id: "#/properties/property-4-3/1"
+    $id: "#/properties/property-4-3"
+    $anchor: "property-4-3-anchor"

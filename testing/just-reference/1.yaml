@@ -1,0 +1,4 @@
+$schema: "https://json-schema.org/draft/2020-12/json-schema-core.html"
+title: "Testing file with reference"
+type: object
+properties:

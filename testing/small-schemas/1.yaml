@@ -1,0 +1,7 @@
+$schema: "https://json-schema.org/draft/2020-12/json-schema-core.html"
+title: "It's small schemas"
+description: "This directory contains a set of small schemes no more than 2 levels deep"
+type: object
+properties:
+
+

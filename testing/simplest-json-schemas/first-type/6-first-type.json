@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "title": "Root Schema",
+  "description": "The root schema is the schema that comprises the entire JSON document.",
+  "type": "object",
+  "properties": {
+    "evening": {
+      "title": "The evening Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "integer"
+    },
+    "pull": {
+      "title": "The pull Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "number"
+    },
+    "scientific": {
+      "title": "The scientific Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "object",
+      "properties": {
+        "effect": {
+          "title": "The effect Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "string"
+        },
+        "fat": {
+          "title": "The fat Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "number"
+        },
+        "constantly": {
+          "title": "The constantly Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "array",
+          "items": {
+            "anyOf": [{
+              "title": "A Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "object",
+              "properties": {
+                "talk": {
+                  "title": "The talk Schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "type": "string"
+                },
+                "bright": {
+                  "title": "The bright Schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "type": "string"
+                },
+                "native": {
+                  "title": "The native Schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "type": "integer"
+                },
+                "environment": {
+                  "title": "The environment Schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "type": "string"
+                },
+                "nothing": {
+                  "title": "The nothing Schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "type": "integer"
+                },
+                "nor": {
+                  "title": "The nor Schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "type": "string"
+                },
+                "yesterday": {
+                  "title": "The yesterday Schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "type": "number"
+                },
+                "made": {
+                  "title": "The made Schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "type": "string"
+                }
+              }
+            },
+              {
+                "title": "A Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "type": "number"
+              },
+              {
+                "title": "A Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "type": "integer"
+              },
+              {
+                "title": "A Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "type": "string"
+              }]
+          }
+        },
+        "pass": {
+          "title": "The pass Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "string"
+        },
+        "shut": {
+          "title": "The shut Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "string"
+        },
+        "flies": {
+          "title": "The flies Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "string"
+        },
+        "coffee": {
+          "title": "The coffee Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "string"
+        },
+        "did": {
+          "title": "The did Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "number"
+        }
+      }
+    },
+    "wherever": {
+      "title": "The wherever Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "string"
+    },
+    "sleep": {
+      "title": "The sleep Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "number"
+    },
+    "express": {
+      "title": "The express Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "string"
+    },
+    "country": {
+      "title": "The country Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "string"
+    },
+    "frequently": {
+      "title": "The frequently Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "string"
+    }
+  }
+}

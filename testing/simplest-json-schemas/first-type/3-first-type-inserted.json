@@ -1,0 +1,350 @@
+{
+  "$schema" : "https://json-schema.org/draft/2020-12/json-schema-core.html",
+  "title" : "Second simplest testing file. Root Level Depth",
+  "description" : "The files in this directory are simple entity schemas without the use of more, shall we say, complex keywords",
+  "type" : "object",
+  "properties" : {
+    "property-3-1" : {
+      "type" : "object",
+      "title" : "VVA-14",
+      "description" : "1 level depth",
+      "properties" : {
+        "property-3-1-1" : {
+          "type" : "array",
+          "title" : "Already know you that which you need.",
+          "prefixItems" : [ {
+            "title" : "Mudhole? Slimy? My home this is!",
+            "description" : "2 level depth",
+            "type" : "string",
+            "$id" : "#/properties/property-3-1/properties/property-3-1-1/0"
+          }, {
+            "title" : "Do not assume anything Obi-Wan. Clear your mind must be if you are to discover the real villains behind this plot.",
+            "description" : "2 level depth",
+            "type" : "number",
+            "minimum" : -999,
+            "maximum" : 999,
+            "multipleOf" : 2,
+            "exclusiveMaximum" : true,
+            "$id" : "#/properties/property-3-1/properties/property-3-1-1/1"
+          } ],
+          "$id" : "#/properties/property-3-1/properties/property-3-1-1",
+          "$anchor" : "property-3-1-1-anchor"
+        },
+        "property-3-1-2" : {
+          "type" : "string",
+          "pattern" : "some-pattern-regex",
+          "maxLength" : 100,
+          "$id" : "#/properties/property-3-1/properties/property-3-1-2",
+          "$anchor" : "property-3-1-2-anchor"
+        },
+        "property-3-1-3" : {
+          "type" : "number",
+          "title" : "Always pass on what you have learned.",
+          "minimum" : -999,
+          "maximum" : 999,
+          "multipleOf" : 2,
+          "exclusiveMaximum" : true,
+          "$id" : "#/properties/property-3-1/properties/property-3-1-3",
+          "$anchor" : "property-3-1-3-anchor"
+        },
+        "property-3-1-4" : {
+          "title" : "Lake",
+          "type" : "boolean",
+          "$id" : "#/properties/property-3-1/properties/property-3-1-4",
+          "$anchor" : "property-3-1-4-anchor"
+        }
+      },
+      "$id" : "#/properties/property-3-1",
+      "$anchor" : "property-3-1-anchor"
+    },
+    "property-3-2" : {
+      "title" : "Cessna-172",
+      "type" : "object",
+      "description" : "1 level depth",
+      "properties" : {
+        "property-3-2-1" : {
+          "title" : "Already know you that which you need.",
+          "description" : "2 level depth",
+          "type" : "object",
+          "properties" : {
+            "property-3-2-1-1" : {
+              "type" : "array",
+              "title" : "Already know you that which you need.",
+              "prefixItems" : [ {
+                "title" : "Mudhole? Slimy? My home this is!",
+                "description" : "3 level depth",
+                "type" : "string",
+                "$id" : "#/properties/property-3-2/properties/property-3-2-1/properties/property-3-2-1-1/0"
+              }, {
+                "title" : "Do not assume anything Obi-Wan. Clear your mind must be if you are to discover the real villains behind this plot.",
+                "description" : "3 level depth",
+                "type" : "number",
+                "minimum" : -999,
+                "maximum" : 999,
+                "multipleOf" : 2,
+                "exclusiveMaximum" : true,
+                "$id" : "#/properties/property-3-2/properties/property-3-2-1/properties/property-3-2-1-1/1"
+              }, {
+                "title" : "Around the survivors a perimeter create.",
+                "description" : "3 level depth",
+                "type" : "object",
+                "additionalProperties" : {
+                  "type" : "string"
+                },
+                "$id" : "#/properties/property-3-2/properties/property-3-2-1/properties/property-3-2-1-1/2"
+              } ],
+              "$id" : "#/properties/property-3-2/properties/property-3-2-1/properties/property-3-2-1-1",
+              "$anchor" : "property-3-2-1-1-anchor"
+            },
+            "property-3-2-1-2" : {
+              "type" : "number",
+              "$id" : "#/properties/property-3-2/properties/property-3-2-1/properties/property-3-2-1-2",
+              "$anchor" : "property-3-2-1-2-anchor"
+            },
+            "property-3-2-1-3" : {
+              "type" : "number",
+              "$id" : "#/properties/property-3-2/properties/property-3-2-1/properties/property-3-2-1-3",
+              "$anchor" : "property-3-2-1-3-anchor"
+            },
+            "property-3-2-1-4" : {
+              "type" : "number",
+              "$id" : "#/properties/property-3-2/properties/property-3-2-1/properties/property-3-2-1-4",
+              "$anchor" : "property-3-2-1-4-anchor"
+            }
+          },
+          "additionalProperties" : false,
+          "$id" : "#/properties/property-3-2/properties/property-3-2-1",
+          "$anchor" : "property-3-2-1-anchor"
+        },
+        "property-3-2-2" : {
+          "title" : "manatee",
+          "type" : "string",
+          "$id" : "#/properties/property-3-2/properties/property-3-2-2",
+          "$anchor" : "property-3-2-2-anchor"
+        },
+        "property-3-2-3" : {
+          "type" : "object",
+          "description" : "2 level depth",
+          "properties" : {
+            "property-3-2-3-1" : {
+              "title" : "Brooklyn Black",
+              "type" : "string",
+              "$id" : "#/properties/property-3-2/properties/property-3-2-3/properties/property-3-2-3-1",
+              "$anchor" : "property-3-2-3-1-anchor"
+            }
+          },
+          "additionalProperties" : false,
+          "$id" : "#/properties/property-3-2/properties/property-3-2-3",
+          "$anchor" : "property-3-2-3-anchor"
+        },
+        "property-3-2-4" : {
+          "title" : "dog",
+          "type" : "string",
+          "$id" : "#/properties/property-3-2/properties/property-3-2-4",
+          "$anchor" : "property-3-2-4-anchor"
+        }
+      },
+      "$id" : "#/properties/property-3-2",
+      "$anchor" : "property-3-2-anchor"
+    },
+    "property-3-3" : {
+      "title" : "An-12",
+      "type" : "object",
+      "description" : "1 level depth",
+      "properties" : {
+        "property-3-3-1" : {
+          "type" : "integer",
+          "title" : "lion",
+          "minimum" : -999,
+          "maximum" : 999,
+          "multipleOf" : 2,
+          "$id" : "#/properties/property-3-3/properties/property-3-3-1",
+          "$anchor" : "property-3-3-1-anchor"
+        },
+        "property-3-3-2" : {
+          "type" : "integer",
+          "title" : "That is why you fail.",
+          "maximum" : 1500,
+          "multipleOf" : 10,
+          "$id" : "#/properties/property-3-3/properties/property-3-3-2",
+          "$anchor" : "property-3-3-2-anchor"
+        },
+        "property-3-3-3" : {
+          "type" : "string",
+          "title" : "Trappistes Rochefort 8",
+          "minLength" : 0,
+          "maxLength" : 99,
+          "pattern" : "some-regex",
+          "$id" : "#/properties/property-3-3/properties/property-3-3-3",
+          "$anchor" : "property-3-3-3-anchor"
+        },
+        "property-3-3-4" : {
+          "type" : "object",
+          "title" : "Strong is Vader. Mind what you have learned. Save you it can.",
+          "decription" : "2 level depth",
+          "properties" : {
+            "property-3-3-4-1" : {
+              "type" : "array",
+              "decription" : "3 level depth",
+              "maxItems" : 4,
+              "items" : [ {
+                "type" : "string",
+                "$id" : "#/properties/property-3-3/properties/property-3-3-4/properties/property-3-3-4-1/0"
+              }, {
+                "title" : "Adventure. Excitement. A Jedi craves not these things.",
+                "type" : "object",
+                "decription" : "4 level depth",
+                "properties" : {
+                  "property-3-3-4-1-ai-0" : {
+                    "type" : "object",
+                    "decription" : "5 level depth",
+                    "properties" : null,
+                    "$id" : "#/properties/property-3-3/properties/property-3-3-4/properties/property-3-3-4-1/1/properties/property-3-3-4-1-ai-0"
+                  },
+                  "property-3-3-4-1-ai-1" : {
+                    "type" : "string",
+                    "$id" : "#/properties/property-3-3/properties/property-3-3-4/properties/property-3-3-4-1/1/properties/property-3-3-4-1-ai-1"
+                  },
+                  "property-3-3-4-1-ai-2" : {
+                    "type" : "string",
+                    "$id" : "#/properties/property-3-3/properties/property-3-3-4/properties/property-3-3-4-1/1/properties/property-3-3-4-1-ai-2"
+                  }
+                },
+                "$id" : "#/properties/property-3-3/properties/property-3-3-4/properties/property-3-3-4-1/1"
+              } ],
+              "$id" : "#/properties/property-3-3/properties/property-3-3-4/properties/property-3-3-4-1",
+              "$anchor" : "property-3-3-4-1-anchor"
+            }
+          },
+          "$id" : "#/properties/property-3-3/properties/property-3-3-4",
+          "$anchor" : "property-3-3-4-anchor"
+        }
+      },
+      "$id" : "#/properties/property-3-3",
+      "$anchor" : "property-3-3-anchor"
+    },
+    "property-3-4" : {
+      "title" : "Ka-50",
+      "type" : "object",
+      "description" : "1 level depth",
+      "properties" : {
+        "property-3-4-1" : {
+          "type" : "array",
+          "title" : "North Margret",
+          "maxContains" : 7,
+          "minContains" : 3,
+          "uniqueItems" : false,
+          "prefixItems" : [ {
+            "type" : "string",
+            "title" : "Flexidy",
+            "minLength" : 0,
+            "maxLength" : 99,
+            "$id" : "#/properties/property-3-4/properties/property-3-4-1/0"
+          }, {
+            "type" : "integer",
+            "title" : "Ow, ow, OW! On my ear you are!",
+            "minimum" : -999,
+            "maximum" : 999,
+            "multipleOf" : 2,
+            "$id" : "#/properties/property-3-4/properties/property-3-4-1/1"
+          }, {
+            "type" : "integer",
+            "title" : "Ow, ow, OW! On my ear you are!",
+            "minimum" : -999,
+            "maximum" : 999,
+            "multipleOf" : 2,
+            "$id" : "#/properties/property-3-4/properties/property-3-4-1/2"
+          }, {
+            "type" : "object",
+            "title" : "Hmm. In the end, cowards are those who follow the dark side.",
+            "maxProperties" : 5,
+            "minProperties" : 1,
+            "properties" : {
+              "string-1" : {
+                "type" : "string",
+                "$id" : "#/properties/property-3-4/properties/property-3-4-1/3/properties/string-1"
+              },
+              "string-2" : {
+                "type" : "string",
+                "$id" : "#/properties/property-3-4/properties/property-3-4-1/3/properties/string-2"
+              },
+              "integer" : {
+                "type" : "integer",
+                "$id" : "#/properties/property-3-4/properties/property-3-4-1/3/properties/integer"
+              }
+            },
+            "$id" : "#/properties/property-3-4/properties/property-3-4-1/3"
+          } ],
+          "items" : [ {
+            "type" : "string",
+            "titile" : "Hurricane",
+            "$id" : "#/properties/property-3-4/properties/property-3-4-1/0"
+          }, {
+            "type" : "bolean",
+            "title" : "Hibrida, nutrix, et fluctui.",
+            "$id" : "#/properties/property-3-4/properties/property-3-4-1/1"
+          } ],
+          "$id" : "#/properties/property-3-4/properties/property-3-4-1",
+          "$anchor" : "property-3-4-1-anchor"
+        },
+        "property-3-4-2" : {
+          "type" : "object",
+          "title" : "Strong is Vader. Mind what you have learned. Save you it can.",
+          "decription" : "2 level depth",
+          "properties" : {
+            "property-3-4-2-1" : {
+              "type" : "array",
+              "decription" : "3 level depth",
+              "maxItems" : 4,
+              "items" : [ {
+                "type" : "string",
+                "$id" : "#/properties/property-3-4/properties/property-3-4-2/properties/property-3-4-2-1/0"
+              }, {
+                "title" : "Adventure. Excitement. A Jedi craves not these things.",
+                "type" : "object",
+                "decription" : "4 level depth",
+                "properties" : {
+                  "property-3-4-2-1-ai-0" : {
+                    "type" : "object",
+                    "decription" : "5 level depth",
+                    "properties" : null,
+                    "$id" : "#/properties/property-3-4/properties/property-3-4-2/properties/property-3-4-2-1/1/properties/property-3-4-2-1-ai-0"
+                  },
+                  "property-3-4-2-1-ai-1" : {
+                    "type" : "string",
+                    "$id" : "#/properties/property-3-4/properties/property-3-4-2/properties/property-3-4-2-1/1/properties/property-3-4-2-1-ai-1"
+                  },
+                  "property-3-4-2-1-ai-2" : {
+                    "type" : "string",
+                    "$id" : "#/properties/property-3-4/properties/property-3-4-2/properties/property-3-4-2-1/1/properties/property-3-4-2-1-ai-2"
+                  }
+                },
+                "$id" : "#/properties/property-3-4/properties/property-3-4-2/properties/property-3-4-2-1/1"
+              } ],
+              "$id" : "#/properties/property-3-4/properties/property-3-4-2/properties/property-3-4-2-1",
+              "$anchor" : "property-3-4-2-1-anchor"
+            }
+          },
+          "$id" : "#/properties/property-3-4/properties/property-3-4-2",
+          "$anchor" : "property-3-4-2-anchor"
+        },
+        "property-3-4-3" : {
+          "type" : "string",
+          "title" : "Lake Frances",
+          "format" : "some-format",
+          "$id" : "#/properties/property-3-4/properties/property-3-4-3",
+          "$anchor" : "property-3-4-3-anchor"
+        },
+        "property-3-4-4" : {
+          "type" : "number",
+          "title" : "America/Santiago",
+          "max" : 123123,
+          "$id" : "#/properties/property-3-4/properties/property-3-4-4",
+          "$anchor" : "property-3-4-4-anchor"
+        }
+      },
+      "$id" : "#/properties/property-3-4",
+      "$anchor" : "property-3-4-anchor"
+    }
+  }
+}

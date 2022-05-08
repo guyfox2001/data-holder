@@ -1,0 +1,215 @@
+{
+  "$schema" : "https://json-schema.org/draft/2020-12/json-schema-core.html",
+  "title" : "Second simplest testing file. Root Level Depth",
+  "description" : "The files in this directory are simple entity schemas without the use of more, shall we say, complex keywords",
+  "type" : "object",
+  "properties" : {
+    "property-2-1" : {
+      "type" : "object",
+      "title" : "1 level depth",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et malesuada fames. Et pharetra pharetra massa massa ultricies mi quis hendrerit. Leo in vitae turpis massa sed elementum. Platea dictumst vestibulum rhoncus est pellentesque elit. A arcu cursus vitae congue mauris rhoncus aenean vel elit. ",
+      "$id" : "#/properties/property-2-1",
+      "$anchor" : "property-2-1-anchor"
+    },
+    "property-2-2" : {
+      "title" : "1 level depth",
+      "type" : "object",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et malesuada fames. Et pharetra pharetra massa massa ultricies mi quis hendrerit. Leo in vitae turpis massa sed elementum. Platea dictumst vestibulum rhoncus est pellentesque elit. A arcu cursus vitae congue mauris rhoncus aenean vel elit. ",
+      "properties" : {
+        "property-2-2-1" : {
+          "type" : "object",
+          "title" : "2 level depth",
+          "description" : "Fishs are the mates of the cold power.",
+          "properties" : {
+            "property-2-2-1-1" : {
+              "type" : "string",
+              "title" : "String example",
+              "minLength" : 0,
+              "maxLength" : 99,
+              "$id" : "#/properties/property-2-2/properties/property-2-2-1/properties/property-2-2-1-1",
+              "$anchor" : "property-2-2-1-1-anchor"
+            },
+            "property-2-2-1-2" : {
+              "type" : "string",
+              "title" : "String example",
+              "minLength" : 0,
+              "maxLength" : 99,
+              "$id" : "#/properties/property-2-2/properties/property-2-2-1/properties/property-2-2-1-2",
+              "$anchor" : "property-2-2-1-2-anchor"
+            }
+          },
+          "$id" : "#/properties/property-2-2/properties/property-2-2-1",
+          "$anchor" : "property-2-2-1-anchor"
+        },
+        "property-2-2-2" : {
+          "type" : "string",
+          "$id" : "#/properties/property-2-2/properties/property-2-2-2",
+          "$anchor" : "property-2-2-2-anchor"
+        },
+        "property-2-2-3" : {
+          "type" : "string",
+          "$id" : "#/properties/property-2-2/properties/property-2-2-3",
+          "$anchor" : "property-2-2-3-anchor"
+        },
+        "property-2-2-4" : {
+          "type" : "array",
+          "title" : "North Margret",
+          "maxContains" : 7,
+          "minContains" : 3,
+          "uniqueItems" : false,
+          "prefixItems" : [ {
+            "type" : "string",
+            "title" : "Flexidy",
+            "minLength" : 0,
+            "maxLength" : 99,
+            "$id" : "#/properties/property-2-2/properties/property-2-2-4/0"
+          }, {
+            "type" : "integer",
+            "title" : "Ow, ow, OW! On my ear you are!",
+            "minimum" : -999,
+            "maximum" : 999,
+            "multipleOf" : 2,
+            "$id" : "#/properties/property-2-2/properties/property-2-2-4/1"
+          }, {
+            "type" : "integer",
+            "title" : "Ow, ow, OW! On my ear you are!",
+            "minimum" : -999,
+            "maximum" : 999,
+            "multipleOf" : 2,
+            "$id" : "#/properties/property-2-2/properties/property-2-2-4/2"
+          }, {
+            "type" : "object",
+            "title" : "Hmm. In the end, cowards are those who follow the dark side.",
+            "maxProperties" : 5,
+            "minProperties" : 1,
+            "properties" : {
+              "string-1" : {
+                "type" : "string",
+                "$id" : "#/properties/property-2-2/properties/property-2-2-4/3/properties/string-1"
+              },
+              "string-2" : {
+                "type" : "string",
+                "$id" : "#/properties/property-2-2/properties/property-2-2-4/3/properties/string-2"
+              },
+              "integer" : {
+                "type" : "integer",
+                "$id" : "#/properties/property-2-2/properties/property-2-2-4/3/properties/integer"
+              }
+            },
+            "$id" : "#/properties/property-2-2/properties/property-2-2-4/3"
+          } ],
+          "items" : [ {
+            "type" : "string",
+            "titile" : "Hurricane",
+            "$id" : "#/properties/property-2-2/properties/property-2-2-4/0"
+          }, {
+            "type" : "bolean",
+            "title" : "Hibrida, nutrix, et fluctui.",
+            "$id" : "#/properties/property-2-2/properties/property-2-2-4/1"
+          }, {
+            "type" : "bolean",
+            "title" : "Accelerare sensim ducunt ad mirabilis zeta.",
+            "$id" : "#/properties/property-2-2/properties/property-2-2-4/2"
+          } ],
+          "$id" : "#/properties/property-2-2/properties/property-2-2-4",
+          "$anchor" : "property-2-2-4-anchor"
+        }
+      },
+      "$id" : "#/properties/property-2-2",
+      "$anchor" : "property-2-2-anchor"
+    },
+    "property-2-3" : {
+      "title" : "Primitive property",
+      "description" : " Density is the only volume, the only guarantee of attitude.Cantare satis ducunt ad festus detrius.Classis accelerares, tanquam alter hilotae.Why does the skull hobble?",
+      "type" : "string",
+      "format" : "uuid",
+      "$id" : "#/properties/property-2-3",
+      "$anchor" : "property-2-3-anchor"
+    },
+    "property-2-4" : {
+      "title" : "Primitive property",
+      "description" : "Assimilation at the cabin was the mind of pattern, imitated to a unrelated species.Huge, post-apocalyptic spaces technically avoid a gravimetric, twisted machine.Dozens of ships accelerate intelligent, biological moons.",
+      "type" : "string",
+      "$id" : "#/properties/property-2-4",
+      "$anchor" : "property-2-4-anchor"
+    },
+    "property-2-5" : {
+      "title" : "Primitive property",
+      "type" : "integer",
+      "$id" : "#/properties/property-2-5",
+      "$anchor" : "property-2-5-anchor"
+    },
+    "property-2-6" : {
+      "title" : "Primitive property",
+      "description" : "The material world is full of satori.Neutral parasites, to the planet.Habitios sunt amors de primus lamia.",
+      "type" : "boolean",
+      "$id" : "#/properties/property-2-6",
+      "$anchor" : "property-2-6-anchor"
+    },
+    "property-2-8" : {
+      "title" : "1 level depth",
+      "type" : "object",
+      "properties" : {
+        "property-2-8" : {
+          "title" : "Cur xiphias persuadere?",
+          "type" : "array",
+          "$id" : "#/properties/property-2-8/properties/property-2-8",
+          "$anchor" : "property-2-8-anchor1"
+        }
+      },
+      "$id" : "#/properties/property-2-8",
+      "$anchor" : "property-2-8-anchor"
+    },
+    "property-2-9" : {
+      "title" : "Primitive property",
+      "description" : "The material world is full of satori.Neutral parasites, to the planet.Habitios sunt amors de primus lamia.",
+      "type" : "string",
+      "$id" : "#/properties/property-2-9",
+      "$anchor" : "property-2-9-anchor"
+    },
+    "property-2-10" : {
+      "title" : "Primitive property",
+      "description" : "The material world is full of satori.Neutral parasites, to the planet.Habitios sunt amors de primus lamia.",
+      "type" : "number",
+      "$id" : "#/properties/property-2-10",
+      "$anchor" : "property-2-10-anchor"
+    }
+  },
+  "$defs" : {
+    "property-d-2-1" : {
+      "title" : "1 level depth $defs",
+      "type" : "object",
+      "description" : "The nanomachine is patiently human.",
+      "properties" : {
+        "property-d-2-1-1" : {
+          "type" : "string"
+        },
+        "property-d-2-1-2" : {
+          "type" : "string"
+        },
+        "property-d-2-1-3" : {
+          "type" : "number"
+        },
+        "property-d-2-1-4" : {
+          "type" : "integer"
+        },
+        "property-d-2-1-5" : {
+          "type" : "integer"
+        },
+        "property-d-2-1- 6" : {
+          "type" : "boolean"
+        },
+        "property-d-2-1-7" : {
+          "type" : "array",
+          "items" : [ {
+            "type" : "number",
+            "title" : "Cum nuclear vexatum iacere cadunt, omnes adiuratores carpseris regius, nobilis turpises."
+          }, {
+            "type" : "string",
+            "titile" : "Fortis, neuter zeluss aegre fallere de raptus, teres compater."
+          } ]
+        }
+      }
+    }
+  }
+}

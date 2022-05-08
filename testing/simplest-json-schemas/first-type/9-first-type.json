@@ -1,0 +1,171 @@
+{
+  "$schema": "http://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "title": "Root Schema",
+  "description": "The root schema is the schema that comprises the entire JSON document.",
+  "type": "object",
+  "properties": {
+    "sit": {
+      "title": "The sit Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "boolean"
+    },
+    "organized": {
+      "title": "The organized Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "string"
+    },
+    "pull": {
+      "title": "The pull Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "number"
+    },
+    "effort": {
+      "title": "The effort Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "array",
+      "items": [{
+        "title": "A Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "type": "array",
+        "items": [{
+          "title": "A Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "object",
+          "properties": {
+            "wild": {
+              "title": "The wild Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "integer"
+            },
+            "in": {
+              "title": "The in Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "number"
+            },
+            "process": {
+              "title": "The process Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "string"
+            },
+            "younger": {
+              "title": "The younger Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "string"
+            },
+            "corner": {
+              "title": "The corner Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "string"
+            },
+            "affect": {
+              "title": "The affect Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "integer"
+            },
+            "became": {
+              "title": "The became Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "boolean"
+            },
+            "musical": {
+              "title": "The musical Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "number"
+            }
+          }
+        },
+          {
+            "title": "A Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          {
+            "title": "A Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          {
+            "title": "A Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "type": "boolean"
+          },
+          {
+            "title": "A Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "type": "integer"
+          },
+          {
+            "title": "A Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "type": "boolean"
+          },
+          {
+            "title": "A Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          {
+            "title": "A Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          }]
+      },
+        {
+          "title": "A Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "string"
+        },
+        {
+          "title": "A Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "boolean"
+        },
+        {
+          "title": "A Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "string"
+        },
+        {
+          "title": "A Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "number"
+        },
+        {
+          "title": "A Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "boolean"
+        },
+        {
+          "title": "A Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "string"
+        },
+        {
+          "title": "A Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "boolean"
+        }]
+    },
+    "wool": {
+      "title": "The wool Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "boolean"
+    },
+    "police": {
+      "title": "The police Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "string"
+    },
+    "various": {
+      "title": "The various Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "integer"
+    },
+    "bite": {
+      "title": "The bite Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "number"
+    }
+  }
+}

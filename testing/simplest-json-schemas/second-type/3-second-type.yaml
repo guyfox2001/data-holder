@@ -1,0 +1,113 @@
+---
+$schema: "https://json-schema.org/draft/2020-12/json-schema-core.html"
+title: "First simplest testing file. Root Level Depth"
+description: "The files in this directory are simple entity schemas without the use of more, shall we say, complex keywords"
+type: object
+additionalProperties: false
+properties:
+    property-1:
+        type: number
+    property-2:
+        type: string
+    property-3:
+        type: array
+        prefixItems:
+            - type: object
+              additionalProperties: false
+              properties:
+                  property-1:
+                      type: object
+                      additionalProperties: false
+                  property-2:
+                      type: array
+                      prefixItems:
+                          - type: number
+                          - type: string
+                          - type: integer
+                      items:
+                          - type: object
+                            additionalProperties: false
+                            properties:
+                                property-1:
+                                    type: string
+
+                  property-3:
+                      type: string
+            - type: string
+            - type: boolean
+            - type: string
+            - type: array
+                  title: "Already know you that which you need."
+                  prefixItems:
+                      - title: "Mudhole? Slimy? My home this is!"
+                        description: "2 level depth"
+                        type: string
+                      - title: "Do not assume anything Obi-Wan. Clear your mind must be if you are to discover the real villains behind this plot."
+                        description: "2 level depth"
+                        type: number
+                        minimum: -999 #exclusiveMinimum > -999 | minimum >= -999
+                        maximum: 999 #exclusiveMaximum < 999 | maximum <= 999
+                        multipleOf: 2 #Кратно этому числу
+                        exclusiveMaximum: true
+              property-4-1-1-2:
+                  type: string
+                  enum:
+                      - state-4-1-1-2-1
+                      - state-4-1-1-2-2
+                      - state-4-1-1-2-3
+                      - state-4-1-1-2-4
+            - type: object
+              additionalProperties: false
+    property-4:
+        type: array
+            title: "Already know you that which you need."
+            prefixItems:
+                - title: "Mudhole? Slimy? My home this is!"
+                  description: "2 level depth"
+                  type: string
+                - title: "Do not assume anything Obi-Wan. Clear your mind must be if you are to discover the real villains behind this plot."
+                  description: "2 level depth"
+                  type: number
+                  minimum: -999 #exclusiveMinimum > -999 | minimum >= -999
+                  maximum: 999 #exclusiveMaximum < 999 | maximum <= 999
+                  multipleOf: 2 #Кратно этому числу
+                  exclusiveMaximum: true
+    property-5:
+        title: "Younglings, younglings gather ’round."
+        type: array
+        items:
+            - type: object
+              title: "South Riley"
+              properties:
+                  property-1-2-1-ai-0:
+                      type: string
+                      title: "Jamis"
+                      format: uri
+                  property-1-2-1-ai-1:
+                      type: string
+                      title: "Magnam a nisi."
+                  property-1-2-1-ai-2:
+                      type: number
+                      title: "October 25, 1985"
+                  property-1-2-1-ai-3:
+                      type: array
+                      title: "Hmm. In the end, cowards are those who follow the dark side."
+                      items:
+                          - type: string
+                  property-1-2-1-ai-4:
+                      type: boolean
+    property-6:
+        type: object
+        additionalProperties: false
+        properties:
+            property-1:
+                type: string
+            property-2:
+                type: string
+            property-3:
+                type: object
+            property-4:
+                type: number
+            property-5:
+                type: string
+            property-6:

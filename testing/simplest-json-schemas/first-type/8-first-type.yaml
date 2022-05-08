@@ -1,0 +1,83 @@
+---
+$schema: "http://json-schema.org/draft/2019-09/schema"
+$id: "http://example.com/example.json"
+title: "Root Schema"
+description: "The root schema is the schema that comprises the entire JSON document."
+type: "object"
+properties:
+  property-8-1:
+    title: "The game Schema"
+    description: "An explanation about the purpose of this instance."
+    type: "integer"
+  property-8-2:
+    title: "The watch Schema"
+    description: "An explanation about the purpose of this instance."
+    type: "integer"
+  property-8-3:
+    title: "The plan Schema"
+    description: "An explanation about the purpose of this instance."
+    type: "array"
+    items:
+    - title: "A Schema"
+      description: "An explanation about the purpose of this instance."
+      type: "integer"
+    - title: "A Schema"
+      description: "An explanation about the purpose of this instance."
+      type: "boolean"
+    - title: "A Schema"
+      description: "An explanation about the purpose of this instance."
+      type: "boolean"
+    - title: "A Schema"
+      description: "An explanation about the purpose of this instance."
+      type: "object"
+      properties:
+        property-8-ai-3-1:
+          title: "The influence Schema"
+          description: "An explanation about the purpose of this instance."
+          type: "string"
+        property-8-ai-3-2:
+          title: "The traffic Schema"
+          description: "An explanation about the purpose of this instance."
+          type: "boolean"
+    - title: "A Schema"
+      description: "An explanation about the purpose of this instance."
+      type: "integer"
+    - title: "A Schema"
+      description: "An explanation about the purpose of this instance."
+      type: "object"
+      properties:
+        property-8-ai-5-1:
+          title: "The canal Schema"
+          description: "An explanation about the purpose of this instance."
+          type: "string"
+        property-8-ai-5-2:
+          title: "The kids Schema"
+          description: "An explanation about the purpose of this instance."
+          type: "boolean"
+        property-8-ai-5-3:
+          title: "The shallow Schema"
+          description: "An explanation about the purpose of this instance."
+          type: "string"
+    - title: "A Schema"
+      description: "An explanation about the purpose of this instance."
+      type: "array"
+      items:
+      - title: "A Schema"
+        description: "An explanation about the purpose of this instance."
+        type: "boolean"
+      - title: "A Schema"
+        description: "An explanation about the purpose of this instance."
+        type: "integer"
+      - title: "A Schema"
+        description: "An explanation about the purpose of this instance."
+        type: "boolean"
+      - title: "A Schema"
+        description: "An explanation about the purpose of this instance."
+        type: "string"
+      - title: "A Schema"
+        description: "An explanation about the purpose of this instance."
+        type: "string"
+  property-8-4:
+    title: "The road Schema"
+    description: "An explanation about the purpose of this instance."
+    type: "string"

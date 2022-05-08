@@ -1,0 +1,136 @@
+$schema: http://json-schema.org/draft/2019-09/schema
+title: Root Schema
+description: The root schema is the schema that comprises the entire JSON document.
+type: object
+properties:
+  drew:
+    title: The drew Schema
+    description: An explanation about the purpose of this instance.
+    type: boolean
+  slabs:
+    title: The slabs Schema
+    description: An explanation about the purpose of this instance.
+    type: object
+    properties:
+      turn:
+        title: The turn Schema
+        description: An explanation about the purpose of this instance.
+        type: integer
+      hall:
+        title: The hall Schema
+        description: An explanation about the purpose of this instance.
+        type: number
+      indeed:
+        title: The indeed Schema
+        description: An explanation about the purpose of this instance.
+        type: integer
+      ability:
+        title: The ability Schema
+        description: An explanation about the purpose of this instance.
+        type: boolean
+      old:
+        title: The old Schema
+        description: An explanation about the purpose of this instance.
+        type: number
+      stomach:
+        title: The stomach Schema
+        description: An explanation about the purpose of this instance.
+        type: object
+        properties:
+          cat:
+            title: The cat Schema
+            description: An explanation about the purpose of this instance.
+            type: number
+          sets:
+            title: The sets Schema
+            description: An explanation about the purpose of this instance.
+            type: boolean
+          upper:
+            title: The upper Schema
+            description: An explanation about the purpose of this instance.
+            type: boolean
+          phrase:
+            title: The phrase Schema
+            description: An explanation about the purpose of this instance.
+            type: string
+          shinning:
+            title: The shinning Schema
+            description: An explanation about the purpose of this instance.
+            type: boolean
+          queen:
+            title: The queen Schema
+            description: An explanation about the purpose of this instance.
+            type: object
+            properties:
+              west:
+                title: The west Schema
+                description: An explanation about the purpose of this instance.
+                type: string
+              heading:
+                title: The heading Schema
+                description: An explanation about the purpose of this instance.
+                type: number
+              of:
+                title: The of Schema
+                description: An explanation about the purpose of this instance.
+                type: number
+              layers:
+                title: The layers Schema
+                description: An explanation about the purpose of this instance.
+                type: string
+              sentence:
+                title: The sentence Schema
+                description: An explanation about the purpose of this instance.
+                type: integer
+              thing:
+                title: The thing Schema
+                description: An explanation about the purpose of this instance.
+                type: string
+              explanation:
+                title: The explanation Schema
+                description: An explanation about the purpose of this instance.
+                type: integer
+              period:
+                title: The period Schema
+                description: An explanation about the purpose of this instance.
+                type: boolean
+          crack:
+            title: The crack Schema
+            description: An explanation about the purpose of this instance.
+            type: boolean
+          paper:
+            title: The paper Schema
+            description: An explanation about the purpose of this instance.
+            type: boolean
+      nest:
+        title: The nest Schema
+        description: An explanation about the purpose of this instance.
+        type: integer
+      roof:
+        title: The roof Schema
+        description: An explanation about the purpose of this instance.
+        type: boolean
+  row:
+    title: The row Schema
+    description: An explanation about the purpose of this instance.
+    type: string
+  future:
+    title: The future Schema
+    description: An explanation about the purpose of this instance.
+    type: string
+  leg:
+    title: The leg Schema
+    description: An explanation about the purpose of this instance.
+    type: string
+  science:
+    title: The science Schema
+    description: An explanation about the purpose of this instance.
+    type: integer
+  foreign:
+    title: The foreign Schema
+    description: An explanation about the purpose of this instance.
+    type: boolean
+  handsome:
+    title: The handsome Schema
+    description: An explanation about the purpose of this instance.
+    type: string

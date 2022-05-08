@@ -6,8 +6,6 @@ description: "The files in this directory are simple entity schemas without the 
 type: "object"
 properties:
   property-1-1:
-    $id: null
-    $anchor: null
     type: "number"
   property-1-2:
     type: "array"

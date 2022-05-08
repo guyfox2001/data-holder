@@ -1,0 +1,11 @@
+---
+$schema: "https://json-schema.org/draft/2020-12/json-schema-core.html"
+title: "First simplest testing file. Root Level Depth"
+description: "The files in this directory are simple entity schemas without the use of more, shall we say, complex keywords"
+type: array
+prefixItems:
+  - type: object
+  - type: string
+  - type: object
+  - type: number
+  - type: object

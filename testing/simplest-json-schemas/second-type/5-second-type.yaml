@@ -1,0 +1,136 @@
+$schema: http://json-schema.org/draft/2019-09/schema
+title: Root Schema
+description: The root schema is the schema that comprises the entire JSON document.
+type: object
+properties:
+  village:
+    title: The village Schema
+    description: An explanation about the purpose of this instance.
+    type: object
+    properties:
+      choose:
+        title: The choose Schema
+        description: An explanation about the purpose of this instance.
+        type: object
+        properties:
+          pound:
+            title: The pound Schema
+            description: An explanation about the purpose of this instance.
+            type: object
+            properties:
+              fallen:
+                title: The fallen Schema
+                description: An explanation about the purpose of this instance.
+                type: string
+              egg:
+                title: The egg Schema
+                description: An explanation about the purpose of this instance.
+                type: number
+              food:
+                title: The food Schema
+                description: An explanation about the purpose of this instance.
+                type: string
+              jungle:
+                title: The jungle Schema
+                description: An explanation about the purpose of this instance.
+                type: boolean
+              slightly:
+                title: The slightly Schema
+                description: An explanation about the purpose of this instance.
+                type: boolean
+              church:
+                title: The church Schema
+                description: An explanation about the purpose of this instance.
+                type: number
+              floor:
+                title: The floor Schema
+                description: An explanation about the purpose of this instance.
+                type: integer
+              cream:
+                title: The cream Schema
+                description: An explanation about the purpose of this instance.
+                type: string
+          hardly:
+            title: The hardly Schema
+            description: An explanation about the purpose of this instance.
+            type: string
+          fun:
+            title: The fun Schema
+            description: An explanation about the purpose of this instance.
+            type: boolean
+          effect:
+            title: The effect Schema
+            description: An explanation about the purpose of this instance.
+            type: integer
+          bigger:
+            title: The bigger Schema
+            description: An explanation about the purpose of this instance.
+            type: string
+          decide:
+            title: The decide Schema
+            description: An explanation about the purpose of this instance.
+            type: string
+          complex:
+            title: The complex Schema
+            description: An explanation about the purpose of this instance.
+            type: string
+          sell:
+            title: The sell Schema
+            description: An explanation about the purpose of this instance.
+            type: boolean
+      he:
+        title: The he Schema
+        description: An explanation about the purpose of this instance.
+        type: boolean
+      home:
+        title: The home Schema
+        description: An explanation about the purpose of this instance.
+        type: number
+      primitive:
+        title: The primitive Schema
+        description: An explanation about the purpose of this instance.
+        type: boolean
+      giving:
+        title: The giving Schema
+        description: An explanation about the purpose of this instance.
+        type: integer
+      row:
+        title: The row Schema
+        description: An explanation about the purpose of this instance.
+        type: number
+      box:
+        title: The box Schema
+        description: An explanation about the purpose of this instance.
+        type: string
+      time:
+        title: The time Schema
+        description: An explanation about the purpose of this instance.
+        type: number
+  father:
+    title: The father Schema
+    description: An explanation about the purpose of this instance.
+    type: boolean
+  without:
+    title: The without Schema
+    description: An explanation about the purpose of this instance.
+    type: number
+  mine:
+    title: The mine Schema
+    description: An explanation about the purpose of this instance.
+    type: boolean
+  outline:
+    title: The outline Schema
+    description: An explanation about the purpose of this instance.
+    type: boolean
+  red:
+    title: The red Schema
+    description: An explanation about the purpose of this instance.
+    type: string
+  ground:
+    title: The ground Schema
+    description: An explanation about the purpose of this instance.
+    type: boolean
+  connected:
+    title: The connected Schema
+    description: An explanation about the purpose of this instance.
+    type: string

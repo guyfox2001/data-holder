@@ -1,0 +1,169 @@
+{
+  "$schema": "http://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "title": "Root Schema",
+  "description": "The root schema is the schema that comprises the entire JSON document.",
+  "type": "object",
+  "properties": {
+    "held": {
+      "title": "The held Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "array",
+      "items": [{
+        "title": "A Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "type": "number"
+      },
+        {
+          "title": "A Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "string"
+        },
+        {
+          "title": "A Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "array",
+          "items": [{
+            "title": "A Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "type": "array",
+            "items": [{
+              "title": "A Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "string"
+            },
+              {
+                "title": "A Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "type": "integer"
+              },
+              {
+                "title": "A Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "type": "number"
+              },
+              {
+                "title": "A Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "type": "integer"
+              },
+              {
+                "title": "A Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "type": "number"
+              },
+              {
+                "title": "A Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "type": "string"
+              },
+              {
+                "title": "A Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "type": "number"
+              },
+              {
+                "title": "A Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "type": "string"
+              }]
+          },
+            {
+              "title": "A Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "string"
+            },
+            {
+              "title": "A Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "number"
+            },
+            {
+              "title": "A Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "integer"
+            },
+            {
+              "title": "A Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "string"
+            },
+            {
+              "title": "A Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "string"
+            },
+            {
+              "title": "A Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "number"
+            },
+            {
+              "title": "A Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "type": "string"
+            }]
+        },
+        {
+          "title": "A Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "string"
+        },
+        {
+          "title": "A Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "number"
+        },
+        {
+          "title": "A Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "number"
+        },
+        {
+          "title": "A Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "number"
+        },
+        {
+          "title": "A Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "type": "number"
+        }]
+    },
+    "may": {
+      "title": "The may Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "integer"
+    },
+    "as": {
+      "title": "The as Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "string"
+    },
+    "trail": {
+      "title": "The trail Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "integer"
+    },
+    "business": {
+      "title": "The business Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "integer"
+    },
+    "magic": {
+      "title": "The magic Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "integer"
+    },
+    "sister": {
+      "title": "The sister Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "string"
+    },
+    "drawn": {
+      "title": "The drawn Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "type": "string"
+    }
+  }
+}
