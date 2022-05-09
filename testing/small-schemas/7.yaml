@@ -1,0 +1,64 @@
+---
+$schema: "https://json-schema.org/draft/2020-12/json-schema-core.html"
+type: "object"
+properties:
+  property-0-1:
+    type: "object"
+    properties:
+      property-0-1-1:
+        type: "boolean"
+        title: "Around the survivors a perimeter create."
+        description: "Heaney and Sons"
+      property-0-1-2:
+        type: "string"
+        title: "https://s3.amazonaws.com/uifaces/faces/twitter/brenmurrell/128.jpg"
+        description: "Not if anything to say about it I have"
+        format: "ipv5"
+        minLength: 0
+        maxLength: 44
+      property-0-1-3:
+        type: "intreger"
+        title: "No statement can catch the ChuckNorrisException."
+        description: "platypus"
+      property-0-1-4:
+        type: "string"
+        title: "That gum you like is going to come back in style."
+        description: "Will this sadness that makes me cry my heart out — will it ever\
+          \ end? The answer, of course, is yes. One day the sadness will end."
+        format: "uri"
+        minLength: 0
+        maxLength: 31
+    title: "Do. Or do not. There is no try."
+    description: "And I have a tender spot in my heart for cripples and bastards and\
+      \ broken things."
+  property-0-2:
+    type: "array"
+    prefixItems:
+    - type: "string"
+    - type: "integer"
+    items:
+    - type: "number"
+      title: "Kshlerin Inc"
+      description: "cockroach"
+      minimum: 1.4770886111108737E308
+      maximum: 11.76892257630399
+      exclusiveMaximum: true
+      exclusiveMinimum: true
+    title: "wolf"
+    description: "Pie. Whoever invented the pie? Here was a great person."
+  property-0-3:
+    type: "string"
+    title: "https://s3.amazonaws.com/uifaces/faces/twitter/jwalter14/128.jpg"
+    description: "KSFO"
+    format: "ipv5"
+    minLength: 0
+    maxLength: 10
+  property-0-4:
+    type: "string"
+    title: "snail"
+    description: "Hilll Inc"
+    format: "e-mail"
+    minLength: 0
+    maxLength: 10
+title: "https://s3.amazonaws.com/uifaces/faces/twitter/josecarlospsh/128.jpg"
+description: "Windom Earle's mind is like a diamond. It's cold, and hard, and brilliant."

@@ -1,0 +1,134 @@
+{
+  "$schema" : "https://json-schema.org/draft/2020-12/json-schema-core.html",
+  "title" : "Cruickshank Group",
+  "description" : "Blanda Group",
+  "type" : "array",
+  "prefixItems" : [ {
+    "type" : "object",
+    "properties" : {
+      "property-1" : {
+        "type" : "object",
+        "properties" : {
+          "property-1" : {
+            "type" : "string"
+          },
+          "property-2" : {
+            "type" : "number"
+          },
+          "property-3" : {
+            "type" : "string"
+          },
+          "property-4" : {
+            "type" : "object",
+            "properties" : {
+              "property-1" : {
+                "type" : "object",
+                "properties" : {
+                  "property-1" : {
+                    "type" : "number"
+                  },
+                  "property-2" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "property-2" : {
+                "type" : "string"
+              }
+            }
+          },
+          "property-5" : {
+            "type" : "object",
+            "properties" : {
+              "property-1" : {
+                "type" : "number"
+              },
+              "property-2" : {
+                "type" : "number"
+              },
+              "property-3" : {
+                "type" : "boolean"
+              }
+            }
+          }
+        }
+      },
+      "property-2" : {
+        "type" : "array",
+        "items" : [ {
+          "type" : "object",
+          "properties" : {
+            "property-1" : {
+              "type" : "string"
+            },
+            "property-2" : {
+              "type" : "number"
+            },
+            "property-3" : {
+              "type" : "string"
+            },
+            "property-4" : {
+              "type" : "integer"
+            }
+          }
+        }, {
+          "type" : "string"
+        } ]
+      },
+      "property-3" : {
+        "type" : "integer"
+      },
+      "property-4" : {
+        "type" : "string"
+      },
+      "property-5" : {
+        "type" : "array"
+      }
+    }
+  }, {
+    "type" : "string"
+  }, {
+    "type" : "array",
+    "items" : "string"
+  } ],
+  "items" : [ {
+    "type" : "object",
+    "properties" : { },
+    "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/travishines/128.jpg",
+    "description" : "Rowe, Quitzon and Watsica"
+  }, {
+    "type" : "array",
+    "prefixItems" : [ {
+      "type" : "object",
+      "properties" : {
+        "property-1" : {
+          "type" : "string"
+        },
+        "property-2" : {
+          "type" : "string"
+        },
+        "property-3" : {
+          "type" : "boolean"
+        },
+        "property-4" : {
+          "type" : "array",
+          "prefixItems" : [ {
+            "type" : "object",
+            "properties" : {
+              "property-1" : {
+                "type" : "string"
+              },
+              "property-2" : {
+                "type" : "number"
+              }
+            }
+          } ]
+        }
+      }
+    }, {
+      "type" : "array"
+    } ],
+    "title" : "Kunde LLC",
+    "description" : "Knowledge could be more valuable than gold, more deadly than a dagger."
+  } ]
+}

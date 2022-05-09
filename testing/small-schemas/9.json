@@ -1,0 +1,73 @@
+{
+  "$schema" : "http://json-schema.org/draft/2019-09/schema",
+  "$id" : "http://example.com/example.json",
+  "title" : null,
+  "type" : "array",
+  "items" : [ {
+    "title" : "Chuck Norris's beard can type 140 wpm.",
+    "type" : "array",
+    "items" : [ {
+      "title" : "Nothing burns like the cold.",
+      "type" : "number",
+      "description" : "Do not assume anything Obi-Wan. Clear your mind must be if you are to discover the real villains behind this plot.",
+      "minimum" : 6.975376224808713E307,
+      "maximum" : 41.3156087858408,
+      "exclusiveMaximum" : false,
+      "exclusiveMinimum" : true
+    }, {
+      "title" : "Tender Is the Night",
+      "type" : "string",
+      "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/_yardenoon/128.jpg",
+      "format" : "phone",
+      "minLength" : 0,
+      "maxLength" : 15
+    }, {
+      "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/linkibol/128.jpg",
+      "type" : "string",
+      "description" : "That is why you fail.",
+      "format" : "time",
+      "minLength" : 0,
+      "maxLength" : 19
+    }, {
+      "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/hota_v/128.jpg",
+      "type" : "string",
+      "description" : "Vile Bodies",
+      "format" : "duration",
+      "minLength" : 0,
+      "maxLength" : 41
+    } ],
+    "description" : "ferret"
+  }, {
+    "title" : "Cremin, Anderson and Klocko",
+    "type" : "integer",
+    "description" : "Klein-Abbott",
+    "maximum" : 1163672238,
+    "minimum" : 0,
+    "exclusiveMaximum" : true,
+    "exclusiveMinimum" : true
+  }, {
+    "title" : "Adams, Gibson and Hagenes",
+    "type" : "integer",
+    "description" : "Chuck Norris solved the Travelling Salesman problem in O(1) time.",
+    "maximum" : 1885384429,
+    "minimum" : 1,
+    "exclusiveMaximum" : false,
+    "exclusiveMinimum" : false
+  }, {
+    "title" : "Always two there are, no more, no less. A master and an apprentice.",
+    "type" : "string",
+    "description" : null,
+    "format" : "ipv4",
+    "minLength" : 0,
+    "maxLength" : 16
+  }, {
+    "title" : "Damn fine coffee! And hot!",
+    "type" : "integer",
+    "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/lisovsky/128.jpg",
+    "maximum" : 1442918388,
+    "minimum" : 1,
+    "exclusiveMaximum" : true,
+    "exclusiveMinimum" : true
+  } ],
+  "description" : "The Wind's Twelve Quarters"
+}

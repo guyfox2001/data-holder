@@ -1,0 +1,263 @@
+{
+  "$schema" : "http://json-schema.org/draft/2019-09/schema",
+  "$id" : "http://example.com/example.json",
+  "title" : "BIIS",
+  "description" : "reindeer",
+  "type" : "object",
+  "properties" : {
+    "property-6-1" : {
+      "title" : "ELUS",
+      "description" : "Every day, once a day, give yourself a present.",
+      "type" : "integer",
+      "maximum" : 2141654618,
+      "minimum" : 1,
+      "exclusiveMaximum" : false,
+      "exclusiveMinimum" : false,
+      "$id" : "#/properties/property-6-1"
+    },
+    "property-6-2" : {
+      "title" : null,
+      "description" : "ENAN",
+      "type" : "number",
+      "maximum" : 79.91305797803615,
+      "minimum" : 8.293031122205661E307,
+      "exclusiveMaximum" : true,
+      "exclusiveMinimum" : false,
+      "$id" : "#/properties/property-6-2"
+    },
+    "property-6-3" : {
+      "title" : "Where we're from, the birds sing a pretty song, and there's always music in the air.",
+      "description" : "grasshopper",
+      "type" : "object",
+      "properties" : {
+        "property-6-3-1" : {
+          "title" : "Chuck Norris' protocol design method has no status, requests or responses, only commands.",
+          "description" : "CYKA",
+          "type" : "string",
+          "format" : "e-mail",
+          "minLength" : 0,
+          "maxLength" : 18,
+          "$id" : "#/properties/property-6-3/properties/property-6-3-1"
+        },
+        "property-6-3-2" : {
+          "title" : null,
+          "description" : null,
+          "type" : "number",
+          "maximum" : 79.17212693790826,
+          "minimum" : 9.136207976711764E307,
+          "exclusiveMaximum" : false,
+          "exclusiveMinimum" : true,
+          "$id" : "#/properties/property-6-3/properties/property-6-3-2"
+        },
+        "property-6-3-3" : {
+          "title" : "Paths of Glory",
+          "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/mcflydesign/128.jpg",
+          "type" : "array",
+          "items" : [ {
+            "title" : "kangaroo",
+            "description" : "Pacocha, Schneider and Bartoletti",
+            "type" : "object",
+            "properties" : {
+              "property-6-3-ai-0-1" : {
+                "title" : "Luminous beings are we - not this crude matter.",
+                "description" : null,
+                "type" : "string",
+                "format" : "duration",
+                "minLength" : 0,
+                "maxLength" : 41,
+                "$id" : "#/properties/property-6-3/properties/property-6-3-3/0/properties/property-6-3-ai-0-1"
+              },
+              "property-6-3-ai-0-2" : {
+                "title" : "water buffalo",
+                "description" : "Never forget who you are. The rest of the world won't. Wear it like an armor and it can never be used against you.",
+                "type" : "string",
+                "format" : "phone",
+                "minLength" : 0,
+                "maxLength" : 34,
+                "$id" : "#/properties/property-6-3/properties/property-6-3-3/0/properties/property-6-3-ai-0-2"
+              },
+              "property-6-3-ai-0-3" : {
+                "title" : "MAY A SMILE BE YOUR UMBRELLA. WE'VE ALL HAD OUR SOCKS TOSSED AROUND.",
+                "description" : null,
+                "type" : "integer",
+                "maximum" : 81770371,
+                "minimum" : 2,
+                "exclusiveMaximum" : false,
+                "exclusiveMinimum" : true,
+                "$id" : "#/properties/property-6-3/properties/property-6-3-3/0/properties/property-6-3-ai-0-3"
+              },
+              "property-6-3-ai-0-4" : {
+                "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/nicklacke/128.jpg",
+                "description" : "PAAM",
+                "type" : "string",
+                "format" : "date",
+                "minLength" : 0,
+                "maxLength" : 39,
+                "$id" : "#/properties/property-6-3/properties/property-6-3-3/0/properties/property-6-3-ai-0-4"
+              },
+              "property-6-3-ai-0-5" : {
+                "title" : "Lilies of the Field",
+                "description" : null,
+                "type" : "integer",
+                "maximum" : 1093831417,
+                "minimum" : 2,
+                "exclusiveMaximum" : false,
+                "exclusiveMinimum" : false,
+                "$id" : "#/properties/property-6-3/properties/property-6-3-3/0/properties/property-6-3-ai-0-5"
+              },
+              "property-6-3-ai-0-6" : {
+                "title" : "The Curious Incident of the Dog in the Night-Time",
+                "description" : "The Doors of Perception",
+                "type" : "string",
+                "format" : "ipv5",
+                "minLength" : 0,
+                "maxLength" : 49,
+                "$id" : "#/properties/property-6-3/properties/property-6-3-3/0/properties/property-6-3-ai-0-6"
+              },
+              "property-6-3-ai-0-7" : {
+                "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/harry_sistalam/128.jpg",
+                "description" : "YALA",
+                "type" : "number",
+                "maximum" : 87.02062270138153,
+                "minimum" : 1.514876470187354E308,
+                "exclusiveMaximum" : true,
+                "exclusiveMinimum" : false,
+                "$id" : "#/properties/property-6-3/properties/property-6-3-3/0/properties/property-6-3-ai-0-7"
+              },
+              "property-6-3-ai-0-8" : {
+                "title" : "PAAN",
+                "description" : "Chuck Norris burst the dot com bubble.",
+                "type" : "string",
+                "format" : "time",
+                "minLength" : 0,
+                "maxLength" : 19,
+                "$id" : "#/properties/property-6-3/properties/property-6-3-3/0/properties/property-6-3-ai-0-8"
+              }
+            },
+            "$id" : "#/properties/property-6-3/properties/property-6-3-3/0"
+          }, {
+            "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/souuf/128.jpg",
+            "description" : "The Painted Veil",
+            "type" : "number",
+            "maximum" : 38.62462709007046,
+            "minimum" : 8.349055881774964E306,
+            "exclusiveMaximum" : false,
+            "exclusiveMinimum" : false,
+            "$id" : "#/properties/property-6-3/properties/property-6-3-3/1"
+          }, {
+            "title" : "Swift-Pacocha",
+            "description" : "You don't disable the Chuck Norris plug-in, it disables you.",
+            "type" : "integer",
+            "maximum" : 710508462,
+            "minimum" : 1,
+            "exclusiveMaximum" : true,
+            "exclusiveMinimum" : true,
+            "$id" : "#/properties/property-6-3/properties/property-6-3-3/2"
+          }, {
+            "title" : null,
+            "description" : "And so he spoke, and so he spoke, that Lord of Castamere, but now the rains weep o'er his hall, with no one there to hear. Yes, now the rains weep o'er his hall, and not a soul to hear.",
+            "type" : "string",
+            "format" : "e-mail",
+            "minLength" : 0,
+            "maxLength" : 20,
+            "$id" : "#/properties/property-6-3/properties/property-6-3-3/3"
+          } ],
+          "$id" : "#/properties/property-6-3/properties/property-6-3-3"
+        },
+        "property-6-3-4" : {
+          "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/kijanmaharjan/128.jpg",
+          "description" : null,
+          "type" : "string",
+          "format" : "phone",
+          "minLength" : 0,
+          "maxLength" : 11,
+          "$id" : "#/properties/property-6-3/properties/property-6-3-4"
+        },
+        "property-6-3-5" : {
+          "title" : "Chuck Norris can read all encrypted data, because nothing can hide from Chuck Norris.",
+          "description" : null,
+          "type" : "string",
+          "format" : "time",
+          "minLength" : 0,
+          "maxLength" : 11,
+          "$id" : "#/properties/property-6-3/properties/property-6-3-5"
+        },
+        "property-6-3-6" : {
+          "title" : "Chuck Norris doesn't have disk latency because the hard drive knows to hurry the hell up.",
+          "description" : "Younglings, younglings gather ’round.",
+          "type" : "string",
+          "format" : "phone",
+          "minLength" : 0,
+          "maxLength" : 38,
+          "$id" : "#/properties/property-6-3/properties/property-6-3-6"
+        },
+        "property-6-3-7" : {
+          "title" : "Do. Or do not. There is no try.",
+          "description" : "oyster",
+          "type" : "string",
+          "format" : "e-mail",
+          "minLength" : 0,
+          "maxLength" : 38,
+          "$id" : "#/properties/property-6-3/properties/property-6-3-7"
+        },
+        "property-6-3-8" : {
+          "title" : null,
+          "description" : "Why is it that when one man builds a wall, the next man immediately needs to know what's on the other side?",
+          "type" : "number",
+          "maximum" : 92.3646070368586,
+          "minimum" : 2.533923300162263E307,
+          "exclusiveMaximum" : false,
+          "exclusiveMinimum" : false,
+          "$id" : "#/properties/property-6-3/properties/property-6-3-8"
+        }
+      },
+      "$id" : "#/properties/property-6-3"
+    },
+    "property-6-4" : {
+      "title" : "Chuck Norris hosting is 101% uptime guaranteed.",
+      "description" : "Denesik-Greenfelder",
+      "type" : "string",
+      "format" : "ipv5",
+      "minLength" : 0,
+      "maxLength" : 36,
+      "$id" : "#/properties/property-6-4"
+    },
+    "property-6-5" : {
+      "title" : "Thiel, Zieme and Cummings",
+      "description" : "Damn fine coffee! And hot!",
+      "type" : "number",
+      "maximum" : 50.46692467135855,
+      "minimum" : 1.4261836106731764E308,
+      "exclusiveMaximum" : false,
+      "exclusiveMinimum" : true,
+      "$id" : "#/properties/property-6-5"
+    },
+    "property-6-6" : {
+      "title" : null,
+      "description" : "wasp",
+      "type" : "string",
+      "format" : "date",
+      "minLength" : 0,
+      "maxLength" : 37,
+      "$id" : "#/properties/property-6-6"
+    },
+    "property-6-7" : {
+      "title" : "Truly wonderful, the mind of a child is.",
+      "description" : "Chuck Norris' beard is immutable.",
+      "type" : "string",
+      "format" : "time",
+      "minLength" : 0,
+      "maxLength" : 43,
+      "$id" : "#/properties/property-6-7"
+    },
+    "property-6-8" : {
+      "title" : "mammoth",
+      "description" : "Now Sleeps the Crimson Petal",
+      "type" : "string",
+      "format" : "phone",
+      "minLength" : 0,
+      "maxLength" : 11,
+      "$id" : "#/properties/property-6-8"
+    }
+  }
+}

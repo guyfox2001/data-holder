@@ -1,0 +1,124 @@
+---
+$schema: "http://json-schema.org/draft/2019-09/schema"
+title: "Botsford LLC"
+description: null
+type: "object"
+additionalProperties: true
+properties:
+  property-13-1:
+    title: "Knowledge could be more valuable than gold, more deadly than a dagger."
+    description: "seal"
+    type: "boolean"
+  property-13-2:
+    title: "And so he spoke, and so he spoke, that Lord of Castamere, but now the\
+      \ rains weep o'er his hall, with no one there to hear. Yes, now the rains weep\
+      \ o'er his hall, and not a soul to hear."
+    description: "Ego Dominus Tuus"
+    type: "string"
+    format: "date-time"
+    minLength: 0
+    maxLength: 17
+  property-13-3:
+    title: null
+    description: "Infinite Jest"
+    type: "object"
+    additionalProperties: true
+    properties:
+      property-13-3-1:
+        title: "Wow, Bob, wow."
+        description: "PAAM"
+        type: "string"
+        format: "date"
+        minLength: 0
+        maxLength: 23
+      property-13-3-2:
+        title: "goat"
+        description: null
+        type: "boolean"
+      property-13-3-3:
+        title: "hyena"
+        description: "toad"
+        type: "boolean"
+      property-13-3-4:
+        title: "WAAA"
+        description: "Never forget who you are. The rest of the world won't. Wear\
+          \ it like an armor and it can never be used against you."
+        type: "string"
+        format: "duration"
+        minLength: 0
+        maxLength: 49
+      property-13-3-5:
+        title: "Some Buried Caesar"
+        description: "A lion doesn't concern itself with the opinion of sheep."
+        type: "string"
+        format: "duration"
+        minLength: 0
+        maxLength: 17
+      property-13-3-6:
+        title: "When you play a game of thrones you win or you die."
+        description: "I have no idea where this will lead us. But I have a definite\
+          \ feeling it will be a place both wonderful and strange."
+        type: "string"
+        format: "uri"
+        minLength: 0
+        maxLength: 26
+      property-13-3-7:
+        title: "https://s3.amazonaws.com/uifaces/faces/twitter/simobenso/128.jpg"
+        description: "For Chuck Norris, NP-Hard = O(1)."
+        type: "boolean"
+      property-13-3-8:
+        title: "https://s3.amazonaws.com/uifaces/faces/twitter/prrstn/128.jpg"
+        description: "Always pass on what you have learned."
+        type: "string"
+        format: "date"
+        minLength: 0
+        maxLength: 32
+      property-13-3-9:
+        title: "To answer power with power, the Jedi way this is not. In this war,\
+          \ a danger there is, of losing who we are."
+        description: "BIPA"
+        type: "boolean"
+  property-13-4:
+    title: "Some old wounds never truly heal, and bleed again at the slightest word."
+    description: "FAPH"
+    type: "string"
+    format: "duration"
+    minLength: 0
+    maxLength: 29
+  property-13-5:
+    title: "Every day, once a day, give yourself a present."
+    description: "NFCI"
+    type: "boolean"
+  property-13-6:
+    title: null
+    description: "Chuck Norris doesn't believe in floating point numbers because they\
+      \ can't be typed on his binary keyboard."
+    type: "string"
+    format: "time"
+    minLength: 0
+    maxLength: 24
+  property-13-7:
+    title: "Zieme-Schulist"
+    description: null
+    type: "string"
+    format: "ipv4"
+    minLength: 0
+    maxLength: 29
+  property-13-8:
+    title: null
+    description: "Brakus Inc"
+    type: "string"
+    format: "date-time"
+    minLength: 0
+    maxLength: 49
+  property-13-9:
+    title: "NFCS"
+    description: "Like fire across the galaxy the Clone Wars spread. In league with\
+      \ the wicked Count Dooku, more and more planets slip. Against this threat, upon\
+      \ the Jedi Knights falls the duty to lead the newly formed army of the Republic.\
+      \ And as the heat of war grows, so, to, grows the prowess of one most gifted\
+      \ student of the Force."
+    type: "string"
+    format: "date"
+    minLength: 0
+    maxLength: 45

@@ -1,118 +1,146 @@
 {
-  "$schema": "http://json-schema.org/draft/2019-09/schema",
-  "$id": "http://example.com/example.json",
-  "title": "Root Schema",
-  "description": "The root schema is the schema that comprises the entire JSON document.",
-  "type": "object",
-  "properties": {
-    "game": {
-      "title": "The game Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "integer"
+  "$schema" : "http://json-schema.org/draft/2019-09/schema",
+  "$id" : "http://example.com/example.json",
+  "title" : "dolphin",
+  "description" : "Chuck Norris doesn't bug hunt, as that signifies a probability of failure. He goes bug killing.",
+  "type" : "object",
+  "properties" : {
+    "property-8-1" : {
+      "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/shoaib253/128.jpg",
+      "description" : "Chuck Norris doesn't bug hunt, as that signifies a probability of failure. He goes bug killing.",
+      "type" : "integer",
+      "maximum" : 1245775343,
+      "minimum" : 2,
+      "exclusiveMaximum" : false,
+      "exclusiveMinimum" : false
     },
-    "watch": {
-      "title": "The watch Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "integer"
+    "property-8-2" : {
+      "title" : "crocodile",
+      "description" : "Recalled to Life",
+      "type" : "integer",
+      "maximum" : 946055453,
+      "minimum" : 1,
+      "exclusiveMaximum" : false,
+      "exclusiveMinimum" : true
     },
-    "plan": {
-      "title": "The plan Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "array",
-      "items": [{
-        "title": "A Schema",
-        "description": "An explanation about the purpose of this instance.",
-        "type": "integer"
-      },
-        {
-          "title": "A Schema",
-          "description": "An explanation about the purpose of this instance.",
-          "type": "boolean"
-        },
-        {
-          "title": "A Schema",
-          "description": "An explanation about the purpose of this instance.",
-          "type": "boolean"
-        },
-        {
-          "title": "A Schema",
-          "description": "An explanation about the purpose of this instance.",
-          "type": "object",
-          "properties": {
-            "influence": {
-              "title": "The influence Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "type": "string"
-            },
-            "traffic": {
-              "title": "The traffic Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "type": "boolean"
-            }
-          }
-        },
-        {
-          "title": "A Schema",
-          "description": "An explanation about the purpose of this instance.",
-          "type": "integer"
-        },
-        {
-          "title": "A Schema",
-          "description": "An explanation about the purpose of this instance.",
-          "type": "object",
-          "properties": {
-            "canal": {
-              "title": "The canal Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "type": "string"
-            },
-            "kids": {
-              "title": "The kids Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "type": "boolean"
-            },
-            "shallow": {
-              "title": "The shallow Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "type": "string"
-            }
-          }
-        },
-        {
-          "title": "A Schema",
-          "description": "An explanation about the purpose of this instance.",
-          "type": "array",
-          "items": [{
-            "title": "A Schema",
-            "description": "An explanation about the purpose of this instance.",
-            "type": "boolean"
+    "property-8-3" : {
+      "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/kohette/128.jpg",
+      "description" : "Not if anything to say about it I have",
+      "type" : "array",
+      "items" : [ {
+        "title" : "Dibbert-Zulauf",
+        "description" : null,
+        "type" : "integer",
+        "maximum" : 539667920,
+        "minimum" : 0,
+        "exclusiveMaximum" : true,
+        "exclusiveMinimum" : true
+      }, {
+        "title" : "After Many a Summer Dies the Swan",
+        "description" : "FAMO",
+        "type" : "boolean"
+      }, {
+        "title" : "Project managers never ask Chuck Norris for estimations... ever.",
+        "description" : "There was a fish in the percolator!",
+        "type" : "boolean"
+      }, {
+        "title" : null,
+        "description" : "Cooper, you may be fearless in this world, but there are other worlds.",
+        "type" : "object",
+        "properties" : {
+          "property-8-ai-3-1" : {
+            "title" : "Sometimes jokes are welcome. Like the one about the kid who said: \"I enjoyed school. It was just the principal of the thing.\"",
+            "description" : "KAAA",
+            "type" : "string",
+            "format" : "uri",
+            "minLength" : 0,
+            "maxLength" : 14
           },
-            {
-              "title": "A Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "type": "integer"
-            },
-            {
-              "title": "A Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "type": "boolean"
-            },
-            {
-              "title": "A Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "type": "string"
-            },
-            {
-              "title": "A Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "type": "string"
-            }]
-        }]
+          "property-8-ai-3-2" : {
+            "title" : null,
+            "description" : "Ondricka, Franecki and Kertzmann",
+            "type" : "boolean"
+          }
+        }
+      }, {
+        "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/dss49/128.jpg",
+        "description" : "All dwarfs are bastards in their father's eyes",
+        "type" : "integer",
+        "maximum" : 1694800608,
+        "minimum" : 1,
+        "exclusiveMaximum" : true,
+        "exclusiveMinimum" : false
+      }, {
+        "title" : "Your weapons, you will not need them.",
+        "description" : "Power is a curious thing. Who lives, Who dies. Power resides where men believe it resides. It is a trick, A shadow on the wall.",
+        "type" : "object",
+        "properties" : {
+          "property-8-ai-5-1" : {
+            "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/devankoshal/128.jpg",
+            "description" : "ELUS",
+            "type" : "string",
+            "format" : "date",
+            "minLength" : 0,
+            "maxLength" : 34
+          },
+          "property-8-ai-5-2" : {
+            "title" : "elephant",
+            "description" : "Cronin, Hane and Kuhic",
+            "type" : "boolean"
+          },
+          "property-8-ai-5-3" : {
+            "title" : "Chuck Norris knows the last digit of PI.",
+            "description" : "Chuck Norris doesn't have performance bottlenecks. He just makes the universe wait its turn.",
+            "type" : "string",
+            "format" : "duration",
+            "minLength" : 0,
+            "maxLength" : 24
+          }
+        }
+      }, {
+        "title" : "NFFA",
+        "description" : null,
+        "type" : "array",
+        "items" : [ {
+          "title" : "Consider the Lilies",
+          "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/emileboudeling/128.jpg",
+          "type" : "boolean"
+        }, {
+          "title" : "fish",
+          "description" : "There was a fish in the percolator!",
+          "type" : "integer",
+          "maximum" : 2120087986,
+          "minimum" : 2,
+          "exclusiveMaximum" : false,
+          "exclusiveMinimum" : false
+        }, {
+          "title" : "Shields LLC",
+          "description" : "The Way of All Flesh",
+          "type" : "boolean"
+        }, {
+          "title" : "I have no idea where this will lead us. But I have a definite feeling it will be a place both wonderful and strange.",
+          "description" : null,
+          "type" : "string",
+          "format" : "e-mail",
+          "minLength" : 0,
+          "maxLength" : 21
+        }, {
+          "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/ripplemdk/128.jpg",
+          "description" : "Becker Inc",
+          "type" : "string",
+          "format" : "e-mail",
+          "minLength" : 0,
+          "maxLength" : 33
+        } ]
+      } ]
     },
-    "road": {
-      "title": "The road Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "string"
+    "property-8-4" : {
+      "title" : "When Chuck Norris points to null, null quakes in fear.",
+      "description" : null,
+      "type" : "string",
+      "format" : "duration",
+      "minLength" : 0,
+      "maxLength" : 26
     }
   }
 }

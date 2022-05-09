@@ -1,108 +1,109 @@
+---
 $schema: "https://json-schema.org/draft/2020-12/json-schema-core.html"
 title: "First simplest testing file. Root Level Depth"
-description: "The files in this directory are simple entity schemas without the use of more, shall we say, complex keywords"
-type: object
+description: "The files in this directory are simple entity schemas without the use\
+  \ of more, shall we say, complex keywords"
+type: "object"
 additionalProperties: true
 properties:
   property-2-1:
-    "$id": "#/properties/sharp"
-    type: array
-    title: The sharp schema
-    description: An explanation about the purpose of this instance.
+    $id: "#/properties/sharp"
+    type: "array"
+    title: "The sharp schema"
+    description: "An explanation about the purpose of this instance."
     default: []
     uniqueItems: true
     additionalItems: true
     items:
-        - "$id": "#/properties/sharp/items/anyOf/0"
-          type: object
-          title: The first anyOf schema
-          description: An explanation about the purpose of this instance.
+    - $id: "#/properties/sharp/items/anyOf/0"
+      type: "object"
+      title: "The first anyOf schema"
+      description: "An explanation about the purpose of this instance."
+      default: {}
+      properties:
+        property-2-ai-0-1:
+          $id: "#/properties/sharp/items/anyOf/0/properties/seen"
+          type: "object"
+          title: "The seen schema"
+          description: "An explanation about the purpose of this instance."
+          default: {}
+          additionalProperties: true
+          properties: {}
+        property-2-ai-0-2:
+          $id: "#/properties/sharp/items/anyOf/0/properties/screen"
+          type: "object"
+          title: "The screen schema"
+          description: "An explanation about the purpose of this instance."
           default: {}
           properties:
-            seen:
-              "$id": "#/properties/sharp/items/anyOf/0/properties/seen"
-              type: object
-              title: The seen schema
-              description: An explanation about the purpose of this instance.
-              default: {}
-              additionalProperties: true
-            screen:
-              "$id": "#/properties/sharp/items/anyOf/0/properties/screen"
-              type: object
-              title: The screen schema
-              description: An explanation about the purpose of this instance.
+            property-2-ai-0-2-1:
+              $id: "#/properties/sharp/items/anyOf/0/properties/screen/properties/front"
+              type: "object"
+              title: "The front schema"
+              description: "An explanation about the purpose of this instance."
               default: {}
               properties:
-                front:
-                  "$id": "#/properties/sharp/items/anyOf/0/properties/screen/properties/front"
-                  type: object
-                  title: The front schema
-                  description: An explanation about the purpose of this instance.
-                  default: {}
-                  properties:
-                    chief:
-                      "$id": "#/properties/sharp/items/anyOf/0/properties/screen/properties/front/properties/chief"
-                      type: string
-                      title: The chief schema
-                      description: An explanation about the purpose of this instance.
-                      default: ''
-                    trace:
-                      "$id": "#/properties/sharp/items/anyOf/0/properties/screen/properties/front/properties/trace"
-                      type: array
-                      title: The trace schema
-                      description: An explanation about the purpose of this instance.
-                      default: []
-                      uniqueItems: true
-                      additionalItems: true
-                      items:
-                        "$id": "#/properties/sharp/items/anyOf/0/properties/screen/properties/front/properties/trace/items"
-                        anyOf:
-                          - "$id": "#/properties/sharp/items/anyOf/0/properties/screen/properties/front/properties/trace/items/anyOf/0"
-                            type: string
-                            title: The first anyOf schema
-                            description: An explanation about the purpose of this instance.
-                            default: ''
-                          - "$id": "#/properties/sharp/items/anyOf/0/properties/screen/properties/front/properties/trace/items/anyOf/1"
-                            type: number
-                            title: The second anyOf schema
-                            description: An explanation about the purpose of this instance.
-                            default: 0
-                    baseball:
-                      "$id": "#/properties/sharp/items/anyOf/0/properties/screen/properties/front/properties/baseball"
-                      type: integer
-                      title: The baseball schema
-                      description: An explanation about the purpose of this instance.
+                property-2-ai-0-2-1-1:
+                  $id: "#/properties/sharp/items/anyOf/0/properties/screen/properties/front/properties/chief"
+                  type: "string"
+                  title: "The chief schema"
+                  description: "An explanation about the purpose of this instance."
+                  default: ""
+                property-2-ai-0-2-1-2:
+                  $id: "#/properties/sharp/items/anyOf/0/properties/screen/properties/front/properties/trace"
+                  type: "array"
+                  title: "The trace schema"
+                  description: "An explanation about the purpose of this instance."
+                  default: []
+                  uniqueItems: true
+                  additionalItems: true
+                  items:
+                    - $id: "#/properties/sharp/items/anyOf/0/properties/screen/properties/front/properties/trace/items/anyOf/0"
+                      type: "string"
+                      title: "The first anyOf schema"
+                      description: "An explanation about the purpose of this instance."
+                      default: ""
+                    - $id: "#/properties/sharp/items/anyOf/0/properties/screen/properties/front/properties/trace/items/anyOf/1"
+                      type: "number"
+                      title: "The second anyOf schema"
+                      description: "An explanation about the purpose of this instance."
                       default: 0
-                    prize:
-                      "$id": "#/properties/sharp/items/anyOf/0/properties/screen/properties/front/properties/prize"
-                      type: string
-                      title: The prize schema
-                      description: An explanation about the purpose of this instance.
-                      default: ''
-                  additionalProperties: true
-                remove:
-                  "$id": "#/properties/sharp/items/anyOf/0/properties/screen/properties/remove"
-                  type: integer
-                  title: The remove schema
-                  description: An explanation about the purpose of this instance.
+                property-2-ai-0-2-1-3:
+                  $id: "#/properties/sharp/items/anyOf/0/properties/screen/properties/front/properties/baseball"
+                  type: "integer"
+                  title: "The baseball schema"
+                  description: "An explanation about the purpose of this instance."
                   default: 0
+                property-2-ai-0-2-1-4:
+                  $id: "#/properties/sharp/items/anyOf/0/properties/screen/properties/front/properties/prize"
+                  type: "string"
+                  title: "The prize schema"
+                  description: "An explanation about the purpose of this instance."
+                  default: ""
               additionalProperties: true
-            path:
-              "$id": "#/properties/sharp/items/anyOf/0/properties/path"
-              type: string
-              title: The path schema
-              description: An explanation about the purpose of this instance.
-              default: ''
-            lion:
-              "$id": "#/properties/sharp/items/anyOf/0/properties/lion"
-              type: string
-              title: The lion schema
-              description: An explanation about the purpose of this instance.
-              default: ''
+            property-2-ai-0-2-2:
+              $id: "#/properties/sharp/items/anyOf/0/properties/screen/properties/remove"
+              type: "integer"
+              title: "The remove schema"
+              description: "An explanation about the purpose of this instance."
+              default: 0
           additionalProperties: true
-        - "$id": "#/properties/sharp/items/anyOf/1"
-          type: string
-          title: The second anyOf schem
-        - "$id": "#/properties/sharp/items/anyOf/2"
-          type: number
-          title: The third anyOf schema
+        property-2-ai-0-3:
+          $id: "#/properties/sharp/items/anyOf/0/properties/path"
+          type: "string"
+          title: "The path schema"
+          description: "An explanation about the purpose of this instance."
+          default: ""
+        property-2-ai-0-4:
+          $id: "#/properties/sharp/items/anyOf/0/properties/lion"
+          type: "string"
+          title: "The lion schema"
+          description: "An explanation about the purpose of this instance."
+          default: ""
+      additionalProperties: true
+    - $id: "#/properties/sharp/items/anyOf/1"
+      type: "string"
+      title: "The second anyOf schem"
+    - $id: "#/properties/sharp/items/anyOf/2"
+      type: "number"
+      title: "The third anyOf schema"

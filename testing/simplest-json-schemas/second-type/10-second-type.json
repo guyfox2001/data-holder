@@ -1,0 +1,243 @@
+{
+  "$schema" : "http://json-schema.org/draft/2019-09/schema",
+  "title" : "All dwarfs are bastards in their father's eyes",
+  "description" : "She's dead... Wrapped in plastic.",
+  "type" : "array",
+  "additionalItems" : true,
+  "items" : [ {
+    "title" : "frog",
+    "description" : "Chuck Norris solved the Travelling Salesman problem in O(1) time.",
+    "type" : "object",
+    "additionalProperties" : true,
+    "properties" : {
+      "property-10-ai-0-1" : {
+        "title" : "To answer power with power, the Jedi way this is not. In this war, a danger there is, of losing who we are.",
+        "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/soffes/128.jpg",
+        "type" : "integer",
+        "maximum" : 954687917,
+        "minimum" : 0,
+        "exclusiveMaximum" : true,
+        "exclusiveMinimum" : true
+      }
+    }
+  }, {
+    "title" : null,
+    "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/robturlinckx/128.jpg",
+    "type" : "object",
+    "additionalProperties" : true,
+    "properties" : {
+      "property-10-ai-1-1" : {
+        "title" : "Chuck Norris can write multi-threaded applications with a single thread.",
+        "description" : "VEAB",
+        "type" : "string",
+        "format" : "date-time",
+        "minLength" : 0,
+        "maxLength" : 39
+      },
+      "property-10-ai-1-2" : {
+        "title" : "Steuber, Conn and Turner",
+        "description" : "Chuck Norris doesn't need a debugger, he just stares down the bug until the code confesses.",
+        "type" : "object",
+        "additionalProperties" : true,
+        "properties" : {
+          "property-10-ai-1-2-1" : {
+            "title" : "Chuck Norris doesn't pair program.",
+            "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/leeiio/128.jpg",
+            "type" : "integer",
+            "maximum" : 1456551227,
+            "minimum" : 2,
+            "exclusiveMaximum" : false,
+            "exclusiveMinimum" : false
+          },
+          "property-10-ai-1-2-2" : {
+            "title" : null,
+            "description" : "I don't wanna talk. I wanna shoot.",
+            "type" : "object",
+            "additionalProperties" : true,
+            "properties" : {
+              "property-10-ai-1-2-2-1" : {
+                "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/cliffseal/128.jpg",
+                "description" : "Give me honorable enemies rather than ambitious ones, and I'll sleep more easily by night.",
+                "type" : "array",
+                "additionalItems" : true,
+                "items" : [ {
+                  "title" : "Do the dead frighten you?",
+                  "description" : "And so he spoke, and so he spoke, that Lord of Castamere, but now the rains weep o'er his hall, with no one there to hear. Yes, now the rains weep o'er his hall, and not a soul to hear.",
+                  "type" : "string",
+                  "format" : "uri",
+                  "minLength" : 0,
+                  "maxLength" : 45
+                }, {
+                  "title" : "Every flight begins with a fall.",
+                  "description" : "Wow, Bob, wow.",
+                  "type" : "number",
+                  "minimum" : 9.539730197906165E307,
+                  "maximum" : 39.69889483025177,
+                  "exclusiveMaximum" : true,
+                  "exclusiveMinimum" : false
+                }, {
+                  "title" : "Stanton-Deckow",
+                  "description" : "Chuck Norris has root access to your system.",
+                  "type" : "number",
+                  "minimum" : 7.117837411202445E306,
+                  "maximum" : 62.557695411971295,
+                  "exclusiveMaximum" : true,
+                  "exclusiveMinimum" : true
+                }, {
+                  "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/1markiz/128.jpg",
+                  "description" : "SCRM",
+                  "type" : "string",
+                  "format" : "ipv5",
+                  "minLength" : 0,
+                  "maxLength" : 13
+                }, {
+                  "title" : "Power is a curious thing. Who lives, Who dies. Power resides where men believe it resides. It is a trick, A shadow on the wall.",
+                  "description" : "Laughter is poison to fear.",
+                  "type" : "number",
+                  "minimum" : 2.5972346083163605E307,
+                  "maximum" : 121.44219072735933,
+                  "exclusiveMaximum" : true,
+                  "exclusiveMinimum" : true
+                }, {
+                  "title" : "Hartmann and Sons",
+                  "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/vijaykarthik/128.jpg",
+                  "type" : "integer",
+                  "maximum" : 2066184468,
+                  "minimum" : 1,
+                  "exclusiveMaximum" : false,
+                  "exclusiveMinimum" : true
+                }, {
+                  "title" : "Harvey Group",
+                  "description" : null,
+                  "type" : "string",
+                  "format" : "e-mail",
+                  "minLength" : 0,
+                  "maxLength" : 42
+                } ],
+                "uniqueItems" : true
+              },
+              "property-10-ai-1-2-2-2" : {
+                "title" : "fox",
+                "description" : "hedgehog",
+                "type" : "string",
+                "format" : "ipv4",
+                "minLength" : 0,
+                "maxLength" : 22
+              },
+              "property-10-ai-1-2-2-3" : {
+                "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/embrcecreations/128.jpg",
+                "description" : "Wow, Bob, wow.",
+                "type" : "string",
+                "format" : "date",
+                "minLength" : 0,
+                "maxLength" : 30
+              },
+              "property-10-ai-1-2-2-4" : {
+                "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/phillapier/128.jpg",
+                "description" : "Through the darkness of future's past, the magician longs to see. One chants out between two worlds... \"Fire... walk with me.\"",
+                "type" : "string",
+                "format" : "uri",
+                "minLength" : 0,
+                "maxLength" : 19
+              },
+              "property-10-ai-1-2-2-5" : {
+                "title" : "Black as midnight on a moonless night.",
+                "description" : "minnow",
+                "type" : "number",
+                "minimum" : 6.887922953390095E307,
+                "maximum" : 83.00946178653068,
+                "exclusiveMaximum" : true,
+                "exclusiveMinimum" : false
+              }
+            }
+          },
+          "property-10-ai-1-2-3" : {
+            "title" : "Audrey, there are many cures for a broken heart. But nothing quite like a trout's leap in the moonlight.",
+            "description" : null,
+            "type" : "integer",
+            "maximum" : 1153572795,
+            "minimum" : 1,
+            "exclusiveMaximum" : true,
+            "exclusiveMinimum" : true
+          },
+          "property-10-ai-1-2-4" : {
+            "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/fjaguero/128.jpg",
+            "description" : "The Golden Bowl",
+            "type" : "string",
+            "format" : "date-time",
+            "minLength" : 0,
+            "maxLength" : 10
+          },
+          "property-10-ai-1-2-5" : {
+            "title" : "Truly wonderful, the mind of a child is.",
+            "description" : "The dark side clouds everything. Impossible to see the future is.",
+            "type" : "string",
+            "format" : "date-time",
+            "minLength" : 0,
+            "maxLength" : 29
+          },
+          "property-10-ai-1-2-6" : {
+            "title" : null,
+            "description" : "skunk",
+            "type" : "string",
+            "format" : "e-mail",
+            "minLength" : 0,
+            "maxLength" : 44
+          },
+          "property-10-ai-1-2-7" : {
+            "title" : "A Time of Gifts",
+            "description" : "Lueilwitz, Pollich and Grant",
+            "type" : "string",
+            "format" : "time",
+            "minLength" : 0,
+            "maxLength" : 18
+          }
+        }
+      },
+      "property-10-ai-1-3" : {
+        "title" : "Do the dead frighten you?",
+        "description" : "Harry, is that bag smiling?",
+        "type" : "number",
+        "minimum" : 1.1035934889764423E308,
+        "maximum" : 99.17161708888402,
+        "exclusiveMaximum" : true,
+        "exclusiveMinimum" : false
+      },
+      "property-10-ai-1-4" : {
+        "title" : "When you play a game of thrones you win or you die.",
+        "description" : "TDCF",
+        "type" : "number",
+        "minimum" : 5.733249181383384E307,
+        "maximum" : 11.316903791464968,
+        "exclusiveMaximum" : false,
+        "exclusiveMinimum" : false
+      },
+      "property-10-ai-1-5" : {
+        "title" : "Power is a curious thing. Who lives, Who dies. Power resides where men believe it resides. It is a trick, A shadow on the wall.",
+        "description" : null,
+        "type" : "string",
+        "format" : "date-time",
+        "minLength" : 0,
+        "maxLength" : 42
+      },
+      "property-10-ai-1-6" : {
+        "title" : "Ratke, Senger and Howell",
+        "description" : "Frequent Hearses",
+        "type" : "string",
+        "format" : "time",
+        "minLength" : 0,
+        "maxLength" : 47
+      },
+      "property-10-ai-1-7" : {
+        "title" : "Chuck Norris can write infinite recursion functions... and have them return.",
+        "description" : "Knowledge could be more valuable than gold, more deadly than a dagger.",
+        "type" : "number",
+        "minimum" : 6.891877215371652E307,
+        "maximum" : 7.566620460595049,
+        "exclusiveMaximum" : true,
+        "exclusiveMinimum" : true
+      }
+    }
+  } ],
+  "uniqueItems" : true
+}

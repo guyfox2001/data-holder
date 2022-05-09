@@ -1,0 +1,260 @@
+---
+$schema: "http://json-schema.org/draft/2019-09/schema"
+$id: "http://example.com/example.json"
+title: "SAAG"
+description: null
+type: "object"
+properties:
+  property-7-1:
+    title: "Krajcik, Zemlak and Carroll"
+    description: "UUOO"
+    type: "array"
+    items:
+    - title: "crocodile"
+      description: "Sporer-Halvorson"
+      type: "number"
+      minimum: 1.641819147183582E308
+      maximum: 104.67383452784952
+      exclusiveMaximum: false
+      exclusiveMinimum: false
+      $id: "#/properties/property-7-1/0"
+    - title: "https://s3.amazonaws.com/uifaces/faces/twitter/carlosblanco_eu/128.jpg"
+      description: "https://s3.amazonaws.com/uifaces/faces/twitter/kevka/128.jpg"
+      type: "string"
+      format: "duration"
+      minLength: 0
+      maxLength: 41
+      $id: "#/properties/property-7-1/1"
+    - title: "Audrey, there are many cures for a broken heart. But nothing quite like\
+        \ a trout's leap in the moonlight."
+      description: "Every flight begins with a fall."
+      type: "array"
+      items:
+      - title: "Fear cuts deeper than swords."
+        description: null
+        type: "array"
+        items:
+        - title: "Some Buried Caesar"
+          description: "Chuck Norris doesn't bug hunt, as that signifies a probability\
+            \ of failure. He goes bug killing."
+          type: "string"
+          format: "ipv5"
+          minLength: 0
+          maxLength: 18
+          $id: "#/properties/property-7-1/2/0/0"
+        - title: "A Farewell to Arms"
+          description: "yellowjacket"
+          type: "integer"
+          maximum: 1426646004
+          minimum: 0
+          exclusiveMaximum: false
+          exclusiveMinimum: false
+          $id: "#/properties/property-7-1/2/0/1"
+        - title: "O'Connell Group"
+          description: "Like fire across the galaxy the Clone Wars spread. In league\
+            \ with the wicked Count Dooku, more and more planets slip. Against this\
+            \ threat, upon the Jedi Knights falls the duty to lead the newly formed\
+            \ army of the Republic. And as the heat of war grows, so, to, grows the\
+            \ prowess of one most gifted student of the Force."
+          type: "number"
+          minimum: 1.5433716898397514E308
+          maximum: 99.25155857860645
+          exclusiveMaximum: false
+          exclusiveMinimum: true
+          $id: "#/properties/property-7-1/2/0/2"
+        - title: "Chuck Norris's first program was kill -9."
+          description: "The North remembers."
+          type: "integer"
+          maximum: 1618224334
+          minimum: 0
+          exclusiveMaximum: false
+          exclusiveMinimum: false
+          $id: "#/properties/property-7-1/2/0/3"
+        - title: "https://s3.amazonaws.com/uifaces/faces/twitter/felipecsl/128.jpg"
+          description: "https://s3.amazonaws.com/uifaces/faces/twitter/jay_wilburn/128.jpg"
+          type: "number"
+          minimum: 9.011810763488127E307
+          maximum: 56.94629557160659
+          exclusiveMaximum: true
+          exclusiveMinimum: true
+          $id: "#/properties/property-7-1/2/0/4"
+        - title: "https://s3.amazonaws.com/uifaces/faces/twitter/felipeapiress/128.jpg"
+          description: "Hmm. In the end, cowards are those who follow the dark side."
+          type: "string"
+          format: "duration"
+          minLength: 0
+          maxLength: 24
+          $id: "#/properties/property-7-1/2/0/5"
+        - title: "COOPER, YOU REMIND ME TODAY OF A SMALL MEXICAN CHIHUAHUA."
+          description: "The class object inherits from Chuck Norris."
+          type: "number"
+          minimum: 1.036070212497826E308
+          maximum: 5.612763302716633
+          exclusiveMaximum: true
+          exclusiveMinimum: false
+          $id: "#/properties/property-7-1/2/0/6"
+        - title: "Fear cuts deeper than swords."
+          description: "You don't disable the Chuck Norris plug-in, it disables you."
+          type: "string"
+          format: "time"
+          minLength: 0
+          maxLength: 11
+          $id: "#/properties/property-7-1/2/0/7"
+        $id: "#/properties/property-7-1/2/0"
+      - title: "https://s3.amazonaws.com/uifaces/faces/twitter/kevinoh/128.jpg"
+        description: "Strong is Vader. Mind what you have learned. Save you it can."
+        type: "string"
+        format: "e-mail"
+        minLength: 0
+        maxLength: 49
+        $id: "#/properties/property-7-1/2/1"
+      - title: "donkey"
+        description: null
+        type: "number"
+        minimum: 9.077434358482764E307
+        maximum: 48.61343421943944
+        exclusiveMaximum: false
+        exclusiveMinimum: false
+        $id: "#/properties/property-7-1/2/2"
+      - title: "Koelpin, Waelchi and Schroeder"
+        description: "Some old wounds never truly heal, and bleed again at the slightest\
+          \ word."
+        type: "integer"
+        maximum: 701834188
+        minimum: 1
+        exclusiveMaximum: false
+        exclusiveMinimum: false
+        $id: "#/properties/property-7-1/2/3"
+      - title: "WA44"
+        description: "manatee"
+        type: "string"
+        format: "duration"
+        minLength: 0
+        maxLength: 34
+        $id: "#/properties/property-7-1/2/4"
+      - title: "Green, Larson and Klein"
+        description: "ULAA"
+        type: "string"
+        format: "duration"
+        minLength: 0
+        maxLength: 33
+        $id: "#/properties/property-7-1/2/5"
+      - title: "The Far-Distant Oxus"
+        description: "Chuck Norris knows the last digit of PI."
+        type: "number"
+        minimum: 1.557399518436668E308
+        maximum: 120.15030493001589
+        exclusiveMaximum: false
+        exclusiveMinimum: true
+        $id: "#/properties/property-7-1/2/6"
+      - title: "chimpanzee"
+        description: "platypus"
+        type: "string"
+        format: "duration"
+        minLength: 0
+        maxLength: 25
+        $id: "#/properties/property-7-1/2/7"
+      $id: "#/properties/property-7-1/2"
+    - title: "elephant"
+      description: "https://s3.amazonaws.com/uifaces/faces/twitter/carlosjgsousa/128.jpg"
+      type: "string"
+      format: "duration"
+      minLength: 0
+      maxLength: 34
+      $id: "#/properties/property-7-1/3"
+    - title: "Hodor? Hodor."
+      description: "PAAN"
+      type: "number"
+      minimum: 2.794869223273243E307
+      maximum: 23.19032071697263
+      exclusiveMaximum: true
+      exclusiveMinimum: true
+      $id: "#/properties/property-7-1/4"
+    - title: "Smitham-Gibson"
+      description: "Down to a Sunless Sea"
+      type: "number"
+      minimum: 3.937897038017641E307
+      maximum: 107.01961851477738
+      exclusiveMaximum: true
+      exclusiveMinimum: true
+      $id: "#/properties/property-7-1/5"
+    - title: "Chuck Norris's keyboard doesn't have a Ctrl key because nothing controls\
+        \ Chuck Norris."
+      description: "The Road Less Traveled"
+      type: "number"
+      minimum: 1.329036378978813E308
+      maximum: 57.27706022155064
+      exclusiveMaximum: true
+      exclusiveMinimum: true
+      $id: "#/properties/property-7-1/6"
+    - title: "You know, this is — excuse me — a damn fine cup of coffee!"
+      description: "https://s3.amazonaws.com/uifaces/faces/twitter/rahmeen/128.jpg"
+      type: "number"
+      minimum: 7.609885146403016E307
+      maximum: 36.90742132440793
+      exclusiveMaximum: false
+      exclusiveMinimum: false
+      $id: "#/properties/property-7-1/7"
+    $id: "#/properties/property-7-1"
+  property-7-2:
+    title: "https://s3.amazonaws.com/uifaces/faces/twitter/oscarowusu/128.jpg"
+    description: "Terrible Swift Sword"
+    type: "integer"
+    maximum: 1081977175
+    minimum: 1
+    exclusiveMaximum: false
+    exclusiveMinimum: false
+    $id: "#/properties/property-7-2"
+  property-7-3:
+    title: "fly"
+    description: "minnow"
+    type: "string"
+    format: "date"
+    minLength: 0
+    maxLength: 37
+    $id: "#/properties/property-7-3"
+  property-7-4:
+    title: "The Heart Is Deceitful Above All Things"
+    description: "A Passage to India"
+    type: "integer"
+    maximum: 2088938911
+    minimum: 1
+    exclusiveMaximum: false
+    exclusiveMinimum: false
+    $id: "#/properties/property-7-4"
+  property-7-5:
+    title: "Pie. Whoever invented the pie? Here was a great person."
+    description: "The class object inherits from Chuck Norris."
+    type: "integer"
+    maximum: 1095405951
+    minimum: 2
+    exclusiveMaximum: true
+    exclusiveMinimum: false
+    $id: "#/properties/property-7-5"
+  property-7-6:
+    title: "Where we're from, the birds sing a pretty song, and there's always music\
+      \ in the air."
+    description: "Good relations with the Wookiees, I have."
+    type: "integer"
+    maximum: 772144787
+    minimum: 0
+    exclusiveMaximum: false
+    exclusiveMinimum: true
+    $id: "#/properties/property-7-6"
+  property-7-7:
+    title: "Daniel, Klein and Stamm"
+    description: "https://s3.amazonaws.com/uifaces/faces/twitter/h1brd/128.jpg"
+    type: "string"
+    format: "uri"
+    minLength: 0
+    maxLength: 17
+    $id: "#/properties/property-7-7"
+  property-7-8:
+    title: "Chuck Norris doesn't need garbage collection because he doesn't call .Dispose(),\
+      \ he calls .DropKick()."
+    description: "https://s3.amazonaws.com/uifaces/faces/twitter/gavr1l0/128.jpg"
+    type: "string"
+    format: "ipv5"
+    minLength: 0
+    maxLength: 37
+    $id: "#/properties/property-7-8"

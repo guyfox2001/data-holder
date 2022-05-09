@@ -1,0 +1,182 @@
+{
+  "$schema" : "https://json-schema.org/draft/2020-12/json-schema-core.html",
+  "title" : "First simplest testing file. Root Level Depth",
+  "description" : "The files in this directory are simple entity schemas without the use of more, shall we say, complex keywords",
+  "type" : "object",
+  "additionalProperties" : true,
+  "maxProperties" : 10,
+  "properites" : {
+    "property-1-1" : {
+      "type" : "object",
+      "title" : "Imagine you are writing an email. You are in front of the computer. You are operating the computer, clicking a mouse and typing on a keyboard, but the message will be sent to a human over the internet. So you are working before the computer, but with a human behind the computer.",
+      "properties" : {
+        "property-1-1-1" : {
+          "type" : "array",
+          "title" : "Sometimes people jot down pseudo-code on paper. If that pseudo-code runs directly on their computers, its best, isn't it? Ruby tries to be like that, like pseudo-code that runs. Python people say that too.",
+          "items" : [ {
+            "type" : "string",
+            "title" : "Clear your mind must be, if you are to find the villains behind this plot.",
+            "minLength" : 12,
+            "maxLength" : 123123
+          } ]
+        },
+        "property-1-1-2" : {
+          "type" : "number",
+          "title" : "sardine",
+          "maximum" : 1000000,
+          "exclusvieMaximim" : true
+        },
+        "property-1-1-3" : {
+          "type" : "array",
+          "title" : "Lake Lupe",
+          "prefixItems" : [ {
+            "type" : "integer",
+            "title" : "seal"
+          }, {
+            "type" : "object",
+            "title" : "2 level depth",
+            "description" : "Fishs are the mates of the cold power.",
+            "properties" : {
+              "property-1-1-3-ai-1-1" : {
+                "type" : "string",
+                "title" : "String example",
+                "minLength" : 0,
+                "maxLength" : 99
+              },
+              "property-1-1-3-ai-1-2" : {
+                "type" : "string",
+                "title" : "String example",
+                "minLength" : 0,
+                "maxLength" : 99
+              }
+            }
+          } ]
+        },
+        "property-1-1-4" : {
+          "type" : "object",
+          "title" : "Once you start down the dark path, forever will it dominate your destiny, consume you it will.",
+          "properties" : {
+            "property-1-1-4-1" : {
+              "type" : "number",
+              "title" : "Always pass on what you have learned.",
+              "minimum" : -999,
+              "maximum" : 999,
+              "multipleOf" : 2,
+              "exclusiveMaximum" : true
+            },
+            "property-1-1-4-2" : {
+              "type" : "object",
+              "title" : "koala"
+            },
+            "property-1-1-4-3" : {
+              "type" : "integer",
+              "title" : "November 12, 1955",
+              "minimum" : -999,
+              "maximum" : 999,
+              "multipleOf" : 2,
+              "exclusiveMaximum" : true
+            },
+            "property-1-1-4-4" : {
+              "type" : "object",
+              "title" : "worm",
+              "properties" : {
+                "property-1-1-4-4-1" : {
+                  "type" : "array",
+                  "title" : "Pain, suffering, death I feel. Something terrible has happened. Young Skywalker is in pain. Terrible pain",
+                  "items" : [ {
+                    "type" : "string",
+                    "title" : "Flexidy",
+                    "minLength" : 0,
+                    "maxLength" : 99
+                  }, {
+                    "type" : "integer",
+                    "title" : "Ow, ow, OW! On my ear you are!",
+                    "minimum" : -999,
+                    "maximum" : 999,
+                    "multipleOf" : 2
+                  }, {
+                    "type" : "integer",
+                    "title" : "Ow, ow, OW! On my ear you are!",
+                    "minimum" : -999,
+                    "maximum" : 999,
+                    "multipleOf" : 2
+                  } ]
+                }
+              }
+            },
+            "property-1-1-4-5" : {
+              "type" : "boolean"
+            }
+          }
+        }
+      }
+    },
+    "property-1-2" : {
+      "type" : "object",
+      "title" : "Always pass on what you have learned.",
+      "additionalProperties" : true,
+      "properties" : {
+        "property-1-2-1" : {
+          "title" : "Younglings, younglings gather ’round.",
+          "type" : "array",
+          "items" : [ {
+            "type" : "object",
+            "title" : "South Riley",
+            "properties" : {
+              "property-1-2-1-ai-0" : {
+                "type" : "string",
+                "title" : "Jamis",
+                "format" : "uri"
+              },
+              "property-1-2-1-ai-1" : {
+                "type" : "string",
+                "title" : "Magnam a nisi."
+              },
+              "property-1-2-1-ai-2" : {
+                "type" : "number",
+                "title" : "October 25, 1985"
+              },
+              "property-1-2-1-ai-3" : {
+                "type" : "array",
+                "title" : "Hmm. In the end, cowards are those who follow the dark side.",
+                "items" : [ {
+                  "type" : "string"
+                } ]
+              },
+              "property-1-2-1-ai-4" : {
+                "type" : "boolean"
+              }
+            }
+          } ]
+        },
+        "property-1-2-2" : {
+          "type" : "array",
+          "title" : "sea lion",
+          "minItems" : 1,
+          "maxItems" : 100,
+          "items" : [ {
+            "type" : "object",
+            "title" : "Pain, suffering, death I feel. Something terrible has happened. Young Skywalker is in pain. Terrible pain",
+            "properties" : {
+              "property-1-2-2-ai-0" : {
+                "type" : "string",
+                "title" : "Malenachester",
+                "format" : "some-format",
+                "pattern" : "some-pattern"
+              },
+              "property-1-2-2-ai-1" : {
+                "type" : "string",
+                "title" : "Ut qui et et praesentium."
+              }
+            }
+          } ]
+        },
+        "property-1-2-3" : [ {
+          "type" : "string",
+          "title" : "Qui id facilis voluptas illum facilis fugit atque.",
+          "maxLength" : 100
+        } ]
+      }
+    }
+  }
+}

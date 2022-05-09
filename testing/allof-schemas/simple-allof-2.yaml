@@ -1,0 +1,8 @@
+---
+$schema: "https://json-schema.org/draft/2020-12/json-schema-core.html"
+type: object
+properties:
+  allOf:
+    - $ref: "../small-schemas/1.yaml"
+    - $ref: "../small-schemas/2.yaml"
+    - $ref: "../small-schemas/3.yaml"

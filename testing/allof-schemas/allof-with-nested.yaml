@@ -1,0 +1,15 @@
+$schema: "https://json-schema.org/draft/2020-12/json-schema-core.html"
+type: array
+allOf:
+  - type: array
+    items:
+      - type: object
+        allOf:
+          - type: object
+            allOf:
+              - $ref: "../small-schemas/10.yaml"
+              - $ref: "../small-schemas/3.yaml"
+          - $ref: "../small-schemas/4.yaml"
+      - $ref: "simple-allof-2.yaml"
+      - $ref: "../simplest-json-schemas/first-type/4-first-type.yaml"
+  - $ref: "../simplest-json-schemas/second-type/15-second-type.yaml"

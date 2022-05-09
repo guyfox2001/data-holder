@@ -1,0 +1,1147 @@
+---
+$schema: "https://json-schema.org/draft/2020-12/json-schema-core.html"
+type: "object"
+properties:
+  property-1:
+    type: "object"
+    properties:
+      $schema: "http://json-schema.org/draft/2019-09/schema"
+      type: "array"
+      items:
+      - title: "Summer will end soon enough, and childhood as well."
+        description: "Through the darkness of future's past, the magician longs to\
+          \ see. One chants out between two worlds... \"Fire... walk with me.\""
+        type: "object"
+        additionalProperties: true
+        properties:
+          property-15-ai-0-1:
+            title: "https://s3.amazonaws.com/uifaces/faces/twitter/alexandermayes/128.jpg"
+            description: "Summer will end soon enough, and childhood as well."
+            type: "array"
+            additionalItems: true
+            items:
+            - title: "Nader, Gibson and Quitzon"
+              description: "Such, Such Were the Joys"
+              type: "number"
+              minimum: 1.5165005850082716E307
+              maximum: 119.28605737066985
+              exclusiveMaximum: false
+              exclusiveMinimum: true
+            - title: "Mertz Inc"
+              description: "Schmeler and Sons"
+              type: "number"
+              minimum: 5.31771767675918E307
+              maximum: 57.849710297228846
+              exclusiveMaximum: false
+              exclusiveMinimum: false
+            - title: "Things Fall Apart"
+              description: "The dark side clouds everything. Impossible to see the\
+                \ future is."
+              type: "string"
+              format: "duration"
+              minLength: 0
+              maxLength: 29
+            - title: null
+              description: "COOPER, YOU REMIND ME TODAY OF A SMALL MEXICAN CHIHUAHUA."
+              type: "object"
+              additionalProperties: true
+              properties:
+                property-15-ai-0-ai-3-1:
+                  title: "Grady, Block and Spinka"
+                  description: "At an end your rule is, and not short enough it was!"
+                  type: "string"
+                  format: "ipv5"
+                  minLength: 0
+                  maxLength: 49
+                property-15-ai-0-ai-3-2:
+                  title: "Stranger in a Strange Land"
+                  description: "Schuppe and Sons"
+                  type: "object"
+                  additionalProperties: true
+                  properties:
+                    property-15-ai-0-ai-3-2-1:
+                      title: "How's Annie? How's Annie? How's Annie?"
+                      description: "Have His Carcase"
+                      type: "integer"
+                      maximum: 1680488031
+                      minimum: 0
+                      exclusiveMaximum: false
+                      exclusiveMinimum: false
+                    property-15-ai-0-ai-3-2-2:
+                      title: "reindeer"
+                      description: "MAY A SMILE BE YOUR UMBRELLA. WE'VE ALL HAD OUR\
+                        \ SOCKS TOSSED AROUND."
+                      type: "object"
+                      additionalProperties: true
+                      properties:
+                        property-15-ai-0-ai-3-2-2-1:
+                          title: "Roberts, Watsica and Gutmann"
+                          description: null
+                          type: "object"
+                          additionalProperties: true
+                          properties:
+                            property-15-ai-0-ai-3-2-2-1-1:
+                              title: "https://s3.amazonaws.com/uifaces/faces/twitter/twittypork/128.jpg"
+                              description: "https://s3.amazonaws.com/uifaces/faces/twitter/chris_frees/128.jpg"
+                              type: "string"
+                              format: "phone"
+                              minLength: 0
+                              maxLength: 30
+                            property-15-ai-0-ai-3-2-2-1-2:
+                              title: "Chuck Norris's first program was kill -9."
+                              description: "Every flight begins with a fall."
+                              type: "array"
+                              additionalItems: true
+                              items:
+                              - title: "https://s3.amazonaws.com/uifaces/faces/twitter/hanna_smi/128.jpg"
+                                description: "Windom Earle's mind is like a diamond.\
+                                  \ It's cold, and hard, and brilliant."
+                                type: "string"
+                                format: "date-time"
+                                minLength: 0
+                                maxLength: 44
+                              - title: null
+                                description: "https://s3.amazonaws.com/uifaces/faces/twitter/emmandenn/128.jpg"
+                                type: "integer"
+                                maximum: 1907205198
+                                minimum: 0
+                                exclusiveMaximum: false
+                                exclusiveMinimum: false
+                              - title: "Younglings, younglings gather ’round."
+                                description: "I Know Why the Caged Bird Sings"
+                                type: "string"
+                                format: "date-time"
+                                minLength: 0
+                                maxLength: 31
+                              - title: "You may think I've gone insane... but I promise.\
+                                  \ I will kill again."
+                                description: "Chuck Norris burst the dot com bubble."
+                                type: "string"
+                                format: "duration"
+                                minLength: 0
+                                maxLength: 27
+                              - title: "Jesting Pilate"
+                                description: "Chuck Norris knows the last digit of\
+                                  \ PI."
+                                type: "string"
+                                format: "date"
+                                minLength: 0
+                                maxLength: 31
+                              - title: null
+                                description: "Clear your mind must be, if you are\
+                                  \ to find the villains behind this plot."
+                                type: "number"
+                                minimum: 1.101886154494659E308
+                                maximum: 29.203175503451806
+                                exclusiveMaximum: true
+                                exclusiveMinimum: false
+                              - title: "Chuck Norris does not use revision control\
+                                  \ software. None of his code has ever needed revision."
+                                description: "https://s3.amazonaws.com/uifaces/faces/twitter/matbeedotcom/128.jpg"
+                                type: "string"
+                                format: "date"
+                                minLength: 0
+                                maxLength: 47
+                              - title: "There is no need to try catching Chuck Norris'\
+                                  \ exceptions for recovery; every single throw he\
+                                  \ does is fatal."
+                                description: "Eyeless in Gaza"
+                                type: "integer"
+                                maximum: 2089306363
+                                minimum: 0
+                                exclusiveMaximum: true
+                                exclusiveMinimum: false
+                              - title: null
+                                description: "When Chuck Norris gives a method an\
+                                  \ argument, the method loses."
+                                type: "string"
+                                format: "date"
+                                minLength: 0
+                                maxLength: 39
+                              uniqueItems: true
+                            property-15-ai-0-ai-3-2-2-1-3:
+                              title: "FAMG"
+                              description: "There was a fish in the percolator!"
+                              type: "integer"
+                              maximum: 1546799786
+                              minimum: 0
+                              exclusiveMaximum: false
+                              exclusiveMinimum: false
+                            property-15-ai-0-ai-3-2-2-1-4:
+                              title: "zebra"
+                              description: "GASK"
+                              type: "string"
+                              format: "ipv5"
+                              minLength: 0
+                              maxLength: 15
+                            property-15-ai-0-ai-3-2-2-1-5:
+                              title: "The Grapes of Wrath"
+                              description: null
+                              type: "string"
+                              format: "duration"
+                              minLength: 0
+                              maxLength: 37
+                            property-15-ai-0-ai-3-2-2-1-6:
+                              title: "mammoth"
+                              description: "https://s3.amazonaws.com/uifaces/faces/twitter/dgajjar/128.jpg"
+                              type: "string"
+                              format: "duration"
+                              minLength: 0
+                              maxLength: 21
+                            property-15-ai-0-ai-3-2-2-1-7:
+                              title: "Halvorson Group"
+                              description: "Will, Terry and Lind"
+                              type: "string"
+                              format: "phone"
+                              minLength: 0
+                              maxLength: 33
+                            property-15-ai-0-ai-3-2-2-1-8:
+                              title: "ox"
+                              description: "BGGD"
+                              type: "string"
+                              format: "date-time"
+                              minLength: 0
+                              maxLength: 42
+                            property-15-ai-0-ai-3-2-2-1-9:
+                              title: "PAAN"
+                              description: "Death Be Not Proud"
+                              type: "string"
+                              format: "e-mail"
+                              minLength: 0
+                              maxLength: 13
+                        property-15-ai-0-ai-3-2-2-2:
+                          title: null
+                          description: "You may think I've gone insane... but I promise.\
+                            \ I will kill again."
+                          type: "integer"
+                          maximum: 1875144514
+                          minimum: 1
+                          exclusiveMaximum: false
+                          exclusiveMinimum: true
+                        property-15-ai-0-ai-3-2-2-3:
+                          title: "Good relations with the Wookiees, I have."
+                          description: "Chuck Norris rewrote the Google search engine\
+                            \ from scratch."
+                          type: "number"
+                          minimum: 1.0556388034037753E308
+                          maximum: 35.18998843857121
+                          exclusiveMaximum: false
+                          exclusiveMinimum: false
+                        property-15-ai-0-ai-3-2-2-4:
+                          title: "Pain, suffering, death I feel. Something terrible\
+                            \ has happened. Young Skywalker is in pain. Terrible pain"
+                          description: "And I have a tender spot in my heart for cripples\
+                            \ and bastards and broken things."
+                          type: "string"
+                          format: "duration"
+                          minLength: 0
+                          maxLength: 36
+                        property-15-ai-0-ai-3-2-2-5:
+                          title: "The dark side clouds everything. Impossible to see\
+                            \ the future is."
+                          description: null
+                          type: "string"
+                          format: "uri"
+                          minLength: 0
+                          maxLength: 30
+                        property-15-ai-0-ai-3-2-2-6:
+                          title: "https://s3.amazonaws.com/uifaces/faces/twitter/karolkrakowiak_/128.jpg"
+                          description: "There's nothing quite like urinating in the\
+                            \ open air."
+                          type: "string"
+                          format: "date-time"
+                          minLength: 0
+                          maxLength: 48
+                        property-15-ai-0-ai-3-2-2-7:
+                          title: "elephant"
+                          description: "Hills-Brakus"
+                          type: "integer"
+                          maximum: 1401458359
+                          minimum: 0
+                          exclusiveMaximum: false
+                          exclusiveMinimum: true
+                        property-15-ai-0-ai-3-2-2-8:
+                          title: "Olson-Kertzmann"
+                          description: "Pain, suffering, death I feel. Something terrible\
+                            \ has happened. Young Skywalker is in pain. Terrible pain"
+                          type: "string"
+                          format: "uri"
+                          minLength: 0
+                          maxLength: 19
+                        property-15-ai-0-ai-3-2-2-9:
+                          title: "Hand-Beer"
+                          description: "And I have a tender spot in my heart for cripples\
+                            \ and bastards and broken things."
+                          type: "string"
+                          format: "phone"
+                          minLength: 0
+                          maxLength: 12
+                    property-15-ai-0-ai-3-2-3:
+                      title: "Krajcik-Bayer"
+                      description: "When you play a game of thrones you win or you\
+                        \ die."
+                      type: "integer"
+                      maximum: 2089980628
+                      minimum: 2
+                      exclusiveMaximum: false
+                      exclusiveMinimum: true
+                    property-15-ai-0-ai-3-2-4:
+                      title: "Chuck Norris rewrote the Google search engine from scratch."
+                      description: "Rodriguez-Cassin"
+                      type: "integer"
+                      maximum: 2026252181
+                      minimum: 1
+                      exclusiveMaximum: false
+                      exclusiveMinimum: true
+                    property-15-ai-0-ai-3-2-5:
+                      title: "Blue Remembered Earth"
+                      description: "koala"
+                      type: "string"
+                      format: "ipv5"
+                      minLength: 0
+                      maxLength: 22
+                    property-15-ai-0-ai-3-2-6:
+                      title: "https://s3.amazonaws.com/uifaces/faces/twitter/saarabpreet/128.jpg"
+                      description: "Kirlin, Grady and Block"
+                      type: "string"
+                      format: "ipv5"
+                      minLength: 0
+                      maxLength: 25
+                    property-15-ai-0-ai-3-2-7:
+                      title: "spider"
+                      description: null
+                      type: "integer"
+                      maximum: 138275711
+                      minimum: 1
+                      exclusiveMaximum: false
+                      exclusiveMinimum: false
+                    property-15-ai-0-ai-3-2-8:
+                      title: "RJAH"
+                      description: "Use your feelings, Obi-Wan, and find him you will."
+                      type: "string"
+                      format: "date"
+                      minLength: 0
+                      maxLength: 43
+                    property-15-ai-0-ai-3-2-9:
+                      title: "Hodor? Hodor."
+                      description: "Spinka, Jacobi and Lesch"
+                      type: "string"
+                      format: "date-time"
+                      minLength: 0
+                      maxLength: 28
+                property-15-ai-0-ai-3-3:
+                  title: "Chuck Norris compresses his files by doing a flying round\
+                    \ house kick to the hard drive."
+                  description: "Green-Orn"
+                  type: "string"
+                  format: "duration"
+                  minLength: 0
+                  maxLength: 13
+                property-15-ai-0-ai-3-4:
+                  title: null
+                  description: null
+                  type: "string"
+                  format: "uri"
+                  minLength: 0
+                  maxLength: 27
+                property-15-ai-0-ai-3-5:
+                  title: "Chuck Norris' beard is immutable."
+                  description: "https://s3.amazonaws.com/uifaces/faces/twitter/turkutuuli/128.jpg"
+                  type: "string"
+                  format: "ipv4"
+                  minLength: 0
+                  maxLength: 30
+                property-15-ai-0-ai-3-6:
+                  title: "For Chuck Norris, NP-Hard = O(1)."
+                  description: "https://s3.amazonaws.com/uifaces/faces/twitter/donjain/128.jpg"
+                  type: "string"
+                  format: "phone"
+                  minLength: 0
+                  maxLength: 26
+                property-15-ai-0-ai-3-7:
+                  title: "https://s3.amazonaws.com/uifaces/faces/twitter/gregrwilkinson/128.jpg"
+                  description: null
+                  type: "string"
+                  format: "ipv4"
+                  minLength: 0
+                  maxLength: 13
+                property-15-ai-0-ai-3-8:
+                  title: "Ego Dominus Tuus"
+                  description: "Everything is Illuminated"
+                  type: "string"
+                  format: "ipv4"
+                  minLength: 0
+                  maxLength: 19
+                property-15-ai-0-ai-3-9:
+                  title: "Sometimes jokes are welcome. Like the one about the kid\
+                    \ who said: \"I enjoyed school. It was just the principal of the\
+                    \ thing.\""
+                  description: "minnow"
+                  type: "number"
+                  minimum: 1.7895460650569462E308
+                  maximum: 76.52423173924163
+                  exclusiveMaximum: true
+                  exclusiveMinimum: true
+            - title: "Quantum cryptography does not work on Chuck Norris. When something\
+                \ is being observed by Chuck it stays in the same state until he's\
+                \ finished."
+              description: "https://s3.amazonaws.com/uifaces/faces/twitter/j2deme/128.jpg"
+              type: "number"
+              minimum: 1.7885180540118763E308
+              maximum: 122.20559482306575
+              exclusiveMaximum: true
+              exclusiveMinimum: false
+            - title: "Sometimes jokes are welcome. Like the one about the kid who\
+                \ said: \"I enjoyed school. It was just the principal of the thing.\""
+              description: "bat"
+              type: "number"
+              minimum: 8.648102453477178E307
+              maximum: 91.21518284246785
+              exclusiveMaximum: true
+              exclusiveMinimum: false
+            - title: "Fear cuts deeper than swords."
+              description: "Give me honorable enemies rather than ambitious ones,\
+                \ and I'll sleep more easily by night."
+              type: "string"
+              format: "uri"
+              minLength: 0
+              maxLength: 45
+            - title: "moose"
+              description: "seal"
+              type: "number"
+              minimum: 3.837343123692201E307
+              maximum: 33.3438350693995
+              exclusiveMaximum: false
+              exclusiveMinimum: false
+            - title: "Chuck Norris doesn't get compiler errors, the language changes\
+                \ itself to accommodate Chuck Norris."
+              description: "Chuck Norris can read all encrypted data, because nothing\
+                \ can hide from Chuck Norris."
+              type: "string"
+              format: "uri"
+              minLength: 0
+              maxLength: 32
+            uniqueItems: true
+          property-15-ai-0-2:
+            title: "Mr Standfast"
+            description: "EBAW"
+            type: "integer"
+            maximum: 322584491
+            minimum: 0
+            exclusiveMaximum: false
+            exclusiveMinimum: false
+          property-15-ai-0-3:
+            title: "EBLG"
+            description: "Things are not always as they seemed, much that may seem\
+              \ evil can be good."
+            type: "string"
+            format: "ipv4"
+            minLength: 0
+            maxLength: 35
+          property-15-ai-0-4:
+            title: "https://s3.amazonaws.com/uifaces/faces/twitter/joe_black/128.jpg"
+            description: "baboon"
+            type: "string"
+            format: "date"
+            minLength: 0
+            maxLength: 14
+          property-15-ai-0-5:
+            title: "An Acceptable Time"
+            description: null
+            type: "integer"
+            maximum: 1043944172
+            minimum: 0
+            exclusiveMaximum: true
+            exclusiveMinimum: true
+          property-15-ai-0-6:
+            title: "https://s3.amazonaws.com/uifaces/faces/twitter/_vojto/128.jpg"
+            description: "https://s3.amazonaws.com/uifaces/faces/twitter/nsamoylov/128.jpg"
+            type: "number"
+            minimum: 1.4347812075781462E308
+            maximum: 20.883893540629817
+            exclusiveMaximum: false
+            exclusiveMinimum: true
+          property-15-ai-0-7:
+            title: "Ow, ow, OW! On my ear you are!"
+            description: "Truly wonderful, the mind of a child is."
+            type: "string"
+            format: "uri"
+            minLength: 0
+            maxLength: 24
+          property-15-ai-0-8:
+            title: "moose"
+            description: "When Chuck Norris' code fails to compile the compiler apologises."
+            type: "string"
+            format: "time"
+            minLength: 0
+            maxLength: 30
+          property-15-ai-0-9:
+            title: "Chuck Norris burst the dot com bubble."
+            description: "https://s3.amazonaws.com/uifaces/faces/twitter/artd_sign/128.jpg"
+            type: "number"
+            minimum: 1.2980018972037543E307
+            maximum: 111.63512896409821
+            exclusiveMaximum: false
+            exclusiveMinimum: true
+      - title: "cat"
+        description: "https://s3.amazonaws.com/uifaces/faces/twitter/d_nny_m_cher/128.jpg"
+        type: "number"
+        minimum: 7.315009916147501E307
+        maximum: 90.75175287276298
+        exclusiveMaximum: true
+        exclusiveMinimum: true
+      - title: "whale"
+        description: "Chuck Norris doesn't get compiler errors, the language changes\
+          \ itself to accommodate Chuck Norris."
+        type: "number"
+        minimum: 9.329915781084919E307
+        maximum: 27.11759469624136
+        exclusiveMaximum: true
+        exclusiveMinimum: true
+      - title: "https://s3.amazonaws.com/uifaces/faces/twitter/tjisousa/128.jpg"
+        description: "Chuck Norris can access private methods."
+        type: "number"
+        minimum: 7.97246867045144E307
+        maximum: 55.98779507545738
+        exclusiveMaximum: true
+        exclusiveMinimum: false
+      - title: null
+        description: "Chuck Norris can instantiate an abstract class."
+        type: "string"
+        format: "ipv5"
+        minLength: 0
+        maxLength: 14
+      - title: "Do not assume anything Obi-Wan. Clear your mind must be if you are\
+          \ to discover the real villains behind this plot."
+        description: "Hmm. In the end, cowards are those who follow the dark side."
+        type: "string"
+        format: "date-time"
+        minLength: 0
+        maxLength: 45
+      - title: "EBAW"
+        description: "mouse"
+        type: "string"
+        format: "ipv4"
+        minLength: 0
+        maxLength: 44
+      - title: "BIIS"
+        description: null
+        type: "string"
+        format: "duration"
+        minLength: 0
+        maxLength: 36
+      - title: "gerbil"
+        description: "Chuck Norris' programs occupy 150% of CPU, even when they are\
+          \ not executing."
+        type: "integer"
+        maximum: 1458158955
+        minimum: 1
+        exclusiveMaximum: true
+        exclusiveMinimum: false
+      title: "Clear your mind must be, if you are to find the villains behind this\
+        \ plot."
+      description: "https://s3.amazonaws.com/uifaces/faces/twitter/kostaspt/128.jpg"
+      additionalItems: true
+      uniqueItems: true
+  property-2:
+    type: "array"
+    items:
+    - title: "Summer will end soon enough, and childhood as well."
+      description: "Through the darkness of future's past, the magician longs to see.\
+        \ One chants out between two worlds... \"Fire... walk with me.\""
+      type: "object"
+      additionalProperties: true
+      properties:
+        property-15-ai-0-1:
+          title: "https://s3.amazonaws.com/uifaces/faces/twitter/alexandermayes/128.jpg"
+          description: "Summer will end soon enough, and childhood as well."
+          type: "array"
+          additionalItems: true
+          items:
+          - title: "Nader, Gibson and Quitzon"
+            description: "Such, Such Were the Joys"
+            type: "number"
+            minimum: 1.5165005850082716E307
+            maximum: 119.28605737066985
+            exclusiveMaximum: false
+            exclusiveMinimum: true
+          - title: "Mertz Inc"
+            description: "Schmeler and Sons"
+            type: "number"
+            minimum: 5.31771767675918E307
+            maximum: 57.849710297228846
+            exclusiveMaximum: false
+            exclusiveMinimum: false
+          - title: "Things Fall Apart"
+            description: "The dark side clouds everything. Impossible to see the future\
+              \ is."
+            type: "string"
+            format: "duration"
+            minLength: 0
+            maxLength: 29
+          - title: null
+            description: "COOPER, YOU REMIND ME TODAY OF A SMALL MEXICAN CHIHUAHUA."
+            type: "object"
+            additionalProperties: true
+            properties:
+              property-15-ai-0-ai-3-1:
+                title: "Grady, Block and Spinka"
+                description: "At an end your rule is, and not short enough it was!"
+                type: "string"
+                format: "ipv5"
+                minLength: 0
+                maxLength: 49
+              property-15-ai-0-ai-3-2:
+                title: "Stranger in a Strange Land"
+                description: "Schuppe and Sons"
+                type: "object"
+                additionalProperties: true
+                properties:
+                  property-15-ai-0-ai-3-2-1:
+                    title: "How's Annie? How's Annie? How's Annie?"
+                    description: "Have His Carcase"
+                    type: "integer"
+                    maximum: 1680488031
+                    minimum: 0
+                    exclusiveMaximum: false
+                    exclusiveMinimum: false
+                  property-15-ai-0-ai-3-2-2:
+                    title: "reindeer"
+                    description: "MAY A SMILE BE YOUR UMBRELLA. WE'VE ALL HAD OUR\
+                      \ SOCKS TOSSED AROUND."
+                    type: "object"
+                    additionalProperties: true
+                    properties:
+                      property-15-ai-0-ai-3-2-2-1:
+                        title: "Roberts, Watsica and Gutmann"
+                        description: null
+                        type: "object"
+                        additionalProperties: true
+                        properties:
+                          property-15-ai-0-ai-3-2-2-1-1:
+                            title: "https://s3.amazonaws.com/uifaces/faces/twitter/twittypork/128.jpg"
+                            description: "https://s3.amazonaws.com/uifaces/faces/twitter/chris_frees/128.jpg"
+                            type: "string"
+                            format: "phone"
+                            minLength: 0
+                            maxLength: 30
+                          property-15-ai-0-ai-3-2-2-1-2:
+                            title: "Chuck Norris's first program was kill -9."
+                            description: "Every flight begins with a fall."
+                            type: "array"
+                            additionalItems: true
+                            items:
+                            - title: "https://s3.amazonaws.com/uifaces/faces/twitter/hanna_smi/128.jpg"
+                              description: "Windom Earle's mind is like a diamond.\
+                                \ It's cold, and hard, and brilliant."
+                              type: "string"
+                              format: "date-time"
+                              minLength: 0
+                              maxLength: 44
+                            - title: null
+                              description: "https://s3.amazonaws.com/uifaces/faces/twitter/emmandenn/128.jpg"
+                              type: "integer"
+                              maximum: 1907205198
+                              minimum: 0
+                              exclusiveMaximum: false
+                              exclusiveMinimum: false
+                            - title: "Younglings, younglings gather ’round."
+                              description: "I Know Why the Caged Bird Sings"
+                              type: "string"
+                              format: "date-time"
+                              minLength: 0
+                              maxLength: 31
+                            - title: "You may think I've gone insane... but I promise.\
+                                \ I will kill again."
+                              description: "Chuck Norris burst the dot com bubble."
+                              type: "string"
+                              format: "duration"
+                              minLength: 0
+                              maxLength: 27
+                            - title: "Jesting Pilate"
+                              description: "Chuck Norris knows the last digit of PI."
+                              type: "string"
+                              format: "date"
+                              minLength: 0
+                              maxLength: 31
+                            - title: null
+                              description: "Clear your mind must be, if you are to\
+                                \ find the villains behind this plot."
+                              type: "number"
+                              minimum: 1.101886154494659E308
+                              maximum: 29.203175503451806
+                              exclusiveMaximum: true
+                              exclusiveMinimum: false
+                            - title: "Chuck Norris does not use revision control software.\
+                                \ None of his code has ever needed revision."
+                              description: "https://s3.amazonaws.com/uifaces/faces/twitter/matbeedotcom/128.jpg"
+                              type: "string"
+                              format: "date"
+                              minLength: 0
+                              maxLength: 47
+                            - title: "There is no need to try catching Chuck Norris'\
+                                \ exceptions for recovery; every single throw he does\
+                                \ is fatal."
+                              description: "Eyeless in Gaza"
+                              type: "integer"
+                              maximum: 2089306363
+                              minimum: 0
+                              exclusiveMaximum: true
+                              exclusiveMinimum: false
+                            - title: null
+                              description: "When Chuck Norris gives a method an argument,\
+                                \ the method loses."
+                              type: "string"
+                              format: "date"
+                              minLength: 0
+                              maxLength: 39
+                            uniqueItems: true
+                          property-15-ai-0-ai-3-2-2-1-3:
+                            title: "FAMG"
+                            description: "There was a fish in the percolator!"
+                            type: "integer"
+                            maximum: 1546799786
+                            minimum: 0
+                            exclusiveMaximum: false
+                            exclusiveMinimum: false
+                          property-15-ai-0-ai-3-2-2-1-4:
+                            title: "zebra"
+                            description: "GASK"
+                            type: "string"
+                            format: "ipv5"
+                            minLength: 0
+                            maxLength: 15
+                          property-15-ai-0-ai-3-2-2-1-5:
+                            title: "The Grapes of Wrath"
+                            description: null
+                            type: "string"
+                            format: "duration"
+                            minLength: 0
+                            maxLength: 37
+                          property-15-ai-0-ai-3-2-2-1-6:
+                            title: "mammoth"
+                            description: "https://s3.amazonaws.com/uifaces/faces/twitter/dgajjar/128.jpg"
+                            type: "string"
+                            format: "duration"
+                            minLength: 0
+                            maxLength: 21
+                          property-15-ai-0-ai-3-2-2-1-7:
+                            title: "Halvorson Group"
+                            description: "Will, Terry and Lind"
+                            type: "string"
+                            format: "phone"
+                            minLength: 0
+                            maxLength: 33
+                          property-15-ai-0-ai-3-2-2-1-8:
+                            title: "ox"
+                            description: "BGGD"
+                            type: "string"
+                            format: "date-time"
+                            minLength: 0
+                            maxLength: 42
+                          property-15-ai-0-ai-3-2-2-1-9:
+                            title: "PAAN"
+                            description: "Death Be Not Proud"
+                            type: "string"
+                            format: "e-mail"
+                            minLength: 0
+                            maxLength: 13
+                      property-15-ai-0-ai-3-2-2-2:
+                        title: null
+                        description: "You may think I've gone insane... but I promise.\
+                          \ I will kill again."
+                        type: "integer"
+                        maximum: 1875144514
+                        minimum: 1
+                        exclusiveMaximum: false
+                        exclusiveMinimum: true
+                      property-15-ai-0-ai-3-2-2-3:
+                        title: "Good relations with the Wookiees, I have."
+                        description: "Chuck Norris rewrote the Google search engine\
+                          \ from scratch."
+                        type: "number"
+                        minimum: 1.0556388034037753E308
+                        maximum: 35.18998843857121
+                        exclusiveMaximum: false
+                        exclusiveMinimum: false
+                      property-15-ai-0-ai-3-2-2-4:
+                        title: "Pain, suffering, death I feel. Something terrible\
+                          \ has happened. Young Skywalker is in pain. Terrible pain"
+                        description: "And I have a tender spot in my heart for cripples\
+                          \ and bastards and broken things."
+                        type: "string"
+                        format: "duration"
+                        minLength: 0
+                        maxLength: 36
+                      property-15-ai-0-ai-3-2-2-5:
+                        title: "The dark side clouds everything. Impossible to see\
+                          \ the future is."
+                        description: null
+                        type: "string"
+                        format: "uri"
+                        minLength: 0
+                        maxLength: 30
+                      property-15-ai-0-ai-3-2-2-6:
+                        title: "https://s3.amazonaws.com/uifaces/faces/twitter/karolkrakowiak_/128.jpg"
+                        description: "There's nothing quite like urinating in the\
+                          \ open air."
+                        type: "string"
+                        format: "date-time"
+                        minLength: 0
+                        maxLength: 48
+                      property-15-ai-0-ai-3-2-2-7:
+                        title: "elephant"
+                        description: "Hills-Brakus"
+                        type: "integer"
+                        maximum: 1401458359
+                        minimum: 0
+                        exclusiveMaximum: false
+                        exclusiveMinimum: true
+                      property-15-ai-0-ai-3-2-2-8:
+                        title: "Olson-Kertzmann"
+                        description: "Pain, suffering, death I feel. Something terrible\
+                          \ has happened. Young Skywalker is in pain. Terrible pain"
+                        type: "string"
+                        format: "uri"
+                        minLength: 0
+                        maxLength: 19
+                      property-15-ai-0-ai-3-2-2-9:
+                        title: "Hand-Beer"
+                        description: "And I have a tender spot in my heart for cripples\
+                          \ and bastards and broken things."
+                        type: "string"
+                        format: "phone"
+                        minLength: 0
+                        maxLength: 12
+                  property-15-ai-0-ai-3-2-3:
+                    title: "Krajcik-Bayer"
+                    description: "When you play a game of thrones you win or you die."
+                    type: "integer"
+                    maximum: 2089980628
+                    minimum: 2
+                    exclusiveMaximum: false
+                    exclusiveMinimum: true
+                  property-15-ai-0-ai-3-2-4:
+                    title: "Chuck Norris rewrote the Google search engine from scratch."
+                    description: "Rodriguez-Cassin"
+                    type: "integer"
+                    maximum: 2026252181
+                    minimum: 1
+                    exclusiveMaximum: false
+                    exclusiveMinimum: true
+                  property-15-ai-0-ai-3-2-5:
+                    title: "Blue Remembered Earth"
+                    description: "koala"
+                    type: "string"
+                    format: "ipv5"
+                    minLength: 0
+                    maxLength: 22
+                  property-15-ai-0-ai-3-2-6:
+                    title: "https://s3.amazonaws.com/uifaces/faces/twitter/saarabpreet/128.jpg"
+                    description: "Kirlin, Grady and Block"
+                    type: "string"
+                    format: "ipv5"
+                    minLength: 0
+                    maxLength: 25
+                  property-15-ai-0-ai-3-2-7:
+                    title: "spider"
+                    description: null
+                    type: "integer"
+                    maximum: 138275711
+                    minimum: 1
+                    exclusiveMaximum: false
+                    exclusiveMinimum: false
+                  property-15-ai-0-ai-3-2-8:
+                    title: "RJAH"
+                    description: "Use your feelings, Obi-Wan, and find him you will."
+                    type: "string"
+                    format: "date"
+                    minLength: 0
+                    maxLength: 43
+                  property-15-ai-0-ai-3-2-9:
+                    title: "Hodor? Hodor."
+                    description: "Spinka, Jacobi and Lesch"
+                    type: "string"
+                    format: "date-time"
+                    minLength: 0
+                    maxLength: 28
+              property-15-ai-0-ai-3-3:
+                title: "Chuck Norris compresses his files by doing a flying round\
+                  \ house kick to the hard drive."
+                description: "Green-Orn"
+                type: "string"
+                format: "duration"
+                minLength: 0
+                maxLength: 13
+              property-15-ai-0-ai-3-4:
+                title: null
+                description: null
+                type: "string"
+                format: "uri"
+                minLength: 0
+                maxLength: 27
+              property-15-ai-0-ai-3-5:
+                title: "Chuck Norris' beard is immutable."
+                description: "https://s3.amazonaws.com/uifaces/faces/twitter/turkutuuli/128.jpg"
+                type: "string"
+                format: "ipv4"
+                minLength: 0
+                maxLength: 30
+              property-15-ai-0-ai-3-6:
+                title: "For Chuck Norris, NP-Hard = O(1)."
+                description: "https://s3.amazonaws.com/uifaces/faces/twitter/donjain/128.jpg"
+                type: "string"
+                format: "phone"
+                minLength: 0
+                maxLength: 26
+              property-15-ai-0-ai-3-7:
+                title: "https://s3.amazonaws.com/uifaces/faces/twitter/gregrwilkinson/128.jpg"
+                description: null
+                type: "string"
+                format: "ipv4"
+                minLength: 0
+                maxLength: 13
+              property-15-ai-0-ai-3-8:
+                title: "Ego Dominus Tuus"
+                description: "Everything is Illuminated"
+                type: "string"
+                format: "ipv4"
+                minLength: 0
+                maxLength: 19
+              property-15-ai-0-ai-3-9:
+                title: "Sometimes jokes are welcome. Like the one about the kid who\
+                  \ said: \"I enjoyed school. It was just the principal of the thing.\""
+                description: "minnow"
+                type: "number"
+                minimum: 1.7895460650569462E308
+                maximum: 76.52423173924163
+                exclusiveMaximum: true
+                exclusiveMinimum: true
+          - title: "Quantum cryptography does not work on Chuck Norris. When something\
+              \ is being observed by Chuck it stays in the same state until he's finished."
+            description: "https://s3.amazonaws.com/uifaces/faces/twitter/j2deme/128.jpg"
+            type: "number"
+            minimum: 1.7885180540118763E308
+            maximum: 122.20559482306575
+            exclusiveMaximum: true
+            exclusiveMinimum: false
+          - title: "Sometimes jokes are welcome. Like the one about the kid who said:\
+              \ \"I enjoyed school. It was just the principal of the thing.\""
+            description: "bat"
+            type: "number"
+            minimum: 8.648102453477178E307
+            maximum: 91.21518284246785
+            exclusiveMaximum: true
+            exclusiveMinimum: false
+          - title: "Fear cuts deeper than swords."
+            description: "Give me honorable enemies rather than ambitious ones, and\
+              \ I'll sleep more easily by night."
+            type: "string"
+            format: "uri"
+            minLength: 0
+            maxLength: 45
+          - title: "moose"
+            description: "seal"
+            type: "number"
+            minimum: 3.837343123692201E307
+            maximum: 33.3438350693995
+            exclusiveMaximum: false
+            exclusiveMinimum: false
+          - title: "Chuck Norris doesn't get compiler errors, the language changes\
+              \ itself to accommodate Chuck Norris."
+            description: "Chuck Norris can read all encrypted data, because nothing\
+              \ can hide from Chuck Norris."
+            type: "string"
+            format: "uri"
+            minLength: 0
+            maxLength: 32
+          uniqueItems: true
+        property-15-ai-0-2:
+          title: "Mr Standfast"
+          description: "EBAW"
+          type: "integer"
+          maximum: 322584491
+          minimum: 0
+          exclusiveMaximum: false
+          exclusiveMinimum: false
+        property-15-ai-0-3:
+          title: "EBLG"
+          description: "Things are not always as they seemed, much that may seem evil\
+            \ can be good."
+          type: "string"
+          format: "ipv4"
+          minLength: 0
+          maxLength: 35
+        property-15-ai-0-4:
+          title: "https://s3.amazonaws.com/uifaces/faces/twitter/joe_black/128.jpg"
+          description: "baboon"
+          type: "string"
+          format: "date"
+          minLength: 0
+          maxLength: 14
+        property-15-ai-0-5:
+          title: "An Acceptable Time"
+          description: null
+          type: "integer"
+          maximum: 1043944172
+          minimum: 0
+          exclusiveMaximum: true
+          exclusiveMinimum: true
+        property-15-ai-0-6:
+          title: "https://s3.amazonaws.com/uifaces/faces/twitter/_vojto/128.jpg"
+          description: "https://s3.amazonaws.com/uifaces/faces/twitter/nsamoylov/128.jpg"
+          type: "number"
+          minimum: 1.4347812075781462E308
+          maximum: 20.883893540629817
+          exclusiveMaximum: false
+          exclusiveMinimum: true
+        property-15-ai-0-7:
+          title: "Ow, ow, OW! On my ear you are!"
+          description: "Truly wonderful, the mind of a child is."
+          type: "string"
+          format: "uri"
+          minLength: 0
+          maxLength: 24
+        property-15-ai-0-8:
+          title: "moose"
+          description: "When Chuck Norris' code fails to compile the compiler apologises."
+          type: "string"
+          format: "time"
+          minLength: 0
+          maxLength: 30
+        property-15-ai-0-9:
+          title: "Chuck Norris burst the dot com bubble."
+          description: "https://s3.amazonaws.com/uifaces/faces/twitter/artd_sign/128.jpg"
+          type: "number"
+          minimum: 1.2980018972037543E307
+          maximum: 111.63512896409821
+          exclusiveMaximum: false
+          exclusiveMinimum: true
+    - title: "cat"
+      description: "https://s3.amazonaws.com/uifaces/faces/twitter/d_nny_m_cher/128.jpg"
+      type: "number"
+      minimum: 7.315009916147501E307
+      maximum: 90.75175287276298
+      exclusiveMaximum: true
+      exclusiveMinimum: true
+    - title: "whale"
+      description: "Chuck Norris doesn't get compiler errors, the language changes\
+        \ itself to accommodate Chuck Norris."
+      type: "number"
+      minimum: 9.329915781084919E307
+      maximum: 27.11759469624136
+      exclusiveMaximum: true
+      exclusiveMinimum: true
+    - title: "https://s3.amazonaws.com/uifaces/faces/twitter/tjisousa/128.jpg"
+      description: "Chuck Norris can access private methods."
+      type: "number"
+      minimum: 7.97246867045144E307
+      maximum: 55.98779507545738
+      exclusiveMaximum: true
+      exclusiveMinimum: false
+    - title: null
+      description: "Chuck Norris can instantiate an abstract class."
+      type: "string"
+      format: "ipv5"
+      minLength: 0
+      maxLength: 14
+    - title: "Do not assume anything Obi-Wan. Clear your mind must be if you are to\
+        \ discover the real villains behind this plot."
+      description: "Hmm. In the end, cowards are those who follow the dark side."
+      type: "string"
+      format: "date-time"
+      minLength: 0
+      maxLength: 45
+    - title: "EBAW"
+      description: "mouse"
+      type: "string"
+      format: "ipv4"
+      minLength: 0
+      maxLength: 44
+    - title: "BIIS"
+      description: null
+      type: "string"
+      format: "duration"
+      minLength: 0
+      maxLength: 36
+    - title: "gerbil"
+      description: "Chuck Norris' programs occupy 150% of CPU, even when they are\
+        \ not executing."
+      type: "integer"
+      maximum: 1458158955
+      minimum: 1
+      exclusiveMaximum: true
+      exclusiveMinimum: false
+    $schema: "http://json-schema.org/draft/2019-09/schema"
+    title: "Clear your mind must be, if you are to find the villains behind this plot."
+    description: "https://s3.amazonaws.com/uifaces/faces/twitter/kostaspt/128.jpg"
+    additionalItems: true
+    uniqueItems: true
+  property-3:
+    type: "object"
+    $schema: "https://json-schema.org/draft/2020-12/json-schema-core.html"
+    $id: "http://example.com/example.json"
+    title: "You know, this is — excuse me — a damn fine cup of coffee!"
+    properties:
+      $schema: "http://json-schema.org/draft/2019-09/schema"
+      title: "You know, this is — excuse me — a damn fine cup of coffee!"
+      description: null
+      type: "object"
+      additionalProperties: true
+      properties:
+        property-0-1:
+          title: "RJAF"
+          description: "The dark side clouds everything. Impossible to see the future\
+            \ is."
+          type: "number"
+          minimum: 2.421001159016437E307
+          maximum: 25.31945387001246
+          exclusiveMaximum: true
+          exclusiveMinimum: false
+        property-0-2:
+          title: null
+          description: "Harvey-Langosh"
+          type: "object"
+          additionalProperties: true
+          properties:
+            property-0-2-1:
+              title: "It has been a pleasure speaking to you."
+              description: "Lindgren Group"
+              type: "string"
+              format: "time"
+              minLength: 0
+              maxLength: 42
+            property-0-2-2:
+              title: "tiger"
+              description: "Difficult to see. Always in motion is the future..."
+              type: "string"
+              format: "phone"
+              minLength: 0
+              maxLength: 49
+        property-0-3:
+          title: "Chuck Norris can recite π. Backwards."
+          description: "And I have a tender spot in my heart for cripples and bastards\
+            \ and broken things."
+          type: "integer"
+          maximum: 1244331685
+          minimum: 2
+          exclusiveMaximum: true
+          exclusiveMinimum: false
+        property-0-4:
+          title: "https://s3.amazonaws.com/uifaces/faces/twitter/xadhix/128.jpg"
+          description: "Death is a natural part of life. Rejoice for those around\
+            \ you who transform into the Force. Mourn them do not. Miss them do not.\
+            \ Attachment leads to jealously. The shadow of greed, that is."
+          type: "string"
+          format: "phone"
+          minLength: 0
+          maxLength: 43
+        property-0-5:
+          title: "raccoon"
+          description: "DIBU"
+          type: "string"
+          format: "date-time"
+          minLength: 0
+          maxLength: 43
+    description: null
+    additionalProperties: true

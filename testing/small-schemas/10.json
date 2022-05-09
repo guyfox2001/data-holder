@@ -1,0 +1,77 @@
+{
+  "$schema" : "http://json-schema.org/draft/2019-09/schema",
+  "$id" : "http://example.com/example.json",
+  "title" : "MAY A SMILE BE YOUR UMBRELLA. WE'VE ALL HAD OUR SOCKS TOSSED AROUND.",
+  "type" : "object",
+  "properties" : {
+    "property-0-1" : {
+      "title" : null,
+      "type" : "array",
+      "items" : [ {
+        "title" : "Kautzer-Torp",
+        "type" : "string",
+        "description" : "... a mind needs books as a sword needs a whetstone, if it is to keep its edge.",
+        "format" : "date-time",
+        "minLength" : 0,
+        "maxLength" : 41
+      }, {
+        "title" : "All arrays Chuck Norris declares are of infinite size, because Chuck Norris knows no bounds.",
+        "type" : "string",
+        "description" : "cat",
+        "format" : "ipv4",
+        "minLength" : 0,
+        "maxLength" : 38
+      }, {
+        "title" : "Larson-O'Kon",
+        "type" : "string",
+        "description" : "ZSPD",
+        "format" : "date-time",
+        "minLength" : 0,
+        "maxLength" : 46
+      }, {
+        "title" : "Laughter is poison to fear.",
+        "type" : "integer",
+        "description" : "Black as midnight on a moonless night.",
+        "maximum" : 777832604,
+        "minimum" : 1,
+        "exclusiveMaximum" : true,
+        "exclusiveMinimum" : true
+      }, {
+        "title" : "minnow",
+        "type" : "string",
+        "description" : "PAAN",
+        "format" : "duration",
+        "minLength" : 0,
+        "maxLength" : 10
+      }, {
+        "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/rob_thomas10/128.jpg",
+        "type" : "number",
+        "description" : "The Sun Also Rises",
+        "minimum" : 6.878281824663972E306,
+        "maximum" : 95.38591124104617,
+        "exclusiveMaximum" : true,
+        "exclusiveMinimum" : true
+      } ],
+      "description" : "Chuck Norris' preferred IDE is hexedit."
+    },
+    "property-0-2" : {
+      "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/betraydan/128.jpg",
+      "type" : "number",
+      "description" : "hound",
+      "minimum" : 1.110795462907596E308,
+      "maximum" : 16.665301176567787,
+      "exclusiveMaximum" : false,
+      "exclusiveMinimum" : true
+    },
+    "property-0-3" : {
+      "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/malgordon/128.jpg",
+      "type" : "integer",
+      "description" : "The Other Side of Silence",
+      "maximum" : 2094181758,
+      "minimum" : 0,
+      "exclusiveMaximum" : false,
+      "exclusiveMinimum" : false
+    }
+  },
+  "description" : "As I Lay Dying"
+}

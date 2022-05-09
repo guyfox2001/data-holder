@@ -1,0 +1,583 @@
+{
+  "$schema" : "http://json-schema.org/draft/2019-09/schema",
+  "title" : "Root Schema",
+  "description" : "The root schema is the schema that comprises the entire JSON document.",
+  "type" : "array",
+  "additionalItems" : true,
+  "items" : [ {
+    "title" : "A Schema",
+    "description" : "An explanation about the purpose of this instance.",
+    "type" : "object",
+    "additionalProperties" : true,
+    "properties" : {
+      "property-14-ai-0-1" : {
+        "title" : "The came Schema",
+        "description" : "An explanation about the purpose of this instance.",
+        "type" : "array",
+        "additionalItems" : true,
+        "items" : [ {
+          "title" : "A Schema",
+          "description" : "An explanation about the purpose of this instance.",
+          "type" : "number",
+          "minimum" : 9.033028286674124E307,
+          "maximum" : 11.31110900744094,
+          "exclusiveMaximum" : true,
+          "exclusiveMinimum" : true
+        }, {
+          "title" : "A Schema",
+          "description" : "An explanation about the purpose of this instance.",
+          "type" : "number",
+          "minimum" : 9.54539361143208E307,
+          "maximum" : 47.538535495049835,
+          "exclusiveMaximum" : true,
+          "exclusiveMinimum" : false
+        }, {
+          "title" : "A Schema",
+          "description" : "An explanation about the purpose of this instance.",
+          "type" : "string",
+          "format" : "date",
+          "minLength" : 0,
+          "maxLength" : 26
+        }, {
+          "title" : "A Schema",
+          "description" : "An explanation about the purpose of this instance.",
+          "type" : "object",
+          "additionalProperties" : true,
+          "properties" : {
+            "property-14-ai-0-ai-3-1" : {
+              "title" : "The smaller Schema",
+              "description" : "An explanation about the purpose of this instance.",
+              "type" : "string",
+              "format" : "ipv4",
+              "minLength" : 0,
+              "maxLength" : 49
+            },
+            "property-14-ai-0-ai-3-2" : {
+              "title" : "The major Schema",
+              "description" : "An explanation about the purpose of this instance.",
+              "type" : "object",
+              "additionalProperties" : true,
+              "properties" : {
+                "property-14-ai-0-ai-3-2-1" : {
+                  "title" : "The cup Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "integer",
+                  "maximum" : 1517136428,
+                  "minimum" : 2,
+                  "exclusiveMaximum" : true,
+                  "exclusiveMinimum" : true
+                },
+                "property-14-ai-0-ai-3-2-2" : {
+                  "title" : "The diagram Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "object",
+                  "additionalProperties" : true,
+                  "properties" : {
+                    "property-14-ai-0-ai-3-2-2-1" : {
+                      "title" : "The blow Schema",
+                      "description" : "An explanation about the purpose of this instance.",
+                      "type" : "object",
+                      "additionalProperties" : true,
+                      "properties" : {
+                        "property-14-ai-0-ai-3-2-2-1-1" : {
+                          "title" : "The direction Schema",
+                          "description" : "An explanation about the purpose of this instance.",
+                          "type" : "string",
+                          "format" : "date-time",
+                          "minLength" : 0,
+                          "maxLength" : 11
+                        },
+                        "property-14-ai-0-ai-3-2-2-1-2" : {
+                          "title" : "The border Schema",
+                          "description" : "An explanation about the purpose of this instance.",
+                          "type" : "array",
+                          "additionalItems" : true,
+                          "items" : [ {
+                            "title" : "A Schema",
+                            "description" : "An explanation about the purpose of this instance.",
+                            "type" : "string",
+                            "format" : "date",
+                            "minLength" : 0,
+                            "maxLength" : 14
+                          }, {
+                            "title" : "A Schema",
+                            "description" : "An explanation about the purpose of this instance.",
+                            "type" : "integer",
+                            "maximum" : 20988690,
+                            "minimum" : 1,
+                            "exclusiveMaximum" : true,
+                            "exclusiveMinimum" : true
+                          }, {
+                            "title" : "A Schema",
+                            "description" : "An explanation about the purpose of this instance.",
+                            "type" : "string",
+                            "format" : "time",
+                            "minLength" : 0,
+                            "maxLength" : 46
+                          }, {
+                            "title" : "A Schema",
+                            "description" : "An explanation about the purpose of this instance.",
+                            "type" : "string",
+                            "format" : "date-time",
+                            "minLength" : 0,
+                            "maxLength" : 17
+                          }, {
+                            "title" : "A Schema",
+                            "description" : "An explanation about the purpose of this instance.",
+                            "type" : "string",
+                            "format" : "date",
+                            "minLength" : 0,
+                            "maxLength" : 12
+                          }, {
+                            "title" : "A Schema",
+                            "description" : "An explanation about the purpose of this instance.",
+                            "type" : "number",
+                            "minimum" : 2.106819911493553E307,
+                            "maximum" : 108.27928530874122,
+                            "exclusiveMaximum" : true,
+                            "exclusiveMinimum" : false
+                          }, {
+                            "title" : "A Schema",
+                            "description" : "An explanation about the purpose of this instance.",
+                            "type" : "string",
+                            "format" : "date",
+                            "minLength" : 0,
+                            "maxLength" : 12
+                          }, {
+                            "title" : "A Schema",
+                            "description" : "An explanation about the purpose of this instance.",
+                            "type" : "integer",
+                            "maximum" : 2055166262,
+                            "minimum" : 1,
+                            "exclusiveMaximum" : true,
+                            "exclusiveMinimum" : true
+                          }, {
+                            "title" : "A Schema",
+                            "description" : "An explanation about the purpose of this instance.",
+                            "type" : "string",
+                            "format" : "time",
+                            "minLength" : 0,
+                            "maxLength" : 22
+                          } ],
+                          "uniqueItems" : true
+                        },
+                        "property-14-ai-0-ai-3-2-2-1-3" : {
+                          "title" : "The how Schema",
+                          "description" : "An explanation about the purpose of this instance.",
+                          "type" : "integer",
+                          "maximum" : 776711227,
+                          "minimum" : 2,
+                          "exclusiveMaximum" : false,
+                          "exclusiveMinimum" : true
+                        },
+                        "property-14-ai-0-ai-3-2-2-1-4" : {
+                          "title" : "The facing Schema",
+                          "description" : "An explanation about the purpose of this instance.",
+                          "type" : "string",
+                          "format" : "phone",
+                          "minLength" : 0,
+                          "maxLength" : 39
+                        },
+                        "property-14-ai-0-ai-3-2-2-1-5" : {
+                          "title" : "The bend Schema",
+                          "description" : "An explanation about the purpose of this instance.",
+                          "type" : "string",
+                          "format" : "duration",
+                          "minLength" : 0,
+                          "maxLength" : 20
+                        },
+                        "property-14-ai-0-ai-3-2-2-1-6" : {
+                          "title" : "The bank Schema",
+                          "description" : "An explanation about the purpose of this instance.",
+                          "type" : "string",
+                          "format" : "phone",
+                          "minLength" : 0,
+                          "maxLength" : 16
+                        },
+                        "property-14-ai-0-ai-3-2-2-1-7" : {
+                          "title" : "The bigger Schema",
+                          "description" : "An explanation about the purpose of this instance.",
+                          "type" : "string",
+                          "format" : "uri",
+                          "minLength" : 0,
+                          "maxLength" : 25
+                        },
+                        "property-14-ai-0-ai-3-2-2-1-8" : {
+                          "title" : "The frame Schema",
+                          "description" : "An explanation about the purpose of this instance.",
+                          "type" : "string",
+                          "format" : "uri",
+                          "minLength" : 0,
+                          "maxLength" : 28
+                        },
+                        "property-14-ai-0-ai-3-2-2-1-9" : {
+                          "title" : "The equipment Schema",
+                          "description" : "An explanation about the purpose of this instance.",
+                          "type" : "string",
+                          "format" : "e-mail",
+                          "minLength" : 0,
+                          "maxLength" : 38
+                        }
+                      }
+                    },
+                    "property-14-ai-0-ai-3-2-2-2" : {
+                      "title" : "The flew Schema",
+                      "description" : "An explanation about the purpose of this instance.",
+                      "type" : "integer",
+                      "maximum" : 732927052,
+                      "minimum" : 0,
+                      "exclusiveMaximum" : true,
+                      "exclusiveMinimum" : false
+                    },
+                    "property-14-ai-0-ai-3-2-2-3" : {
+                      "title" : "The able Schema",
+                      "description" : "An explanation about the purpose of this instance.",
+                      "type" : "number",
+                      "minimum" : 6.714147567192511E307,
+                      "maximum" : 27.521147216836038,
+                      "exclusiveMaximum" : false,
+                      "exclusiveMinimum" : true
+                    },
+                    "property-14-ai-0-ai-3-2-2-4" : {
+                      "title" : "The will Schema",
+                      "description" : "An explanation about the purpose of this instance.",
+                      "type" : "string",
+                      "format" : "duration",
+                      "minLength" : 0,
+                      "maxLength" : 29
+                    },
+                    "property-14-ai-0-ai-3-2-2-5" : {
+                      "title" : "The cry Schema",
+                      "description" : "An explanation about the purpose of this instance.",
+                      "type" : "string",
+                      "format" : "phone",
+                      "minLength" : 0,
+                      "maxLength" : 39
+                    },
+                    "property-14-ai-0-ai-3-2-2-6" : {
+                      "title" : "The term Schema",
+                      "description" : "An explanation about the purpose of this instance.",
+                      "type" : "string",
+                      "format" : "phone",
+                      "minLength" : 0,
+                      "maxLength" : 44
+                    },
+                    "property-14-ai-0-ai-3-2-2-7" : {
+                      "title" : "The account Schema",
+                      "description" : "An explanation about the purpose of this instance.",
+                      "type" : "integer",
+                      "maximum" : 1101679813,
+                      "minimum" : 1,
+                      "exclusiveMaximum" : true,
+                      "exclusiveMinimum" : true
+                    },
+                    "property-14-ai-0-ai-3-2-2-8" : {
+                      "title" : "The pie Schema",
+                      "description" : "An explanation about the purpose of this instance.",
+                      "type" : "string",
+                      "format" : "uri",
+                      "minLength" : 0,
+                      "maxLength" : 13
+                    },
+                    "property-14-ai-0-ai-3-2-2-9" : {
+                      "title" : "The tower Schema",
+                      "description" : "An explanation about the purpose of this instance.",
+                      "type" : "string",
+                      "format" : "duration",
+                      "minLength" : 0,
+                      "maxLength" : 30
+                    }
+                  }
+                },
+                "property-14-ai-0-ai-3-2-3" : {
+                  "title" : "The space Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "integer",
+                  "maximum" : 906612288,
+                  "minimum" : 2,
+                  "exclusiveMaximum" : true,
+                  "exclusiveMinimum" : false
+                },
+                "property-14-ai-0-ai-3-2-4" : {
+                  "title" : "The element Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "integer",
+                  "maximum" : 233584042,
+                  "minimum" : 0,
+                  "exclusiveMaximum" : false,
+                  "exclusiveMinimum" : true
+                },
+                "property-14-ai-0-ai-3-2-5" : {
+                  "title" : "The shelter Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "string",
+                  "format" : "time",
+                  "minLength" : 0,
+                  "maxLength" : 30
+                },
+                "property-14-ai-0-ai-3-2-6" : {
+                  "title" : "The relationship Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "string",
+                  "format" : "date-time",
+                  "minLength" : 0,
+                  "maxLength" : 16
+                },
+                "property-14-ai-0-ai-3-2-7" : {
+                  "title" : "The molecular Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "integer",
+                  "maximum" : 679864470,
+                  "minimum" : 1,
+                  "exclusiveMaximum" : true,
+                  "exclusiveMinimum" : false
+                },
+                "property-14-ai-0-ai-3-2-8" : {
+                  "title" : "The substance Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "string",
+                  "format" : "date-time",
+                  "minLength" : 0,
+                  "maxLength" : 12
+                },
+                "property-14-ai-0-ai-3-2-9" : {
+                  "title" : "The force Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "string",
+                  "format" : "e-mail",
+                  "minLength" : 0,
+                  "maxLength" : 20
+                }
+              }
+            },
+            "property-14-ai-0-ai-3-3" : {
+              "title" : "The society Schema",
+              "description" : "An explanation about the purpose of this instance.",
+              "type" : "string",
+              "format" : "time",
+              "minLength" : 0,
+              "maxLength" : 39
+            },
+            "property-14-ai-0-ai-3-4" : {
+              "title" : "The character Schema",
+              "description" : "An explanation about the purpose of this instance.",
+              "type" : "string",
+              "format" : "date-time",
+              "minLength" : 0,
+              "maxLength" : 13
+            },
+            "property-14-ai-0-ai-3-5" : {
+              "title" : "The cabin Schema",
+              "description" : "An explanation about the purpose of this instance.",
+              "type" : "string",
+              "format" : "e-mail",
+              "minLength" : 0,
+              "maxLength" : 26
+            },
+            "property-14-ai-0-ai-3-6" : {
+              "title" : "The record Schema",
+              "description" : "An explanation about the purpose of this instance.",
+              "type" : "string",
+              "format" : "date-time",
+              "minLength" : 0,
+              "maxLength" : 30
+            },
+            "property-14-ai-0-ai-3-7" : {
+              "title" : "The dot Schema",
+              "description" : "An explanation about the purpose of this instance.",
+              "type" : "string",
+              "format" : "uri",
+              "minLength" : 0,
+              "maxLength" : 45
+            },
+            "property-14-ai-0-ai-3-8" : {
+              "title" : "The dead Schema",
+              "description" : "An explanation about the purpose of this instance.",
+              "type" : "string",
+              "format" : "duration",
+              "minLength" : 0,
+              "maxLength" : 20
+            },
+            "property-14-ai-0-ai-3-9" : {
+              "title" : "The highway Schema",
+              "description" : "An explanation about the purpose of this instance.",
+              "type" : "number",
+              "minimum" : 1.3066267647005198E308,
+              "maximum" : 109.5316586322568,
+              "exclusiveMaximum" : false,
+              "exclusiveMinimum" : false
+            }
+          }
+        }, {
+          "title" : "A Schema",
+          "description" : "An explanation about the purpose of this instance.",
+          "type" : "number",
+          "minimum" : 1.4914203444391783E308,
+          "maximum" : 76.5902117137087,
+          "exclusiveMaximum" : false,
+          "exclusiveMinimum" : true
+        }, {
+          "title" : "A Schema",
+          "description" : "An explanation about the purpose of this instance.",
+          "type" : "number",
+          "minimum" : 6.835451148103195E307,
+          "maximum" : 62.21596817058932,
+          "exclusiveMaximum" : true,
+          "exclusiveMinimum" : true
+        }, {
+          "title" : "A Schema",
+          "description" : "An explanation about the purpose of this instance.",
+          "type" : "string",
+          "format" : "duration",
+          "minLength" : 0,
+          "maxLength" : 38
+        }, {
+          "title" : "A Schema",
+          "description" : "An explanation about the purpose of this instance.",
+          "type" : "number",
+          "minimum" : 7.355600105173756E307,
+          "maximum" : 81.19396227758185,
+          "exclusiveMaximum" : false,
+          "exclusiveMinimum" : false
+        }, {
+          "title" : "A Schema",
+          "description" : "An explanation about the purpose of this instance.",
+          "type" : "string",
+          "format" : "e-mail",
+          "minLength" : 0,
+          "maxLength" : 16
+        } ],
+        "uniqueItems" : true
+      },
+      "property-14-ai-0-2" : {
+        "title" : "The medicine Schema",
+        "description" : "An explanation about the purpose of this instance.",
+        "type" : "integer",
+        "maximum" : 959507727,
+        "minimum" : 1,
+        "exclusiveMaximum" : true,
+        "exclusiveMinimum" : false
+      },
+      "property-14-ai-0-3" : {
+        "title" : "The known Schema",
+        "description" : "An explanation about the purpose of this instance.",
+        "type" : "string",
+        "format" : "e-mail",
+        "minLength" : 0,
+        "maxLength" : 15
+      },
+      "property-14-ai-0-4" : {
+        "title" : "The sit Schema",
+        "description" : "An explanation about the purpose of this instance.",
+        "type" : "string",
+        "format" : "duration",
+        "minLength" : 0,
+        "maxLength" : 28
+      },
+      "property-14-ai-0-5" : {
+        "title" : "The suddenly Schema",
+        "description" : "An explanation about the purpose of this instance.",
+        "type" : "integer",
+        "maximum" : 1465851491,
+        "minimum" : 2,
+        "exclusiveMaximum" : true,
+        "exclusiveMinimum" : true
+      },
+      "property-14-ai-0-6" : {
+        "title" : "The choice Schema",
+        "description" : "An explanation about the purpose of this instance.",
+        "type" : "number",
+        "minimum" : 6.236991385797186E306,
+        "maximum" : 106.49708777991877,
+        "exclusiveMaximum" : true,
+        "exclusiveMinimum" : false
+      },
+      "property-14-ai-0-7" : {
+        "title" : "The faster Schema",
+        "description" : "An explanation about the purpose of this instance.",
+        "type" : "string",
+        "format" : "time",
+        "minLength" : 0,
+        "maxLength" : 43
+      },
+      "property-14-ai-0-8" : {
+        "title" : "The bound Schema",
+        "description" : "An explanation about the purpose of this instance.",
+        "type" : "string",
+        "format" : "time",
+        "minLength" : 0,
+        "maxLength" : 38
+      },
+      "property-14-ai-0-9" : {
+        "title" : "The number Schema",
+        "description" : "An explanation about the purpose of this instance.",
+        "type" : "number",
+        "minimum" : 8.928792621154721E307,
+        "maximum" : 23.614634411637258,
+        "exclusiveMaximum" : true,
+        "exclusiveMinimum" : true
+      }
+    }
+  }, {
+    "title" : "A Schema",
+    "description" : "An explanation about the purpose of this instance.",
+    "type" : "number",
+    "minimum" : 3.839844517818805E307,
+    "maximum" : 113.0441784308905,
+    "exclusiveMaximum" : false,
+    "exclusiveMinimum" : false
+  }, {
+    "title" : "A Schema",
+    "description" : "An explanation about the purpose of this instance.",
+    "type" : "number",
+    "minimum" : 3.855145937077873E307,
+    "maximum" : 110.82315020349036,
+    "exclusiveMaximum" : true,
+    "exclusiveMinimum" : true
+  }, {
+    "title" : "A Schema",
+    "description" : "An explanation about the purpose of this instance.",
+    "type" : "number",
+    "minimum" : 2.4061555514115716E307,
+    "maximum" : 77.89543616238373,
+    "exclusiveMaximum" : true,
+    "exclusiveMinimum" : false
+  }, {
+    "title" : "A Schema",
+    "description" : "An explanation about the purpose of this instance.",
+    "type" : "string",
+    "format" : "duration",
+    "minLength" : 0,
+    "maxLength" : 36
+  }, {
+    "title" : "A Schema",
+    "description" : "An explanation about the purpose of this instance.",
+    "type" : "string",
+    "format" : "time",
+    "minLength" : 0,
+    "maxLength" : 33
+  }, {
+    "title" : "A Schema",
+    "description" : "An explanation about the purpose of this instance.",
+    "type" : "string",
+    "format" : "time",
+    "minLength" : 0,
+    "maxLength" : 39
+  }, {
+    "title" : "A Schema",
+    "description" : "An explanation about the purpose of this instance.",
+    "type" : "string",
+    "format" : "time",
+    "minLength" : 0,
+    "maxLength" : 35
+  }, {
+    "title" : "A Schema",
+    "description" : "An explanation about the purpose of this instance.",
+    "type" : "integer",
+    "maximum" : 2144993853,
+    "minimum" : 0,
+    "exclusiveMaximum" : true,
+    "exclusiveMinimum" : false
+  } ],
+  "uniqueItems" : true
+}

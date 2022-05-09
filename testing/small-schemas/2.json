@@ -1,0 +1,138 @@
+{
+  "$schema" : "https://json-schema.org/draft/2020-12/json-schema-core.html",
+  "title" : null,
+  "description" : "EBBR",
+  "type" : "object",
+  "additionalProperties" : false,
+  "properties" : {
+    "property-0-1" : {
+      "type" : "number",
+      "title" : "Fear cuts deeper than swords.",
+      "description" : "To answer power with power, the Jedi way this is not. In this war, a danger there is, of losing who we are.",
+      "minimum" : 1.0455599512192824E308,
+      "maximum" : 107.69484244711383,
+      "exclusiveMaximum" : true,
+      "exclusiveMinimum" : true
+    },
+    "property-0-2" : {
+      "type" : "object",
+      "properties" : {
+        "property-0-2-1" : {
+          "type" : "string",
+          "title" : "Give me honorable enemies rather than ambitious ones, and I'll sleep more easily by night.",
+          "description" : "wildebeest",
+          "format" : "uri",
+          "minLength" : 0,
+          "maxLength" : 20
+        },
+        "property-0-2-2" : {
+          "type" : "boolean",
+          "title" : "Soon will I rest, yes, forever sleep. Earned it I have. Twilight is upon me, soon night must fall.",
+          "description" : "dog"
+        },
+        "property-0-2-3" : {
+          "type" : "string",
+          "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/y2graphic/128.jpg",
+          "description" : "Swift Group",
+          "format" : "date",
+          "minLength" : 0,
+          "maxLength" : 36
+        },
+        "property-0-2-4" : {
+          "type" : "number",
+          "title" : null,
+          "description" : "Some old wounds never truly heal, and bleed again at the slightest word.",
+          "minimum" : 1.311230235471671E308,
+          "maximum" : 38.62877575892696,
+          "exclusiveMaximum" : true,
+          "exclusiveMinimum" : true
+        },
+        "property-0-2-5" : {
+          "type" : "integer",
+          "title" : "yellowjacket",
+          "description" : "TDCF",
+          "maximum" : 187752399,
+          "minimum" : 1,
+          "exclusiveMaximum" : false,
+          "exclusiveMinimum" : false
+        }
+      },
+      "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/hjartstrorn/128.jpg",
+      "description" : "Windom Earle's mind is like a diamond. It's cold, and hard, and brilliant."
+    },
+    "property-0-3" : {
+      "type" : "object",
+      "properties" : {
+        "property-0-3-1" : {
+          "type" : "string",
+          "title" : "Larkin LLC",
+          "description" : "Kassulke, Willms and Considine",
+          "format" : "duration",
+          "minLength" : 0,
+          "maxLength" : 27
+        },
+        "property-0-3-2" : {
+          "type" : "number",
+          "title" : null,
+          "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/scottiedude/128.jpg",
+          "minimum" : 1.4759750700420705E308,
+          "maximum" : 79.19564481182597,
+          "exclusiveMaximum" : false,
+          "exclusiveMinimum" : false
+        },
+        "property-0-3-3" : {
+          "type" : "integer",
+          "title" : "Schneider-Goldner",
+          "description" : "Yundt, Hayes and Schmitt",
+          "maximum" : 1673926447,
+          "minimum" : 0,
+          "exclusiveMaximum" : false,
+          "exclusiveMinimum" : false
+        }
+      },
+      "title" : "jellyfish",
+      "description" : "You may think I've gone insane... but I promise. I will kill again."
+    },
+    "property-0-4" : {
+      "type" : "object",
+      "properties" : {
+        "property-0-4-1" : {
+          "type" : "string",
+          "title" : "Have His Carcase",
+          "description" : "trout",
+          "format" : "ipv4",
+          "minLength" : 0,
+          "maxLength" : 36
+        },
+        "property-0-4-2" : {
+          "type" : "number",
+          "title" : "Do the dead frighten you?",
+          "description" : "The Moving Toyshop",
+          "minimum" : 1.0113048612968055E308,
+          "maximum" : 18.588055905554903,
+          "exclusiveMaximum" : true,
+          "exclusiveMinimum" : true
+        }
+      },
+      "title" : "An Instant In The Wind",
+      "description" : "Feel the force!"
+    },
+    "property-0-5" : {
+      "type" : "string",
+      "title" : "antelope",
+      "description" : "salmon",
+      "format" : "duration",
+      "minLength" : 0,
+      "maxLength" : 31
+    },
+    "property-0-6" : {
+      "type" : "number",
+      "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/mwarkentin/128.jpg",
+      "description" : "fly",
+      "minimum" : 1.7226851495618497E308,
+      "maximum" : 109.17719776786308,
+      "exclusiveMaximum" : false,
+      "exclusiveMinimum" : true
+    }
+  }
+}

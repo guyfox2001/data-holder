@@ -1,0 +1,251 @@
+---
+$schema: "http://json-schema.org/draft/2019-09/schema"
+title: null
+description: "Wilkinson, Wiza and Stokes"
+type: "object"
+properties:
+  property-6-1:
+    title: "The North remembers."
+    description: "Cremin-Legros"
+    type: "boolean"
+    $id: "#/properties/property-6-1"
+  property-6-2:
+    title: "Consider Phlebas"
+    description: null
+    type: "object"
+    properties:
+      property-6-2-1:
+        title: "A Scanner Darkly"
+        description: "Chuck Norris can't test for equality because he has no equal."
+        type: "integer"
+        maximum: 1448644932
+        minimum: 0
+        exclusiveMaximum: false
+        exclusiveMinimum: true
+        $id: "#/properties/property-6-2/properties/property-6-2-1"
+      property-6-2-2:
+        title: "Why is it that when one man builds a wall, the next man immediately\
+          \ needs to know what's on the other side?"
+        description: "Pain, suffering, death I feel. Something terrible has happened.\
+          \ Young Skywalker is in pain. Terrible pain"
+        type: "number"
+        maximum: 40.962264396666455
+        minimum: 9.761668500039098E307
+        exclusiveMaximum: true
+        exclusiveMinimum: false
+        $id: "#/properties/property-6-2/properties/property-6-2-2"
+      property-6-2-3:
+        title: null
+        description: "The North remembers."
+        type: "integer"
+        maximum: 845127170
+        minimum: 1
+        exclusiveMaximum: true
+        exclusiveMinimum: false
+        $id: "#/properties/property-6-2/properties/property-6-2-3"
+      property-6-2-4:
+        title: null
+        description: "Strosin-Tillman"
+        type: "boolean"
+        $id: "#/properties/property-6-2/properties/property-6-2-4"
+      property-6-2-5:
+        title: "Unweaving the Rainbow"
+        description: "Chuck Norris' protocol design method has no status, requests\
+          \ or responses, only commands."
+        type: "number"
+        maximum: 45.787628978344934
+        minimum: 4.730416146930808E307
+        exclusiveMaximum: true
+        exclusiveMinimum: true
+        $id: "#/properties/property-6-2/properties/property-6-2-5"
+      property-6-2-6:
+        title: "Soon will I rest, yes, forever sleep. Earned it I have. Twilight is\
+          \ upon me, soon night must fall."
+        description: "All browsers support the hex definitions #chuck and #norris\
+          \ for the colors black and blue."
+        type: "object"
+        properties:
+          property-6-2-6-1:
+            title: null
+            description: "There is nothing regular about Chuck Norris' expressions."
+            type: "number"
+            maximum: 106.5123977106579
+            minimum: 1.7333004663048728E308
+            exclusiveMaximum: true
+            exclusiveMinimum: false
+            $id: "#/properties/property-6-2/properties/property-6-2-6/properties/property-6-2-6-1"
+          property-6-2-6-2:
+            title: "The Other Side of Silence"
+            description: "She's dead... Wrapped in plastic."
+            type: "boolean"
+            $id: "#/properties/property-6-2/properties/property-6-2-6/properties/property-6-2-6-2"
+          property-6-2-6-3:
+            title: "She's dead... Wrapped in plastic."
+            description: "LBPS"
+            type: "boolean"
+            $id: "#/properties/property-6-2/properties/property-6-2-6/properties/property-6-2-6-3"
+          property-6-2-6-4:
+            title: "goat"
+            description: "A Time of Gifts"
+            type: "string"
+            format: "ipv4"
+            minLength: 0
+            maxLength: 22
+            $id: "#/properties/property-6-2/properties/property-6-2-6/properties/property-6-2-6-4"
+          property-6-2-6-5:
+            title: "The class object inherits from Chuck Norris."
+            description: "Dying of the Light"
+            type: "boolean"
+            $id: "#/properties/property-6-2/properties/property-6-2-6/properties/property-6-2-6-5"
+          property-6-2-6-6:
+            title: "Blood's a Rover"
+            description: "lizard"
+            type: "object"
+            properties:
+              property-6-2-6-6-1:
+                title: "... a mind needs books as a sword needs a whetstone, if it\
+                  \ is to keep its edge."
+                description: null
+                type: "string"
+                format: "phone"
+                minLength: 0
+                maxLength: 34
+                $id: "#/properties/property-6-2/properties/property-6-2-6/properties/property-6-2-6-6/properties/property-6-2-6-6-1"
+              property-6-2-6-6-2:
+                title: "Of Mice and Men"
+                description: "Hodor? Hodor."
+                type: "number"
+                maximum: 14.272689276174136
+                minimum: 1.134618676350486E308
+                exclusiveMaximum: true
+                exclusiveMinimum: true
+                $id: "#/properties/property-6-2/properties/property-6-2-6/properties/property-6-2-6-6/properties/property-6-2-6-6-2"
+              property-6-2-6-6-3:
+                title: "Chuck Norris doesn't program with a keyboard. He stares the\
+                  \ computer down until it does what he wants."
+                description: "How's Annie? How's Annie? How's Annie?"
+                type: "number"
+                maximum: 71.97139870547859
+                minimum: 1.3355758884073343E308
+                exclusiveMaximum: false
+                exclusiveMinimum: false
+                $id: "#/properties/property-6-2/properties/property-6-2-6/properties/property-6-2-6-6/properties/property-6-2-6-6-3"
+              property-6-2-6-6-4:
+                title: "Hmm. In the end, cowards are those who follow the dark side."
+                description: "And I have a tender spot in my heart for cripples and\
+                  \ bastards and broken things."
+                type: "string"
+                format: "time"
+                minLength: 0
+                maxLength: 12
+                $id: "#/properties/property-6-2/properties/property-6-2-6/properties/property-6-2-6-6/properties/property-6-2-6-6-4"
+              property-6-2-6-6-5:
+                title: "https://s3.amazonaws.com/uifaces/faces/twitter/hellofeverrrr/128.jpg"
+                description: "mouse"
+                type: "integer"
+                maximum: 2057387285
+                minimum: 1
+                exclusiveMaximum: true
+                exclusiveMinimum: false
+                $id: "#/properties/property-6-2/properties/property-6-2-6/properties/property-6-2-6-6/properties/property-6-2-6-6-5"
+              property-6-2-6-6-6:
+                title: "Hickle-Rogahn"
+                description: null
+                type: "string"
+                format: "time"
+                minLength: 0
+                maxLength: 49
+                $id: "#/properties/property-6-2/properties/property-6-2-6/properties/property-6-2-6-6/properties/property-6-2-6-6-6"
+              property-6-2-6-6-7:
+                title: "Not if anything to say about it I have"
+                description: "Audrey, there are many cures for a broken heart. But\
+                  \ nothing quite like a trout's leap in the moonlight."
+                type: "integer"
+                maximum: 1433064218
+                minimum: 2
+                exclusiveMaximum: false
+                exclusiveMinimum: true
+                $id: "#/properties/property-6-2/properties/property-6-2-6/properties/property-6-2-6-6/properties/property-6-2-6-6-7"
+              property-6-2-6-6-8:
+                title: "Fear cuts deeper than swords."
+                description: "Death Be Not Proud"
+                type: "boolean"
+                $id: "#/properties/property-6-2/properties/property-6-2-6/properties/property-6-2-6-6/properties/property-6-2-6-6-8"
+            $id: "#/properties/property-6-2/properties/property-6-2-6/properties/property-6-2-6-6"
+          property-6-2-6-7:
+            title: "Do. Or do not. There is no try."
+            description: "giraffe"
+            type: "boolean"
+            $id: "#/properties/property-6-2/properties/property-6-2-6/properties/property-6-2-6-7"
+          property-6-2-6-8:
+            title: "ant"
+            description: "That is why you fail."
+            type: "boolean"
+            $id: "#/properties/property-6-2/properties/property-6-2-6/properties/property-6-2-6-8"
+        $id: "#/properties/property-6-2/properties/property-6-2-6"
+      property-6-2-7:
+        title: "Chuck Norris doesn't have performance bottlenecks. He just makes the\
+          \ universe wait its turn."
+        description: "Death is a natural part of life. Rejoice for those around you\
+          \ who transform into the Force. Mourn them do not. Miss them do not. Attachment\
+          \ leads to jealously. The shadow of greed, that is."
+        type: "integer"
+        maximum: 1268200616
+        minimum: 2
+        exclusiveMaximum: false
+        exclusiveMinimum: true
+        $id: "#/properties/property-6-2/properties/property-6-2-7"
+      property-6-2-8:
+        title: "McDermott, Conn and Maggio"
+        description: "Do not assume anything Obi-Wan. Clear your mind must be if you\
+          \ are to discover the real villains behind this plot."
+        type: "boolean"
+        $id: "#/properties/property-6-2/properties/property-6-2-8"
+    $id: "#/properties/property-6-2"
+  property-6-3:
+    title: "Harry, is that bag smiling?"
+    description: "EBLG"
+    type: "string"
+    format: "date-time"
+    minLength: 0
+    maxLength: 23
+    $id: "#/properties/property-6-3"
+  property-6-4:
+    title: "The Way of All Flesh"
+    description: "That gum you like is going to come back in style."
+    type: "string"
+    format: "time"
+    minLength: 0
+    maxLength: 25
+    $id: "#/properties/property-6-4"
+  property-6-5:
+    title: "Around the survivors a perimeter create."
+    description: "salmon"
+    type: "string"
+    format: "time"
+    minLength: 0
+    maxLength: 49
+    $id: "#/properties/property-6-5"
+  property-6-6:
+    title: "Nothing burns like the cold."
+    description: "Soon will I rest, yes, forever sleep. Earned it I have. Twilight\
+      \ is upon me, soon night must fall."
+    type: "integer"
+    maximum: 2134130900
+    minimum: 0
+    exclusiveMaximum: true
+    exclusiveMinimum: false
+    $id: "#/properties/property-6-6"
+  property-6-7:
+    title: "hare"
+    description: "The Golden Apples of the Sun"
+    type: "boolean"
+    $id: "#/properties/property-6-7"
+  property-6-8:
+    title: "Clear your mind must be, if you are to find the villains behind this plot."
+    description: "Ullrich, Durgan and Dicki"
+    type: "string"
+    format: "ipv5"
+    minLength: 0
+    maxLength: 48
+    $id: "#/properties/property-6-8"

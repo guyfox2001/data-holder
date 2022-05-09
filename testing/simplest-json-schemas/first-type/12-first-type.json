@@ -1,113 +1,241 @@
 {
-  "$schema": "http://json-schema.org/draft/2019-09/schema",
-  "$id": "http://example.com/example.json",
-  "title": "Root Schema",
-  "description": "The root schema is the schema that comprises the entire JSON document.",
-  "type": "object",
-  "properties": {
-    "picture": {
-      "title": "The picture Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "string"
-    },
-    "arrange": {
-      "title": "The arrange Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "string"
-    },
-    "was": {
-      "title": "The was Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "integer"
-    },
-    "face": {
-      "title": "The face Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "object",
-      "properties": {
-        "street": {
-          "title": "The street Schema",
-          "description": "An explanation about the purpose of this instance.",
-          "type": "object",
-          "properties": {
-            "seen": {
-              "title": "The seen Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "type": "string"
-            },
-            "gave": {
-              "title": "The gave Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "type": "string"
-            },
-            "possible": {
-              "title": "The possible Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "type": "number"
-            },
-            "musical": {
-              "title": "The musical Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "type": "integer"
-            },
-            "island": {
-              "title": "The island Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "type": "string"
+  "$schema" : "https://json-schema.org/draft/2020-12/json-schema-core.html",
+  "title" : "Chuck Norris can compile syntax errors.",
+  "description" : "Chuck Norris can access the DB from the UI.",
+  "type" : "object",
+  "additionalProperties" : false,
+  "properties" : {
+    "property-12-1" : {
+      "type" : "object",
+      "properties" : {
+        "property-12-1-1" : {
+          "type" : "array",
+          "title" : "Death Be Not Proud",
+          "prefixItems" : [ {
+            "title" : "Mudhole? Slimy? My home this is!",
+            "description" : "2 level depth",
+            "type" : "string"
+          }, {
+            "title" : "Do not assume anything Obi-Wan. Clear your mind must be if you are to discover the real villains behind this plot.",
+            "description" : "2 level depth",
+            "type" : "number",
+            "minimum" : -999,
+            "maximum" : 999,
+            "multipleOf" : 2,
+            "exclusiveMaximum" : true
+          } ],
+          "description" : "Difficult to see. Always in motion is the future..."
+        },
+        "property-12-1-2" : {
+          "type" : "string",
+          "enum" : [ "state-4-1-1-2-1", "state-4-1-1-2-2", "state-4-1-1-2-3", "state-4-1-1-2-4" ],
+          "title" : "Recalled to Life",
+          "description" : "tortoise",
+          "format" : "phone",
+          "minLength" : 0,
+          "maxLength" : 19
+        },
+        "property-12-1-3" : {
+          "type" : "object",
+          "titile" : "Founders Breakfast Stout",
+          "properties" : {
+            "property-12-1-3-1" : {
+              "type" : "string",
+              "title" : "The World, the Flesh and the Devil",
+              "description" : "All dwarfs are bastards in their father's eyes",
+              "format" : "uri",
+              "minLength" : 0,
+              "maxLength" : 33
             }
+          },
+          "maxProperies" : 4,
+          "title" : "The Mermaids Singing",
+          "description" : "Adventure. Excitement. A Jedi craves not these things."
+        },
+        "property-12-1-4" : {
+          "type" : "object",
+          "properties" : {
+            "property-12-1-4-1" : {
+              "type" : "boolean",
+              "title" : "The Sun Also Rises",
+              "description" : "Mertz Inc"
+            },
+            "property-12-1-4-2" : {
+              "title" : "When the snows fall and the white winds blow, the lone wolf dies but the pack survives.",
+              "description" : "The things I do for love.",
+              "type" : "string",
+              "format" : "ipv4",
+              "minLength" : 0,
+              "maxLength" : 15
+            }
+          },
+          "title" : "Chuck Norris never gets a syntax error. Instead, the language gets a DoesNotConformToChuck error.",
+          "description" : "Audrey, there are many cures for a broken heart. But nothing quite like a trout's leap in the moonlight."
+        },
+        "property-12-1-5" : {
+          "type" : "number",
+          "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/bighanddesign/128.jpg",
+          "maximum" : 9.710953075217521,
+          "minimum" : 9.916522084869078E307,
+          "exclusiveMaximum" : false,
+          "exclusiveMinimum" : false,
+          "description" : "The programs that Chuck Norris writes don't have version numbers because he only writes them once. If a user reports a bug or has a feature request they don't live to see the sun set."
+        },
+        "property-12-1-6" : {
+          "type" : "object",
+          "properties" : {
+            "property-12-1-6-1" : {
+              "type" : "string",
+              "title" : "I don't wanna talk. I wanna shoot.",
+              "format" : "date",
+              "description" : "AYLA",
+              "minLength" : 0,
+              "maxLength" : 12
+            },
+            "property-12-1-6-2" : {
+              "type" : "object",
+              "title" : "yak",
+              "properties" : {
+                "property-12-1-6-2-1" : {
+                  "type" : "array",
+                  "title" : "Nothing burns like the cold.",
+                  "prefixItems" : [ {
+                    "type" : "string",
+                    "title" : "Qui id facilis voluptas illum facilis fugit atque.",
+                    "maxLength" : 100
+                  } ],
+                  "items" : [ {
+                    "type" : "number",
+                    "title" : "J'ai une âme solitaire.",
+                    "description" : "Chuck Norris doesn't have disk latency because the hard drive knows to hurry the hell up.",
+                    "minimum" : 1.3768191463919636E307,
+                    "maximum" : 32.1514735011924,
+                    "exclusiveMaximum" : true,
+                    "exclusiveMinimum" : true
+                  } ],
+                  "minItems" : 2,
+                  "maxItems" : 10,
+                  "description" : "Chuck Norris doesn't need to know about class factory pattern. He can instantiate interfaces."
+                },
+                "property-12-1-6-2-2" : {
+                  "type" : "string",
+                  "title" : "Damn fine coffee! And hot!",
+                  "description" : "alligator",
+                  "format" : "time",
+                  "minLength" : 0,
+                  "maxLength" : 15
+                },
+                "property-12-1-6-2-3" : {
+                  "type" : "string",
+                  "title" : "swan",
+                  "description" : null,
+                  "format" : "time",
+                  "minLength" : 0,
+                  "maxLength" : 24
+                },
+                "property-12-1-6-2-4" : {
+                  "type" : "boolean",
+                  "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/jeremyworboys/128.jpg",
+                  "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/thierrykoblentz/128.jpg"
+                }
+              },
+              "description" : "Chuck Norris burst the dot com bubble."
+            }
+          },
+          "title" : "MHAM",
+          "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/craigrcoles/128.jpg"
+        }
+      },
+      "title" : "Much to learn you still have my old padawan. ... This is just the beginning!",
+      "description" : null
+    },
+    "property-12-2" : {
+      "type" : "string",
+      "title" : "MHCA",
+      "description" : "clam",
+      "format" : "date",
+      "maxLength" : 13,
+      "minLength" : 0
+    },
+    "property-12-3" : {
+      "type" : "array",
+      "uniqueItems" : true,
+      "maxItems" : 7,
+      "prefixItems" : [ {
+        "type" : "number",
+        "title" : "New Duncanbury"
+      }, {
+        "type" : "object",
+        "title" : "Two Hearted Ale",
+        "properties" : {
+          "property-4-3-ai-1-1" : {
+            "type" : "string"
+          },
+          "property-4-3-ai-1-2" : {
+            "type" : "number",
+            "maximum" : 12300435,
+            "exclusiveMaximum" : true
           }
         },
-        "happened": {
-          "title": "The happened Schema",
-          "description": "An explanation about the purpose of this instance.",
-          "type": "array",
-          "items": [{
-            "title": "A Schema",
-            "description": "An explanation about the purpose of this instance.",
-            "type": "number"
+        "minProperties" : 1,
+        "addtitionalProperties" : true
+      }, {
+        "type" : "object",
+        "title" : "Feel the force!"
+      }, {
+        "type" : "boolean",
+        "title" : "elk"
+      } ],
+      "items" : [ {
+        "type" : "object",
+        "properties" : {
+          "property-12-ai-0-1" : {
+            "type" : "integer",
+            "title" : "Yes, a Jedi’s strength flows from the Force. But beware of the dark side. Anger, fear, aggression; the dark side of the Force are they. Easily they flow, quick to join you in a fight. If once you start down the dark path, forever will it dominate your destiny, consume you it will, as it did Obi-Wan’s apprentice.",
+            "description" : "You will find only what you bring in.",
+            "default" : 0,
+            "maximum" : 547408359,
+            "minimum" : 0,
+            "exclusiveMaximum" : false,
+            "exclusiveMinimum" : false
           },
-            {
-              "title": "A Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "type": "number"
-            },
-            {
-              "title": "A Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "type": "integer"
-            },
-            {
-              "title": "A Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "type": "string"
-            },
-            {
-              "title": "A Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "type": "string"
-            }]
+          "property-12-ai-0-2" : {
+            "type" : "string",
+            "title" : "Upton and Sons",
+            "description" : "spider",
+            "default" : "",
+            "format" : "duration",
+            "minLength" : 0,
+            "maxLength" : 19
+          },
+          "property-12-ai-0-3" : {
+            "type" : "boolean",
+            "title" : "That is why you fail.",
+            "description" : "Do not assume anything Obi-Wan. Clear your mind must be if you are to discover the real villains behind this plot.",
+            "default" : false
+          },
+          "property-12-ai-0-4" : {
+            "type" : "string",
+            "title" : "Death is a natural part of life. Rejoice for those around you who transform into the Force. Mourn them do not. Miss them do not. Attachment leads to jealously. The shadow of greed, that is.",
+            "description" : "hedgehog",
+            "default" : "",
+            "format" : "uri",
+            "minLength" : 0,
+            "maxLength" : 12
+          }
         },
-        "improve": {
-          "title": "The improve Schema",
-          "description": "An explanation about the purpose of this instance.",
-          "type": "number"
-        },
-        "past": {
-          "title": "The past Schema",
-          "description": "An explanation about the purpose of this instance.",
-          "type": "integer"
-        },
-        "brown": {
-          "title": "The brown Schema",
-          "description": "An explanation about the purpose of this instance.",
-          "type": "number"
-        }
-      }
-    },
-    "note": {
-      "title": "The note Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "string"
+        "title" : "How's Annie? How's Annie? How's Annie?",
+        "description" : "... a mind needs books as a sword needs a whetstone, if it is to keep its edge."
+      }, {
+        "type" : "string",
+        "title" : "Through the Force, things you will see. Other places. The future - the past. Old friends long gone.",
+        "description" : null,
+        "format" : "time",
+        "minLength" : 0,
+        "maxLength" : 34
+      } ],
+      "title" : "BIBA",
+      "description" : "Much to learn you still have my old padawan. ... This is just the beginning!"
     }
   }
 }

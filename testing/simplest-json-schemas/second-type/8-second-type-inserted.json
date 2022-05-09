@@ -1,0 +1,218 @@
+{
+  "$schema" : "http://json-schema.org/draft/2019-09/schema",
+  "title" : "Beatty Inc",
+  "description" : "Chuck Norris doesn't program with a keyboard. He stares the computer down until it does what he wants.",
+  "type" : "array",
+  "items" : [ {
+    "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/itstotallyamy/128.jpg",
+    "description" : "porcupine",
+    "type" : "array",
+    "items" : [ {
+      "title" : "Mohr, Luettgen and Weber",
+      "description" : null,
+      "type" : "object",
+      "properties" : {
+        "property-8-ai0-ai-0-1" : {
+          "title" : "Death Be Not Proud",
+          "description" : "Death is a natural part of life. Rejoice for those around you who transform into the Force. Mourn them do not. Miss them do not. Attachment leads to jealously. The shadow of greed, that is.",
+          "type" : "boolean"
+        },
+        "property-8-ai0-ai-0-2" : {
+          "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/samgrover/128.jpg",
+          "description" : "In a Dry Season",
+          "type" : "array",
+          "items" : [ {
+            "title" : "That gum you like is going to come back in style.",
+            "description" : "AGAF",
+            "type" : "number",
+            "maximum" : 99.0250093877993,
+            "minimum" : 1.2002155781293545E308,
+            "exclusiveMaximum" : true,
+            "exclusiveMinimum" : true
+          }, {
+            "title" : "Mother Night",
+            "description" : "There was a fish in the percolator!",
+            "type" : "string",
+            "format" : "date",
+            "minLength" : 0,
+            "maxLength" : 15
+          }, {
+            "title" : "Always two there are, no more, no less. A master and an apprentice.",
+            "description" : null,
+            "type" : "boolean"
+          }, {
+            "title" : "Hamill Group",
+            "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/sharvin/128.jpg",
+            "type" : "string",
+            "format" : "date-time",
+            "minLength" : 0,
+            "maxLength" : 16
+          }, {
+            "title" : "Mudhole? Slimy? My home this is!",
+            "description" : "Mudhole? Slimy? My home this is!",
+            "type" : "boolean"
+          }, {
+            "title" : "Bury My Heart at Wounded Knee",
+            "description" : "An Acceptable Time",
+            "type" : "number",
+            "maximum" : 94.67028486153707,
+            "minimum" : 8.279830489095589E307,
+            "exclusiveMaximum" : false,
+            "exclusiveMinimum" : true
+          }, {
+            "title" : null,
+            "description" : "In a Glass Darkly",
+            "type" : "string",
+            "format" : "date-time",
+            "minLength" : 0,
+            "maxLength" : 49
+          }, {
+            "title" : "Summer will end soon enough, and childhood as well.",
+            "description" : null,
+            "type" : "boolean"
+          } ]
+        },
+        "property-8-ai0-ai-0-3" : {
+          "title" : "Orn, Stroman and Morissette",
+          "description" : "LBIA",
+          "type" : "boolean"
+        },
+        "property-8-ai0-ai-0-4" : {
+          "title" : "... a mind needs books as a sword needs a whetstone, if it is to keep its edge.",
+          "description" : "PAAL",
+          "type" : "integer",
+          "maximum" : 1028108996,
+          "minimum" : 2,
+          "exclusiveMaximum" : true,
+          "exclusiveMinimum" : false
+        },
+        "property-8-ai0-ai-0-5" : {
+          "title" : "ELUS",
+          "description" : "Size matters not. Look at me. Judge me by my size, do you? Hmm? Hmm. And well you should not. For my ally is the Force, and a powerful ally it is. Life creates it, makes it grow. Its energy surrounds us and binds us. Luminous beings are we, not this crude matter. You must feel the Force around you; here, between you, me, the tree, the rock, everywhere, yes. Even between the land and the ship.",
+          "type" : "integer",
+          "maximum" : 916204774,
+          "minimum" : 2,
+          "exclusiveMaximum" : true,
+          "exclusiveMinimum" : false
+        },
+        "property-8-ai0-ai-0-6" : {
+          "title" : "How's Annie? How's Annie? How's Annie?",
+          "description" : "Chuck Norris can instantiate an abstract class.",
+          "type" : "boolean"
+        },
+        "property-8-ai0-ai-0-7" : {
+          "title" : "Pacocha-Marquardt",
+          "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/prrstn/128.jpg",
+          "type" : "string",
+          "format" : "date",
+          "minLength" : 0,
+          "maxLength" : 45
+        },
+        "property-8-ai0-ai-0-8" : {
+          "title" : "Chuck Norris can recite π. Backwards.",
+          "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/ManikRathee/128.jpg",
+          "type" : "string",
+          "format" : "date",
+          "minLength" : 0,
+          "maxLength" : 31
+        }
+      }
+    }, {
+      "title" : "Chuck Norris breaks RSA 128-bit encrypted codes in milliseconds.",
+      "description" : "A Confederacy of Dunces",
+      "type" : "string",
+      "format" : "ipv5",
+      "minLength" : 0,
+      "maxLength" : 26
+    }, {
+      "title" : "Dickinson, McLaughlin and Cummerata",
+      "description" : "Chuck Norris is immutable. If something's going to change, it's going to have to be the rest of the universe.",
+      "type" : "number",
+      "maximum" : 95.54456827545869,
+      "minimum" : 1.5541001965493307E308,
+      "exclusiveMaximum" : false,
+      "exclusiveMinimum" : true
+    }, {
+      "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/spacewood_/128.jpg",
+      "description" : "And so he spoke, and so he spoke, that Lord of Castamere, but now the rains weep o'er his hall, with no one there to hear. Yes, now the rains weep o'er his hall, and not a soul to hear.",
+      "type" : "boolean"
+    }, {
+      "title" : "AGAT",
+      "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/dhilipsiva/128.jpg",
+      "type" : "string",
+      "format" : "uri",
+      "minLength" : 0,
+      "maxLength" : 17
+    }, {
+      "title" : "There's nothing quite like urinating in the open air.",
+      "description" : "Chuck Norris' programs occupy 150% of CPU, even when they are not executing.",
+      "type" : "string",
+      "format" : "ipv5",
+      "minLength" : 0,
+      "maxLength" : 11
+    }, {
+      "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/thomasgeisen/128.jpg",
+      "description" : "Do you want to know what the ultimate secret is? Laura did. The secret of knowing who killed you.",
+      "type" : "integer",
+      "maximum" : 1560622579,
+      "minimum" : 1,
+      "exclusiveMaximum" : true,
+      "exclusiveMinimum" : false
+    }, {
+      "title" : "Ego Dominus Tuus",
+      "description" : "Chuck Norris can instantiate an abstract class.",
+      "type" : "string",
+      "format" : "date",
+      "minLength" : 0,
+      "maxLength" : 14
+    } ]
+  }, {
+    "title" : "alligator",
+    "description" : "FAPA",
+    "type" : "string",
+    "format" : "ipv5",
+    "minLength" : 0,
+    "maxLength" : 30
+  }, {
+    "title" : "All arrays Chuck Norris declares are of infinite size, because Chuck Norris knows no bounds.",
+    "description" : "Greenfelder-Carroll",
+    "type" : "string",
+    "format" : "date-time",
+    "minLength" : 0,
+    "maxLength" : 14
+  }, {
+    "title" : "The things I do for love.",
+    "description" : "ant",
+    "type" : "integer",
+    "maximum" : 680706538,
+    "minimum" : 2,
+    "exclusiveMaximum" : true,
+    "exclusiveMinimum" : false
+  }, {
+    "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/illyzoren/128.jpg",
+    "description" : "Yundt, Graham and MacGyver",
+    "type" : "number",
+    "maximum" : 121.11011060736512,
+    "minimum" : 1.6012390888136382E308,
+    "exclusiveMaximum" : true,
+    "exclusiveMinimum" : true
+  }, {
+    "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/haruintesettden/128.jpg",
+    "description" : "Some old wounds never truly heal, and bleed again at the slightest word.",
+    "type" : "string",
+    "format" : "uri",
+    "minLength" : 0,
+    "maxLength" : 22
+  }, {
+    "title" : "Chuck Norris can instantiate an abstract class.",
+    "description" : "She's dead... Wrapped in plastic.",
+    "type" : "boolean"
+  }, {
+    "title" : "Vanity Fair",
+    "description" : "mole",
+    "type" : "string",
+    "format" : "phone",
+    "minLength" : 0,
+    "maxLength" : 48
+  } ]
+}

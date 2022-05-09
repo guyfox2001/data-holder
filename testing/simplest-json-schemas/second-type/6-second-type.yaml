@@ -1,136 +1,219 @@
-$schema: http://json-schema.org/draft/2019-09/schema
-title: Root Schema
-description: The root schema is the schema that comprises the entire JSON document.
-type: object
+---
+$schema: "http://json-schema.org/draft/2019-09/schema"
+title: null
+description: "Wilkinson, Wiza and Stokes"
+type: "object"
 properties:
-  drew:
-    title: The drew Schema
-    description: An explanation about the purpose of this instance.
-    type: boolean
-  slabs:
-    title: The slabs Schema
-    description: An explanation about the purpose of this instance.
-    type: object
+  property-6-1:
+    title: "The North remembers."
+    description: "Cremin-Legros"
+    type: "boolean"
+  property-6-2:
+    title: "Consider Phlebas"
+    description: null
+    type: "object"
     properties:
-      turn:
-        title: The turn Schema
-        description: An explanation about the purpose of this instance.
-        type: integer
-      hall:
-        title: The hall Schema
-        description: An explanation about the purpose of this instance.
-        type: number
-      indeed:
-        title: The indeed Schema
-        description: An explanation about the purpose of this instance.
-        type: integer
-      ability:
-        title: The ability Schema
-        description: An explanation about the purpose of this instance.
-        type: boolean
-      old:
-        title: The old Schema
-        description: An explanation about the purpose of this instance.
-        type: number
-      stomach:
-        title: The stomach Schema
-        description: An explanation about the purpose of this instance.
-        type: object
+      property-6-2-1:
+        title: "A Scanner Darkly"
+        description: "Chuck Norris can't test for equality because he has no equal."
+        type: "integer"
+        maximum: 1448644932
+        minimum: 0
+        exclusiveMaximum: false
+        exclusiveMinimum: true
+      property-6-2-2:
+        title: "Why is it that when one man builds a wall, the next man immediately\
+          \ needs to know what's on the other side?"
+        description: "Pain, suffering, death I feel. Something terrible has happened.\
+          \ Young Skywalker is in pain. Terrible pain"
+        type: "number"
+        maximum: 40.962264396666455
+        minimum: 9.761668500039098E307
+        exclusiveMaximum: true
+        exclusiveMinimum: false
+      property-6-2-3:
+        title: null
+        description: "The North remembers."
+        type: "integer"
+        maximum: 845127170
+        minimum: 1
+        exclusiveMaximum: true
+        exclusiveMinimum: false
+      property-6-2-4:
+        title: null
+        description: "Strosin-Tillman"
+        type: "boolean"
+      property-6-2-5:
+        title: "Unweaving the Rainbow"
+        description: "Chuck Norris' protocol design method has no status, requests\
+          \ or responses, only commands."
+        type: "number"
+        maximum: 45.787628978344934
+        minimum: 4.730416146930808E307
+        exclusiveMaximum: true
+        exclusiveMinimum: true
+      property-6-2-6:
+        title: "Soon will I rest, yes, forever sleep. Earned it I have. Twilight is\
+          \ upon me, soon night must fall."
+        description: "All browsers support the hex definitions #chuck and #norris\
+          \ for the colors black and blue."
+        type: "object"
         properties:
-          cat:
-            title: The cat Schema
-            description: An explanation about the purpose of this instance.
-            type: number
-          sets:
-            title: The sets Schema
-            description: An explanation about the purpose of this instance.
-            type: boolean
-          upper:
-            title: The upper Schema
-            description: An explanation about the purpose of this instance.
-            type: boolean
-          phrase:
-            title: The phrase Schema
-            description: An explanation about the purpose of this instance.
-            type: string
-          shinning:
-            title: The shinning Schema
-            description: An explanation about the purpose of this instance.
-            type: boolean
-          queen:
-            title: The queen Schema
-            description: An explanation about the purpose of this instance.
-            type: object
+          property-6-2-6-1:
+            title: null
+            description: "There is nothing regular about Chuck Norris' expressions."
+            type: "number"
+            maximum: 106.5123977106579
+            minimum: 1.7333004663048728E308
+            exclusiveMaximum: true
+            exclusiveMinimum: false
+          property-6-2-6-2:
+            title: "The Other Side of Silence"
+            description: "She's dead... Wrapped in plastic."
+            type: "boolean"
+          property-6-2-6-3:
+            title: "She's dead... Wrapped in plastic."
+            description: "LBPS"
+            type: "boolean"
+          property-6-2-6-4:
+            title: "goat"
+            description: "A Time of Gifts"
+            type: "string"
+            format: "ipv4"
+            minLength: 0
+            maxLength: 22
+          property-6-2-6-5:
+            title: "The class object inherits from Chuck Norris."
+            description: "Dying of the Light"
+            type: "boolean"
+          property-6-2-6-6:
+            title: "Blood's a Rover"
+            description: "lizard"
+            type: "object"
             properties:
-              west:
-                title: The west Schema
-                description: An explanation about the purpose of this instance.
-                type: string
-              heading:
-                title: The heading Schema
-                description: An explanation about the purpose of this instance.
-                type: number
-              of:
-                title: The of Schema
-                description: An explanation about the purpose of this instance.
-                type: number
-              layers:
-                title: The layers Schema
-                description: An explanation about the purpose of this instance.
-                type: string
-              sentence:
-                title: The sentence Schema
-                description: An explanation about the purpose of this instance.
-                type: integer
-              thing:
-                title: The thing Schema
-                description: An explanation about the purpose of this instance.
-                type: string
-              explanation:
-                title: The explanation Schema
-                description: An explanation about the purpose of this instance.
-                type: integer
-              period:
-                title: The period Schema
-                description: An explanation about the purpose of this instance.
-                type: boolean
-          crack:
-            title: The crack Schema
-            description: An explanation about the purpose of this instance.
-            type: boolean
-          paper:
-            title: The paper Schema
-            description: An explanation about the purpose of this instance.
-            type: boolean
-      nest:
-        title: The nest Schema
-        description: An explanation about the purpose of this instance.
-        type: integer
-      roof:
-        title: The roof Schema
-        description: An explanation about the purpose of this instance.
-        type: boolean
-  row:
-    title: The row Schema
-    description: An explanation about the purpose of this instance.
-    type: string
-  future:
-    title: The future Schema
-    description: An explanation about the purpose of this instance.
-    type: string
-  leg:
-    title: The leg Schema
-    description: An explanation about the purpose of this instance.
-    type: string
-  science:
-    title: The science Schema
-    description: An explanation about the purpose of this instance.
-    type: integer
-  foreign:
-    title: The foreign Schema
-    description: An explanation about the purpose of this instance.
-    type: boolean
-  handsome:
-    title: The handsome Schema
-    description: An explanation about the purpose of this instance.
-    type: string
+              property-6-2-6-6-1:
+                title: "... a mind needs books as a sword needs a whetstone, if it\
+                  \ is to keep its edge."
+                description: null
+                type: "string"
+                format: "phone"
+                minLength: 0
+                maxLength: 34
+              property-6-2-6-6-2:
+                title: "Of Mice and Men"
+                description: "Hodor? Hodor."
+                type: "number"
+                maximum: 14.272689276174136
+                minimum: 1.134618676350486E308
+                exclusiveMaximum: true
+                exclusiveMinimum: true
+              property-6-2-6-6-3:
+                title: "Chuck Norris doesn't program with a keyboard. He stares the\
+                  \ computer down until it does what he wants."
+                description: "How's Annie? How's Annie? How's Annie?"
+                type: "number"
+                maximum: 71.97139870547859
+                minimum: 1.3355758884073343E308
+                exclusiveMaximum: false
+                exclusiveMinimum: false
+              property-6-2-6-6-4:
+                title: "Hmm. In the end, cowards are those who follow the dark side."
+                description: "And I have a tender spot in my heart for cripples and\
+                  \ bastards and broken things."
+                type: "string"
+                format: "time"
+                minLength: 0
+                maxLength: 12
+              property-6-2-6-6-5:
+                title: "https://s3.amazonaws.com/uifaces/faces/twitter/hellofeverrrr/128.jpg"
+                description: "mouse"
+                type: "integer"
+                maximum: 2057387285
+                minimum: 1
+                exclusiveMaximum: true
+                exclusiveMinimum: false
+              property-6-2-6-6-6:
+                title: "Hickle-Rogahn"
+                description: null
+                type: "string"
+                format: "time"
+                minLength: 0
+                maxLength: 49
+              property-6-2-6-6-7:
+                title: "Not if anything to say about it I have"
+                description: "Audrey, there are many cures for a broken heart. But\
+                  \ nothing quite like a trout's leap in the moonlight."
+                type: "integer"
+                maximum: 1433064218
+                minimum: 2
+                exclusiveMaximum: false
+                exclusiveMinimum: true
+              property-6-2-6-6-8:
+                title: "Fear cuts deeper than swords."
+                description: "Death Be Not Proud"
+                type: "boolean"
+          property-6-2-6-7:
+            title: "Do. Or do not. There is no try."
+            description: "giraffe"
+            type: "boolean"
+          property-6-2-6-8:
+            title: "ant"
+            description: "That is why you fail."
+            type: "boolean"
+      property-6-2-7:
+        title: "Chuck Norris doesn't have performance bottlenecks. He just makes the\
+          \ universe wait its turn."
+        description: "Death is a natural part of life. Rejoice for those around you\
+          \ who transform into the Force. Mourn them do not. Miss them do not. Attachment\
+          \ leads to jealously. The shadow of greed, that is."
+        type: "integer"
+        maximum: 1268200616
+        minimum: 2
+        exclusiveMaximum: false
+        exclusiveMinimum: true
+      property-6-2-8:
+        title: "McDermott, Conn and Maggio"
+        description: "Do not assume anything Obi-Wan. Clear your mind must be if you\
+          \ are to discover the real villains behind this plot."
+        type: "boolean"
+  property-6-3:
+    title: "Harry, is that bag smiling?"
+    description: "EBLG"
+    type: "string"
+    format: "date-time"
+    minLength: 0
+    maxLength: 23
+  property-6-4:
+    title: "The Way of All Flesh"
+    description: "That gum you like is going to come back in style."
+    type: "string"
+    format: "time"
+    minLength: 0
+    maxLength: 25
+  property-6-5:
+    title: "Around the survivors a perimeter create."
+    description: "salmon"
+    type: "string"
+    format: "time"
+    minLength: 0
+    maxLength: 49
+  property-6-6:
+    title: "Nothing burns like the cold."
+    description: "Soon will I rest, yes, forever sleep. Earned it I have. Twilight\
+      \ is upon me, soon night must fall."
+    type: "integer"
+    maximum: 2134130900
+    minimum: 0
+    exclusiveMaximum: true
+    exclusiveMinimum: false
+  property-6-7:
+    title: "hare"
+    description: "The Golden Apples of the Sun"
+    type: "boolean"
+  property-6-8:
+    title: "Clear your mind must be, if you are to find the villains behind this plot."
+    description: "Ullrich, Durgan and Dicki"
+    type: "string"
+    format: "ipv5"
+    minLength: 0
+    maxLength: 48

@@ -1,0 +1,44 @@
+---
+$schema: "http://json-schema.org/draft/2019-09/schema"
+$id: "http://example.com/example.json"
+title: "cattle"
+type: "object"
+properties:
+  property-0-1:
+    title: "Mr Standfast"
+    type: "object"
+    properties:
+      property-0-1-1:
+        title: "https://s3.amazonaws.com/uifaces/faces/twitter/mgonto/128.jpg"
+        type: "string"
+        description: "Hodor? Hodor."
+        format: "uri"
+        minLength: 0
+        maxLength: 46
+      property-0-1-2:
+        title: "https://s3.amazonaws.com/uifaces/faces/twitter/michzen/128.jpg"
+        type: "number"
+        description: "The programs that Chuck Norris writes don't have version numbers\
+          \ because he only writes them once. If a user reports a bug or has a feature\
+          \ request they don't live to see the sun set."
+        minimum: 9.07318327524324E307
+        maximum: 102.36348266026361
+        exclusiveMaximum: false
+        exclusiveMinimum: false
+    description: null
+  property-0-2:
+    title: "I don't wanna talk. I wanna shoot."
+    type: "string"
+    description: "There is nothing regular about Chuck Norris' expressions."
+    format: "uri"
+    minLength: 0
+    maxLength: 19
+  property-0-3:
+    title: "BIIS"
+    type: "integer"
+    description: "dog"
+    maximum: 250885100
+    minimum: 1
+    exclusiveMaximum: true
+    exclusiveMinimum: false
+description: "ZSPD"

@@ -1,0 +1,112 @@
+{
+  "$schema" : "https://json-schema.org/draft/2020-12/json-schema-core.html",
+  "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/ripplemdk/128.jpg",
+  "description" : "Audrey, there are many cures for a broken heart. But nothing quite like a trout's leap in the moonlight.",
+  "type" : "object",
+  "additionalProperties" : false,
+  "properties" : {
+    "property-0-1" : {
+      "type" : "object",
+      "properties" : {
+        "property-0-1-1" : {
+          "type" : "string",
+          "title" : "The class object inherits from Chuck Norris.",
+          "description" : "PAAM",
+          "format" : "ipv4",
+          "minLength" : 0,
+          "maxLength" : 32
+        },
+        "property-0-1-2" : {
+          "type" : "boolean",
+          "title" : "clam",
+          "description" : null
+        },
+        "property-0-1-3" : {
+          "type" : "string",
+          "title" : null,
+          "description" : "Never forget who you are. The rest of the world won't. Wear it like an armor and it can never be used against you.",
+          "format" : "uri",
+          "minLength" : 0,
+          "maxLength" : 18
+        },
+        "property-0-1-4" : {
+          "type" : "number",
+          "title" : "Fear cuts deeper than swords.",
+          "description" : "... a mind needs books as a sword needs a whetstone, if it is to keep its edge.",
+          "minimum" : 1.6380646064035644E308,
+          "maximum" : 54.69766711878784,
+          "exclusiveMaximum" : true,
+          "exclusiveMinimum" : true
+        },
+        "property-0-1-5" : {
+          "type" : "integer",
+          "title" : "Soon will I rest, yes, forever sleep. Earned it I have. Twilight is upon me, soon night must fall.",
+          "description" : null,
+          "maximum" : 1528115678,
+          "minimum" : 1,
+          "exclusiveMaximum" : false,
+          "exclusiveMinimum" : false
+        }
+      },
+      "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/designervzm/128.jpg",
+      "description" : "Tremblay-Collins"
+    },
+    "property-0-2" : {
+      "type" : "string",
+      "title" : "ZBAD",
+      "description" : "A lion doesn't concern itself with the opinion of sheep.",
+      "format" : "ipv5",
+      "minLength" : 0,
+      "maxLength" : 24
+    },
+    "property-0-3" : {
+      "type" : "string",
+      "title" : "Donnelly, Will and Crist",
+      "description" : "Bosco Group",
+      "format" : "time",
+      "minLength" : 0,
+      "maxLength" : 33
+    },
+    "property-0-4" : {
+      "type" : "object",
+      "properties" : {
+        "property-0-4-1" : {
+          "type" : "string",
+          "title" : "GCHI",
+          "description" : "Good relations with the Wookiees, I have.",
+          "format" : "uri",
+          "minLength" : 0,
+          "maxLength" : 27
+        },
+        "property-0-4-2" : {
+          "type" : "number",
+          "title" : "Larkin, Kirlin and Ebert",
+          "description" : "Chuck Norris can write infinite recursion functions... and have them return.",
+          "minimum" : 6.101113249996409E306,
+          "maximum" : 67.60565604691222,
+          "exclusiveMaximum" : false,
+          "exclusiveMinimum" : false
+        }
+      },
+      "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/rtyukmaev/128.jpg",
+      "description" : "Clear your mind must be, if you are to find the villains behind this plot."
+    },
+    "property-0-5" : {
+      "type" : "string",
+      "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/samihah/128.jpg",
+      "description" : "COOPER, YOU REMIND ME TODAY OF A SMALL MEXICAN CHIHUAHUA.",
+      "format" : "duration",
+      "minLength" : 0,
+      "maxLength" : 25
+    },
+    "property-0-6" : {
+      "type" : "number",
+      "title" : null,
+      "description" : null,
+      "minimum" : 4.236392123890755E307,
+      "maximum" : 61.356620570470724,
+      "exclusiveMaximum" : true,
+      "exclusiveMinimum" : true
+    }
+  }
+}

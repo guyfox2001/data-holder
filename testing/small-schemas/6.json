@@ -1,0 +1,63 @@
+{
+  "$schema" : "http://json-schema.org/draft/2019-09/schema",
+  "type" : "object",
+  "properties" : {
+    "property-0-1" : {
+      "type" : "object",
+      "properties" : {
+        "property-0-1-1" : {
+          "type" : "string",
+          "title" : "You will find only what you bring in.",
+          "description" : "Braun-Leannon",
+          "format" : "time",
+          "minLength" : 0,
+          "maxLength" : 24
+        },
+        "property-0-1-2" : {
+          "type" : "number",
+          "title" : "Jacobson LLC",
+          "description" : "To answer power with power, the Jedi way this is not. In this war, a danger there is, of losing who we are.",
+          "minimum" : 3.061117516443948E307,
+          "maximum" : 28.632650728054692,
+          "exclusiveMaximum" : false,
+          "exclusiveMinimum" : false
+        },
+        "property-0-1-3" : {
+          "type" : "integer",
+          "title" : "Death is a natural part of life. Rejoice for those around you who transform into the Force. Mourn them do not. Miss them do not. Attachment leads to jealously. The shadow of greed, that is.",
+          "description" : "Chuck Norris doesn't need a java compiler, he goes straight to .war",
+          "maximum" : 1015564404,
+          "minimum" : 2,
+          "exclusiveMaximum" : false,
+          "exclusiveMinimum" : true
+        },
+        "property-0-1-4" : {
+          "type" : "boolean",
+          "title" : "EBCI",
+          "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/hsinyo23/128.jpg"
+        }
+      },
+      "title" : "It has been a pleasure speaking to you.",
+      "description" : "Hintz Inc"
+    },
+    "property-0-2" : {
+      "type" : "string",
+      "title" : "Give me honorable enemies rather than ambitious ones, and I'll sleep more easily by night.",
+      "description" : "Every flight begins with a fall.",
+      "format" : "uri",
+      "minLength" : 0,
+      "maxLength" : 22
+    },
+    "property-0-3" : {
+      "type" : "number",
+      "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/petrangr/128.jpg",
+      "description" : null,
+      "minimum" : 1.7291304111444418E308,
+      "maximum" : 21.327298533643788,
+      "exclusiveMaximum" : true,
+      "exclusiveMinimum" : true
+    }
+  },
+  "title" : "FAMG",
+  "description" : "It has been a pleasure speaking to you."
+}

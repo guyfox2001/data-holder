@@ -1,0 +1,12 @@
+---
+$schema: http://json-schema.org/draft/2019-09/schema
+title: "Root file with refs is array"
+type: array
+prefixItems:
+  - $ref: "../../small-schemas/1.yaml"
+  - $ref: "../../small-schemas/2.yaml"
+items:
+  - $ref: "../../small-schemas/3.yaml"
+  - $ref: "simple-refs-in-array.yaml"
+  - $ref: "../../simplest-json-schemas/second-type/4-second-type.yaml"
+

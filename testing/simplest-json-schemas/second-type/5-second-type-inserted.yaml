@@ -1,0 +1,243 @@
+---
+$schema: "http://json-schema.org/draft/2019-09/schema"
+title: "goat"
+description: "mule"
+type: "object"
+properties:
+  property-5-1:
+    title: "AYLA"
+    description: "Where we're from, the birds sing a pretty song, and there's always\
+      \ music in the air."
+    type: "object"
+    properties:
+      property-5-1-1:
+        title: "https://s3.amazonaws.com/uifaces/faces/twitter/robbschiller/128.jpg"
+        description: "Much to learn you still have my old padawan. ... This is just\
+          \ the beginning!"
+        type: "object"
+        properties:
+          property-5-1-1-1:
+            title: "The North remembers."
+            description: "You know, this is — excuse me — a damn fine cup of coffee!"
+            type: "object"
+            properties:
+              property-5-1-1-1-1:
+                title: "wildebeest"
+                description: "Damn fine coffee! And hot!"
+                type: "string"
+                format: "time"
+                minLength: 0
+                maxLength: 24
+                $id: "#/properties/property-5-1/properties/property-5-1-1/properties/property-5-1-1-1/properties/property-5-1-1-1-1"
+              property-5-1-1-1-2:
+                title: "https://s3.amazonaws.com/uifaces/faces/twitter/gavr1l0/128.jpg"
+                description: "Wow, Bob, wow."
+                type: "number"
+                maximum: 114.01666942580322
+                minimum: 1.6108012267453875E308
+                exclusiveMaximum: true
+                exclusiveMinimum: false
+                $id: "#/properties/property-5-1/properties/property-5-1-1/properties/property-5-1-1-1/properties/property-5-1-1-1-2"
+              property-5-1-1-1-3:
+                title: "Wow, Bob, wow."
+                description: "When you play a game of thrones you win or you die."
+                type: "string"
+                format: "ipv5"
+                minLength: 0
+                maxLength: 34
+                $id: "#/properties/property-5-1/properties/property-5-1-1/properties/property-5-1-1-1/properties/property-5-1-1-1-3"
+              property-5-1-1-1-4:
+                title: "moose"
+                description: "Chuck Norris writes code that optimizes itself."
+                type: "boolean"
+                $id: "#/properties/property-5-1/properties/property-5-1-1/properties/property-5-1-1-1/properties/property-5-1-1-1-4"
+              property-5-1-1-1-5:
+                title: "https://s3.amazonaws.com/uifaces/faces/twitter/randomlies/128.jpg"
+                description: "Moab Is My Washpot"
+                type: "boolean"
+                $id: "#/properties/property-5-1/properties/property-5-1-1/properties/property-5-1-1-1/properties/property-5-1-1-1-5"
+              property-5-1-1-1-6:
+                title: "water buffalo"
+                description: "Chuck Norris doesn't bug hunt, as that signifies a probability\
+                  \ of failure. He goes bug killing."
+                type: "number"
+                maximum: 78.08681395703218
+                minimum: 1.4291526826828639E308
+                exclusiveMaximum: false
+                exclusiveMinimum: false
+                $id: "#/properties/property-5-1/properties/property-5-1-1/properties/property-5-1-1-1/properties/property-5-1-1-1-6"
+              property-5-1-1-1-7:
+                title: "fish"
+                description: "Adventure. Excitement. A Jedi craves not these things."
+                type: "integer"
+                maximum: 1970882729
+                minimum: 0
+                exclusiveMaximum: true
+                exclusiveMinimum: true
+                $id: "#/properties/property-5-1/properties/property-5-1-1/properties/property-5-1-1-1/properties/property-5-1-1-1-7"
+              property-5-1-1-1-8:
+                title: "FAMG"
+                description: "Wolf Inc"
+                type: "string"
+                format: "time"
+                minLength: 0
+                maxLength: 44
+                $id: "#/properties/property-5-1/properties/property-5-1-1/properties/property-5-1-1-1/properties/property-5-1-1-1-8"
+            $id: "#/properties/property-5-1/properties/property-5-1-1/properties/property-5-1-1-1"
+          property-5-1-1-2:
+            title: "It has been a pleasure speaking to you."
+            description: "Fame Is the Spur"
+            type: "string"
+            format: "ipv4"
+            minLength: 0
+            maxLength: 34
+            $id: "#/properties/property-5-1/properties/property-5-1-1/properties/property-5-1-1-2"
+          property-5-1-1-3:
+            title: "seal"
+            description: null
+            type: "boolean"
+            $id: "#/properties/property-5-1/properties/property-5-1-1/properties/property-5-1-1-3"
+          property-5-1-1-4:
+            title: "Chuck Norris' preferred IDE is hexedit."
+            description: null
+            type: "integer"
+            maximum: 1525284217
+            minimum: 2
+            exclusiveMaximum: false
+            exclusiveMinimum: false
+            $id: "#/properties/property-5-1/properties/property-5-1-1/properties/property-5-1-1-4"
+          property-5-1-1-5:
+            title: "TDPD"
+            description: "Johnston, Kshlerin and West"
+            type: "string"
+            format: "ipv5"
+            minLength: 0
+            maxLength: 18
+            $id: "#/properties/property-5-1/properties/property-5-1-1/properties/property-5-1-1-5"
+          property-5-1-1-6:
+            title: null
+            description: "Feel the force!"
+            type: "string"
+            format: "time"
+            minLength: 0
+            maxLength: 48
+            $id: "#/properties/property-5-1/properties/property-5-1-1/properties/property-5-1-1-6"
+          property-5-1-1-7:
+            title: null
+            description: "GCFV"
+            type: "string"
+            format: "duration"
+            minLength: 0
+            maxLength: 22
+            $id: "#/properties/property-5-1/properties/property-5-1-1/properties/property-5-1-1-7"
+          property-5-1-1-8:
+            title: "dinosaur"
+            description: "kangaroo"
+            type: "boolean"
+            $id: "#/properties/property-5-1/properties/property-5-1-1/properties/property-5-1-1-8"
+        $id: "#/properties/property-5-1/properties/property-5-1-1"
+      property-5-1-2:
+        title: "https://s3.amazonaws.com/uifaces/faces/twitter/lawlbwoy/128.jpg"
+        description: "gerbil"
+        type: "boolean"
+        $id: "#/properties/property-5-1/properties/property-5-1-2"
+      property-5-1-3:
+        title: "The dark side clouds everything. Impossible to see the future is."
+        description: "EBBR"
+        type: "number"
+        maximum: 104.07884639438691
+        minimum: 1.1758444277726858E308
+        exclusiveMaximum: true
+        exclusiveMinimum: true
+        $id: "#/properties/property-5-1/properties/property-5-1-3"
+      property-5-1-4:
+        title: "A Confederacy of Dunces"
+        description: null
+        type: "boolean"
+        $id: "#/properties/property-5-1/properties/property-5-1-4"
+      property-5-1-5:
+        title: "Why is it that when one man builds a wall, the next man immediately\
+          \ needs to know what's on the other side?"
+        description: "Steuber Inc"
+        type: "integer"
+        maximum: 313980210
+        minimum: 2
+        exclusiveMaximum: false
+        exclusiveMinimum: false
+        $id: "#/properties/property-5-1/properties/property-5-1-5"
+      property-5-1-6:
+        title: null
+        description: "Pie. Whoever invented the pie? Here was a great person."
+        type: "number"
+        maximum: 14.214323813464217
+        minimum: 6.750895658595542E307
+        exclusiveMaximum: false
+        exclusiveMinimum: false
+        $id: "#/properties/property-5-1/properties/property-5-1-6"
+      property-5-1-7:
+        title: "RJAH"
+        description: "Adams, Fay and Denesik"
+        type: "string"
+        format: "date-time"
+        minLength: 0
+        maxLength: 18
+        $id: "#/properties/property-5-1/properties/property-5-1-7"
+      property-5-1-8:
+        title: "locust"
+        description: "Much to learn you still have my old padawan. ... This is just\
+          \ the beginning!"
+        type: "number"
+        maximum: 76.73826190607488
+        minimum: 7.779574444348173E307
+        exclusiveMaximum: false
+        exclusiveMinimum: false
+        $id: "#/properties/property-5-1/properties/property-5-1-8"
+    $id: "#/properties/property-5-1"
+  property-5-2:
+    title: "Never forget who you are. The rest of the world won't. Wear it like an\
+      \ armor and it can never be used against you."
+    description: "crab"
+    type: "boolean"
+    $id: "#/properties/property-5-2"
+  property-5-3:
+    title: "Bruen, Jacobson and Kirlin"
+    description: "Harry, is that bag smiling?"
+    type: "number"
+    maximum: 79.22620090838525
+    minimum: 1.181441658598567E308
+    exclusiveMaximum: true
+    exclusiveMinimum: false
+    $id: "#/properties/property-5-3"
+  property-5-4:
+    title: "When a bug sees Chuck Norris, it flees screaming in terror, and then immediately\
+      \ self-destructs to avoid being roundhouse-kicked."
+    description: "Do the dead frighten you?"
+    type: "boolean"
+    $id: "#/properties/property-5-4"
+  property-5-5:
+    title: "Luminous beings are we - not this crude matter."
+    description: null
+    type: "boolean"
+    $id: "#/properties/property-5-5"
+  property-5-6:
+    title: null
+    description: null
+    type: "string"
+    format: "phone"
+    minLength: 0
+    maxLength: 32
+    $id: "#/properties/property-5-6"
+  property-5-7:
+    title: "Chuck Norris' keyboard doesn't have a F1 key, the computer asks him for\
+      \ help."
+    description: "https://s3.amazonaws.com/uifaces/faces/twitter/wiljanslofstra/128.jpg"
+    type: "boolean"
+    $id: "#/properties/property-5-7"
+  property-5-8:
+    title: "RJAH"
+    description: "crab"
+    type: "string"
+    format: "ipv4"
+    minLength: 0
+    maxLength: 24
+    $id: "#/properties/property-5-8"

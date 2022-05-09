@@ -1,0 +1,94 @@
+{
+  "$schema" : "http://json-schema.org/draft/2019-09/schema",
+  "title" : null,
+  "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/osvaldas/128.jpg",
+  "type" : "object",
+  "additionalProperties" : true,
+  "properties" : {
+    "property-0-1" : {
+      "title" : "The Skull Beneath the Skin",
+      "description" : "LBIA",
+      "type" : "object",
+      "additionalProperties" : true,
+      "properties" : {
+        "property-0-1-1" : {
+          "title" : "Vandervort, Beahan and Schulist",
+          "description" : "Such, Such Were the Joys",
+          "type" : "number",
+          "minimum" : 5.981443795517295E307,
+          "maximum" : 69.07179240782439,
+          "exclusiveMaximum" : false,
+          "exclusiveMinimum" : false
+        }
+      }
+    },
+    "property-0-2" : {
+      "title" : "manatee",
+      "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/donjain/128.jpg",
+      "type" : "number",
+      "minimum" : 1.8089258108263042E307,
+      "maximum" : 42.796605353126004,
+      "exclusiveMaximum" : false,
+      "exclusiveMinimum" : true
+    },
+    "property-0-3" : {
+      "title" : "Tiger! Tiger!",
+      "description" : "Do you want to know what the ultimate secret is? Laura did. The secret of knowing who killed you.",
+      "type" : "object",
+      "additionalProperties" : true,
+      "properties" : {
+        "property-0-3-1" : {
+          "title" : "Ow, ow, OW! On my ear you are!",
+          "description" : null,
+          "type" : "integer",
+          "maximum" : 1418221226,
+          "minimum" : 1,
+          "exclusiveMaximum" : false,
+          "exclusiveMinimum" : true
+        },
+        "property-0-3-2" : {
+          "title" : "All arrays Chuck Norris declares are of infinite size, because Chuck Norris knows no bounds.",
+          "description" : "porpoise",
+          "type" : "string",
+          "format" : "phone",
+          "minLength" : 0,
+          "maxLength" : 26
+        },
+        "property-0-3-3" : {
+          "title" : "Flatley-Effertz",
+          "description" : null,
+          "type" : "string",
+          "format" : "phone",
+          "minLength" : 0,
+          "maxLength" : 49
+        },
+        "property-0-3-4" : {
+          "title" : null,
+          "description" : "Chuck Norris hosting is 101% uptime guaranteed.",
+          "type" : "string",
+          "format" : "duration",
+          "minLength" : 0,
+          "maxLength" : 13
+        },
+        "property-0-3-5" : {
+          "title" : "Not if anything to say about it I have",
+          "description" : null,
+          "type" : "integer",
+          "maximum" : 397128860,
+          "minimum" : 2,
+          "exclusiveMaximum" : true,
+          "exclusiveMinimum" : false
+        }
+      }
+    },
+    "property-0-4" : {
+      "title" : "AYKY",
+      "description" : "Chuck Norris has root access to your system.",
+      "type" : "integer",
+      "maximum" : 972127589,
+      "minimum" : 0,
+      "exclusiveMaximum" : true,
+      "exclusiveMinimum" : true
+    }
+  }
+}

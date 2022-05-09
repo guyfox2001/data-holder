@@ -1,0 +1,418 @@
+{
+  "$schema" : "http://json-schema.org/draft/2019-09/schema",
+  "title" : "Root Schema",
+  "description" : "The root schema is the schema that comprises the entire JSON document.",
+  "type" : "object",
+  "additionalProperties" : true,
+  "properties" : {
+    "property-11-1" : {
+      "title" : "The wait Schema",
+      "description" : "An explanation about the purpose of this instance.",
+      "type" : "object",
+      "additionalProperties" : true,
+      "properties" : {
+        "property-11-1-1" : {
+          "title" : "The silk Schema",
+          "description" : "An explanation about the purpose of this instance.",
+          "type" : "string",
+          "format" : "uri",
+          "minLength" : 0,
+          "maxLength" : 25,
+          "$id" : "#/properties/property-11-1/properties/property-11-1-1"
+        },
+        "property-11-1-2" : {
+          "title" : "The mail Schema",
+          "description" : "An explanation about the purpose of this instance.",
+          "type" : "array",
+          "additionalItems" : true,
+          "items" : [ {
+            "title" : "A Schema",
+            "description" : "An explanation about the purpose of this instance.",
+            "type" : "object",
+            "additionalProperties" : true,
+            "properties" : {
+              "property-11-1-ai-0-1" : {
+                "title" : "The time Schema",
+                "description" : "An explanation about the purpose of this instance.",
+                "type" : "array",
+                "additionalItems" : true,
+                "items" : [ {
+                  "title" : "A Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "boolean",
+                  "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/0"
+                }, {
+                  "title" : "A Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "array",
+                  "additionalItems" : true,
+                  "items" : [ {
+                    "title" : "A Schema",
+                    "description" : "An explanation about the purpose of this instance.",
+                    "type" : "array",
+                    "additionalItems" : true,
+                    "items" : [ {
+                      "title" : "A Schema",
+                      "description" : "An explanation about the purpose of this instance.",
+                      "type" : "boolean",
+                      "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/1/0/0"
+                    }, {
+                      "title" : "A Schema",
+                      "description" : "An explanation about the purpose of this instance.",
+                      "type" : "string",
+                      "format" : "uri",
+                      "minLength" : 0,
+                      "maxLength" : 42,
+                      "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/1/0/1"
+                    }, {
+                      "title" : "A Schema",
+                      "description" : "An explanation about the purpose of this instance.",
+                      "type" : "string",
+                      "format" : "phone",
+                      "minLength" : 0,
+                      "maxLength" : 34,
+                      "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/1/0/2"
+                    }, {
+                      "title" : "A Schema",
+                      "description" : "An explanation about the purpose of this instance.",
+                      "type" : "string",
+                      "format" : "date",
+                      "minLength" : 0,
+                      "maxLength" : 43,
+                      "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/1/0/3"
+                    }, {
+                      "title" : "A Schema",
+                      "description" : "An explanation about the purpose of this instance.",
+                      "type" : "string",
+                      "format" : "e-mail",
+                      "minLength" : 0,
+                      "maxLength" : 49,
+                      "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/1/0/4"
+                    }, {
+                      "title" : "A Schema",
+                      "description" : "An explanation about the purpose of this instance.",
+                      "type" : "boolean",
+                      "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/1/0/5"
+                    }, {
+                      "title" : "A Schema",
+                      "description" : "An explanation about the purpose of this instance.",
+                      "type" : "string",
+                      "format" : "phone",
+                      "minLength" : 0,
+                      "maxLength" : 13,
+                      "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/1/0/6"
+                    }, {
+                      "title" : "A Schema",
+                      "description" : "An explanation about the purpose of this instance.",
+                      "type" : "string",
+                      "format" : "ipv5",
+                      "minLength" : 0,
+                      "maxLength" : 14,
+                      "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/1/0/7"
+                    } ],
+                    "uniqueItems" : true,
+                    "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/1/0"
+                  }, {
+                    "title" : "A Schema",
+                    "description" : "An explanation about the purpose of this instance.",
+                    "type" : "string",
+                    "format" : "time",
+                    "minLength" : 0,
+                    "maxLength" : 24,
+                    "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/1/1"
+                  }, {
+                    "title" : "A Schema",
+                    "description" : "An explanation about the purpose of this instance.",
+                    "type" : "string",
+                    "format" : "e-mail",
+                    "minLength" : 0,
+                    "maxLength" : 15,
+                    "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/1/2"
+                  }, {
+                    "title" : "A Schema",
+                    "description" : "An explanation about the purpose of this instance.",
+                    "type" : "boolean",
+                    "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/1/3"
+                  }, {
+                    "title" : "A Schema",
+                    "description" : "An explanation about the purpose of this instance.",
+                    "type" : "boolean",
+                    "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/1/4"
+                  }, {
+                    "title" : "A Schema",
+                    "description" : "An explanation about the purpose of this instance.",
+                    "type" : "string",
+                    "format" : "ipv5",
+                    "minLength" : 0,
+                    "maxLength" : 15,
+                    "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/1/5"
+                  }, {
+                    "title" : "A Schema",
+                    "description" : "An explanation about the purpose of this instance.",
+                    "type" : "string",
+                    "format" : "ipv5",
+                    "minLength" : 0,
+                    "maxLength" : 21,
+                    "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/1/6"
+                  }, {
+                    "title" : "A Schema",
+                    "description" : "An explanation about the purpose of this instance.",
+                    "type" : "boolean",
+                    "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/1/7"
+                  } ],
+                  "uniqueItems" : true,
+                  "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/1"
+                }, {
+                  "title" : "A Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "boolean",
+                  "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/2"
+                }, {
+                  "title" : "A Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "string",
+                  "format" : "date",
+                  "minLength" : 0,
+                  "maxLength" : 46,
+                  "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/3"
+                }, {
+                  "title" : "A Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "boolean",
+                  "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/4"
+                }, {
+                  "title" : "A Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "string",
+                  "format" : "date-time",
+                  "minLength" : 0,
+                  "maxLength" : 12,
+                  "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/5"
+                }, {
+                  "title" : "A Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "string",
+                  "format" : "date",
+                  "minLength" : 0,
+                  "maxLength" : 40,
+                  "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/6"
+                }, {
+                  "title" : "A Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "boolean",
+                  "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1/7"
+                } ],
+                "uniqueItems" : true,
+                "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-1"
+              },
+              "property-11-1-ai-0-2" : {
+                "title" : "The sick Schema",
+                "description" : "An explanation about the purpose of this instance.",
+                "type" : "string",
+                "format" : "phone",
+                "minLength" : 0,
+                "maxLength" : 46,
+                "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-2"
+              },
+              "property-11-1-ai-0-3" : {
+                "title" : "The inside Schema",
+                "description" : "An explanation about the purpose of this instance.",
+                "type" : "boolean",
+                "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-3"
+              },
+              "property-11-1-ai-0-4" : {
+                "title" : "The discussion Schema",
+                "description" : "An explanation about the purpose of this instance.",
+                "type" : "string",
+                "format" : "duration",
+                "minLength" : 0,
+                "maxLength" : 18,
+                "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-4"
+              },
+              "property-11-1-ai-0-5" : {
+                "title" : "The shadow Schema",
+                "description" : "An explanation about the purpose of this instance.",
+                "type" : "string",
+                "format" : "date-time",
+                "minLength" : 0,
+                "maxLength" : 41,
+                "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-5"
+              },
+              "property-11-1-ai-0-6" : {
+                "title" : "The mountain Schema",
+                "description" : "An explanation about the purpose of this instance.",
+                "type" : "boolean",
+                "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-6"
+              },
+              "property-11-1-ai-0-7" : {
+                "title" : "The dropped Schema",
+                "description" : "An explanation about the purpose of this instance.",
+                "type" : "boolean",
+                "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-7"
+              },
+              "property-11-1-ai-0-8" : {
+                "title" : "The built Schema",
+                "description" : "An explanation about the purpose of this instance.",
+                "type" : "boolean",
+                "$id" : "#/properties/property-11-1/properties/property-11-1-2/0/properties/property-11-1-ai-0-8"
+              }
+            },
+            "$id" : "#/properties/property-11-1/properties/property-11-1-2/0"
+          }, {
+            "title" : "A Schema",
+            "description" : "An explanation about the purpose of this instance.",
+            "type" : "boolean",
+            "$id" : "#/properties/property-11-1/properties/property-11-1-2/1"
+          }, {
+            "title" : "A Schema",
+            "description" : "An explanation about the purpose of this instance.",
+            "type" : "boolean",
+            "$id" : "#/properties/property-11-1/properties/property-11-1-2/2"
+          }, {
+            "title" : "A Schema",
+            "description" : "An explanation about the purpose of this instance.",
+            "type" : "string",
+            "format" : "phone",
+            "minLength" : 0,
+            "maxLength" : 42,
+            "$id" : "#/properties/property-11-1/properties/property-11-1-2/3"
+          }, {
+            "title" : "A Schema",
+            "description" : "An explanation about the purpose of this instance.",
+            "type" : "string",
+            "format" : "e-mail",
+            "minLength" : 0,
+            "maxLength" : 42,
+            "$id" : "#/properties/property-11-1/properties/property-11-1-2/4"
+          }, {
+            "title" : "A Schema",
+            "description" : "An explanation about the purpose of this instance.",
+            "type" : "boolean",
+            "$id" : "#/properties/property-11-1/properties/property-11-1-2/5"
+          }, {
+            "title" : "A Schema",
+            "description" : "An explanation about the purpose of this instance.",
+            "type" : "string",
+            "format" : "ipv5",
+            "minLength" : 0,
+            "maxLength" : 11,
+            "$id" : "#/properties/property-11-1/properties/property-11-1-2/6"
+          }, {
+            "title" : "A Schema",
+            "description" : "An explanation about the purpose of this instance.",
+            "type" : "string",
+            "format" : "date",
+            "minLength" : 0,
+            "maxLength" : 15,
+            "$id" : "#/properties/property-11-1/properties/property-11-1-2/7"
+          } ],
+          "uniqueItems" : true,
+          "$id" : "#/properties/property-11-1/properties/property-11-1-2"
+        },
+        "property-11-1-3" : {
+          "title" : "The dig Schema",
+          "description" : "An explanation about the purpose of this instance.",
+          "type" : "string",
+          "format" : "ipv5",
+          "minLength" : 0,
+          "maxLength" : 49,
+          "$id" : "#/properties/property-11-1/properties/property-11-1-3"
+        },
+        "property-11-1-4" : {
+          "title" : "The field Schema",
+          "description" : "An explanation about the purpose of this instance.",
+          "type" : "string",
+          "format" : "uri",
+          "minLength" : 0,
+          "maxLength" : 47,
+          "$id" : "#/properties/property-11-1/properties/property-11-1-4"
+        },
+        "property-11-1-5" : {
+          "title" : "The middle Schema",
+          "description" : "An explanation about the purpose of this instance.",
+          "type" : "boolean",
+          "$id" : "#/properties/property-11-1/properties/property-11-1-5"
+        },
+        "property-11-1-6" : {
+          "title" : "The deep Schema",
+          "description" : "An explanation about the purpose of this instance.",
+          "type" : "boolean",
+          "$id" : "#/properties/property-11-1/properties/property-11-1-6"
+        },
+        "property-11-1-7" : {
+          "title" : "The mathematics Schema",
+          "description" : "An explanation about the purpose of this instance.",
+          "type" : "boolean",
+          "$id" : "#/properties/property-11-1/properties/property-11-1-7"
+        },
+        "property-11-1-8" : {
+          "title" : "The climb Schema",
+          "description" : "An explanation about the purpose of this instance.",
+          "type" : "string",
+          "format" : "date-time",
+          "minLength" : 0,
+          "maxLength" : 48,
+          "$id" : "#/properties/property-11-1/properties/property-11-1-8"
+        }
+      },
+      "$id" : "#/properties/property-11-1"
+    },
+    "property-11-2" : {
+      "title" : "The or Schema",
+      "description" : "An explanation about the purpose of this instance.",
+      "type" : "boolean",
+      "$id" : "#/properties/property-11-2"
+    },
+    "property-11-3" : {
+      "title" : "The those Schema",
+      "description" : "An explanation about the purpose of this instance.",
+      "type" : "string",
+      "format" : "uri",
+      "minLength" : 0,
+      "maxLength" : 25,
+      "$id" : "#/properties/property-11-3"
+    },
+    "property-11-4" : {
+      "title" : "The wire Schema",
+      "description" : "An explanation about the purpose of this instance.",
+      "type" : "string",
+      "format" : "date",
+      "minLength" : 0,
+      "maxLength" : 22,
+      "$id" : "#/properties/property-11-4"
+    },
+    "property-11-5" : {
+      "title" : "The get Schema",
+      "description" : "An explanation about the purpose of this instance.",
+      "type" : "boolean",
+      "$id" : "#/properties/property-11-5"
+    },
+    "property-11-6" : {
+      "title" : "The doubt Schema",
+      "description" : "An explanation about the purpose of this instance.",
+      "type" : "string",
+      "format" : "date-time",
+      "minLength" : 0,
+      "maxLength" : 31,
+      "$id" : "#/properties/property-11-6"
+    },
+    "property-11-7" : {
+      "title" : "The help Schema",
+      "description" : "An explanation about the purpose of this instance.",
+      "type" : "string",
+      "format" : "ipv4",
+      "minLength" : 0,
+      "maxLength" : 34,
+      "$id" : "#/properties/property-11-7"
+    },
+    "property-11-8" : {
+      "title" : "The wheat Schema",
+      "description" : "An explanation about the purpose of this instance.",
+      "type" : "string",
+      "format" : "e-mail",
+      "minLength" : 0,
+      "maxLength" : 31,
+      "$id" : "#/properties/property-11-8"
+    }
+  }
+}

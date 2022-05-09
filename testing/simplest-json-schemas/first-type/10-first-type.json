@@ -1,129 +1,320 @@
 {
-  "$schema": "http://json-schema.org/draft/2019-09/schema",
-  "$id": "http://example.com/example.json",
-  "title": "Root Schema",
-  "description": "The root schema is the schema that comprises the entire JSON document.",
-  "type": "array",
-  "items": [{
-    "title": "A Schema",
-    "description": "An explanation about the purpose of this instance.",
-    "type": "object",
-    "properties": {
-      "highest": {
-        "title": "The highest Schema",
-        "description": "An explanation about the purpose of this instance.",
-        "type": "array",
-        "items": [{
-          "title": "A Schema",
-          "description": "An explanation about the purpose of this instance.",
-          "type": "number"
-        },
-          {
-            "title": "A Schema",
-            "description": "An explanation about the purpose of this instance.",
-            "type": "boolean"
+  "$schema" : "http://json-schema.org/draft/2019-09/schema",
+  "title" : "rabbit",
+  "description" : "Chuck Norris can unit test an entire application with a single assert.",
+  "type" : "array",
+  "additionalItems" : true,
+  "items" : [ {
+    "title" : null,
+    "description" : "shark",
+    "type" : "integer",
+    "maximum" : 907539163,
+    "minimum" : 0,
+    "exclusiveMaximum" : true,
+    "exclusiveMinimum" : true
+  }, {
+    "title" : "A Monstrous Regiment of Women",
+    "description" : "Always pass on what you have learned.",
+    "type" : "string",
+    "format" : "duration",
+    "minLength" : 0,
+    "maxLength" : 26
+  }, {
+    "title" : "Where we're from, the birds sing a pretty song, and there's always music in the air.",
+    "description" : "Schiller, Cormier and Lind",
+    "type" : "object",
+    "additionalProperties" : true,
+    "properties" : {
+      "property-10-ai-2-1" : {
+        "title" : "Feel the force!",
+        "description" : "crow",
+        "type" : "number",
+        "minimum" : 1.318670322656777E307,
+        "maximum" : 120.53475411881433,
+        "exclusiveMaximum" : false,
+        "exclusiveMinimum" : false
+      },
+      "property-10-ai-2-2" : {
+        "title" : "A Time to Kill",
+        "description" : "Clear your mind must be, if you are to find the villains behind this plot.",
+        "type" : "object",
+        "additionalProperties" : true,
+        "properties" : {
+          "property-10-ai-2-2-1" : {
+            "title" : "The programs that Chuck Norris writes don't have version numbers because he only writes them once. If a user reports a bug or has a feature request they don't live to see the sun set.",
+            "description" : "Power is a curious thing. Who lives, Who dies. Power resides where men believe it resides. It is a trick, A shadow on the wall.",
+            "type" : "array",
+            "additionalItems" : true,
+            "items" : [ {
+              "title" : null,
+              "description" : "Ondricka, Smith and Rowe",
+              "type" : "array",
+              "additionalItems" : true,
+              "items" : [ {
+                "title" : "What's Become of Waring",
+                "description" : "The things I do for love.",
+                "type" : "number",
+                "minimum" : 4.901435141841101E307,
+                "maximum" : 21.979782862316103,
+                "exclusiveMaximum" : true,
+                "exclusiveMinimum" : true
+              }, {
+                "title" : "pug",
+                "description" : "YPPH",
+                "type" : "string",
+                "format" : "uri",
+                "minLength" : 0,
+                "maxLength" : 11
+              }, {
+                "title" : "Chuck Norris does not use exceptions when programming. He has not been able to identify any of his code that is not exceptional.",
+                "description" : "Knowledge could be more valuable than gold, more deadly than a dagger.",
+                "type" : "number",
+                "minimum" : 1.2680368332428245E308,
+                "maximum" : 12.319971146969735,
+                "exclusiveMaximum" : false,
+                "exclusiveMinimum" : true
+              }, {
+                "title" : "And so he spoke, and so he spoke, that Lord of Castamere, but now the rains weep o'er his hall, with no one there to hear. Yes, now the rains weep o'er his hall, and not a soul to hear.",
+                "description" : "Rogahn, Connelly and Leffler",
+                "type" : "string",
+                "format" : "duration",
+                "minLength" : 0,
+                "maxLength" : 20
+              }, {
+                "title" : "When you play a game of thrones you win or you die.",
+                "description" : "There was a fish in the percolator!",
+                "type" : "string",
+                "format" : "duration",
+                "minLength" : 0,
+                "maxLength" : 28
+              }, {
+                "title" : "Hmm. In the end, cowards are those who follow the dark side.",
+                "description" : "Always pass on what you have learned.",
+                "type" : "number",
+                "minimum" : 6.375127288358914E307,
+                "maximum" : 26.08592860706456,
+                "exclusiveMaximum" : true,
+                "exclusiveMinimum" : true
+              }, {
+                "title" : null,
+                "description" : "Use your feelings, Obi-Wan, and find him you will.",
+                "type" : "string",
+                "format" : "ipv5",
+                "minLength" : 0,
+                "maxLength" : 10
+              }, {
+                "title" : null,
+                "description" : "EBBR",
+                "type" : "string",
+                "format" : "date",
+                "minLength" : 0,
+                "maxLength" : 21
+              } ],
+              "uniqueItems" : true
+            }, {
+              "title" : "When a bug sees Chuck Norris, it flees screaming in terror, and then immediately self-destructs to avoid being roundhouse-kicked.",
+              "description" : "Christiansen-Deckow",
+              "type" : "string",
+              "format" : "ipv5",
+              "minLength" : 0,
+              "maxLength" : 32
+            }, {
+              "title" : "Hauck-Ferry",
+              "description" : "pig",
+              "type" : "string",
+              "format" : "phone",
+              "minLength" : 0,
+              "maxLength" : 30
+            }, {
+              "title" : "When the Green Woods Laugh",
+              "description" : "At an end your rule is, and not short enough it was!",
+              "type" : "string",
+              "format" : "time",
+              "minLength" : 0,
+              "maxLength" : 42
+            }, {
+              "title" : "Pale Kings and Princes",
+              "description" : "AYLA",
+              "type" : "integer",
+              "maximum" : 1541730073,
+              "minimum" : 0,
+              "exclusiveMaximum" : true,
+              "exclusiveMinimum" : false
+            }, {
+              "title" : "Power is a curious thing. Who lives, Who dies. Power resides where men believe it resides. It is a trick, A shadow on the wall.",
+              "description" : null,
+              "type" : "string",
+              "format" : "e-mail",
+              "minLength" : 0,
+              "maxLength" : 44
+            }, {
+              "title" : "cat",
+              "description" : "Where Angels Fear to Tread",
+              "type" : "number",
+              "minimum" : 9.739707356316943E307,
+              "maximum" : 92.10220160385629,
+              "exclusiveMaximum" : true,
+              "exclusiveMinimum" : false
+            }, {
+              "title" : "Audrey, there are many cures for a broken heart. But nothing quite like a trout's leap in the moonlight.",
+              "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/laasli/128.jpg",
+              "type" : "number",
+              "minimum" : 8.669372654416503E307,
+              "maximum" : 3.7131122591823837,
+              "exclusiveMaximum" : false,
+              "exclusiveMinimum" : false
+            } ],
+            "uniqueItems" : true
           },
-          {
-            "title": "A Schema",
-            "description": "An explanation about the purpose of this instance.",
-            "type": "integer"
+          "property-10-ai-2-2-2" : {
+            "title" : "Chuck Norris can write multi-threaded applications with a single thread.",
+            "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/el_fuertisimo/128.jpg",
+            "type" : "string",
+            "format" : "uri",
+            "minLength" : 0,
+            "maxLength" : 13
           },
-          {
-            "title": "A Schema",
-            "description": "An explanation about the purpose of this instance.",
-            "type": "number"
+          "property-10-ai-2-2-3" : {
+            "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/stushona/128.jpg",
+            "description" : "Give me honorable enemies rather than ambitious ones, and I'll sleep more easily by night.",
+            "type" : "string",
+            "format" : "ipv5",
+            "minLength" : 0,
+            "maxLength" : 14
           },
-          {
-            "title": "A Schema",
-            "description": "An explanation about the purpose of this instance.",
-            "type": "number"
+          "property-10-ai-2-2-4" : {
+            "title" : "Through the Force, things you will see. Other places. The future - the past. Old friends long gone.",
+            "description" : "Chuck Norris compresses his files by doing a flying round house kick to the hard drive.",
+            "type" : "string",
+            "format" : "uri",
+            "minLength" : 0,
+            "maxLength" : 25
           },
-          {
-            "title": "A Schema",
-            "description": "An explanation about the purpose of this instance.",
-            "type": "string"
+          "property-10-ai-2-2-5" : {
+            "title" : "An Instant In The Wind",
+            "description" : "Chuck Norris doesn't get compiler errors, the language changes itself to accommodate Chuck Norris.",
+            "type" : "integer",
+            "maximum" : 1098973656,
+            "minimum" : 2,
+            "exclusiveMaximum" : true,
+            "exclusiveMinimum" : true
           },
-          {
-            "title": "A Schema",
-            "description": "An explanation about the purpose of this instance.",
-            "type": "string"
+          "property-10-ai-2-2-6" : {
+            "title" : null,
+            "description" : "Quantum cryptography does not work on Chuck Norris. When something is being observed by Chuck it stays in the same state until he's finished.",
+            "type" : "string",
+            "format" : "phone",
+            "minLength" : 0,
+            "maxLength" : 30
           },
-          {
-            "title": "A Schema",
-            "description": "An explanation about the purpose of this instance.",
-            "type": "boolean"
-          }]
+          "property-10-ai-2-2-7" : {
+            "title" : "Pain, suffering, death I feel. Something terrible has happened. Young Skywalker is in pain. Terrible pain",
+            "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/BenouarradeM/128.jpg",
+            "type" : "integer",
+            "maximum" : 2141645849,
+            "minimum" : 2,
+            "exclusiveMaximum" : false,
+            "exclusiveMinimum" : false
+          },
+          "property-10-ai-2-2-8" : {
+            "title" : "bear",
+            "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/doronmalki/128.jpg",
+            "type" : "string",
+            "format" : "uri",
+            "minLength" : 0,
+            "maxLength" : 25
+          }
+        }
       },
-      "swim": {
-        "title": "The swim Schema",
-        "description": "An explanation about the purpose of this instance.",
-        "type": "string"
+      "property-10-ai-2-3" : {
+        "title" : "Unweaving the Rainbow",
+        "description" : "There is no Esc key on Chuck Norris' keyboard, because no one escapes Chuck Norris.",
+        "type" : "string",
+        "format" : "date",
+        "minLength" : 0,
+        "maxLength" : 34
       },
-      "decide": {
-        "title": "The decide Schema",
-        "description": "An explanation about the purpose of this instance.",
-        "type": "boolean"
+      "property-10-ai-2-4" : {
+        "title" : "wildebeest",
+        "description" : "There is no need to try catching Chuck Norris' exceptions for recovery; every single throw he does is fatal.",
+        "type" : "integer",
+        "maximum" : 1903701342,
+        "minimum" : 1,
+        "exclusiveMaximum" : true,
+        "exclusiveMinimum" : true
       },
-      "rain": {
-        "title": "The rain Schema",
-        "description": "An explanation about the purpose of this instance.",
-        "type": "integer"
+      "property-10-ai-2-5" : {
+        "title" : "GCLA",
+        "description" : "No Highway",
+        "type" : "string",
+        "format" : "ipv5",
+        "minLength" : 0,
+        "maxLength" : 29
       },
-      "boy": {
-        "title": "The boy Schema",
-        "description": "An explanation about the purpose of this instance.",
-        "type": "boolean"
+      "property-10-ai-2-6" : {
+        "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/r_garcia/128.jpg",
+        "description" : null,
+        "type" : "string",
+        "format" : "date-time",
+        "minLength" : 0,
+        "maxLength" : 38
       },
-      "planet": {
-        "title": "The planet Schema",
-        "description": "An explanation about the purpose of this instance.",
-        "type": "number"
+      "property-10-ai-2-7" : {
+        "title" : "Chuck Norris writes code that optimizes itself.",
+        "description" : null,
+        "type" : "string",
+        "format" : "uri",
+        "minLength" : 0,
+        "maxLength" : 17
       },
-      "shoulder": {
-        "title": "The shoulder Schema",
-        "description": "An explanation about the purpose of this instance.",
-        "type": "number"
-      },
-      "volume": {
-        "title": "The volume Schema",
-        "description": "An explanation about the purpose of this instance.",
-        "type": "boolean"
+      "property-10-ai-2-8" : {
+        "title" : "wildebeest",
+        "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/cocolero/128.jpg",
+        "type" : "string",
+        "format" : "e-mail",
+        "minLength" : 0,
+        "maxLength" : 45
       }
     }
-  },
-    {
-      "title": "A Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "string"
-    },
-    {
-      "title": "A Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "string"
-    },
-    {
-      "title": "A Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "number"
-    },
-    {
-      "title": "A Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "boolean"
-    },
-    {
-      "title": "A Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "number"
-    },
-    {
-      "title": "A Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "string"
-    },
-    {
-      "title": "A Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "string"
-    }]
+  }, {
+    "title" : null,
+    "description" : "Some old wounds never truly heal, and bleed again at the slightest word.",
+    "type" : "string",
+    "format" : "uri",
+    "minLength" : 0,
+    "maxLength" : 27
+  }, {
+    "title" : "Where we're from, the birds sing a pretty song, and there's always music in the air.",
+    "description" : "Bode-Leffler",
+    "type" : "integer",
+    "maximum" : 1703795772,
+    "minimum" : 1,
+    "exclusiveMaximum" : true,
+    "exclusiveMinimum" : true
+  }, {
+    "title" : null,
+    "description" : "Wehner Group",
+    "type" : "number",
+    "minimum" : 7.043250693228986E305,
+    "maximum" : 1.2084762952779922,
+    "exclusiveMaximum" : false,
+    "exclusiveMinimum" : false
+  }, {
+    "title" : "And I have a tender spot in my heart for cripples and bastards and broken things.",
+    "description" : "ZBAR",
+    "type" : "integer",
+    "maximum" : 1274731416,
+    "minimum" : 2,
+    "exclusiveMaximum" : false,
+    "exclusiveMinimum" : true
+  }, {
+    "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/sergeyalmone/128.jpg",
+    "description" : "lizard",
+    "type" : "number",
+    "minimum" : 8.354167541797769E307,
+    "maximum" : 69.64128031567185,
+    "exclusiveMaximum" : true,
+    "exclusiveMinimum" : true
+  } ],
+  "uniqueItems" : true
 }

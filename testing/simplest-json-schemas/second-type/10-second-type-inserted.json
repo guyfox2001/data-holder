@@ -1,0 +1,160 @@
+{
+  "$schema" : "http://json-schema.org/draft/2019-09/schema",
+  "title" : "Root Schema",
+  "description" : "The root schema is the schema that comprises the entire JSON document.",
+  "type" : "array",
+  "additionalItems" : true,
+  "items" : [ {
+    "title" : "A Schema",
+    "description" : "An explanation about the purpose of this instance.",
+    "type" : "object",
+    "additionalProperties" : true,
+    "properties" : {
+      "property-2-ai-0-1" : {
+        "title" : "The goes Schema",
+        "description" : "An explanation about the purpose of this instance.",
+        "type" : "integer"
+      }
+    }
+  }, {
+    "title" : "A Schema",
+    "description" : "An explanation about the purpose of this instance.",
+    "type" : "object",
+    "additionalProperties" : true,
+    "properties" : {
+      "property-2-ai-1-1" : {
+        "title" : "The merely Schema",
+        "description" : "An explanation about the purpose of this instance.",
+        "type" : "string"
+      },
+      "property-2-ai-1-2" : {
+        "title" : "The middle Schema",
+        "description" : "An explanation about the purpose of this instance.",
+        "type" : "object",
+        "additionalProperties" : true,
+        "properties" : {
+          "property-2-ai-1-2-1" : {
+            "title" : "The down Schema",
+            "description" : "An explanation about the purpose of this instance.",
+            "type" : "integer"
+          },
+          "property-2-ai-1-2-2" : {
+            "title" : "The explain Schema",
+            "description" : "An explanation about the purpose of this instance.",
+            "type" : "object",
+            "additionalProperties" : true,
+            "properties" : {
+              "property-2-ai-1-2-2-1" : {
+                "title" : "The riding Schema",
+                "description" : "An explanation about the purpose of this instance.",
+                "type" : "array",
+                "additionalItems" : true,
+                "items" : [ {
+                  "title" : "A Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "string"
+                }, {
+                  "title" : "A Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "number"
+                }, {
+                  "title" : "A Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "number"
+                }, {
+                  "title" : "A Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "string"
+                }, {
+                  "title" : "A Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "number"
+                }, {
+                  "title" : "A Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "integer"
+                }, {
+                  "title" : "A Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "string"
+                } ],
+                "uniqueItems" : true
+              },
+              "property-2-ai-1-2-2-2" : {
+                "title" : "The vote Schema",
+                "description" : "An explanation about the purpose of this instance.",
+                "type" : "string"
+              },
+              "property-2-ai-1-2-2-3" : {
+                "title" : "The split Schema",
+                "description" : "An explanation about the purpose of this instance.",
+                "type" : "string"
+              },
+              "property-2-ai-1-2-2-4" : {
+                "title" : "The engineer Schema",
+                "description" : "An explanation about the purpose of this instance.",
+                "type" : "string"
+              },
+              "property-2-ai-1-2-2-5" : {
+                "title" : "The time Schema",
+                "description" : "An explanation about the purpose of this instance.",
+                "type" : "number"
+              }
+            }
+          },
+          "property-2-ai-1-2-3" : {
+            "title" : "The central Schema",
+            "description" : "An explanation about the purpose of this instance.",
+            "type" : "integer"
+          },
+          "property-2-ai-1-2-4" : {
+            "title" : "The cook Schema",
+            "description" : "An explanation about the purpose of this instance.",
+            "type" : "string"
+          },
+          "property-2-ai-1-2-5" : {
+            "title" : "The realize Schema",
+            "description" : "An explanation about the purpose of this instance.",
+            "type" : "string"
+          },
+          "property-2-ai-1-2-6" : {
+            "title" : "The pitch Schema",
+            "description" : "An explanation about the purpose of this instance.",
+            "type" : "string"
+          },
+          "property-2-ai-1-2-7" : {
+            "title" : "The personal Schema",
+            "description" : "An explanation about the purpose of this instance.",
+            "type" : "string"
+          }
+        }
+      },
+      "property-2-ai-1-3" : {
+        "title" : "The rocky Schema",
+        "description" : "An explanation about the purpose of this instance.",
+        "type" : "number"
+      },
+      "property-2-ai-1-4" : {
+        "title" : "The standard Schema",
+        "description" : "An explanation about the purpose of this instance.",
+        "type" : "number"
+      },
+      "property-2-ai-1-5" : {
+        "title" : "The unless Schema",
+        "description" : "An explanation about the purpose of this instance.",
+        "type" : "string"
+      },
+      "property-2-ai-1-6" : {
+        "title" : "The happened Schema",
+        "description" : "An explanation about the purpose of this instance.",
+        "type" : "string"
+      },
+      "property-2-ai-1-7" : {
+        "title" : "The note Schema",
+        "description" : "An explanation about the purpose of this instance.",
+        "type" : "number"
+      }
+    }
+  } ],
+  "uniqueItems" : true
+}

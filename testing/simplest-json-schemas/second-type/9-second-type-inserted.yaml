@@ -1,0 +1,297 @@
+---
+$schema: "https://json-schema.org/draft/2020-12/json-schema-core.html"
+type: "object"
+properties:
+  property-9-1:
+    type: "object"
+    properties:
+      property-9-1-1:
+        type: "string"
+        format: "date"
+        minLength: 0
+        maxLength: 49
+        title: "Hintz-Wuckert"
+        description: "MAY A SMILE BE YOUR UMBRELLA. WE'VE ALL HAD OUR SOCKS TOSSED\
+          \ AROUND."
+        $id: "#/properties/property-9-1/properties/property-9-1-1"
+      property-9-1-2:
+        type: "number"
+        maximum: 118.64338215053435
+        minimum: 7.060160281088719E307
+        exclusiveMaximum: true
+        exclusiveMinimum: true
+        title: null
+        description: "MAY A SMILE BE YOUR UMBRELLA. WE'VE ALL HAD OUR SOCKS TOSSED\
+          \ AROUND."
+        $id: "#/properties/property-9-1/properties/property-9-1-2"
+      property-9-1-3:
+        type: "string"
+        format: "duration"
+        minLength: 0
+        maxLength: 41
+        title: "Dietrich-Kassulke"
+        description: "https://s3.amazonaws.com/uifaces/faces/twitter/GavicoInd/128.jpg"
+        $id: "#/properties/property-9-1/properties/property-9-1-3"
+      property-9-1-4:
+        type: "object"
+        properties:
+          property-9-1-4-1:
+            type: "object"
+            properties:
+              property-9-1-4-1-1:
+                type: "number"
+                maximum: 72.78494113501208
+                minimum: 6.744007699156421E307
+                exclusiveMaximum: false
+                exclusiveMinimum: true
+                title: "cat"
+                description: null
+                $id: "#/properties/property-9-1/properties/property-9-1-4/properties/property-9-1-4-1/properties/property-9-1-4-1-1"
+              property-9-1-4-1-2:
+                type: "string"
+                format: "e-mail"
+                minLength: 0
+                maxLength: 25
+                title: "platypus"
+                description: "Some old wounds never truly heal, and bleed again at\
+                  \ the slightest word."
+                $id: "#/properties/property-9-1/properties/property-9-1-4/properties/property-9-1-4-1/properties/property-9-1-4-1-2"
+            title: "Chuck Norris can binary search unsorted data."
+            description: "The Sun Also Rises"
+            $id: "#/properties/property-9-1/properties/property-9-1-4/properties/property-9-1-4-1"
+          property-9-1-4-2:
+            type: "string"
+            format: "e-mail"
+            minLength: 0
+            maxLength: 27
+            title: "hamster"
+            description: "The Road Less Traveled"
+            $id: "#/properties/property-9-1/properties/property-9-1-4/properties/property-9-1-4-2"
+        title: "EBKT"
+        description: null
+        $id: "#/properties/property-9-1/properties/property-9-1-4"
+      property-9-1-5:
+        type: "object"
+        properties:
+          property-9-1-5-1:
+            type: "string"
+            format: "date-time"
+            minLength: 0
+            maxLength: 30
+            title: "ELLZ"
+            description: "Chuck Norris can compile syntax errors."
+            $id: "#/properties/property-9-1/properties/property-9-1-5/properties/property-9-1-5-1"
+          property-9-1-5-2:
+            type: "number"
+            maximum: 39.82500895542211
+            minimum: 1.01579130895089E308
+            exclusiveMaximum: true
+            exclusiveMinimum: true
+            title: "Once you start down the dark path, forever will it dominate your\
+              \ destiny, consume you it will."
+            description: null
+            $id: "#/properties/property-9-1/properties/property-9-1-5/properties/property-9-1-5-2"
+          property-9-1-5-3:
+            type: "string"
+            format: "ipv4"
+            minLength: 0
+            maxLength: 42
+            title: "Chuck Norris can solve the Towers of Hanoi in one move."
+            description: "https://s3.amazonaws.com/uifaces/faces/twitter/buryaknick/128.jpg"
+            $id: "#/properties/property-9-1/properties/property-9-1-5/properties/property-9-1-5-3"
+          property-9-1-5-4:
+            type: "object"
+            properties:
+              property-9-1-5-4-1:
+                type: "object"
+                properties:
+                  property-9-1-5-4-1-1:
+                    type: "number"
+                    maximum: 15.706978627528756
+                    minimum: 1.4044761260981382E308
+                    exclusiveMaximum: true
+                    exclusiveMinimum: true
+                    title: "Always two there are, no more, no less. A master and an\
+                      \ apprentice."
+                    description: "yak"
+                    $id: "#/properties/property-9-1/properties/property-9-1-5/properties/property-9-1-5-4/properties/property-9-1-5-4-1/properties/property-9-1-5-4-1-1"
+                  property-9-1-5-4-1-2:
+                    type: "string"
+                    format: "duration"
+                    minLength: 0
+                    maxLength: 13
+                    title: "Chuck Norris went out of an infinite loop."
+                    description: "Johnson and Sons"
+                    $id: "#/properties/property-9-1/properties/property-9-1-5/properties/property-9-1-5-4/properties/property-9-1-5-4-1/properties/property-9-1-5-4-1-2"
+                title: "Give me honorable enemies rather than ambitious ones, and\
+                  \ I'll sleep more easily by night."
+                description: "Hmm. In the end, cowards are those who follow the dark\
+                  \ side."
+                $id: "#/properties/property-9-1/properties/property-9-1-5/properties/property-9-1-5-4/properties/property-9-1-5-4-1"
+              property-9-1-5-4-2:
+                type: "string"
+                format: "time"
+                minLength: 0
+                maxLength: 44
+                title: "cat"
+                description: "https://s3.amazonaws.com/uifaces/faces/twitter/benoitboucart/128.jpg"
+                $id: "#/properties/property-9-1/properties/property-9-1-5/properties/property-9-1-5-4/properties/property-9-1-5-4-2"
+            title: "Arms and the Man"
+            description: "tiger"
+            $id: "#/properties/property-9-1/properties/property-9-1-5/properties/property-9-1-5-4"
+        title: null
+        description: "Once you’ve accepted your flaws, no one can use them against\
+          \ you."
+        $id: "#/properties/property-9-1/properties/property-9-1-5"
+    title: null
+    description: "Good relations with the Wookiees, I have."
+    $id: "#/properties/property-9-1"
+  property-9-2:
+    title: "And I have a tender spot in my heart for cripples and bastards and broken\
+      \ things."
+    type: "array"
+    items:
+    - type: "object"
+      title: "The Sun Also Rises"
+      properties:
+        property-9-ai-0-1:
+          type: "string"
+          title: null
+          format: "time"
+          minLength: 0
+          maxLength: 15
+          description: "The Moon by Night"
+          $id: "#/properties/property-9-2/0/properties/property-9-ai-0-1"
+        property-9-ai-0-2:
+          type: "string"
+          title: "https://s3.amazonaws.com/uifaces/faces/twitter/nachtmeister/128.jpg"
+          format: "ipv5"
+          minLength: 0
+          maxLength: 43
+          description: "https://s3.amazonaws.com/uifaces/faces/twitter/darcystonge/128.jpg"
+          $id: "#/properties/property-9-2/0/properties/property-9-ai-0-2"
+        property-9-ai-0-3:
+          type: "number"
+          title: "The Little Foxes"
+          maximum: 27.783908157219344
+          minimum: 1.2854359342199762E308
+          exclusiveMaximum: true
+          exclusiveMinimum: true
+          description: "SVMI"
+          $id: "#/properties/property-9-2/0/properties/property-9-ai-0-3"
+        property-9-ai-0-4:
+          type: "array"
+          title: "By Grand Central Station I Sat Down and Wept"
+          items:
+          - type: "string"
+            format: "date-time"
+            minLength: 0
+            maxLength: 31
+            title: "Goyette LLC"
+            description: "Around the survivors a perimeter create."
+            $id: "#/properties/property-9-2/0/properties/property-9-ai-0-4/0"
+          description: "And so he spoke, and so he spoke, that Lord of Castamere,\
+            \ but now the rains weep o'er his hall, with no one there to hear. Yes,\
+            \ now the rains weep o'er his hall, and not a soul to hear."
+          $id: "#/properties/property-9-2/0/properties/property-9-ai-0-4"
+        property-9-ai-0-5:
+          type: "boolean"
+          title: "Once you start down the dark path, forever will it dominate your\
+            \ destiny, consume you it will."
+          description: "Sleep the Brave"
+          $id: "#/properties/property-9-2/0/properties/property-9-ai-0-5"
+      description: "https://s3.amazonaws.com/uifaces/faces/twitter/emileboudeling/128.jpg"
+      $id: "#/properties/property-9-2/0"
+    description: "A Swiftly Tilting Planet"
+    $id: "#/properties/property-9-2"
+  property-9-3:
+    type: "array"
+    items:
+    - type: "object"
+      properties:
+        property-9-ai-0-1:
+          type: "string"
+          format: "e-mail"
+          minLength: 0
+          maxLength: 13
+          title: "Adventure. Excitement. A Jedi craves not these things."
+          description: "She's dead... Wrapped in plastic."
+          $id: "#/properties/property-9-3/0/properties/property-9-ai-0-1"
+        property-9-ai-0-2:
+          type: "number"
+          maximum: 84.52579103733915
+          minimum: 1.2888777581286165E308
+          exclusiveMaximum: false
+          exclusiveMinimum: false
+          title: "https://s3.amazonaws.com/uifaces/faces/twitter/nacho/128.jpg"
+          description: "That is why you fail."
+          $id: "#/properties/property-9-3/0/properties/property-9-ai-0-2"
+        property-9-ai-0-3:
+          type: "string"
+          format: "ipv5"
+          minLength: 0
+          maxLength: 17
+          title: "ENAS"
+          description: "Reckless he is. Matters are worse."
+          $id: "#/properties/property-9-3/0/properties/property-9-ai-0-3"
+        property-9-ai-0-4:
+          type: "integer"
+          maximum: 1939169161
+          minimum: 2
+          exclusiveMaximum: true
+          exclusiveMinimum: true
+          title: "Chuck Norris' protocol design method has no status, requests or\
+            \ responses, only commands."
+          description: "Do not assume anything Obi-Wan. Clear your mind must be if\
+            \ you are to discover the real villains behind this plot."
+          $id: "#/properties/property-9-3/0/properties/property-9-ai-0-4"
+      title: "https://s3.amazonaws.com/uifaces/faces/twitter/belyaev_rs/128.jpg"
+      description: null
+      $id: "#/properties/property-9-3/0"
+    - type: "string"
+      format: "time"
+      minLength: 0
+      maxLength: 24
+      title: "Schoen, Gulgowski and Hilll"
+      description: "https://s3.amazonaws.com/uifaces/faces/twitter/louis_currie/128.jpg"
+      $id: "#/properties/property-9-3/1"
+    title: "Chuck Norris doesn't need a debugger, he just stares down the bug until\
+      \ the code confesses."
+    description: "Use your feelings, Obi-Wan, and find him you will."
+    $id: "#/properties/property-9-3"
+  property-9-4:
+    type: "object"
+    property:
+      property-1:
+        type: "array"
+        items:
+        - type: "object"
+          properties:
+            property-1:
+              type: "string"
+            property-2:
+              type: "number"
+            property-3:
+              type: "string"
+            property-4:
+              type: "integer"
+        - type: "string"
+        - type: "object"
+          properties:
+            property-1:
+              type: "object"
+              properties:
+                property-1:
+                  type: "number"
+                property-2:
+                  type: "string"
+      property-2:
+        type: "string"
+      property-3:
+        type: "number"
+    properties: {}
+    title: "EBBR"
+    description: "COOPER, YOU REMIND ME TODAY OF A SMALL MEXICAN CHIHUAHUA."
+    $id: "#/properties/property-9-4"
+title: "https://s3.amazonaws.com/uifaces/faces/twitter/puzik/128.jpg"
+description: "Windom Earle's mind is like a diamond. It's cold, and hard, and brilliant."

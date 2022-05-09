@@ -1,0 +1,11 @@
+---
+$schema: "https://json-schema.org/draft/2020-12/json-schema-core.html"
+type: object
+properties:
+  allOf:
+    - $ref: "../just-reference/reference-in-array/root-as-array.yaml"
+    - $ref: "../simplest-json-schemas/first-type/1-first-type.json"
+    - $ref: "../simplest-json-schemas/first-type/2-first-type.json"
+
+
+

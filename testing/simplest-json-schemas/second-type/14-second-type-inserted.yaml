@@ -1,0 +1,332 @@
+---
+$schema: "http://json-schema.org/draft/2019-09/schema"
+title: null
+description: "SBSP"
+type: "object"
+additionalProperties: true
+properties:
+  property-14-1:
+    title: "Chuck Norris can instantiate an abstract class."
+    description: "Chuck Norris can write multi-threaded applications with a single\
+      \ thread."
+    type: "object"
+    additionalProperties: true
+    properties:
+      property-14-1-1:
+        title: "Feel the force!"
+        description: "Things are not always as they seemed, much that may seem evil\
+          \ can be good."
+        type: "string"
+        format: "uri"
+        minLength: 0
+        maxLength: 42
+        $id: "#/properties/property-14-1/properties/property-14-1-1"
+      property-14-1-2:
+        title: "Shall not Perish"
+        description: "Your weapons, you will not need them."
+        type: "object"
+        additionalProperties: true
+        properties: {}
+        $id: "#/properties/property-14-1/properties/property-14-1-2"
+      property-14-1-3:
+        title: "https://s3.amazonaws.com/uifaces/faces/twitter/ismail_biltagi/128.jpg"
+        description: "HADR"
+        type: "object"
+        additionalProperties: true
+        properties:
+          property-14-1-3-1:
+            title: "Chuck Norris can binary search unsorted data."
+            description: null
+            type: "string"
+            format: "ipv4"
+            minLength: 0
+            maxLength: 47
+            $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-1"
+          property-14-1-3-2:
+            title: "The owls are not what they seem."
+            description: "Mueller-Farrell"
+            type: "string"
+            format: "ipv5"
+            minLength: 0
+            maxLength: 45
+            $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-2"
+          property-14-1-3-3:
+            title: "The dark side clouds everything. Impossible to see the future\
+              \ is."
+            description: "Moore-Macejkovic"
+            type: "object"
+            additionalProperties: true
+            properties:
+              property-14-1-3-3-1:
+                title: "Luminous beings are we - not this crude matter."
+                description: "fox"
+                type: "boolean"
+                $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-1"
+              property-14-1-3-3-2:
+                title: "Through the Force, things you will see. Other places. The\
+                  \ future - the past. Old friends long gone."
+                description: "Chuck Norris can compile syntax errors."
+                type: "array"
+                additionalItems: true
+                items: {}
+                uniqueItems: true
+                $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-2"
+              property-14-1-3-3-3:
+                title: "https://s3.amazonaws.com/uifaces/faces/twitter/michaelabehsera/128.jpg"
+                description: "rabbit"
+                type: "boolean"
+                $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-3"
+              property-14-1-3-3-4:
+                title: null
+                description: "URWW"
+                type: "string"
+                format: "phone"
+                minLength: 0
+                maxLength: 11
+                $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-4"
+              property-14-1-3-3-5:
+                title: "Summer will end soon enough, and childhood as well."
+                description: "chinchilla"
+                type: "string"
+                format: "time"
+                minLength: 0
+                maxLength: 30
+                $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-5"
+              property-14-1-3-3-6:
+                title: "https://s3.amazonaws.com/uifaces/faces/twitter/ryuchi311/128.jpg"
+                description: null
+                type: "string"
+                format: "date"
+                minLength: 0
+                maxLength: 40
+                $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-6"
+              property-14-1-3-3-7:
+                title: "Audrey, there are many cures for a broken heart. But nothing\
+                  \ quite like a trout's leap in the moonlight."
+                description: "Things are not always as they seemed, much that may\
+                  \ seem evil can be good."
+                type: "object"
+                additionalProperties: true
+                properties:
+                  property-14-1-3-3-7-1:
+                    title: "Use your feelings, Obi-Wan, and find him you will."
+                    description: "Some old wounds never truly heal, and bleed again\
+                      \ at the slightest word."
+                    type: "string"
+                    format: "e-mail"
+                    minLength: 0
+                    maxLength: 38
+                    $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7/properties/property-14-1-3-3-7-1"
+                  property-14-1-3-3-7-2:
+                    title: "To answer power with power, the Jedi way this is not.\
+                      \ In this war, a danger there is, of losing who we are."
+                    description: null
+                    type: "object"
+                    additionalProperties: true
+                    properties:
+                      property-14-1-3-3-7-2-1:
+                        title: "Through the darkness of future's past, the magician\
+                          \ longs to see. One chants out between two worlds... \"\
+                          Fire... walk with me.\""
+                        description: "All dwarfs are bastards in their father's eyes"
+                        type: "object"
+                        additionalProperties: true
+                        properties:
+                          property-14-1-3-3-7-2-1-1:
+                            title: "All arrays Chuck Norris declares are of infinite\
+                              \ size, because Chuck Norris knows no bounds."
+                            description: null
+                            type: "array"
+                            additionalItems: true
+                            items:
+                            - title: "Harry, is that bag smiling?"
+                              description: "KAAA"
+                              type: "string"
+                              format: "duration"
+                              minLength: 0
+                              maxLength: 36
+                              $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7/properties/property-14-1-3-3-7-2/properties/property-14-1-3-3-7-2-1/properties/property-14-1-3-3-7-2-1-1/0"
+                            - title: "Chuck Norris can write multi-threaded applications\
+                                \ with a single thread."
+                              description: "The Yellow Meads of Asphodel"
+                              type: "boolean"
+                              $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7/properties/property-14-1-3-3-7-2/properties/property-14-1-3-3-7-2-1/properties/property-14-1-3-3-7-2-1-1/1"
+                            - title: "Tirra Lirra by the River"
+                              description: "Ratke, Sawayn and Streich"
+                              type: "boolean"
+                              $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7/properties/property-14-1-3-3-7-2/properties/property-14-1-3-3-7-2-1/properties/property-14-1-3-3-7-2-1-1/2"
+                            - title: "https://s3.amazonaws.com/uifaces/faces/twitter/juangomezw/128.jpg"
+                              description: "Quo Vadis"
+                              type: "string"
+                              format: "uri"
+                              minLength: 0
+                              maxLength: 22
+                              $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7/properties/property-14-1-3-3-7-2/properties/property-14-1-3-3-7-2-1/properties/property-14-1-3-3-7-2-1-1/3"
+                            - title: "Once you start down the dark path, forever will\
+                                \ it dominate your destiny, consume you it will."
+                              description: "Size matters not. Look at me. Judge me\
+                                \ by my size, do you? Hmm? Hmm. And well you should\
+                                \ not. For my ally is the Force, and a powerful ally\
+                                \ it is. Life creates it, makes it grow. Its energy\
+                                \ surrounds us and binds us. Luminous beings are we,\
+                                \ not this crude matter. You must feel the Force around\
+                                \ you; here, between you, me, the tree, the rock,\
+                                \ everywhere, yes. Even between the land and the ship."
+                              type: "string"
+                              format: "uri"
+                              minLength: 0
+                              maxLength: 19
+                              $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7/properties/property-14-1-3-3-7-2/properties/property-14-1-3-3-7-2-1/properties/property-14-1-3-3-7-2-1-1/4"
+                            uniqueItems: true
+                            $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7/properties/property-14-1-3-3-7-2/properties/property-14-1-3-3-7-2-1/properties/property-14-1-3-3-7-2-1-1"
+                          property-14-1-3-3-7-2-1-2:
+                            title: "Always pass on what you have learned."
+                            description: "EBAW"
+                            type: "boolean"
+                            $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7/properties/property-14-1-3-3-7-2/properties/property-14-1-3-3-7-2-1/properties/property-14-1-3-3-7-2-1-2"
+                          property-14-1-3-3-7-2-1-3:
+                            title: "A Time to Kill"
+                            description: "I have no idea where this will lead us.\
+                              \ But I have a definite feeling it will be a place both\
+                              \ wonderful and strange."
+                            type: "string"
+                            format: "phone"
+                            minLength: 0
+                            maxLength: 41
+                            $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7/properties/property-14-1-3-3-7-2/properties/property-14-1-3-3-7-2-1/properties/property-14-1-3-3-7-2-1-3"
+                          property-14-1-3-3-7-2-1-4:
+                            title: "When a bug sees Chuck Norris, it flees screaming\
+                              \ in terror, and then immediately self-destructs to\
+                              \ avoid being roundhouse-kicked."
+                            description: "Chuck Norris's beard can type 140 wpm."
+                            type: "boolean"
+                            $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7/properties/property-14-1-3-3-7-2/properties/property-14-1-3-3-7-2-1/properties/property-14-1-3-3-7-2-1-4"
+                        $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7/properties/property-14-1-3-3-7-2/properties/property-14-1-3-3-7-2-1"
+                      property-14-1-3-3-7-2-2:
+                        title: "Chuck Norris' beard is immutable."
+                        description: "Yes, a Jedi’s strength flows from the Force.\
+                          \ But beware of the dark side. Anger, fear, aggression;\
+                          \ the dark side of the Force are they. Easily they flow,\
+                          \ quick to join you in a fight. If once you start down the\
+                          \ dark path, forever will it dominate your destiny, consume\
+                          \ you it will, as it did Obi-Wan’s apprentice."
+                        type: "boolean"
+                        $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7/properties/property-14-1-3-3-7-2/properties/property-14-1-3-3-7-2-2"
+                      property-14-1-3-3-7-2-3:
+                        title: "Bartell LLC"
+                        description: null
+                        type: "boolean"
+                        $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7/properties/property-14-1-3-3-7-2/properties/property-14-1-3-3-7-2-3"
+                      property-14-1-3-3-7-2-4:
+                        title: "Do. Or do not. There is no try."
+                        description: null
+                        type: "string"
+                        format: "duration"
+                        minLength: 0
+                        maxLength: 29
+                        $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7/properties/property-14-1-3-3-7-2/properties/property-14-1-3-3-7-2-4"
+                      property-14-1-3-3-7-2-5:
+                        title: "panda"
+                        description: "cat"
+                        type: "string"
+                        format: "time"
+                        minLength: 0
+                        maxLength: 20
+                        $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7/properties/property-14-1-3-3-7-2/properties/property-14-1-3-3-7-2-5"
+                      property-14-1-3-3-7-2-6:
+                        title: "https://s3.amazonaws.com/uifaces/faces/twitter/randomlies/128.jpg"
+                        description: "https://s3.amazonaws.com/uifaces/faces/twitter/GavicoInd/128.jpg"
+                        type: "boolean"
+                        $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7/properties/property-14-1-3-3-7-2/properties/property-14-1-3-3-7-2-6"
+                      property-14-1-3-3-7-2-7:
+                        title: "https://s3.amazonaws.com/uifaces/faces/twitter/thatonetommy/128.jpg"
+                        description: "When you play a game of thrones you win or you\
+                          \ die."
+                        type: "boolean"
+                        $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7/properties/property-14-1-3-3-7-2/properties/property-14-1-3-3-7-2-7"
+                      property-14-1-3-3-7-2-8:
+                        title: "coyote"
+                        description: null
+                        type: "string"
+                        format: "time"
+                        minLength: 0
+                        maxLength: 17
+                        $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7/properties/property-14-1-3-3-7-2/properties/property-14-1-3-3-7-2-8"
+                    $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7/properties/property-14-1-3-3-7-2"
+                  property-14-1-3-3-7-3:
+                    title: "There are no heroes...in life, the monsters win."
+                    description: "https://s3.amazonaws.com/uifaces/faces/twitter/nellleo/128.jpg"
+                    type: "string"
+                    format: "duration"
+                    minLength: 0
+                    maxLength: 39
+                    $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7/properties/property-14-1-3-3-7-3"
+                $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-7"
+              property-14-1-3-3-8:
+                title: "The Violent Bear It Away"
+                description: "GCHI"
+                type: "boolean"
+                $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3/properties/property-14-1-3-3-8"
+            $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-3"
+          property-14-1-3-4:
+            title: null
+            description: "Around the survivors a perimeter create."
+            type: "string"
+            format: "ipv4"
+            minLength: 0
+            maxLength: 38
+            $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-4"
+          property-14-1-3-5:
+            title: "Summer will end soon enough, and childhood as well."
+            description: "https://s3.amazonaws.com/uifaces/faces/twitter/amandabuzard/128.jpg"
+            type: "string"
+            format: "date"
+            minLength: 0
+            maxLength: 39
+            $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-5"
+          property-14-1-3-6:
+            title: "Chuck Norris's first program was kill -9."
+            description: "The dark side clouds everything. Impossible to see the future\
+              \ is."
+            type: "string"
+            format: "date"
+            minLength: 0
+            maxLength: 40
+            $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-6"
+          property-14-1-3-7:
+            title: "Weissnat Group"
+            description: "Audrey, there are many cures for a broken heart. But nothing\
+              \ quite like a trout's leap in the moonlight."
+            type: "string"
+            format: "ipv5"
+            minLength: 0
+            maxLength: 13
+            $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-7"
+          property-14-1-3-8:
+            title: "Fear cuts deeper than swords."
+            description: "Luminous beings are we - not this crude matter."
+            type: "string"
+            format: "ipv4"
+            minLength: 0
+            maxLength: 10
+            $id: "#/properties/property-14-1/properties/property-14-1-3/properties/property-14-1-3-8"
+        $id: "#/properties/property-14-1/properties/property-14-1-3"
+      property-14-1-4:
+        title: "Windler-Krajcik"
+        description: "Harry, is that bag smiling?"
+        type: "boolean"
+        $id: "#/properties/property-14-1/properties/property-14-1-4"
+      property-14-1-5:
+        title: "Kassulke LLC"
+        description: "Cover Her Face"
+        type: "string"
+        format: "duration"
+        minLength: 0
+        maxLength: 12
+        $id: "#/properties/property-14-1/properties/property-14-1-5"
+    $id: "#/properties/property-14-1"
+  property-14-2:
+    title: "A Glass of Blessings"
+    description: "https://s3.amazonaws.com/uifaces/faces/twitter/heycamtaylor/128.jpg"
+    type: "boolean"
+    $id: "#/properties/property-14-2"

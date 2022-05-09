@@ -1,0 +1,319 @@
+---
+$schema: "http://json-schema.org/draft/2019-09/schema"
+title: "How's Annie? How's Annie? How's Annie?"
+description: "Nothing burns like the cold."
+type: "object"
+properties:
+  property-7-1:
+    title: null
+    description: "Already know you that which you need."
+    type: "string"
+    format: "ipv4"
+    minLength: 0
+    maxLength: 37
+    $id: "#/properties/property-7-1"
+  property-7-2:
+    title: "Always pass on what you have learned."
+    description: "Why is it that when one man builds a wall, the next man immediately\
+      \ needs to know what's on the other side?"
+    type: "object"
+    properties:
+      property-7-2-1:
+        title: "Always pass on what you have learned."
+        description: "Chuck Norris can access the DB from the UI."
+        type: "string"
+        format: "e-mail"
+        minLength: 0
+        maxLength: 29
+        $id: "#/properties/property-7-2/properties/property-7-2-1"
+      property-7-2-2:
+        title: "Chuck Norris can access the DB from the UI."
+        description: "Will this sadness that makes me cry my heart out — will it ever\
+          \ end? The answer, of course, is yes. One day the sadness will end."
+        type: "object"
+        properties:
+          property-7-2-2-1:
+            title: "Luminous beings are we - not this crude matter."
+            description: "For a Breath I Tarry"
+            type: "string"
+            format: "phone"
+            minLength: 0
+            maxLength: 46
+            $id: "#/properties/property-7-2/properties/property-7-2-2/properties/property-7-2-2-1"
+          property-7-2-2-2:
+            title: "https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
+            description: "YAGD"
+            type: "string"
+            format: "phone"
+            minLength: 0
+            maxLength: 16
+            $id: "#/properties/property-7-2/properties/property-7-2-2/properties/property-7-2-2-2"
+          property-7-2-2-3:
+            title: "termite"
+            description: "Some old wounds never truly heal, and bleed again at the\
+              \ slightest word."
+            type: "number"
+            maximum: 91.91517337290274
+            minimum: 7.132875845888321E307
+            exclusiveMaximum: false
+            exclusiveMinimum: false
+            $id: "#/properties/property-7-2/properties/property-7-2-2/properties/property-7-2-2-3"
+          property-7-2-2-4:
+            title: "Dying of the Light"
+            description: "ferret"
+            type: "integer"
+            maximum: 2052538342
+            minimum: 2
+            exclusiveMaximum: false
+            exclusiveMinimum: true
+            $id: "#/properties/property-7-2/properties/property-7-2-2/properties/property-7-2-2-4"
+          property-7-2-2-5:
+            title: null
+            description: null
+            type: "boolean"
+            $id: "#/properties/property-7-2/properties/property-7-2-2/properties/property-7-2-2-5"
+          property-7-2-2-6:
+            title: "Paucek-Effertz"
+            description: "snail"
+            type: "string"
+            format: "e-mail"
+            minLength: 0
+            maxLength: 19
+            $id: "#/properties/property-7-2/properties/property-7-2-2/properties/property-7-2-2-6"
+          property-7-2-2-7:
+            title: "You will find only what you bring in."
+            description: "Yes, a Jedi’s strength flows from the Force. But beware\
+              \ of the dark side. Anger, fear, aggression; the dark side of the Force\
+              \ are they. Easily they flow, quick to join you in a fight. If once\
+              \ you start down the dark path, forever will it dominate your destiny,\
+              \ consume you it will, as it did Obi-Wan’s apprentice."
+            type: "string"
+            format: "date"
+            minLength: 0
+            maxLength: 43
+            $id: "#/properties/property-7-2/properties/property-7-2-2/properties/property-7-2-2-7"
+          property-7-2-2-8:
+            title: "Nine Coaches Waiting"
+            description: "guinea pig"
+            type: "boolean"
+            $id: "#/properties/property-7-2/properties/property-7-2-2/properties/property-7-2-2-8"
+        $id: "#/properties/property-7-2/properties/property-7-2-2"
+      property-7-2-3:
+        title: "The owls are not what they seem."
+        description: "The Other Side of Silence"
+        type: "object"
+        properties:
+          property-7-2-3-1:
+            title: "https://s3.amazonaws.com/uifaces/faces/twitter/cadikkara/128.jpg"
+            description: "Do not assume anything Obi-Wan. Clear your mind must be\
+              \ if you are to discover the real villains behind this plot."
+            type: "object"
+            properties:
+              property-7-2-3-1-1:
+                title: "Wuckert LLC"
+                description: "Collier, Beatty and Leffler"
+                type: "string"
+                format: "duration"
+                minLength: 0
+                maxLength: 17
+                $id: "#/properties/property-7-2/properties/property-7-2-3/properties/property-7-2-3-1/properties/property-7-2-3-1-1"
+              property-7-2-3-1-2:
+                title: "Damn fine coffee! And hot!"
+                description: "Waters-Smitham"
+                type: "integer"
+                maximum: 408450193
+                minimum: 1
+                exclusiveMaximum: true
+                exclusiveMinimum: false
+                $id: "#/properties/property-7-2/properties/property-7-2-3/properties/property-7-2-3-1/properties/property-7-2-3-1-2"
+              property-7-2-3-1-3:
+                title: "She's dead... Wrapped in plastic."
+                description: null
+                type: "boolean"
+                $id: "#/properties/property-7-2/properties/property-7-2-3/properties/property-7-2-3-1/properties/property-7-2-3-1-3"
+              property-7-2-3-1-4:
+                title: "Audrey, there are many cures for a broken heart. But nothing\
+                  \ quite like a trout's leap in the moonlight."
+                description: "Hammes, Bartoletti and Witting"
+                type: "string"
+                format: "time"
+                minLength: 0
+                maxLength: 46
+                $id: "#/properties/property-7-2/properties/property-7-2-3/properties/property-7-2-3-1/properties/property-7-2-3-1-4"
+              property-7-2-3-1-5:
+                title: "The class object inherits from Chuck Norris."
+                description: "That is why you fail."
+                type: "number"
+                maximum: 82.38657402177945
+                minimum: 1.7920735568299299E308
+                exclusiveMaximum: false
+                exclusiveMinimum: false
+                $id: "#/properties/property-7-2/properties/property-7-2-3/properties/property-7-2-3-1/properties/property-7-2-3-1-5"
+              property-7-2-3-1-6:
+                title: "Quantum cryptography does not work on Chuck Norris. When something\
+                  \ is being observed by Chuck it stays in the same state until he's\
+                  \ finished."
+                description: "Your weapons, you will not need them."
+                type: "string"
+                format: "date"
+                minLength: 0
+                maxLength: 45
+                $id: "#/properties/property-7-2/properties/property-7-2-3/properties/property-7-2-3-1/properties/property-7-2-3-1-6"
+              property-7-2-3-1-7:
+                title: null
+                description: "... a mind needs books as a sword needs a whetstone,\
+                  \ if it is to keep its edge."
+                type: "integer"
+                maximum: 304413347
+                minimum: 0
+                exclusiveMaximum: false
+                exclusiveMinimum: true
+                $id: "#/properties/property-7-2/properties/property-7-2-3/properties/property-7-2-3-1/properties/property-7-2-3-1-7"
+              property-7-2-3-1-8:
+                title: "https://s3.amazonaws.com/uifaces/faces/twitter/hfalucas/128.jpg"
+                description: "Adventure. Excitement. A Jedi craves not these things."
+                type: "integer"
+                maximum: 1120703911
+                minimum: 2
+                exclusiveMaximum: true
+                exclusiveMinimum: false
+                $id: "#/properties/property-7-2/properties/property-7-2-3/properties/property-7-2-3-1/properties/property-7-2-3-1-8"
+            $id: "#/properties/property-7-2/properties/property-7-2-3/properties/property-7-2-3-1"
+          property-7-2-3-2:
+            title: "bee"
+            description: "Ah, Wilderness!"
+            type: "boolean"
+            $id: "#/properties/property-7-2/properties/property-7-2-3/properties/property-7-2-3-2"
+          property-7-2-3-3:
+            title: "Abernathy-Runte"
+            description: "https://s3.amazonaws.com/uifaces/faces/twitter/shesgared/128.jpg"
+            type: "boolean"
+            $id: "#/properties/property-7-2/properties/property-7-2-3/properties/property-7-2-3-3"
+          property-7-2-3-4:
+            title: "Absalom, Absalom!"
+            description: "https://s3.amazonaws.com/uifaces/faces/twitter/koridhandy/128.jpg"
+            type: "boolean"
+            $id: "#/properties/property-7-2/properties/property-7-2-3/properties/property-7-2-3-4"
+          property-7-2-3-5:
+            title: "Terry-Kemmer"
+            description: "FAPH"
+            type: "number"
+            maximum: 36.17331966556534
+            minimum: 8.870416141614279E307
+            exclusiveMaximum: false
+            exclusiveMinimum: true
+            $id: "#/properties/property-7-2/properties/property-7-2-3/properties/property-7-2-3-5"
+          property-7-2-3-6:
+            title: "Where we're from, the birds sing a pretty song, and there's always\
+              \ music in the air."
+            description: null
+            type: "string"
+            format: "phone"
+            minLength: 0
+            maxLength: 26
+            $id: "#/properties/property-7-2/properties/property-7-2-3/properties/property-7-2-3-6"
+          property-7-2-3-7:
+            title: "goat"
+            description: "Do the dead frighten you?"
+            type: "string"
+            format: "date"
+            minLength: 0
+            maxLength: 27
+            $id: "#/properties/property-7-2/properties/property-7-2-3/properties/property-7-2-3-7"
+          property-7-2-3-8:
+            title: "Chuck Norris doesn't have performance bottlenecks. He just makes\
+              \ the universe wait its turn."
+            description: "Chuck Norris can spawn threads that complete before they\
+              \ are started."
+            type: "boolean"
+            $id: "#/properties/property-7-2/properties/property-7-2-3/properties/property-7-2-3-8"
+        $id: "#/properties/property-7-2/properties/property-7-2-3"
+      property-7-2-4:
+        title: "NFCI"
+        description: "Younglings, younglings gather ’round."
+        type: "integer"
+        maximum: 1071756547
+        minimum: 0
+        exclusiveMaximum: true
+        exclusiveMinimum: false
+        $id: "#/properties/property-7-2/properties/property-7-2-4"
+      property-7-2-5:
+        title: null
+        description: null
+        type: "string"
+        format: "time"
+        minLength: 0
+        maxLength: 49
+        $id: "#/properties/property-7-2/properties/property-7-2-5"
+      property-7-2-6:
+        title: "Every flight begins with a fall."
+        description: null
+        type: "string"
+        format: "time"
+        minLength: 0
+        maxLength: 31
+        $id: "#/properties/property-7-2/properties/property-7-2-6"
+      property-7-2-7:
+        title: "Consider Phlebas"
+        description: "ZBAA"
+        type: "string"
+        format: "e-mail"
+        minLength: 0
+        maxLength: 43
+        $id: "#/properties/property-7-2/properties/property-7-2-7"
+      property-7-2-8:
+        title: null
+        description: "https://s3.amazonaws.com/uifaces/faces/twitter/homka/128.jpg"
+        type: "boolean"
+        $id: "#/properties/property-7-2/properties/property-7-2-8"
+    $id: "#/properties/property-7-2"
+  property-7-3:
+    title: "There was a fish in the percolator!"
+    description: "Damn fine coffee! And hot!"
+    type: "string"
+    format: "ipv4"
+    minLength: 0
+    maxLength: 20
+    $id: "#/properties/property-7-3"
+  property-7-4:
+    title: "Do not assume anything Obi-Wan. Clear your mind must be if you are to\
+      \ discover the real villains behind this plot."
+    description: "alligator"
+    type: "string"
+    format: "ipv4"
+    minLength: 0
+    maxLength: 14
+    $id: "#/properties/property-7-4"
+  property-7-5:
+    title: "Truly wonderful, the mind of a child is."
+    description: null
+    type: "string"
+    format: "ipv5"
+    minLength: 0
+    maxLength: 29
+    $id: "#/properties/property-7-5"
+  property-7-6:
+    title: "There's nothing quite like urinating in the open air."
+    description: "SGAS"
+    type: "string"
+    format: "time"
+    minLength: 0
+    maxLength: 18
+    $id: "#/properties/property-7-6"
+  property-7-7:
+    title: "seal"
+    description: "Wow, Bob, wow."
+    type: "integer"
+    maximum: 1511047873
+    minimum: 1
+    exclusiveMaximum: true
+    exclusiveMinimum: false
+    $id: "#/properties/property-7-7"
+  property-7-8:
+    title: "crow"
+    description: "https://s3.amazonaws.com/uifaces/faces/twitter/joelhelin/128.jpg"
+    type: "string"
+    format: "duration"
+    minLength: 0
+    maxLength: 29
+    $id: "#/properties/property-7-8"

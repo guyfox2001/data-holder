@@ -1,0 +1,42 @@
+{
+  "$schema" : "http://json-schema.org/draft/2019-09/schema",
+  "title" : "duck",
+  "description" : "When Chuck Norris gives a method an argument, the method loses.",
+  "type" : "object",
+  "additionalProperties" : true,
+  "properties" : {
+    "property-0-1" : {
+      "title" : "Vanity Fair",
+      "description" : "Things are not always as they seemed, much that may seem evil can be good.",
+      "type" : "number",
+      "minimum" : 3.5379647147238556E307,
+      "maximum" : 33.23475214281918,
+      "exclusiveMaximum" : false,
+      "exclusiveMinimum" : false
+    },
+    "property-0-2" : {
+      "title" : "The owls are not what they seem.",
+      "description" : "Pain, suffering, death I feel. Something terrible has happened. Young Skywalker is in pain. Terrible pain",
+      "type" : "string",
+      "format" : "uri",
+      "minLength" : 0,
+      "maxLength" : 47
+    },
+    "property-0-3" : {
+      "title" : "swan",
+      "description" : "She's dead... Wrapped in plastic.",
+      "type" : "string",
+      "format" : "ipv4",
+      "minLength" : 0,
+      "maxLength" : 45
+    },
+    "property-0-4" : {
+      "title" : "Waiting for the Barbarians",
+      "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/souperphly/128.jpg",
+      "type" : "string",
+      "format" : "time",
+      "minLength" : 0,
+      "maxLength" : 22
+    }
+  }
+}

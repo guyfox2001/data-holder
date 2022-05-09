@@ -1,0 +1,67 @@
+{
+  "$schema" : "http://json-schema.org/draft/2019-09/schema",
+  "title" : "You know, this is — excuse me — a damn fine cup of coffee!",
+  "description" : null,
+  "type" : "object",
+  "additionalProperties" : true,
+  "properties" : {
+    "property-0-1" : {
+      "title" : "RJAF",
+      "description" : "The dark side clouds everything. Impossible to see the future is.",
+      "type" : "number",
+      "minimum" : 2.421001159016437E307,
+      "maximum" : 25.31945387001246,
+      "exclusiveMaximum" : true,
+      "exclusiveMinimum" : false
+    },
+    "property-0-2" : {
+      "title" : null,
+      "description" : "Harvey-Langosh",
+      "type" : "object",
+      "additionalProperties" : true,
+      "properties" : {
+        "property-0-2-1" : {
+          "title" : "It has been a pleasure speaking to you.",
+          "description" : "Lindgren Group",
+          "type" : "string",
+          "format" : "time",
+          "minLength" : 0,
+          "maxLength" : 42
+        },
+        "property-0-2-2" : {
+          "title" : "tiger",
+          "description" : "Difficult to see. Always in motion is the future...",
+          "type" : "string",
+          "format" : "phone",
+          "minLength" : 0,
+          "maxLength" : 49
+        }
+      }
+    },
+    "property-0-3" : {
+      "title" : "Chuck Norris can recite π. Backwards.",
+      "description" : "And I have a tender spot in my heart for cripples and bastards and broken things.",
+      "type" : "integer",
+      "maximum" : 1244331685,
+      "minimum" : 2,
+      "exclusiveMaximum" : true,
+      "exclusiveMinimum" : false
+    },
+    "property-0-4" : {
+      "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/xadhix/128.jpg",
+      "description" : "Death is a natural part of life. Rejoice for those around you who transform into the Force. Mourn them do not. Miss them do not. Attachment leads to jealously. The shadow of greed, that is.",
+      "type" : "string",
+      "format" : "phone",
+      "minLength" : 0,
+      "maxLength" : 43
+    },
+    "property-0-5" : {
+      "title" : "raccoon",
+      "description" : "DIBU",
+      "type" : "string",
+      "format" : "date-time",
+      "minLength" : 0,
+      "maxLength" : 43
+    }
+  }
+}

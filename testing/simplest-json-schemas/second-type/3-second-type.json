@@ -1,0 +1,212 @@
+{
+  "$schema" : "https://json-schema.org/draft/2020-12/json-schema-core.html",
+  "title" : "antelope",
+  "description" : null,
+  "type" : "object",
+  "additionalProperties" : false,
+  "properties" : {
+    "property-3-1" : {
+      "type" : "number",
+      "maximum" : 38.32908321421271,
+      "minimum" : 2.633698037771525E307,
+      "exclusiveMaximum" : false,
+      "exclusiveMinimum" : true,
+      "title" : "I Sing the Body Electric",
+      "description" : "Things are not always as they seemed, much that may seem evil can be good."
+    },
+    "property-3-2" : {
+      "type" : "string",
+      "format" : "date-time",
+      "minLength" : 0,
+      "maxLength" : 29,
+      "title" : "Harvey, Bergstrom and Smitham",
+      "description" : "Through the Force, things you will see. Other places. The future - the past. Old friends long gone."
+    },
+    "property-3-3" : {
+      "type" : "array",
+      "prefixItems" : [ {
+        "type" : "object",
+        "additionalProperties" : false,
+        "properties" : {
+          "property-1" : {
+            "type" : "object",
+            "additionalProperties" : false
+          },
+          "property-2" : {
+            "type" : "array",
+            "prefixItems" : [ {
+              "type" : "number"
+            }, {
+              "type" : "string"
+            }, {
+              "type" : "integer"
+            } ],
+            "items" : [ {
+              "type" : "object",
+              "additionalProperties" : false,
+              "properties" : {
+                "property-1" : {
+                  "type" : "string"
+                }
+              }
+            } ]
+          },
+          "property-3" : {
+            "type" : "string"
+          }
+        }
+      }, {
+        "type" : "string"
+      }, {
+        "type" : "boolean"
+      }, {
+        "type" : "string"
+      }, {
+        "type" : "array",
+        "title" : "Already know you that which you need.",
+        "prefixItems" : [ {
+          "title" : "Mudhole? Slimy? My home this is!",
+          "description" : "2 level depth",
+          "type" : "string"
+        }, {
+          "title" : "Do not assume anything Obi-Wan. Clear your mind must be if you are to discover the real villains behind this plot.",
+          "description" : "2 level depth",
+          "type" : "number",
+          "minimum" : -999,
+          "maximum" : 999,
+          "multipleOf" : 2,
+          "exclusiveMaximum" : true
+        } ],
+        "property-4-1-1-2" : {
+          "type" : "string",
+          "enum" : [ "state-4-1-1-2-1", "state-4-1-1-2-2", "state-4-1-1-2-3", "state-4-1-1-2-4" ]
+        }
+      }, {
+        "type" : "object",
+        "additionalProperties" : false
+      } ],
+      "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/nvkznemo/128.jpg",
+      "description" : "yak"
+    },
+    "property-3-4" : {
+      "type" : "array",
+      "title" : null,
+      "prefixItems" : [ {
+        "title" : "Mudhole? Slimy? My home this is!",
+        "description" : "2 level depth",
+        "type" : "string"
+      }, {
+        "title" : "Do not assume anything Obi-Wan. Clear your mind must be if you are to discover the real villains behind this plot.",
+        "description" : "2 level depth",
+        "type" : "number",
+        "minimum" : -999,
+        "maximum" : 999,
+        "multipleOf" : 2,
+        "exclusiveMaximum" : true
+      } ],
+      "description" : "ELLZ"
+    },
+    "property-3-5" : {
+      "title" : "... a mind needs books as a sword needs a whetstone, if it is to keep its edge.",
+      "type" : "array",
+      "items" : [ {
+        "type" : "object",
+        "title" : "Will this sadness that makes me cry my heart out — will it ever end? The answer, of course, is yes. One day the sadness will end.",
+        "properties" : {
+          "property-3-ai-0-1" : {
+            "type" : "string",
+            "title" : "ox",
+            "format" : "time",
+            "minLength" : 0,
+            "maxLength" : 19,
+            "description" : "The Other Side of Silence"
+          },
+          "property-3-ai-0-2" : {
+            "type" : "string",
+            "title" : "J'ai une âme solitaire.",
+            "format" : "ipv4",
+            "minLength" : 0,
+            "maxLength" : 13,
+            "description" : "Chuck Norris rewrote the Google search engine from scratch."
+          },
+          "property-3-ai-0-3" : {
+            "type" : "number",
+            "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/justinrgraham/128.jpg",
+            "maximum" : 37.444421633665996,
+            "minimum" : 5.350881467881637E307,
+            "exclusiveMaximum" : true,
+            "exclusiveMinimum" : true,
+            "description" : "porpoise"
+          },
+          "property-3-ai-0-4" : {
+            "type" : "array",
+            "title" : "Chuck Norris is immutable. If something's going to change, it's going to have to be the rest of the universe.",
+            "items" : [ {
+              "type" : "string",
+              "format" : "time",
+              "minLength" : 0,
+              "maxLength" : 20,
+              "title" : "Like fire across the galaxy the Clone Wars spread. In league with the wicked Count Dooku, more and more planets slip. Against this threat, upon the Jedi Knights falls the duty to lead the newly formed army of the Republic. And as the heat of war grows, so, to, grows the prowess of one most gifted student of the Force.",
+              "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/osmanince/128.jpg"
+            } ],
+            "description" : "Consider Phlebas"
+          },
+          "property-3-ai-0-5" : {
+            "type" : "boolean",
+            "title" : "Reckless he is. Matters are worse.",
+            "description" : "Things are not always as they seemed, much that may seem evil can be good."
+          }
+        },
+        "description" : "Beier and Sons"
+      } ],
+      "description" : "Once you’ve accepted your flaws, no one can use them against you."
+    },
+    "property-3-6" : {
+      "type" : "object",
+      "additionalProperties" : false,
+      "properties" : {
+        "property-3-6-1" : {
+          "type" : "string",
+          "format" : "ipv5",
+          "minLength" : 0,
+          "maxLength" : 37,
+          "title" : "Cooper, you may be fearless in this world, but there are other worlds.",
+          "description" : "raven"
+        },
+        "property-3-6-2" : {
+          "type" : "string",
+          "format" : "ipv5",
+          "minLength" : 0,
+          "maxLength" : 39,
+          "title" : "https://s3.amazonaws.com/uifaces/faces/twitter/isnifer/128.jpg",
+          "description" : "seal"
+        },
+        "property-3-6-3" : {
+          "type" : "object",
+          "properties" : { },
+          "title" : "Every day, once a day, give yourself a present.",
+          "description" : "Quitzon Inc"
+        },
+        "property-3-6-4" : {
+          "type" : "number",
+          "maximum" : 94.33714817259781,
+          "minimum" : 5.382554779381829E307,
+          "exclusiveMaximum" : true,
+          "exclusiveMinimum" : true,
+          "title" : "Nectar in a Sieve",
+          "description" : "Chuck Norris rewrote the Google search engine from scratch."
+        },
+        "property-3-6-5" : {
+          "type" : "string",
+          "format" : "ipv5",
+          "minLength" : 0,
+          "maxLength" : 40,
+          "title" : "Chuck Norris can spawn threads that complete before they are started.",
+          "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/harry_sistalam/128.jpg"
+        }
+      },
+      "title" : "LBPS",
+      "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/cynthiasavard/128.jpg"
+    }
+  }
+}

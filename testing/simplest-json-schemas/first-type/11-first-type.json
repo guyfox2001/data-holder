@@ -1,129 +1,228 @@
 {
-  "$schema": "http://json-schema.org/draft/2019-09/schema",
-  "$id": "http://example.com/example.json",
-  "title": "Root Schema",
-  "description": "The root schema is the schema that comprises the entire JSON document.",
-  "type": "array",
-  "items": [{
-    "title": "A Schema",
-    "description": "An explanation about the purpose of this instance.",
-    "type": "array",
-    "items": [{
-      "title": "A Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "string"
-    },
-      {
-        "title": "A Schema",
-        "description": "An explanation about the purpose of this instance.",
-        "type": "boolean"
-      },
-      {
-        "title": "A Schema",
-        "description": "An explanation about the purpose of this instance.",
-        "type": "object",
-        "properties": {
-          "model": {
-            "title": "The model Schema",
-            "description": "An explanation about the purpose of this instance.",
-            "type": "integer"
+  "$schema" : "https://json-schema.org/draft/2020-12/json-schema-core.html",
+  "title" : "YOU ARE WITNESSING A FRONT THREE-QUARTER VIEW OF TWO ADULTS SHARING A TENDER MOMENT",
+  "description" : "https://s3.amazonaws.com/uifaces/faces/twitter/okandungel/128.jpg",
+  "type" : "array",
+  "prefixItems" : [ {
+    "type" : "object",
+    "properties" : {
+      "property-1" : {
+        "type" : "object",
+        "properties" : {
+          "property-1" : {
+            "type" : "array",
+            "prefixItems" : [ {
+              "type" : "string"
+            }, {
+              "type" : "object",
+              "properties" : {
+                "property-1" : {
+                  "type" : "string"
+                },
+                "property-2" : {
+                  "type" : "number"
+                },
+                "property-3" : {
+                  "type" : "integer"
+                },
+                "property-4" : {
+                  "type" : "integer"
+                }
+              }
+            } ]
           },
-          "drew": {
-            "title": "The drew Schema",
-            "description": "An explanation about the purpose of this instance.",
-            "type": "number"
+          "property-2" : {
+            "type" : "string",
+            "title" : "Officia sed aut.",
+            "format" : "some-format"
           },
-          "enjoy": {
-            "title": "The enjoy Schema",
-            "description": "An explanation about the purpose of this instance.",
-            "type": "boolean"
-          },
-          "twelve": {
-            "title": "The twelve Schema",
-            "description": "An explanation about the purpose of this instance.",
-            "type": "boolean"
-          },
-          "date": {
-            "title": "The date Schema",
-            "description": "An explanation about the purpose of this instance.",
-            "type": "boolean"
-          },
-          "product": {
-            "title": "The product Schema",
-            "description": "An explanation about the purpose of this instance.",
-            "type": "boolean"
-          },
-          "silver": {
-            "title": "The silver Schema",
-            "description": "An explanation about the purpose of this instance.",
-            "type": "boolean"
-          },
-          "since": {
-            "title": "The since Schema",
-            "description": "An explanation about the purpose of this instance.",
-            "type": "boolean"
+          "property-4-1-5-2" : {
+            "type" : "object",
+            "title" : "Around the survivors a perimeter create.",
+            "properties" : {
+              "property-4-1-5-2-1" : {
+                "type" : "array",
+                "title" : "fox",
+                "prefixItems" : [ {
+                  "type" : "string",
+                  "title" : "Qui id facilis voluptas illum facilis fugit atque.",
+                  "maxLength" : 100
+                } ],
+                "items" : [ {
+                  "type" : "number",
+                  "title" : "Eum quasi totam nulla itaque recusandae dolores."
+                } ],
+                "minItems" : 2,
+                "maxItems" : 10
+              },
+              "property-4-1-5-2-2" : {
+                "type" : "string",
+                "title" : "tortoise"
+              },
+              "property-4-1-5-2-3" : {
+                "type" : "string",
+                "title" : "Romanberg"
+              },
+              "property-4-1-5-2-4" : {
+                "type" : "boolean",
+                "title" : "Gabon"
+              }
+            }
           }
         }
       },
-      {
-        "title": "A Schema",
-        "description": "An explanation about the purpose of this instance.",
-        "type": "number"
+      "property-2" : {
+        "type" : "string"
       },
-      {
-        "title": "A Schema",
-        "description": "An explanation about the purpose of this instance.",
-        "type": "string"
+      "property-3" : {
+        "type" : "object",
+        "additionalProperties" : true,
+        "properties" : {
+          "turn" : {
+            "title" : "The turn Schema",
+            "description" : "An explanation about the purpose of this instance.",
+            "type" : "number"
+          },
+          "sharp" : {
+            "title" : "The sharp Schema",
+            "description" : "An explanation about the purpose of this instance.",
+            "type" : "object",
+            "additionalProperties" : true,
+            "properties" : {
+              "solution" : {
+                "title" : "The solution Schema",
+                "description" : "An explanation about the purpose of this instance.",
+                "type" : "array",
+                "additionalItems" : true,
+                "items" : [ {
+                  "title" : "A Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "array",
+                  "additionalItems" : true,
+                  "items" : [ {
+                    "title" : "A Schema",
+                    "description" : "An explanation about the purpose of this instance.",
+                    "type" : "number"
+                  }, {
+                    "title" : "A Schema",
+                    "description" : "An explanation about the purpose of this instance.",
+                    "type" : "string"
+                  }, {
+                    "title" : "A Schema",
+                    "description" : "An explanation about the purpose of this instance.",
+                    "type" : "number"
+                  }, {
+                    "title" : "A Schema",
+                    "description" : "An explanation about the purpose of this instance.",
+                    "type" : "string"
+                  }, {
+                    "title" : "A Schema",
+                    "description" : "An explanation about the purpose of this instance.",
+                    "type" : "string"
+                  }, {
+                    "title" : "A Schema",
+                    "description" : "An explanation about the purpose of this instance.",
+                    "type" : "number"
+                  }, {
+                    "title" : "A Schema",
+                    "description" : "An explanation about the purpose of this instance.",
+                    "type" : "string"
+                  }, {
+                    "title" : "A Schema",
+                    "description" : "An explanation about the purpose of this instance.",
+                    "type" : "string"
+                  } ],
+                  "uniqueItems" : true
+                }, {
+                  "title" : "A Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "string"
+                }, {
+                  "title" : "A Schema",
+                  "description" : "An explanation about the purpose of this instance.",
+                  "type" : "string"
+                } ]
+              }
+            }
+          }
+        }
       },
-      {
-        "title": "A Schema",
-        "description": "An explanation about the purpose of this instance.",
-        "type": "number"
+      "property-4" : {
+        "type" : "object",
+        "additionalProperties" : false,
+        "properties" : {
+          "property-1" : {
+            "type" : "object",
+            "additionalProperties" : false
+          },
+          "property-2" : {
+            "type" : "array",
+            "prefixItems" : [ {
+              "type" : "number"
+            }, {
+              "type" : "string"
+            }, {
+              "type" : "integer"
+            } ],
+            "items" : [ {
+              "type" : "object",
+              "additionalProperties" : false,
+              "properties" : {
+                "property-1" : {
+                  "type" : "string"
+                }
+              }
+            } ]
+          }
+        }
+      }
+    }
+  }, {
+    "type" : "string"
+  }, {
+    "type" : "number"
+  } ],
+  "items" : [ {
+    "type" : "object",
+    "additionalProperties" : false,
+    "properties" : {
+      "property-11-ai-0-1" : {
+        "type" : "object",
+        "additionalProperties" : false,
+        "properties" : { },
+        "title" : "Emmerich-McDermott",
+        "description" : "Paucek, Daugherty and Huels"
       },
-      {
-        "title": "A Schema",
-        "description": "An explanation about the purpose of this instance.",
-        "type": "number"
-      },
-      {
-        "title": "A Schema",
-        "description": "An explanation about the purpose of this instance.",
-        "type": "string"
-      }]
-  },
-    {
-      "title": "A Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "number"
+      "property-11-ai-0-2" : {
+        "type" : "array",
+        "prefixItems" : [ {
+          "type" : "number"
+        }, {
+          "type" : "string"
+        }, {
+          "type" : "integer"
+        } ],
+        "items" : [ {
+          "type" : "object",
+          "additionalProperties" : false,
+          "properties" : {
+            "property-11-ai-0-ai-0-1" : {
+              "type" : "string",
+              "title" : "Laughter is poison to fear.",
+              "description" : null,
+              "format" : "date",
+              "minLength" : 0,
+              "maxLength" : 40
+            }
+          },
+          "title" : "Nienow LLC",
+          "description" : "The Painted Veil"
+        } ],
+        "title" : "Good relations with the Wookiees, I have.",
+        "description" : "J'ai une âme solitaire."
+      }
     },
-    {
-      "title": "A Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "integer"
-    },
-    {
-      "title": "A Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "boolean"
-    },
-    {
-      "title": "A Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "boolean"
-    },
-    {
-      "title": "A Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "string"
-    },
-    {
-      "title": "A Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "boolean"
-    },
-    {
-      "title": "A Schema",
-      "description": "An explanation about the purpose of this instance.",
-      "type": "boolean"
-    }]
+    "title" : "Good relations with the Wookiees, I have.",
+    "description" : "VEBT"
+  } ]
 }
